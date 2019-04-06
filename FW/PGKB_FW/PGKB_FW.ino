@@ -9,6 +9,9 @@
 
 /* Hardware configuration */
 
+// TL: My keyboard writes 900 characters if a key is pressed for 30 sec. If
+// two keys are pressed the amount of characters is doubled
+
 // HW
 #define BUTTON_DEBOUNCE 20                          // button debounce (ms)
 
@@ -25,6 +28,10 @@
 
 #define SERIAL_BAUD_RATE 57600                      // 57600 max with internal 8 MHz oscillator
 
+/* Keyboard layout */
+
+#define KB_LAYOUT_FI
+
 /***********************************************************************************************************************/
 /*                                                  pin definitions                                                    */
 /***********************************************************************************************************************/
@@ -38,6 +45,8 @@ const int buttonC0_pin = 10;
 const int buttonC1_pin = 9;
 const int buttonD0_pin = 11;
 const int buttonD1_pin = 13;
+
+const int interrupt7_pin = 7;
 
 //const int rx_led_pin = ??; // ARE THESE HW FUNCTIONS?
 //const int tx_led_pin = 4;
@@ -72,6 +81,18 @@ Button buttonD1(buttonD1_pin, HIGH, HIGH);
 unsigned long _last_post_time = 0;
 byte cycle_count = 0;
 
+// Keyboard chars
+
+
+
+bool A0pressed = false;
+bool A1pressed = false;
+
+#ifdef KB_LAYOUT_FI
+char A0_char = '*';
+char A1_char = '(';
+#endif
+
 /***********************************************************************************************************************/
 /*                                                   FUNCTIONS                                                         */
 /***********************************************************************************************************************/
@@ -99,6 +120,9 @@ void setup() {
   //pinMode(tx_led_pin, OUTPUT);
   //digitalWrite(tx_led_pin, LOW);
 
+  // Keyboard
+  Keyboard.begin();
+
   /* Serial communications setup */
   
   Serial.begin(SERIAL_BAUD_RATE);
@@ -125,11 +149,42 @@ void setup() {
 /*                                                   MAIN LOOP                                                         */
 /***********************************************************************************************************************/
 
-void loop() { 
+void loop() {
 
+if (buttonA0.pressed()) {
+  Keyboard.press(A0_char);
+  A0pressed = true;
+  //Keyboard.print(A0_char);
+#if DEBUG_LEVEL > 3
+  Serial.println("pressed");
+#endif
+  delay(BUTTON_DEBOUNCE);
+} else if (A0pressed && buttonA0.isReleased()) {
+  A0pressed = false;
+#if DEBUG_LEVEL > 3
+  Serial.println("released");
+#endif
+  Keyboard.releaseAll();
+}
+
+if (buttonA1.pressed()) {
+  Keyboard.press(A1_char);
+  A1pressed = true;
+  //Keyboard.print(A1_char);
+#if DEBUG_LEVEL > 3
+  Serial.println("pressed A1");
+#endif
+  delay(BUTTON_DEBOUNCE);
+} else if (A1pressed && buttonA1.isReleased()) {
+  A1pressed = false;
+#if DEBUG_LEVEL > 3
+  Serial.println("released A1");
+#endif
+  Keyboard.releaseAll();
+}
 
 // Debugging
-#if DEBUG_LEVEL > 4
+#if DEBUG_LEVEL > 6
     if((_last_post_time + POST_INTERVAL) < millis())
     {
       // Debug info
