@@ -18,7 +18,8 @@
 
 /* Define debugging level */
 
-#define DEBUG_LEVEL 5
+// Doesn't work too well with serial port and HID enabled
+#define DEBUG_LEVEL 0
 #define POST_INTERVAL 5000
 
 /* Serial port */
@@ -159,11 +160,12 @@ void setup() {
   Keyboard.begin();
 
   /* Serial communications setup */
-  
+#if DEBUG_LEVEL > 1
   Serial.begin(SERIAL_BAUD_RATE);
   while(!Serial){
     ;                                               // Needed for Atmega32U4
   }  
+#endif
 
 #if DEBUG_LEVEL > 1
   Serial.println(F("Serial port opened"));
@@ -201,6 +203,7 @@ void loop() {
       }
 
     } else if (b_pressed[i] && onb_button[i].isReleased()) {
+      delay(BUTTON_DEBOUNCE);
       b_pressed[i] = false;
 #if DEBUG_LEVEL > 3
       Serial.print(F("released key: "));
