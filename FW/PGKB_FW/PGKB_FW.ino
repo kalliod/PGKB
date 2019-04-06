@@ -14,6 +14,7 @@
 
 // HW
 #define BUTTON_DEBOUNCE 20                          // button debounce (ms)
+#define NO_OF_BUTTONS 8
 
 // ADC
 #define AUX_VREF 2.56
@@ -30,21 +31,21 @@
 
 /* Keyboard layout */
 
-#define KB_LAYOUT_FI
+#define KB_LAYOUT_US
 
 /***********************************************************************************************************************/
 /*                                                  pin definitions                                                    */
 /***********************************************************************************************************************/
 
 /* Arduino digital */
-const int buttonA0_pin = 6;
-const int buttonA1_pin = 12;
-//const int buttonB0_pin = 1;   // NOT CONNECTED IN PCB REV 1.00
-const int buttonB1_pin = 8;
-const int buttonC0_pin = 10;
-const int buttonC1_pin = 9;
-const int buttonD0_pin = 11;
-const int buttonD1_pin = 13;
+const int button1_pin = 12;
+const int button2_pin = 6;
+const int button3_pin = 8;
+const int button4_pin = 0;   // NOT CONNECTED IN PCB REV 1.00
+const int button5_pin = 9;
+const int button6_pin = 10;
+const int button7_pin = 11;
+const int button8_pin = 13;
 
 const int interrupt7_pin = 7;
 
@@ -68,14 +69,7 @@ const int analog5 = 19;
 /* Other variables */
 
 // pin, pullup, inverted
-Button buttonA0(buttonA0_pin, HIGH, HIGH);
-Button buttonA1(buttonA1_pin, HIGH, HIGH);
-//Button buttonB0(buttonB0_pin, HIGH, HIGH);
-Button buttonB1(buttonB1_pin, HIGH, HIGH);
-Button buttonC0(buttonC0_pin, HIGH, HIGH);
-Button buttonC1(buttonC1_pin, HIGH, HIGH);
-Button buttonD0(buttonD0_pin, HIGH, HIGH);
-Button buttonD1(buttonD1_pin, HIGH, HIGH);
+Button onb_button[NO_OF_BUTTONS];
 
 // Debugging
 unsigned long _last_post_time = 0;
@@ -85,13 +79,19 @@ byte cycle_count = 0;
 
 
 
-bool A0pressed = false;
-bool A1pressed = false;
+//bool b1pressed = false;
+//bool b2pressed = false;
+//bool b3pressed = false;
+//bool b4pressed = false;
+//bool b5pressed = false;
+//bool b6pressed = false;
+//bool b7pressed = false;
+//bool b8pressed = false;
 
-#ifdef KB_LAYOUT_FI
-char A0_char = '*';
-char A1_char = '(';
-#endif
+bool b_pressed[NO_OF_BUTTONS];
+char b_char[NO_OF_BUTTONS];
+
+
 
 /***********************************************************************************************************************/
 /*                                                   FUNCTIONS                                                         */
@@ -106,6 +106,30 @@ float read_voltage();
 
 void setup() {
 
+/* Keyboard layout */
+
+#ifdef KB_LAYOUT_US
+  b_char[0] = ')';
+  b_char[1] = '(';
+  b_char[2] = '}';
+  b_char[3] = '{';
+  b_char[4] = ']';
+  b_char[5] = '[';
+  b_char[6] = '"';
+  b_char[7] = '\'';
+#endif
+
+#ifdef KB_LAYOUT_FI
+  b_char[0] = '(';
+  b_char[1] = '*';
+  b_char[2] = '’';
+  b_char[3] = '½';
+  b_char[4] = '‘';
+  b_char[5] = '¾';
+  b_char[6] = '\\';
+  b_char[7] = '@';
+#endif
+
   // ADC
   analogReference(INTERNAL);
 
@@ -119,6 +143,25 @@ void setup() {
 
   //pinMode(tx_led_pin, OUTPUT);
   //digitalWrite(tx_led_pin, LOW);
+
+  onb_button[0].setPin(button1_pin);
+  onb_button[1].setPin(button2_pin);
+  onb_button[2].setPin(button3_pin);
+  onb_button[3].setPin(button4_pin);
+  onb_button[4].setPin(button5_pin);
+  onb_button[5].setPin(button6_pin);
+  onb_button[6].setPin(button7_pin);
+  onb_button[7].setPin(button8_pin);
+  
+
+  for (int i = 0; i < NO_OF_BUTTONS; i++){
+    b_pressed[i] = false;
+  }
+
+  for (int i = 0; i < NO_OF_BUTTONS; i++){
+    onb_button[i].setPullup(HIGH);
+    onb_button[i].setInverted(HIGH);
+  }
 
   // Keyboard
   Keyboard.begin();
@@ -151,37 +194,27 @@ void setup() {
 
 void loop() {
 
-if (buttonA0.pressed()) {
-  Keyboard.press(A0_char);
-  A0pressed = true;
-  //Keyboard.print(A0_char);
+  for (int i = 0; i < 8; i++){
+    if (onb_button[i].pressed()) {
+      delay(BUTTON_DEBOUNCE);
+      if(onb_button[i].state()) {
 #if DEBUG_LEVEL > 3
-  Serial.println("pressed");
+        Serial.print(F("pressed key: "));
+        Serial.println(i+1);
 #endif
-  delay(BUTTON_DEBOUNCE);
-} else if (A0pressed && buttonA0.isReleased()) {
-  A0pressed = false;
-#if DEBUG_LEVEL > 3
-  Serial.println("released");
-#endif
-  Keyboard.releaseAll();
-}
+        Keyboard.press(b_char[i]);
+        b_pressed[i] = true;
+      }
 
-if (buttonA1.pressed()) {
-  Keyboard.press(A1_char);
-  A1pressed = true;
-  //Keyboard.print(A1_char);
+    } else if (b_pressed[i] && onb_button[i].isReleased()) {
+      b_pressed[i] = false;
 #if DEBUG_LEVEL > 3
-  Serial.println("pressed A1");
+      Serial.print(F("released key: "));
+      Serial.println(i+1);
 #endif
-  delay(BUTTON_DEBOUNCE);
-} else if (A1pressed && buttonA1.isReleased()) {
-  A1pressed = false;
-#if DEBUG_LEVEL > 3
-  Serial.println("released A1");
-#endif
-  Keyboard.releaseAll();
-}
+      Keyboard.releaseAll();
+    }
+  }
 
 // Debugging
 #if DEBUG_LEVEL > 6
