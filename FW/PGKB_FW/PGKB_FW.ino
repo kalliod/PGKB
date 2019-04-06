@@ -3,10 +3,6 @@
 #include "KD_ardu_button.h"
 #include <Keyboard.h>
 
-// FIN:
-// * = (
-// ( = )
-
 /* Hardware configuration */
 
 // TL: My keyboard writes 900 characters if a key is pressed for 30 sec. If
@@ -31,7 +27,7 @@
 
 /* Keyboard layout */
 
-#define KB_LAYOUT_US
+#define KB_LAYOUT_FI
 
 /***********************************************************************************************************************/
 /*                                                  pin definitions                                                    */
@@ -75,23 +71,9 @@ Button onb_button[NO_OF_BUTTONS];
 unsigned long _last_post_time = 0;
 byte cycle_count = 0;
 
-// Keyboard chars
-
-
-
-//bool b1pressed = false;
-//bool b2pressed = false;
-//bool b3pressed = false;
-//bool b4pressed = false;
-//bool b5pressed = false;
-//bool b6pressed = false;
-//bool b7pressed = false;
-//bool b8pressed = false;
-
+// Keyboard
 bool b_pressed[NO_OF_BUTTONS];
-char b_char[NO_OF_BUTTONS];
-
-
+char b_char[NO_OF_BUTTONS][2];
 
 /***********************************************************************************************************************/
 /*                                                   FUNCTIONS                                                         */
@@ -107,27 +89,44 @@ float read_voltage();
 void setup() {
 
 /* Keyboard layout */
+// compare to US Apple Macintosh keyboard layout
 
 #ifdef KB_LAYOUT_US
-  b_char[0] = ')';
-  b_char[1] = '(';
-  b_char[2] = '}';
-  b_char[3] = '{';
-  b_char[4] = ']';
-  b_char[5] = '[';
-  b_char[6] = '"';
-  b_char[7] = '\'';
+  b_char[0][0] = '\0';
+  b_char[0][1] = ')';
+  b_char[1][0] = '\0';
+  b_char[1][1] = '(';
+  b_char[2][0] = '\0';
+  b_char[2][1] = '}';
+  b_char[3][0] = '\0';
+  b_char[3][1] = '{';
+  b_char[4][0] = '\0';
+  b_char[4][1] = ']';
+  b_char[5][0] = '\0';
+  b_char[5][1] = '[';
+  b_char[6][0] = '\0';
+  b_char[6][1] = '"';
+  b_char[7][0] = '\0';
+  b_char[7][1] = '\'';
 #endif
 
 #ifdef KB_LAYOUT_FI
-  b_char[0] = '(';
-  b_char[1] = '*';
-  b_char[2] = '’';
-  b_char[3] = '½';
-  b_char[4] = '‘';
-  b_char[5] = '¾';
-  b_char[6] = '\\';
-  b_char[7] = '@';
+  b_char[0][0] = KEY_LEFT_SHIFT;
+  b_char[0][1] = '9';
+  b_char[1][0] = KEY_LEFT_SHIFT;
+  b_char[1][1] = '8';
+  b_char[2][0] = KEY_RIGHT_ALT;
+  b_char[2][1] = '0';
+  b_char[3][0] = KEY_RIGHT_ALT;
+  b_char[3][1] = '7';
+  b_char[4][0] = KEY_RIGHT_ALT;
+  b_char[4][1] = '9';
+  b_char[5][0] = KEY_RIGHT_ALT;
+  b_char[5][1] = '8';
+  b_char[6][0] = KEY_LEFT_SHIFT;
+  b_char[6][1] = '2';
+  b_char[7][0] = '\0';
+  b_char[7][1] = '\\';
 #endif
 
   // ADC
@@ -138,12 +137,6 @@ void setup() {
   // pins
   pinMode(interrupt7_pin, INPUT_PULLUP);
 
-  //pinMode(rx_led_pin, OUTPUT);
-  //digitalWrite(rx_led_pin, LOW);
-
-  //pinMode(tx_led_pin, OUTPUT);
-  //digitalWrite(tx_led_pin, LOW);
-
   onb_button[0].setPin(button1_pin);
   onb_button[1].setPin(button2_pin);
   onb_button[2].setPin(button3_pin);
@@ -153,7 +146,6 @@ void setup() {
   onb_button[6].setPin(button7_pin);
   onb_button[7].setPin(button8_pin);
   
-
   for (int i = 0; i < NO_OF_BUTTONS; i++){
     b_pressed[i] = false;
   }
@@ -194,7 +186,7 @@ void setup() {
 
 void loop() {
 
-  for (int i = 0; i < 8; i++){
+  for (int i = 0; i < 8; i++) {
     if (onb_button[i].pressed()) {
       delay(BUTTON_DEBOUNCE);
       if(onb_button[i].state()) {
@@ -202,7 +194,9 @@ void loop() {
         Serial.print(F("pressed key: "));
         Serial.println(i+1);
 #endif
-        Keyboard.press(b_char[i]);
+        for (int j = 0; j < 2; j++) {
+          Keyboard.press(b_char[i][j]);
+        }
         b_pressed[i] = true;
       }
 
