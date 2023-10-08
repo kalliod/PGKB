@@ -1,0 +1,9 @@
+- PCB too wide
+- Add input fuse
+- MCU >CODE in wrong layer
+- Add silkscreen labels for connectors etc
+- Programming works if SPI level shifters are removed
+- Should work without level shifting at all. Needs to be tested
+- If not add pull up to U5 dir and pull it down with FW once programmed?
+- Button 4 not connected
+- change MCP23017 reset to one of the SPI pins. PD5 won't work
