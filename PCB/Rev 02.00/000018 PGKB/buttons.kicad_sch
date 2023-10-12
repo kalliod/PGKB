@@ -1044,7 +1044,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )

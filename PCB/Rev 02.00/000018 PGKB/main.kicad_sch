@@ -17,6 +17,7 @@
   (lib_symbols
   )
 
+  (bus_alias "I2C" (members "SDA" "SCL"))
 
   (wire (pts (xy 81.28 95.25) (xy 151.13 95.25))
     (stroke (width 0) (type default))
@@ -41,6 +42,27 @@
   (bus (pts (xy 82.55 107.95) (xy 151.13 107.95))
     (stroke (width 0) (type default))
     (uuid df37eb21-f34b-47e0-8fe3-0d21546ad0d5)
+  )
+
+  (sheet (at 201.93 93.98) (size 29.21 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4ce60c68-8f85-4df7-a465-152e58489d9e)
+    (property "Sheetname" "Connectors" (at 201.93 93.2684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connectors.kicad_sch" (at 201.93 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "{I2C}" bidirectional (at 201.93 96.52 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 5e0dad10-6495-412c-8573-dc50737dfe43)
+    )
+    (instances
+      (project "000018 PGKB"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "11"))
+      )
+    )
   )
 
   (sheet (at 57.15 87.63) (size 24.13 10.16) (fields_autoplaced)
@@ -158,10 +180,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 499c803f-2e97-4278-acc9-7c28306cbdf6)
     )
-    (pin "{I2C}" bidirectional (at 189.23 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 3b7259a9-16a6-4f28-88d6-2fd25e24ca48)
-    )
     (pin "GPIO1" bidirectional (at 189.23 69.85 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 3f1b3d73-e11d-4df9-ac18-35b69f288e35)
@@ -173,6 +191,10 @@
     (pin "GPIO2" bidirectional (at 189.23 72.39 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 1e37fa30-0839-4d2c-b3c2-bc6bc03c38cd)
+    )
+    (pin "{I2C0}" bidirectional (at 189.23 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid d5aaa871-74e3-421e-bebf-21caf419c458)
     )
     (instances
       (project "000018 PGKB"
