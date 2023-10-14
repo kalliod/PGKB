@@ -5,11 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "TITLE")
-    (date "2023-05-28")
+    (title "Programmable Keyboard")
+    (date "2023-10-14")
     (rev "1.0")
     (company "Kallio Designs Oy")
-    (comment 1 "Teemu Latonen")
+    (comment 1 "TL, NH")
     (comment 2 "ASSEMBLY_PN")
     (comment 3 "PCB_PN")
   )
@@ -45,7 +45,7 @@
     )
     (instances
       (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
       )
     )
   )
@@ -62,7 +62,7 @@
     )
     (instances
       (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "11"))
       )
     )
   )
@@ -79,7 +79,7 @@
     )
     (instances
       (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "10"))
       )
     )
   )

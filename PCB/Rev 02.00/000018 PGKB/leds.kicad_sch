@@ -5,11 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "Suspension Rig")
-    (date "2023-09-25")
+    (title "Programmable Keyboard")
+    (date "2023-10-14")
     (rev "1.0")
-    (company "4D Haptics Oy")
-    (comment 1 "TL, SB")
+    (company "Kallio Designs Oy")
+    (comment 1 "TL, NH")
     (comment 3 "PCB_PN")
   )
 

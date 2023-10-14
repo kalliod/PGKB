@@ -704,6 +704,34 @@
       ""
     ],
     [
+      "2eb44e1a-4042-4ea6-aca2-4836a6ec84e9",
+      "Main"
+    ],
+    [
+      "7f81d4f7-3bdd-46dd-b342-c371ad5913dc",
+      "USB Connector"
+    ],
+    [
+      "86c42f5f-8308-4480-a779-2edf7f31bcc2",
+      "Buttons"
+    ],
+    [
+      "a467c90b-3665-441c-9913-5c8fd91b3b4b",
+      "Microcontroller"
+    ],
+    [
+      "f1cedbc3-70dc-430a-811a-a6c314e1ab30",
+      "Memory"
+    ],
+    [
+      "4ce60c68-8f85-4df7-a465-152e58489d9e",
+      "Connectors"
+    ],
+    [
+      "d009e1a3-c0b2-4429-ba9a-8f3ba461ea03",
+      "LEDs"
+    ],
+    [
       "91422aee-53cf-4c28-8efa-7ede5a87a80b",
       "Power Supply"
     ],
@@ -712,36 +740,8 @@
       "Mechanical"
     ],
     [
-      "2eb44e1a-4042-4ea6-aca2-4836a6ec84e9",
-      "Main"
-    ],
-    [
       "37728c8e-efcc-462c-a749-47b6bfcbaf37",
       "Revision History"
-    ],
-    [
-      "7f81d4f7-3bdd-46dd-b342-c371ad5913dc",
-      "USB Connector"
-    ],
-    [
-      "a467c90b-3665-441c-9913-5c8fd91b3b4b",
-      "Microcontroller"
-    ],
-    [
-      "d009e1a3-c0b2-4429-ba9a-8f3ba461ea03",
-      "LEDs"
-    ],
-    [
-      "f1cedbc3-70dc-430a-811a-a6c314e1ab30",
-      "Memory"
-    ],
-    [
-      "86c42f5f-8308-4480-a779-2edf7f31bcc2",
-      "Untitled Sheet"
-    ],
-    [
-      "4ce60c68-8f85-4df7-a465-152e58489d9e",
-      "Connectors"
     ]
   ],
   "text_variables": {}

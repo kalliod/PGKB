@@ -5,11 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "TITLE")
-    (date "2023-05-28")
+    (title "Programmable Keyboard")
+    (date "2023-10-14")
     (rev "1.0")
     (company "Kallio Designs Oy")
-    (comment 1 "Teemu Latonen")
+    (comment 1 "TL, NH")
     (comment 2 "ASSEMBLY_PN")
     (comment 3 "PCB_PN")
   )
@@ -60,7 +60,7 @@
     )
     (instances
       (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "11"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "7"))
       )
     )
   )
@@ -90,7 +90,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "6"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "3"))
       )
     )
   )
@@ -99,7 +99,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 86c42f5f-8308-4480-a779-2edf7f31bcc2)
-    (property "Sheetname" "Untitled Sheet" (at 201.93 62.7884 0)
+    (property "Sheetname" "Buttons" (at 201.93 62.7884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "buttons.kicad_sch" (at 201.93 84.4046 0)
@@ -131,7 +131,7 @@
     )
     (instances
       (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "10"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "4"))
       )
     )
   )
@@ -153,7 +153,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "2"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "9"))
       )
     )
   )
@@ -198,7 +198,7 @@
     )
     (instances
       (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "7"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "5"))
       )
     )
   )
@@ -219,7 +219,7 @@
     )
     (instances
       (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "9"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "6"))
       )
     )
   )
