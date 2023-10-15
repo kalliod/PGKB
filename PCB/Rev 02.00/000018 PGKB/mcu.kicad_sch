@@ -1291,9 +1291,9 @@
   )
 
   (bus_alias "QSPI" (members "DATA0" "DATA1" "DATA2" "DATA3" "~{CS}_MEMORY" "CLK"))
+  (bus_alias "SPI" (members "SPI_CLK" "SPI_MISO" "SPI_MOSI" "SPI_CS0"))
   (bus_alias "I2C0" (members "SDA" "SCL"))
   (bus_alias "I2C1" (members "I2C1_SDA" "I2C1_SCL"))
-  (bus_alias "SPI" (members "SPI_CLK" "SPI_MISO" "SPI_MOSI" "SPI_CS0"))
   (junction (at 142.24 57.15) (diameter 0) (color 0 0 0 0)
     (uuid 036f4cfb-8e42-4c03-a55e-463b0d4b99d8)
   )
@@ -1376,10 +1376,15 @@
     (uuid fe026d74-013d-4707-96fb-7d6ff0d850b3)
   )
 
+  (no_connect (at 111.76 133.35) (uuid 362d4549-4c7d-4329-a749-22052257b94a))
   (no_connect (at 39.37 147.32) (uuid 41a09801-36b0-438c-a610-d2bdaf521521))
+  (no_connect (at 162.56 92.71) (uuid 4ce25f1e-73d0-4da3-bbe4-ce334dda1611))
+  (no_connect (at 111.76 135.89) (uuid 5bf415fe-fdd3-4f5d-ba99-6af4b65823d5))
   (no_connect (at 49.53 147.32) (uuid 602c50c8-4765-4532-be0e-e661ca42a4a8))
   (no_connect (at 36.83 180.34) (uuid 654aea1b-9b34-4847-93fa-0c570dfdb839))
+  (no_connect (at 162.56 95.25) (uuid d71a700d-5dfd-437d-aaa4-52e3b6ea3896))
   (no_connect (at 46.99 180.34) (uuid e203b6a1-20a7-4e8e-beb8-c0b4971fdfd5))
+  (no_connect (at 162.56 97.79) (uuid f5a93039-3b68-495c-9c7c-031c01395c5e))
 
   (bus_entry (at 39.37 87.63) (size 2.54 -2.54)
     (stroke (width 0) (type default))
@@ -1459,13 +1464,13 @@
     (stroke (width 0) (type default))
     (uuid 0e09c237-e74b-45b0-9991-e4c481ff15dd)
   )
+  (wire (pts (xy 163.83 118.11) (xy 162.56 118.11))
+    (stroke (width 0) (type default))
+    (uuid 0fe61f31-6729-4ffc-b4f5-f86a23f2e42b)
+  )
   (wire (pts (xy 137.16 152.4) (xy 137.16 151.13))
     (stroke (width 0) (type default))
     (uuid 1018b100-3b86-46de-bd8a-155af10549dc)
-  )
-  (wire (pts (xy 193.04 21.59) (xy 193.04 20.32))
-    (stroke (width 0) (type default))
-    (uuid 1167881f-1304-4560-863b-f78747cc17da)
   )
   (wire (pts (xy 104.14 74.93) (xy 111.76 74.93))
     (stroke (width 0) (type default))
@@ -1491,10 +1496,6 @@
   (wire (pts (xy 66.04 54.61) (xy 66.04 55.88))
     (stroke (width 0) (type default))
     (uuid 19531a8e-12f5-419d-b546-20d012868758)
-  )
-  (wire (pts (xy 176.53 21.59) (xy 193.04 21.59))
-    (stroke (width 0) (type default))
-    (uuid 19cd33c5-8577-47fb-9918-c9258018e306)
   )
   (wire (pts (xy 147.32 57.15) (xy 144.78 57.15))
     (stroke (width 0) (type default))
@@ -1633,10 +1634,6 @@
     (stroke (width 0) (type default))
     (uuid 4b7c2b4c-e0b7-49f6-8ce7-7618e0af3bd2)
   )
-  (wire (pts (xy 231.14 27.94) (xy 251.46 27.94))
-    (stroke (width 0) (type default))
-    (uuid 4e4696c0-84b7-48e8-89c7-345f2625e335)
-  )
   (wire (pts (xy 127 26.67) (xy 127 25.4))
     (stroke (width 0) (type default))
     (uuid 4f2921e0-342a-4396-b64e-18fa9911c3d8)
@@ -1740,10 +1737,6 @@
     (stroke (width 0) (type default))
     (uuid 6ebf27f8-8631-4624-97da-95f9be4e5a8a)
   )
-  (wire (pts (xy 163.83 92.71) (xy 162.56 92.71))
-    (stroke (width 0) (type default))
-    (uuid 70d9657c-b7ed-47bb-9eaf-a03e031baf29)
-  )
   (wire (pts (xy 83.82 67.31) (xy 88.9 67.31))
     (stroke (width 0) (type default))
     (uuid 70de4c58-17d6-46d8-afd8-dd65f511a688)
@@ -1773,10 +1766,6 @@
     (stroke (width 0) (type default))
     (uuid 7b048e6e-d13e-42ac-80cb-ebc19225bf9f)
   )
-  (wire (pts (xy 163.83 95.25) (xy 162.56 95.25))
-    (stroke (width 0) (type default))
-    (uuid 7dce8664-372f-4a66-920a-45404a980f27)
-  )
   (bus (pts (xy 251.46 130.81) (xy 251.46 133.35))
     (stroke (width 0) (type default))
     (uuid 81d2a760-25b5-4dc5-96c4-c4b4d2a73d0e)
@@ -1785,10 +1774,6 @@
   (wire (pts (xy 142.24 59.69) (xy 142.24 57.15))
     (stroke (width 0) (type default))
     (uuid 823846b4-3f76-4668-b30c-137e97432642)
-  )
-  (wire (pts (xy 231.14 22.86) (xy 251.46 22.86))
-    (stroke (width 0) (type default))
-    (uuid 84365ada-db23-4727-a403-bf56fa150b26)
   )
   (wire (pts (xy 69.85 123.19) (xy 67.31 123.19))
     (stroke (width 0) (type default))
@@ -1801,10 +1786,6 @@
   (wire (pts (xy 81.28 25.4) (xy 71.12 25.4))
     (stroke (width 0) (type default))
     (uuid 89c35da9-c083-4af8-82b2-907edfee73e2)
-  )
-  (wire (pts (xy 163.83 97.79) (xy 162.56 97.79))
-    (stroke (width 0) (type default))
-    (uuid 8f92a44c-d4a2-42d3-8d29-a123debc7f5d)
   )
   (wire (pts (xy 138.43 26.67) (xy 138.43 25.4))
     (stroke (width 0) (type default))
@@ -1965,10 +1946,6 @@
     (stroke (width 0) (type default))
     (uuid cce84cc2-e20e-4708-855e-c166ae445fc9)
   )
-  (wire (pts (xy 231.14 25.4) (xy 251.46 25.4))
-    (stroke (width 0) (type default))
-    (uuid cedca3ac-9929-4191-8da1-64d119a36afe)
-  )
   (wire (pts (xy 187.96 100.33) (xy 162.56 100.33))
     (stroke (width 0) (type default))
     (uuid cf116409-ede9-402f-b001-7559fba36ac0)
@@ -2116,14 +2093,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1e409e96-473f-4d76-909f-7994bac60c69)
   )
-  (label "TP1" (at 176.53 21.59 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 329600b3-a785-44eb-ab15-82363dc15e76)
-  )
-  (label "DEBUG_LED_GREEN" (at 163.83 92.71 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3b4e67b5-4adc-4ae3-b48e-49d1310c482c)
-  )
   (label "SDA" (at 163.83 128.27 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3d4af1d5-325a-494a-a532-4e1c0fdea1de)
@@ -2140,13 +2109,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 43a8732a-1e50-4d9b-ab35-0852b102644d)
   )
-  (label "DEBUG_LED_GREEN" (at 231.14 22.86 0) (fields_autoplaced)
+  (label "TP10" (at 163.83 118.11 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4bbe0346-6f76-480a-a584-14ade7a3ca28)
-  )
-  (label "DEBUG_LED_BLUE" (at 231.14 27.94 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5e4a1d95-216b-443d-8e08-96bead56e1fb)
+    (uuid 4c1030f1-6967-42c9-abc7-453347056ec7)
   )
   (label "~{CS}_MEMORY" (at 34.29 170.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2159,10 +2124,6 @@
   (label "SCL" (at 163.83 130.81 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 74a43c80-43ab-4cc1-984e-d797bd4fa66d)
-  )
-  (label "DEBUG_LED_BLUE" (at 163.83 97.79 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 7c1ecfd7-8ee0-4893-9014-b32966bf2afc)
   )
   (label "DATA0" (at 111.76 90.17 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -2199,14 +2160,6 @@
   (label "TP10" (at 152.4 21.59 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d369dbca-dec2-4dc7-a01c-1b2e4ccaf23a)
-  )
-  (label "DEBUG_LED_RED" (at 231.14 25.4 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid db6c1529-1876-4496-8d0c-5d21266f7547)
-  )
-  (label "DEBUG_LED_RED" (at 163.83 95.25 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e4d2b9b4-35b6-4165-8522-550eea818d83)
   )
   (label "I2C1_SDA" (at 163.83 123.19 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2364,7 +2317,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C16") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -2373,7 +2326,7 @@
   (symbol (lib_id "KD_Connector_Pads:TestPoint_2.5mm_H0.9") (at 57.15 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ea1addc-9d1e-44a2-822b-e14357656f87)
-    (property "Reference" "TP8" (at 57.15 175.26 0) (do_not_autoplace)
+    (property "Reference" "TP7" (at 57.15 175.26 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TP D2.5 mm H0.9mm" (at 44.45 148.59 0)
@@ -2410,7 +2363,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "TP8") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -2440,7 +2393,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND011") (unit 1)
+          (reference "#GND023") (unit 1)
         )
       )
     )
@@ -2470,7 +2423,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND06") (unit 1)
+          (reference "#GND020") (unit 1)
         )
       )
     )
@@ -2479,7 +2432,7 @@
   (symbol (lib_id "KD_IC_MCU:RPi_RP2040") (at 137.16 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1de9bc65-1633-44fb-86e6-487b9f6424c7)
-    (property "Reference" "U3" (at 116.84 59.69 0) (do_not_autoplace)
+    (property "Reference" "U5" (at 116.84 59.69 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RP2040" (at 116.84 62.23 0) (do_not_autoplace)
@@ -2569,7 +2522,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -2599,7 +2552,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND015") (unit 1)
+          (reference "#GND028") (unit 1)
         )
       )
     )
@@ -2651,7 +2604,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C13") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -2703,7 +2656,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "R6") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -2733,7 +2686,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND014") (unit 1)
+          (reference "#GND027") (unit 1)
         )
       )
     )
@@ -2763,7 +2716,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND02") (unit 1)
+          (reference "#GND013") (unit 1)
         )
       )
     )
@@ -2793,7 +2746,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND04") (unit 1)
+          (reference "#GND022") (unit 1)
         )
       )
     )
@@ -2845,7 +2798,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C18") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -2854,7 +2807,7 @@
   (symbol (lib_id "KD_Switch:Button_tactile_45x38_430181038816") (at 41.91 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b99544e-f19a-4368-a2f0-7a06b78b430c)
-    (property "Reference" "S2" (at 41.91 172.72 0)
+    (property "Reference" "S12" (at 41.91 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Button_tactile_45x38_430181038816" (at 29.21 148.59 0)
@@ -2894,7 +2847,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "S2") (unit 1)
+          (reference "S12") (unit 1)
         )
       )
     )
@@ -2954,7 +2907,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND05") (unit 1)
+          (reference "#GND026") (unit 1)
         )
       )
     )
@@ -3006,7 +2959,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C22") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -3036,7 +2989,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND016") (unit 1)
+          (reference "#GND030") (unit 1)
         )
       )
     )
@@ -3045,7 +2998,7 @@
   (symbol (lib_id "KD_Connector_Pads:TestPoint_2.5mm_H0.9") (at 48.26 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c4b21e1-e835-4e23-ab22-74736d85cdf5)
-    (property "Reference" "TP7" (at 48.26 38.1 0) (do_not_autoplace)
+    (property "Reference" "TP6" (at 48.26 38.1 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TP D2.5 mm H0.9mm" (at 35.56 11.43 0)
@@ -3082,7 +3035,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "TP7") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -3091,7 +3044,7 @@
   (symbol (lib_id "KD_Connector_Pads:TestPoint_2.5mm_H0.9") (at 234.95 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6dce1563-5f06-4be2-b301-daac8ec90607)
-    (property "Reference" "TP6" (at 234.95 115.57 0) (do_not_autoplace)
+    (property "Reference" "TP12" (at 234.95 115.57 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TP D2.5 mm H0.9mm" (at 222.25 88.9 0)
@@ -3128,7 +3081,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "TP6") (unit 1)
+          (reference "TP12") (unit 1)
         )
       )
     )
@@ -3137,7 +3090,7 @@
   (symbol (lib_id "KD_Connector_Pads:TestPoint_1.5mm_Round") (at 168.91 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72b6e60c-a06f-479f-8fe7-ff16bd88d4d7)
-    (property "Reference" "TP3" (at 168.91 15.24 0) (do_not_autoplace)
+    (property "Reference" "TP9" (at 168.91 15.24 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint_1.5mm_Round" (at 156.21 -11.43 0)
@@ -3174,7 +3127,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "TP3") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
     )
@@ -3226,7 +3179,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C14") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -3256,7 +3209,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#+3V07") (unit 1)
+          (reference "#+3V06") (unit 1)
         )
       )
     )
@@ -3308,7 +3261,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "R7") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -3338,7 +3291,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND012") (unit 1)
+          (reference "#GND024") (unit 1)
         )
       )
     )
@@ -3393,7 +3346,7 @@
   (symbol (lib_id "KD_Connector_Pads:TestPoint_2.5mm_H0.9") (at 109.22 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b73de3c-4049-4e6c-93cf-5ff5a7c787b4)
-    (property "Reference" "TP9" (at 109.22 59.69 0) (do_not_autoplace)
+    (property "Reference" "TP8" (at 109.22 59.69 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TP D2.5 mm H0.9mm" (at 96.52 33.02 0)
@@ -3430,7 +3383,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "TP9") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -3439,7 +3392,7 @@
   (symbol (lib_id "KD_Switch:Button_tactile_45x38_430181038816") (at 44.45 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d4249e4-85bf-450c-acdc-36c2268a7abf)
-    (property "Reference" "S1" (at 44.45 139.7 0)
+    (property "Reference" "S13" (at 44.45 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Button_tactile_45x38_430181038816" (at 31.75 115.57 0)
@@ -3479,7 +3432,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "S1") (unit 1)
+          (reference "S13") (unit 1)
         )
       )
     )
@@ -3509,7 +3462,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#+3V06") (unit 1)
+          (reference "#+3V05") (unit 1)
         )
       )
     )
@@ -3539,7 +3492,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND07") (unit 1)
+          (reference "#GND021") (unit 1)
         )
       )
     )
@@ -3591,7 +3544,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C15") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -3600,7 +3553,7 @@
   (symbol (lib_id "KD_Resistor:R_0603_1k_1%") (at 59.69 170.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5d72408-8f70-4519-a0eb-187030f80f05)
-    (property "Reference" "R13" (at 59.69 163.83 90)
+    (property "Reference" "R23" (at 59.69 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 27.94 182.88 0)
@@ -3638,7 +3591,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "R13") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -3698,7 +3651,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND018") (unit 1)
+          (reference "#GND015") (unit 1)
         )
       )
     )
@@ -3707,7 +3660,7 @@
   (symbol (lib_id "KD_Inductor:Ferrite_300mA_Abracon_ACML-0805-102-T") (at 52.07 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af343936-1c07-4d6b-a76e-a72838139677)
-    (property "Reference" "FB3" (at 52.07 19.05 90)
+    (property "Reference" "FB2" (at 52.07 19.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Ferrite_300mA_Abracon_ACML-0805-102-T" (at 20.32 38.1 0)
@@ -3745,7 +3698,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "FB3") (unit 1)
+          (reference "FB2") (unit 1)
         )
       )
     )
@@ -3797,53 +3750,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C21") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Connector_Pads:TestPoint_1.5mm_Round") (at 193.04 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b8615316-b672-4453-a82f-c25f1e036d63)
-    (property "Reference" "TP4" (at 193.04 15.24 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TestPoint_1.5mm_Round" (at 180.34 -11.43 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Connector_Pads:TestPoint_Pad_D1.5mm" (at 180.34 6.35 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "DNP" (at 180.34 8.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "DNP" (at 180.34 11.43 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer" "DNP" (at 180.34 -8.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "DNP" (at 180.34 -6.35 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "DNP" (at 180.34 -3.81 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "DNP" (at 180.34 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "T" (at 180.34 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.00" (at 180.34 3.81 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 02574aba-1a66-4412-a978-59f9201ff6f3))
-    (instances
-      (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "TP4") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -3895,7 +3802,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C17") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -3904,7 +3811,7 @@
   (symbol (lib_id "KD_Resistor:R_0603_DNP") (at 88.9 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b94e1565-4fc8-4379-8d6d-6fa20ad4391e)
-    (property "Reference" "R5" (at 91.44 60.96 0)
+    (property "Reference" "R24" (at 91.44 60.96 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R_0603_22k_1%" (at 101.6 93.98 0)
@@ -3942,7 +3849,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "R5") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3951,7 +3858,7 @@
   (symbol (lib_id "KD_Capacitor:C_0603_27p_NP0_5%_50V") (at 67.31 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba139665-6613-47c0-90e6-6a2a9efa1d57)
-    (property "Reference" "C7" (at 60.96 127 0)
+    (property "Reference" "C27" (at 60.96 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27p" (at 60.96 129.54 0)
@@ -3986,7 +3893,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C7") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -4016,7 +3923,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND01") (unit 1)
+          (reference "#GND014") (unit 1)
         )
       )
     )
@@ -4046,7 +3953,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND013") (unit 1)
+          (reference "#GND025") (unit 1)
         )
       )
     )
@@ -4098,7 +4005,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C8") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -4150,7 +4057,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C9") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -4159,7 +4066,7 @@
   (symbol (lib_id "KD_Connector_Pads:TestPoint_2.5mm_H0.9") (at 229.87 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d70df9af-ee37-42e9-9f49-85a1b868ed27)
-    (property "Reference" "TP5" (at 229.87 120.65 0) (do_not_autoplace)
+    (property "Reference" "TP11" (at 229.87 120.65 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TP D2.5 mm H0.9mm" (at 217.17 93.98 0)
@@ -4196,7 +4103,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "TP5") (unit 1)
+          (reference "TP11") (unit 1)
         )
       )
     )
@@ -4205,7 +4112,7 @@
   (symbol (lib_id "KD_Diode:Schottky_30V_200mA_DCo_BAT54WS") (at 50.8 170.18 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d872a9d0-e3b6-4cd9-9518-b669a9f46407)
-    (property "Reference" "D5" (at 51.1175 163.83 0)
+    (property "Reference" "D3" (at 51.1175 163.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Schottky_30V_200mA_DCo_BAT54WS" (at 63.5 201.93 0)
@@ -4243,7 +4150,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "D5") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -4252,7 +4159,7 @@
   (symbol (lib_id "KD_Capacitor:C_0603_27p_NP0_5%_50V") (at 82.55 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9b5ef02-56b1-48ab-b256-f7ea30e0f3be)
-    (property "Reference" "C12" (at 86.36 127 0)
+    (property "Reference" "C30" (at 86.36 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27p" (at 86.36 129.54 0)
@@ -4287,7 +4194,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C12") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -4339,7 +4246,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "C20") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -4369,7 +4276,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND019") (unit 1)
+          (reference "#GND016") (unit 1)
         )
       )
     )
@@ -4399,7 +4306,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND08") (unit 1)
+          (reference "#GND029") (unit 1)
         )
       )
     )
@@ -4429,7 +4336,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND020") (unit 1)
+          (reference "#GND018") (unit 1)
         )
       )
     )
@@ -4459,7 +4366,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "#GND03") (unit 1)
+          (reference "#GND019") (unit 1)
         )
       )
     )
@@ -4468,7 +4375,7 @@
   (symbol (lib_id "KD_Resistor:R_0603_1k_1%") (at 97.79 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff3f4492-129d-4478-8e9e-daef3286cb70)
-    (property "Reference" "R12" (at 97.79 116.84 90)
+    (property "Reference" "R25" (at 97.79 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 66.04 135.89 0)
@@ -4506,38 +4413,8 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b"
-          (reference "R12") (unit 1)
+          (reference "R25") (unit 1)
         )
-      )
-    )
-  )
-
-  (sheet (at 251.46 19.05) (size 24.13 12.7) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d009e1a3-c0b2-4429-ba9a-8f3ba461ea03)
-    (property "Sheetname" "LEDs" (at 251.46 18.3384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "leds.kicad_sch" (at 251.46 32.3346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "DEBUG_LED_RED" input (at 251.46 25.4 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 43909847-8428-4f48-b44f-905fd887bbfe)
-    )
-    (pin "DEBUG_LED_GREEN" input (at 251.46 22.86 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 4876ebf7-abd2-42e7-8b44-7250bb49bf6c)
-    )
-    (pin "DEBUG_LED_BLUE" input (at 251.46 27.94 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 410ff244-1568-4ad8-9554-b68bca0cf882)
-    )
-    (instances
-      (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "13"))
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b" (page "10"))
       )
     )
   )

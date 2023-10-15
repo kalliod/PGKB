@@ -716,6 +716,10 @@
       "Buttons"
     ],
     [
+      "7bc50530-409b-404b-8886-2310c61502aa",
+      "Neopixel LEDs"
+    ],
+    [
       "995d81b1-81b6-4111-907a-bbbe6e1f3b4b",
       "Other Controls"
     ],
@@ -732,20 +736,12 @@
       "Microcontroller"
     ],
     [
-      "d009e1a3-c0b2-4429-ba9a-8f3ba461ea03",
-      "LEDs"
-    ],
-    [
       "91422aee-53cf-4c28-8efa-7ede5a87a80b",
       "Power Supply"
     ],
     [
       "8f5ee264-ab78-438d-b8d5-1e547e5afc7c",
       "Mechanical"
-    ],
-    [
-      "7bc50530-409b-404b-8886-2310c61502aa",
-      "Neopixel LEDs"
     ],
     [
       "37728c8e-efcc-462c-a749-47b6bfcbaf37",

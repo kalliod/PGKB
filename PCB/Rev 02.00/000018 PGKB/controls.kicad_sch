@@ -1006,7 +1006,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "TP15") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -1036,7 +1036,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "#GND026") (unit 1)
+          (reference "#GND03") (unit 1)
         )
       )
     )
@@ -1091,7 +1091,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "C34") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -1121,7 +1121,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "#GND024") (unit 1)
+          (reference "#GND01") (unit 1)
         )
       )
     )
@@ -1130,7 +1130,7 @@
   (symbol (lib_id "power:+3.3V") (at 104.14 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 245de832-fed6-48d4-a813-9107c42d246b)
-    (property "Reference" "#PWR010" (at 104.14 76.2 0)
+    (property "Reference" "#PWR029" (at 104.14 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 104.14 68.834 0)
@@ -1146,7 +1146,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1176,7 +1176,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "#GND029") (unit 1)
+          (reference "#GND06") (unit 1)
         )
       )
     )
@@ -1230,7 +1230,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "TP14") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -1260,7 +1260,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "#GND028") (unit 1)
+          (reference "#GND05") (unit 1)
         )
       )
     )
@@ -1269,7 +1269,7 @@
   (symbol (lib_id "KD_Resistor:R_0603_10k_1%") (at 130.81 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4051004f-edc2-4e24-94c6-28a08722ab8c)
-    (property "Reference" "R21" (at 130.81 85.09 90)
+    (property "Reference" "R18" (at 130.81 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 99.06 102.87 0)
@@ -1307,7 +1307,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "R26") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1337,7 +1337,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "#GND025") (unit 1)
+          (reference "#GND02") (unit 1)
         )
       )
     )
@@ -1346,7 +1346,7 @@
   (symbol (lib_id "KD_Resistor:R_0603_10k_1%") (at 130.81 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77db8343-84d9-4659-87cb-cca0484a4090)
-    (property "Reference" "R22" (at 130.81 111.76 90)
+    (property "Reference" "R20" (at 130.81 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 99.06 129.54 0)
@@ -1384,7 +1384,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "R28") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -1439,7 +1439,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "C33") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -1448,7 +1448,7 @@
   (symbol (lib_id "KD_Resistor:R_0603_1k_1%") (at 121.92 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cbf962f-c078-4487-9dd1-9b485862fc75)
-    (property "Reference" "R20" (at 124.46 78.105 0)
+    (property "Reference" "R17" (at 124.46 78.105 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_1k_1%" (at 109.22 46.99 0)
@@ -1486,7 +1486,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "R25") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1495,7 +1495,7 @@
   (symbol (lib_id "power:+3.3V") (at 200.66 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a05681f9-0322-4082-80f1-fcc03f9f762a)
-    (property "Reference" "#PWR010" (at 200.66 76.2 0)
+    (property "Reference" "#PWR032" (at 200.66 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 200.66 68.834 0)
@@ -1511,7 +1511,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1520,7 +1520,7 @@
   (symbol (lib_id "KD_IC_Buffer_Driver_Interface:Schmitt_6CH_SN74HCS365PWR") (at 203.2 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b40094b8-e6f0-4bca-9852-1e72ec1d6588)
-    (property "Reference" "U11" (at 208.28 71.12 0) (do_not_autoplace)
+    (property "Reference" "U3" (at 208.28 71.12 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SN74HCS365PWR" (at 190.5 33.02 0)
@@ -1572,7 +1572,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "U6") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1581,7 +1581,7 @@
   (symbol (lib_id "power:+3.3V") (at 121.92 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b71988c9-3ae1-4f19-a218-8fcc4979b35f)
-    (property "Reference" "#PWR010" (at 121.92 76.2 0)
+    (property "Reference" "#PWR031" (at 121.92 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 121.92 68.834 0)
@@ -1597,7 +1597,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1606,7 +1606,7 @@
   (symbol (lib_id "KD_Switch:Encoder_Incremental_Bourns_PEC11R-4215K-S0012") (at 81.28 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc28b29a-8e09-4d86-a99e-e92adcfaa9e6)
-    (property "Reference" "S2" (at 76.2 95.25 0) (do_not_autoplace)
+    (property "Reference" "S11" (at 76.2 95.25 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "symbol_template" (at 68.58 59.69 0)
@@ -1647,7 +1647,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "S16") (unit 1)
+          (reference "S11") (unit 1)
         )
       )
     )
@@ -1656,7 +1656,7 @@
   (symbol (lib_id "KD_Resistor:R_0603_1k_1%") (at 104.14 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2a985af-8e36-4fa2-8cf6-febe1ffde0b6)
-    (property "Reference" "R24" (at 106.68 78.105 0)
+    (property "Reference" "R15" (at 106.68 78.105 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_1k_1%" (at 91.44 46.99 0)
@@ -1694,7 +1694,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "R23") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -1749,7 +1749,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "C32") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -1758,7 +1758,7 @@
   (symbol (lib_id "power:+3.3V") (at 113.03 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc6a7bf8-9ca4-4317-bd45-b6ab1c639953)
-    (property "Reference" "#PWR010" (at 113.03 76.2 0)
+    (property "Reference" "#PWR030" (at 113.03 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 113.03 68.834 0)
@@ -1774,7 +1774,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1783,7 +1783,7 @@
   (symbol (lib_id "KD_Resistor:R_0603_10k_1%") (at 185.42 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid deff6ae6-2dc1-4bba-9ac1-3da48607e958)
-    (property "Reference" "R26" (at 185.42 63.5 90)
+    (property "Reference" "R21" (at 185.42 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 153.67 82.55 0)
@@ -1821,7 +1821,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "R29") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -1875,7 +1875,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "TP16") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -1905,7 +1905,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "#GND027") (unit 1)
+          (reference "#GND04") (unit 1)
         )
       )
     )
@@ -1935,7 +1935,7 @@
       )
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "#GND030") (unit 1)
+          (reference "#GND07") (unit 1)
         )
       )
     )
@@ -1982,7 +1982,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "R27") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1991,7 +1991,7 @@
   (symbol (lib_id "KD_Resistor:R_0603_1k_1%") (at 113.03 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa158aaf-d35c-46dc-a0e4-245a7e4833cb)
-    (property "Reference" "R23" (at 115.57 78.105 0)
+    (property "Reference" "R16" (at 115.57 78.105 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_1k_1%" (at 100.33 46.99 0)
@@ -2029,7 +2029,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "R24") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )

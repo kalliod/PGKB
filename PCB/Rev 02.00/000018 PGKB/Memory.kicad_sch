@@ -625,7 +625,7 @@
           (reference "#GND02") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "#GND09") (unit 1)
+          (reference "#GND08") (unit 1)
         )
       )
     )
@@ -680,7 +680,7 @@
           (reference "C4") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "C11") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -713,7 +713,7 @@
           (reference "#GND04") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "#GND010") (unit 1)
+          (reference "#GND09") (unit 1)
         )
       )
     )
@@ -746,7 +746,7 @@
           (reference "#GND04") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "#GND023") (unit 1)
+          (reference "#GND010") (unit 1)
         )
       )
     )
@@ -796,7 +796,7 @@
           (reference "R16") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "R16") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -829,7 +829,7 @@
           (reference "#+3V05") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "#+3V05") (unit 1)
+          (reference "#+3V01") (unit 1)
         )
       )
     )
@@ -884,7 +884,7 @@
           (reference "C2") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "C10") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -967,7 +967,7 @@
           (reference "#+3V03") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "#+3V09") (unit 1)
+          (reference "#+3V02") (unit 1)
         )
       )
     )

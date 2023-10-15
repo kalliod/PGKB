@@ -409,25 +409,9 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "A1" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 0 -40.64 180) (length 5.08)
-          (name "RX2-" (effects (font (size 1.27 1.27))))
-          (number "A10" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 0 -43.18 180) (length 5.08)
-          (name "RX2+" (effects (font (size 1.27 1.27))))
-          (number "A11" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at -15.24 -66.04 90) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "A12" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 0 -35.56 180) (length 5.08)
-          (name "TX1+" (effects (font (size 1.27 1.27))))
-          (number "A2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 0 -33.02 180) (length 5.08)
-          (name "TX1-" (effects (font (size 1.27 1.27))))
-          (number "A3" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 0 0 180) (length 5.08)
           (name "VBUS" (effects (font (size 1.27 1.27))))
@@ -457,25 +441,9 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "B1" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 0 -25.4 180) (length 5.08)
-          (name "RX1-" (effects (font (size 1.27 1.27))))
-          (number "B10" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 0 -27.94 180) (length 5.08)
-          (name "RX1+" (effects (font (size 1.27 1.27))))
-          (number "B11" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at -15.24 -66.04 90) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "B12" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 0 -50.8 180) (length 5.08)
-          (name "TX2+" (effects (font (size 1.27 1.27))))
-          (number "B2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 0 -48.26 180) (length 5.08)
-          (name "TX2-" (effects (font (size 1.27 1.27))))
-          (number "B3" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 0 0 180) (length 5.08) hide
           (name "VBUS" (effects (font (size 1.27 1.27))))
@@ -1729,18 +1697,10 @@
     (uuid e45a3921-cb58-45d1-ab61-7a2fdccce8e7)
   )
 
-  (no_connect (at 99.06 118.11) (uuid 0f5ec25f-0e45-4bf6-83bc-aea6d8d8170f))
-  (no_connect (at 99.06 102.87) (uuid 1048420f-3a30-4c5d-b2bc-c3b7b5cdfd56))
   (no_connect (at 99.06 130.81) (uuid 1391f376-7809-4508-b813-71d87ed0267c))
-  (no_connect (at 99.06 110.49) (uuid 2ddaf006-1932-459d-9a70-a838e9924c37))
-  (no_connect (at 99.06 125.73) (uuid 42611c88-adce-46d1-b893-d5bdb17992da))
   (no_connect (at 152.4 118.11) (uuid 7b34a161-1e40-4505-bb1e-129d2d581fb3))
   (no_connect (at 99.06 133.35) (uuid 9bb6a19f-6a86-4711-b6ae-b0715b3a1d7c))
-  (no_connect (at 99.06 115.57) (uuid c5b0bd0d-0e6c-4236-a645-41c6d70857eb))
-  (no_connect (at 99.06 100.33) (uuid c7600f6c-a4ae-4c88-b508-07afc463a097))
-  (no_connect (at 99.06 123.19) (uuid d08144a7-c3b8-4bf2-a281-2ed5dbba82a6))
   (no_connect (at 137.16 118.11) (uuid eee93a4d-37d0-41c3-b354-29e51db94d81))
-  (no_connect (at 99.06 107.95) (uuid f29e5138-0533-460e-bf94-bc05a33025ed))
 
   (wire (pts (xy 121.92 50.8) (xy 121.92 54.61))
     (stroke (width 0) (type default))
@@ -2043,7 +2003,7 @@
   (symbol (lib_id "KD_Resistor:R_0603_5100_1%") (at 113.03 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cd4028a-f23a-4b75-a57d-03d05e8aab1a)
-    (property "Reference" "R14" (at 115.57 57.15 0)
+    (property "Reference" "R1" (at 115.57 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_5100_1%" (at 100.33 26.67 0)
@@ -2081,7 +2041,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "R14") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2090,7 +2050,7 @@
   (symbol (lib_id "KD_Capacitor:C_1206_10u_X5R_50V_automotive") (at 184.15 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13b1783a-b93c-43ac-abaf-4e602c81cb5b)
-    (property "Reference" "C4" (at 187.96 54.61 0)
+    (property "Reference" "C1" (at 187.96 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 171.45 24.13 0)
@@ -2128,7 +2088,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "C4") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2137,7 +2097,7 @@
   (symbol (lib_id "KD_Capacitor:C_AE_4.7uF_16V_EEE-1CA4R7NR") (at 210.82 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 252ce470-42a8-407b-9685-0a5f1e335090)
-    (property "Reference" "C6" (at 214.63 53.721 0)
+    (property "Reference" "C3" (at 214.63 53.721 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 214.63 56.261 0)
@@ -2172,7 +2132,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "C6") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2181,7 +2141,7 @@
   (symbol (lib_id "power:GND") (at 113.03 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b242fd9-83b7-4873-8c78-0dee10c1f75d)
-    (property "Reference" "#PWR06" (at 113.03 71.12 0)
+    (property "Reference" "#PWR03" (at 113.03 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 68.58 0)
@@ -2197,7 +2157,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2206,7 +2166,7 @@
   (symbol (lib_id "KD_Diode:TVS_5V5_DRTR5V0U4S-7-M") (at 144.78 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a92799f-4441-4032-93b2-2aa1e8cef720)
-    (property "Reference" "D3" (at 144.78 96.52 0)
+    (property "Reference" "D1" (at 144.78 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TVS_5V5_DRTR5V0U4S-7-M" (at 129.54 66.04 0)
@@ -2248,7 +2208,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2257,7 +2217,7 @@
   (symbol (lib_id "power:GND") (at 83.82 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d8a8763-5a8d-41e2-b846-8262e5ab3f31)
-    (property "Reference" "#PWR07" (at 83.82 149.86 0)
+    (property "Reference" "#PWR02" (at 83.82 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 147.32 0)
@@ -2273,7 +2233,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2282,7 +2242,7 @@
   (symbol (lib_id "power:GND") (at 76.2 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 416a1225-69c6-4c5e-bd72-300f37bce1cc)
-    (property "Reference" "#PWR012" (at 76.2 149.86 0)
+    (property "Reference" "#PWR01" (at 76.2 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 147.32 0)
@@ -2298,7 +2258,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2307,7 +2267,7 @@
   (symbol (lib_id "power:GND") (at 154.94 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e317df8-dc3b-4524-8246-3704cde6119e)
-    (property "Reference" "#PWR09" (at 154.94 118.11 0)
+    (property "Reference" "#PWR04" (at 154.94 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 115.57 0)
@@ -2323,7 +2283,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2332,7 +2292,7 @@
   (symbol (lib_id "KD_Inductor:Ferrite_500mA_TDK_MMZ2012Y152BT000") (at 176.53 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72b79300-3651-41c4-9b33-cdec9bbd26d3)
-    (property "Reference" "FB2" (at 176.53 44.45 90)
+    (property "Reference" "FB1" (at 176.53 44.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Ferrite_500mA_TDK_MMZ2012Y152BT000" (at 139.7 63.5 0)
@@ -2370,7 +2330,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "FB2") (unit 1)
+          (reference "FB1") (unit 1)
         )
       )
     )
@@ -2379,7 +2339,7 @@
   (symbol (lib_id "KD_Diode:Schottky_30V_1A_PMEG3010ER_115") (at 153.67 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81f0cc7e-f668-4f31-8ee8-ae2b4e40be73)
-    (property "Reference" "D6" (at 153.9875 44.45 0)
+    (property "Reference" "D2" (at 153.9875 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Schottky_30V_1A_PMEG3010ER_115" (at 166.37 82.55 0)
@@ -2417,7 +2377,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "D6") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2426,7 +2386,7 @@
   (symbol (lib_id "KD_Capacitor:C_0603_100n_X7R_50V") (at 196.85 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90808387-2348-4c7d-b71b-a3d9c9839e4a)
-    (property "Reference" "C5" (at 200.66 54.61 0)
+    (property "Reference" "C2" (at 200.66 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 200.66 57.15 0)
@@ -2461,7 +2421,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2470,7 +2430,7 @@
   (symbol (lib_id "power:GND") (at 196.85 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a07f0f41-d0e9-4f79-9b62-8120b8e10341)
-    (property "Reference" "#PWR010" (at 196.85 67.31 0)
+    (property "Reference" "#PWR06" (at 196.85 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 64.77 0)
@@ -2486,7 +2446,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2495,7 +2455,7 @@
   (symbol (lib_id "power:GND") (at 210.82 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a22dea06-eb5a-4db4-82fa-ae932e0e8846)
-    (property "Reference" "#PWR011" (at 210.82 67.31 0)
+    (property "Reference" "#PWR07" (at 210.82 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 64.77 0)
@@ -2511,7 +2471,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2520,7 +2480,7 @@
   (symbol (lib_id "KD_Resistor:R_0603_5100_1%") (at 121.92 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc95490f-8ce4-4615-8b7b-bdd9895c0acb)
-    (property "Reference" "R15" (at 124.46 57.15 0)
+    (property "Reference" "R2" (at 124.46 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_5100_1%" (at 109.22 26.67 0)
@@ -2558,7 +2518,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "R15") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2567,7 +2527,7 @@
   (symbol (lib_id "power:GND") (at 184.15 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5b58445-7f9f-4c45-8e3f-a77e6aeb1c7b)
-    (property "Reference" "#PWR08" (at 184.15 67.31 0)
+    (property "Reference" "#PWR05" (at 184.15 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 64.77 0)
@@ -2583,7 +2543,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2670,11 +2630,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "A1" (uuid 0d7b30a7-610f-4d78-aa76-5475b3a7f63d))
-    (pin "A10" (uuid a0586529-6cde-4731-8a14-a3a03f2c07fd))
-    (pin "A11" (uuid 119c7d82-a695-47fc-bd00-68957bd192d9))
     (pin "A12" (uuid b667431c-67ca-4a7d-9119-bc4f90008c04))
-    (pin "A2" (uuid b25eb6e4-a07c-488f-9f7e-4a55ddbcae23))
-    (pin "A3" (uuid ea01ae4d-b020-4f0b-9dd5-e690c8713182))
     (pin "A4" (uuid 5827d6a4-b67c-48a6-ab02-467a5001a987))
     (pin "A5" (uuid 2a35e1ed-64e6-4ce8-8651-8c149c800876))
     (pin "A6" (uuid ac77f303-29d7-4f54-981f-65c3f4c11356))
@@ -2682,11 +2638,7 @@
     (pin "A8" (uuid 7cc64b87-82c5-45b4-b46e-5443ea0fd93b))
     (pin "A9" (uuid ba6fe441-18df-4498-b6b0-ce68b89f534b))
     (pin "B1" (uuid 255da2b3-8fcf-49a8-8e73-a3bad46cdfa6))
-    (pin "B10" (uuid f7d8f4e9-7ddf-4632-9cbd-30da6ac7cf80))
-    (pin "B11" (uuid c278692c-d785-4aa7-aab9-376b7a6511f2))
     (pin "B12" (uuid 38a6afa6-69fc-4206-9f83-31fdd3075482))
-    (pin "B2" (uuid 58658019-8817-4ab0-8c32-a65432cfa6a2))
-    (pin "B3" (uuid 8c795744-4125-400a-8943-3757cb57685d))
     (pin "B4" (uuid 16b2cafe-3d49-4acd-b06e-16a2ffe41414))
     (pin "B5" (uuid 0a89b17a-b1f4-4de8-a0ca-c7704743ad8d))
     (pin "B6" (uuid 6d315d34-8ccc-4ffa-a9b2-c6513b3b7dbc))
