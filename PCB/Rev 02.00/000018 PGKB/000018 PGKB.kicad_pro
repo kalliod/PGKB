@@ -716,8 +716,8 @@
       "Buttons"
     ],
     [
-      "a467c90b-3665-441c-9913-5c8fd91b3b4b",
-      "Microcontroller"
+      "995d81b1-81b6-4111-907a-bbbe6e1f3b4b",
+      "Other Controls"
     ],
     [
       "f1cedbc3-70dc-430a-811a-a6c314e1ab30",
@@ -726,6 +726,10 @@
     [
       "4ce60c68-8f85-4df7-a465-152e58489d9e",
       "Connectors"
+    ],
+    [
+      "a467c90b-3665-441c-9913-5c8fd91b3b4b",
+      "Microcontroller"
     ],
     [
       "d009e1a3-c0b2-4429-ba9a-8f3ba461ea03",
@@ -740,12 +744,12 @@
       "Mechanical"
     ],
     [
-      "37728c8e-efcc-462c-a749-47b6bfcbaf37",
-      "Revision History"
+      "7bc50530-409b-404b-8886-2310c61502aa",
+      "Neopixel LEDs"
     ],
     [
-      "ef2ecfa6-8148-4f1e-98b8-8fc9c6f2b61b",
-      "Buttons1"
+      "37728c8e-efcc-462c-a749-47b6bfcbaf37",
+      "Revision History"
     ]
   ],
   "text_variables": {}

@@ -488,7 +488,7 @@
     (property "Datasheet" "" (at 167.64 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1eed1756-4223-4a03-ac5b-6d0a3ab53f2d))
+    (pin "1" (uuid ece4a627-7ab8-4809-a2ce-fb73ac8fd976))
     (instances
       (project "000052 RCCON"
         (path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
@@ -521,7 +521,7 @@
     (property "Datasheet" "" (at 149.86 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 187cfcdb-64b9-475a-92b9-d86823eaf93b))
+    (pin "1" (uuid 6fb42014-2017-4cce-b005-60cb1a1111b6))
     (instances
       (project "000052 RCCON"
         (path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
@@ -575,8 +575,8 @@
     (property "Price" "0.03" (at 144.78 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid b5bd7dcc-1f75-47c4-ad0b-6568fb205a54))
-    (pin "2" (uuid 5c2d9454-2211-49a3-9b00-3499123094e8))
+    (pin "1" (uuid 06be5b8e-4673-46bf-9ada-d22f6dddea16))
+    (pin "2" (uuid 503502ee-7735-49dc-a16b-293498fb0f08))
     (instances
       (project "000052 RCCON"
         (path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
@@ -627,10 +627,10 @@
     (property "Price" "1.5" (at 143.51 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 71c63b2b-527e-4b72-8fff-6ca70725ca17))
-    (pin "2" (uuid a5509211-fdcd-4f8a-a8ef-6bb0cd5ca6ad))
-    (pin "3" (uuid 6aa49eb2-4a72-473f-a0d0-793fc0652332))
-    (pin "4" (uuid fc0389b1-8e2b-4114-aa27-6f5e675c4102))
+    (pin "1" (uuid 14d2ff26-79a1-48b4-899a-366ea118d663))
+    (pin "2" (uuid 54ba2be7-1b56-4e67-afb0-e5f2bd87c513))
+    (pin "3" (uuid 05549abc-22a9-43e3-bb12-875f2e9e77a4))
+    (pin "4" (uuid 92f568b9-a599-4038-bcbc-9174592685e4))
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9"
@@ -658,7 +658,7 @@
     (property "Datasheet" "" (at 152.4 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75c65b55-b533-4823-966b-98a395e42908))
+    (pin "1" (uuid b5e34e57-e63f-41a9-9624-aed9af883027))
     (instances
       (project "000052 RCCON"
         (path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
@@ -712,8 +712,8 @@
     (property "Price" "0.01" (at 154.94 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 95e612bc-e27e-45b7-9ddd-0ed10e1863ba))
-    (pin "2" (uuid 01fcfc7f-eebd-44f1-bfe7-59fe3905beaf))
+    (pin "1" (uuid 66bfb032-509e-4a7c-8732-6b5ff3976e7a))
+    (pin "2" (uuid 4733848d-e1a6-4392-ad01-f03233bd8882))
     (instances
       (project "000052 RCCON"
         (path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"

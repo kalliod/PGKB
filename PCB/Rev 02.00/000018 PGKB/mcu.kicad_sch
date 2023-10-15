@@ -1290,9 +1290,9 @@
     )
   )
 
+  (bus_alias "QSPI" (members "DATA0" "DATA1" "DATA2" "DATA3" "~{CS}_MEMORY" "CLK"))
   (bus_alias "I2C0" (members "SDA" "SCL"))
   (bus_alias "I2C1" (members "I2C1_SDA" "I2C1_SCL"))
-  (bus_alias "QSPI" (members "DATA0" "DATA1" "DATA2" "DATA3" "~{CS}_MEMORY" "CLK"))
   (bus_alias "SPI" (members "SPI_CLK" "SPI_MISO" "SPI_MOSI" "SPI_CS0"))
   (junction (at 142.24 57.15) (diameter 0) (color 0 0 0 0)
     (uuid 036f4cfb-8e42-4c03-a55e-463b0d4b99d8)
@@ -4537,7 +4537,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "13"))
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b" (page "8"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b" (page "10"))
       )
     )
   )
