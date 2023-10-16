@@ -1606,7 +1606,7 @@
   (symbol (lib_id "KD_Switch:Encoder_Incremental_Bourns_PEC11R-4215K-S0012") (at 81.28 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc28b29a-8e09-4d86-a99e-e92adcfaa9e6)
-    (property "Reference" "S11" (at 76.2 95.25 0) (do_not_autoplace)
+    (property "Reference" "S20" (at 76.2 95.25 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "symbol_template" (at 68.58 59.69 0)
@@ -1647,7 +1647,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
-          (reference "S11") (unit 1)
+          (reference "S20") (unit 1)
         )
       )
     )

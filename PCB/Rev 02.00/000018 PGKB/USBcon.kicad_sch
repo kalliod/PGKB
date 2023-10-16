@@ -2188,7 +2188,7 @@
   (symbol (lib_id "KD_Diode:TVS_5V5_DRTR5V0U4S-7-M") (at 144.78 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a92799f-4441-4032-93b2-2aa1e8cef720)
-    (property "Reference" "D1" (at 144.78 96.52 0)
+    (property "Reference" "D11" (at 144.78 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TVS_5V5_DRTR5V0U4S-7-M" (at 129.54 66.04 0)
@@ -2230,7 +2230,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "D1") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -2361,7 +2361,7 @@
   (symbol (lib_id "KD_Diode:Schottky_30V_1A_PMEG3010ER_115") (at 146.05 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81f0cc7e-f668-4f31-8ee8-ae2b4e40be73)
-    (property "Reference" "D2" (at 146.3675 44.45 0)
+    (property "Reference" "D12" (at 146.3675 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Schottky_30V_1A_PMEG3010ER_115" (at 158.75 82.55 0)
@@ -2399,7 +2399,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc"
-          (reference "D2") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )

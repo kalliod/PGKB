@@ -1381,7 +1381,7 @@
   (symbol (lib_id "KD_Led:0603_Green_Diff_B1911NG--20D000214U1930") (at 219.71 128.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e67a735-a2ab-4348-a3c2-3869b393091c)
-    (property "Reference" "D6" (at 223.52 128.5875 90)
+    (property "Reference" "D16" (at 223.52 128.5875 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Green" (at 223.52 131.1275 90)
@@ -1416,7 +1416,7 @@
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/91422aee-53cf-4c28-8efa-7ede5a87a80b"
-          (reference "D6") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -1575,7 +1575,7 @@
   (symbol (lib_id "KD_Led:0603_Red_Diff_B1911USD-20D000114U1930") (at 114.3 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9c0ba82-786e-483a-a2e2-fdd7733cbb75)
-    (property "Reference" "D5" (at 112.7125 127 0)
+    (property "Reference" "D15" (at 112.7125 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Red" (at 112.7125 129.54 0)
@@ -1605,12 +1605,12 @@
     (property "Price" "0.10" (at 101.6 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid f0822777-7dec-457e-b1c0-2ed3e6daf1e1))
-    (pin "2" (uuid ca52f767-03da-4c6d-9c38-d66322ed5db0))
+    (pin "1" (uuid 0c44ed56-9818-4438-b1b7-50cdd2ecd1cd))
+    (pin "2" (uuid e2f20736-f723-49d6-8a2d-5b37b4f9b07b))
     (instances
       (project "000018 PGKB"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/91422aee-53cf-4c28-8efa-7ede5a87a80b"
-          (reference "D5") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
     )
