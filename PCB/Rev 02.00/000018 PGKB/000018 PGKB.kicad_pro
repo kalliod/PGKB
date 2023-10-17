@@ -651,7 +651,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "*/USB*"
+        "pattern": "*/USB_*"
       }
     ]
   },
