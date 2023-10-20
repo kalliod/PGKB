@@ -6,7 +6,7 @@
 
   (title_block
     (title "Programmable Keyboard")
-    (date "2023-10-14")
+    (date "2023-10-19")
     (rev "1.0")
     (company "Kallio Designs Oy")
     (comment 1 "TL, NH")
@@ -83,7 +83,7 @@
     (uuid f19adedd-7f02-4279-baf0-350299edf23d)
   )
 
-  (text "14.10.2023" (at 69.85 58.42 0)
+  (text "19.10.2023" (at 69.85 58.42 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 1bb15cbe-55b4-48a2-aa49-520eda844716)
   )
