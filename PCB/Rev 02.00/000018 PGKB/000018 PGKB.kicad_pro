@@ -66,8 +66,9 @@
         "clearance|89380000|109360000|d8499f9d-0ea2-44b7-9413-bead7f3d057e|56fca071-a9f7-43e6-85da-c6dfca5dd359",
         "clearance|90230000|108010000|e8259e9a-ace3-4c34-8b00-62fc7d8e32d1|c603743b-90e1-47c5-ad3e-116fc6391fb3",
         "clearance|90230000|109360000|56fca071-a9f7-43e6-85da-c6dfca5dd359|3f757d98-1afc-4d51-8983-4adbbc44cb8c",
-        "solder_mask_bridge|132650000|106750000|e6bb1e43-f03d-4e65-ac44-f3a0e1c97ac7|92d885ac-44e6-4674-93c0-55d0c1917a3d",
-        "solder_mask_bridge|132650000|106750000|f4bace32-d42a-4ad5-8afa-424b7f39beb6|92d885ac-44e6-4674-93c0-55d0c1917a3d"
+        "lib_footprint_mismatch|78510745|172743109|bb5559e3-4509-44ad-b804-fd9367c8ce89|00000000-0000-0000-0000-000000000000",
+        "solder_mask_bridge|132650000|106750000|e6bb1e43-f03d-4e65-ac44-f3a0e1c97ac7|2ff7b89d-0cc7-4a5d-a04e-207edb35df27",
+        "solder_mask_bridge|132650000|106750000|f4bace32-d42a-4ad5-8afa-424b7f39beb6|2ff7b89d-0cc7-4a5d-a04e-207edb35df27"
       ],
       "meta": {
         "filename": "board_design_settings.json",
