@@ -1,0 +1,109 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (title_block
+    (title "TITLE")
+    (date "2023-05-28")
+    (rev "1.0")
+    (company "Kallio Designs Oy")
+    (comment 1 "Teemu Latonen")
+    (comment 2 "000077")
+    (comment 3 "000077")
+  )
+
+  (lib_symbols
+  )
+
+  (bus_alias "I2C" (members "I2C_SDA" "I2C_SCL"))
+  (bus_alias "SPI" (members "SPI_CLK" "SPI_MOSI" "SPI_MISO" "SPI_CS0" "SPI_CS1"))
+
+  (text "If you receive a non-purchased copy of this schematic, please check with\nsales@kalliodesigns.com if you are entitled for usage.\nKallio Designs is not responsible for any designs based on this document, as it might\nnot fulfill safety and regulatory requirements on it's own."
+    (at 24.13 195.58 0)
+    (effects (font (size 2.54 2.159)) (justify left bottom))
+    (uuid 2be6ad63-2a50-402b-b37b-7a3716cdac26)
+  )
+  (text "${TITLE}" (at 25.4 25.4 0)
+    (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
+    (uuid 73c32346-2b3f-45af-9358-cb07fcf66bf7)
+  )
+  (text "Kallio Designs Oy\nVAT: FI28494321\nHelsinki, Finland\nwww.kalliodesigns.com\nsales@kalliodesigns.com"
+    (at 24.13 173.99 0)
+    (effects (font (size 5.08 4.318)) (justify left bottom))
+    (uuid dc3e2ba7-dd83-4779-90d7-818cfc98ce06)
+  )
+
+  (sheet (at 130.81 62.23) (size 25.4 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2eb44e1a-4042-4ea6-aca2-4836a6ec84e9)
+    (property "Sheetname" "Main" (at 130.81 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "main.kicad_sch" (at 130.81 100.9146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ButtonSupport"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 163.83 102.87) (size 25.4 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 37728c8e-efcc-462c-a749-47b6bfcbaf37)
+    (property "Sheetname" "Revision History" (at 163.83 102.1584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "rev_history.kicad_sch" (at 163.83 116.1546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ButtonSupport"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 163.83 82.55) (size 25.4 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8f5ee264-ab78-438d-b8d5-1e547e5afc7c)
+    (property "Sheetname" "Mechanical" (at 163.83 81.8384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mechanical.kicad_sch" (at 163.83 95.8346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ButtonSupport"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 163.83 62.23) (size 25.4 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d2a51ab8-87f6-45a5-af73-2506f338456e)
+    (property "Sheetname" "Power Supply" (at 163.83 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "psu.kicad_sch" (at 163.83 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ButtonSupport"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

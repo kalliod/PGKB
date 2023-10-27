@@ -91,7 +91,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "./MFG")
+      (outputdirectory "./MFG/gerber")
     )
   )
 
