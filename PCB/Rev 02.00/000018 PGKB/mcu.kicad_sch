@@ -1435,8 +1435,8 @@
     )
   )
 
-  (bus_alias "QSPI" (members "DATA0" "DATA1" "DATA2" "DATA3" "~{CS}_MEMORY" "CLK"))
   (bus_alias "SPI" (members "SPI_CLK" "SPI_MISO" "SPI_MOSI" "SPI_CS0"))
+  (bus_alias "QSPI" (members "DATA0" "DATA1" "DATA2" "DATA3" "~{CS}_MEMORY" "CLK"))
   (bus_alias "I2C0" (members "SDA" "SCL"))
   (bus_alias "I2C1" (members "I2C1_SDA" "I2C1_SCL"))
   (junction (at 142.24 57.15) (diameter 0) (color 0 0 0 0)

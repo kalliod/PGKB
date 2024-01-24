@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>C:\GitHubProjects\PGKB\PCB\Rev 02.00\000018 PGKB\000018 PGKB.kicad_sch</source>
-    <date>18/10/2023 19.31.48</date>
+    <date>27/10/2023 22.45.19</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-14</date>
+        <date>2023-10-19</date>
         <source>000018 PGKB.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value="ASSEMBLY_PN"/>
@@ -27,7 +27,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-14</date>
+        <date>2023-10-19</date>
         <source>main.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value="ASSEMBLY_PN"/>
@@ -45,7 +45,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-14</date>
+        <date>2023-10-19</date>
         <source>USBcon.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
@@ -63,7 +63,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-14</date>
+        <date>2023-10-19</date>
         <source>buttons.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
@@ -78,14 +78,14 @@
     </sheet>
     <sheet number="5" name="/Main/Neopixel LEDs/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7bc50530-409b-404b-8886-2310c61502aa/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Programmable Keyboard</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2023-10-19</date>
         <source>LEDS_Neopixel.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="3" value="PCB_PN"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
@@ -96,14 +96,14 @@
     </sheet>
     <sheet number="6" name="/Main/Other Controls/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Programmable Keyboard</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2023-10-19</date>
         <source>controls.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="3" value="PCB_PN"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
@@ -117,7 +117,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-14</date>
+        <date>2023-10-19</date>
         <source>Memory.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
@@ -135,7 +135,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-14</date>
+        <date>2023-10-19</date>
         <source>connectors.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
@@ -153,7 +153,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-14</date>
+        <date>2023-10-19</date>
         <source>mcu.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
@@ -171,7 +171,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-14</date>
+        <date>2023-10-19</date>
         <source>psu.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value="ASSEMBLY_PN"/>
@@ -189,7 +189,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-14</date>
+        <date>2023-10-19</date>
         <source>mechanical.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value="ASSEMBLY_PN"/>
@@ -207,7 +207,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-14</date>
+        <date>2023-10-19</date>
         <source>rev_history.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value="ASSEMBLY_PN"/>
@@ -1166,6 +1166,292 @@
       <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
       <tstamps>0c1f9186-af71-4b63-b92c-1f78c04994e2</tstamps>
     </comp>
+    <comp ref="R30">
+      <value>100k</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0603FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0603FT100KCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_100k_1%" description="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603FT100K"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0603FT100KCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Buttons"/>
+      <property name="Sheetfile" value="buttons.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="ki_keywords" value="Resistor res"/>
+      <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
+      <tstamps>39526a99-68e4-4bdd-90a1-3f40f782e267</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>100k</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0603FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0603FT100KCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_100k_1%" description="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603FT100K"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0603FT100KCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Buttons"/>
+      <property name="Sheetfile" value="buttons.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="ki_keywords" value="Resistor res"/>
+      <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
+      <tstamps>51a9ce0b-f51f-480a-9649-cc5a6b5483c2</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>100k</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0603FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0603FT100KCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_100k_1%" description="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603FT100K"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0603FT100KCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Buttons"/>
+      <property name="Sheetfile" value="buttons.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="ki_keywords" value="Resistor res"/>
+      <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
+      <tstamps>0bd3cbab-85c9-40a2-baeb-3e7c0dae17d6</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>100k</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0603FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0603FT100KCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_100k_1%" description="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603FT100K"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0603FT100KCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Buttons"/>
+      <property name="Sheetfile" value="buttons.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="ki_keywords" value="Resistor res"/>
+      <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
+      <tstamps>865c9d0d-01b9-426b-8ef1-776b004f3b60</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>100k</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0603FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0603FT100KCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_100k_1%" description="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603FT100K"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0603FT100KCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Buttons"/>
+      <property name="Sheetfile" value="buttons.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="ki_keywords" value="Resistor res"/>
+      <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
+      <tstamps>88e42683-6a94-4138-9341-b3a0087a6792</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>100k</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0603FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0603FT100KCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_100k_1%" description="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603FT100K"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0603FT100KCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Buttons"/>
+      <property name="Sheetfile" value="buttons.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="ki_keywords" value="Resistor res"/>
+      <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
+      <tstamps>2682c6bd-62bd-4194-a861-86240b48d77b</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>100k</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0603FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0603FT100KCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_100k_1%" description="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603FT100K"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0603FT100KCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Buttons"/>
+      <property name="Sheetfile" value="buttons.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="ki_keywords" value="Resistor res"/>
+      <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
+      <tstamps>92f5e8ee-1946-4c13-8ea9-ec5b959e8242</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>100k</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0603FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0603FT100KCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_100k_1%" description="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603FT100K"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0603FT100KCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Buttons"/>
+      <property name="Sheetfile" value="buttons.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="ki_keywords" value="Resistor res"/>
+      <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
+      <tstamps>3511b352-cd20-493e-aa64-2c8ee39bc8cf</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>100k</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0603FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0603FT100KCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_100k_1%" description="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603FT100K"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0603FT100KCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Buttons"/>
+      <property name="Sheetfile" value="buttons.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="ki_keywords" value="Resistor res"/>
+      <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
+      <tstamps>3817a7b2-a1ca-4df1-9949-e30fe6015440</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>100k</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0603FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0603FT100KCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_100k_1%" description="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603FT100K"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0603FT100KCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Buttons"/>
+      <property name="Sheetfile" value="buttons.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="ki_keywords" value="Resistor res"/>
+      <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
+      <tstamps>f53803dc-9358-4150-8f4a-6e633262c330</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>100k</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0603FT100K</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0603FT100KCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_100k_1%" description="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603FT100K"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0603FT100KCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Buttons"/>
+      <property name="Sheetfile" value="buttons.kicad_sch"/>
+      <property name="ki_description" value="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="ki_keywords" value="Resistor res"/>
+      <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
+      <tstamps>439db5d7-bb69-4403-a162-97cafc9b94e2</tstamps>
+    </comp>
     <comp ref="S1">
       <value>4954</value>
       <footprint>KD_Switch:SWITCH_BUTTON_Kailh_mx_socket</footprint>
@@ -1628,7 +1914,7 @@
         <field name="DNP">F</field>
         <field name="MFG_PartNo">4960</field>
         <field name="Manufacturer">Adafruit Industries LLC</field>
-        <field name="Price">2.8</field>
+        <field name="Price">0.28</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1528-4960-ND</field>
       </fields>
@@ -1638,7 +1924,7 @@
       <property name="Supplier" value="Digi-Key"/>
       <property name="Supplier_PartNo" value="1528-4960-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="2.8"/>
+      <property name="Price" value="0.28"/>
       <property name="Sheetname" value="Neopixel LEDs"/>
       <property name="Sheetfile" value="LEDS_Neopixel.kicad_sch"/>
       <sheetpath names="/Main/Neopixel LEDs/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7bc50530-409b-404b-8886-2310c61502aa/"/>
@@ -1652,7 +1938,7 @@
         <field name="DNP">F</field>
         <field name="MFG_PartNo">4960</field>
         <field name="Manufacturer">Adafruit Industries LLC</field>
-        <field name="Price">2.8</field>
+        <field name="Price">0.28</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1528-4960-ND</field>
       </fields>
@@ -1662,7 +1948,7 @@
       <property name="Supplier" value="Digi-Key"/>
       <property name="Supplier_PartNo" value="1528-4960-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="2.8"/>
+      <property name="Price" value="0.28"/>
       <property name="Sheetname" value="Neopixel LEDs"/>
       <property name="Sheetfile" value="LEDS_Neopixel.kicad_sch"/>
       <sheetpath names="/Main/Neopixel LEDs/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7bc50530-409b-404b-8886-2310c61502aa/"/>
@@ -1676,7 +1962,7 @@
         <field name="DNP">F</field>
         <field name="MFG_PartNo">4960</field>
         <field name="Manufacturer">Adafruit Industries LLC</field>
-        <field name="Price">2.8</field>
+        <field name="Price">0.28</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1528-4960-ND</field>
       </fields>
@@ -1686,7 +1972,7 @@
       <property name="Supplier" value="Digi-Key"/>
       <property name="Supplier_PartNo" value="1528-4960-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="2.8"/>
+      <property name="Price" value="0.28"/>
       <property name="Sheetname" value="Neopixel LEDs"/>
       <property name="Sheetfile" value="LEDS_Neopixel.kicad_sch"/>
       <sheetpath names="/Main/Neopixel LEDs/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7bc50530-409b-404b-8886-2310c61502aa/"/>
@@ -1700,7 +1986,7 @@
         <field name="DNP">F</field>
         <field name="MFG_PartNo">4960</field>
         <field name="Manufacturer">Adafruit Industries LLC</field>
-        <field name="Price">2.8</field>
+        <field name="Price">0.28</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1528-4960-ND</field>
       </fields>
@@ -1710,7 +1996,7 @@
       <property name="Supplier" value="Digi-Key"/>
       <property name="Supplier_PartNo" value="1528-4960-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="2.8"/>
+      <property name="Price" value="0.28"/>
       <property name="Sheetname" value="Neopixel LEDs"/>
       <property name="Sheetfile" value="LEDS_Neopixel.kicad_sch"/>
       <sheetpath names="/Main/Neopixel LEDs/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7bc50530-409b-404b-8886-2310c61502aa/"/>
@@ -1724,7 +2010,7 @@
         <field name="DNP">F</field>
         <field name="MFG_PartNo">4960</field>
         <field name="Manufacturer">Adafruit Industries LLC</field>
-        <field name="Price">2.8</field>
+        <field name="Price">0.28</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1528-4960-ND</field>
       </fields>
@@ -1734,7 +2020,7 @@
       <property name="Supplier" value="Digi-Key"/>
       <property name="Supplier_PartNo" value="1528-4960-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="2.8"/>
+      <property name="Price" value="0.28"/>
       <property name="Sheetname" value="Neopixel LEDs"/>
       <property name="Sheetfile" value="LEDS_Neopixel.kicad_sch"/>
       <sheetpath names="/Main/Neopixel LEDs/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7bc50530-409b-404b-8886-2310c61502aa/"/>
@@ -1748,7 +2034,7 @@
         <field name="DNP">F</field>
         <field name="MFG_PartNo">4960</field>
         <field name="Manufacturer">Adafruit Industries LLC</field>
-        <field name="Price">2.8</field>
+        <field name="Price">0.28</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1528-4960-ND</field>
       </fields>
@@ -1758,7 +2044,7 @@
       <property name="Supplier" value="Digi-Key"/>
       <property name="Supplier_PartNo" value="1528-4960-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="2.8"/>
+      <property name="Price" value="0.28"/>
       <property name="Sheetname" value="Neopixel LEDs"/>
       <property name="Sheetfile" value="LEDS_Neopixel.kicad_sch"/>
       <sheetpath names="/Main/Neopixel LEDs/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7bc50530-409b-404b-8886-2310c61502aa/"/>
@@ -1772,7 +2058,7 @@
         <field name="DNP">F</field>
         <field name="MFG_PartNo">4960</field>
         <field name="Manufacturer">Adafruit Industries LLC</field>
-        <field name="Price">2.8</field>
+        <field name="Price">0.28</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1528-4960-ND</field>
       </fields>
@@ -1782,7 +2068,7 @@
       <property name="Supplier" value="Digi-Key"/>
       <property name="Supplier_PartNo" value="1528-4960-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="2.8"/>
+      <property name="Price" value="0.28"/>
       <property name="Sheetname" value="Neopixel LEDs"/>
       <property name="Sheetfile" value="LEDS_Neopixel.kicad_sch"/>
       <sheetpath names="/Main/Neopixel LEDs/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7bc50530-409b-404b-8886-2310c61502aa/"/>
@@ -1796,7 +2082,7 @@
         <field name="DNP">F</field>
         <field name="MFG_PartNo">4960</field>
         <field name="Manufacturer">Adafruit Industries LLC</field>
-        <field name="Price">2.8</field>
+        <field name="Price">0.28</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1528-4960-ND</field>
       </fields>
@@ -1806,7 +2092,7 @@
       <property name="Supplier" value="Digi-Key"/>
       <property name="Supplier_PartNo" value="1528-4960-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="2.8"/>
+      <property name="Price" value="0.28"/>
       <property name="Sheetname" value="Neopixel LEDs"/>
       <property name="Sheetfile" value="LEDS_Neopixel.kicad_sch"/>
       <sheetpath names="/Main/Neopixel LEDs/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7bc50530-409b-404b-8886-2310c61502aa/"/>
@@ -1820,7 +2106,7 @@
         <field name="DNP">F</field>
         <field name="MFG_PartNo">4960</field>
         <field name="Manufacturer">Adafruit Industries LLC</field>
-        <field name="Price">2.8</field>
+        <field name="Price">0.28</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1528-4960-ND</field>
       </fields>
@@ -1830,7 +2116,7 @@
       <property name="Supplier" value="Digi-Key"/>
       <property name="Supplier_PartNo" value="1528-4960-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="2.8"/>
+      <property name="Price" value="0.28"/>
       <property name="Sheetname" value="Neopixel LEDs"/>
       <property name="Sheetfile" value="LEDS_Neopixel.kicad_sch"/>
       <sheetpath names="/Main/Neopixel LEDs/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7bc50530-409b-404b-8886-2310c61502aa/"/>
@@ -1844,7 +2130,7 @@
         <field name="DNP">F</field>
         <field name="MFG_PartNo">4960</field>
         <field name="Manufacturer">Adafruit Industries LLC</field>
-        <field name="Price">2.8</field>
+        <field name="Price">0.28</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1528-4960-ND</field>
       </fields>
@@ -1854,7 +2140,7 @@
       <property name="Supplier" value="Digi-Key"/>
       <property name="Supplier_PartNo" value="1528-4960-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="2.8"/>
+      <property name="Price" value="0.28"/>
       <property name="Sheetname" value="Neopixel LEDs"/>
       <property name="Sheetfile" value="LEDS_Neopixel.kicad_sch"/>
       <sheetpath names="/Main/Neopixel LEDs/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7bc50530-409b-404b-8886-2310c61502aa/"/>
@@ -1868,7 +2154,7 @@
         <field name="DNP">F</field>
         <field name="MFG_PartNo">4960</field>
         <field name="Manufacturer">Adafruit Industries LLC</field>
-        <field name="Price">2.8</field>
+        <field name="Price">0.28</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1528-4960-ND</field>
       </fields>
@@ -1878,7 +2164,7 @@
       <property name="Supplier" value="Digi-Key"/>
       <property name="Supplier_PartNo" value="1528-4960-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="2.8"/>
+      <property name="Price" value="0.28"/>
       <property name="Sheetname" value="Neopixel LEDs"/>
       <property name="Sheetfile" value="LEDS_Neopixel.kicad_sch"/>
       <sheetpath names="/Main/Neopixel LEDs/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7bc50530-409b-404b-8886-2310c61502aa/"/>
@@ -1941,22 +2227,20 @@
       <tstamps>fb4f94d0-59ab-4fc4-af27-68d7d1a8c4a2</tstamps>
     </comp>
     <comp ref="C16">
-      <value>C_0603_100n_X7R_50V</value>
+      <value>100n</value>
       <footprint>KD_Capacitor:CAPC1608X90N</footprint>
-      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KB8NNWC.jsp</datasheet>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf</datasheet>
       <fields>
-        <field name="Code">100n</field>
         <field name="DNP">F</field>
         <field name="MFG_PartNo">CL10B104KB8NNWC</field>
         <field name="Manufacturer">Samsung</field>
         <field name="Price">0.01</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-1935-1-ND</field>
-        <field name="Value">C_0603_100n_X7R_50V</field>
+        <field name="Value">100n</field>
       </fields>
       <libsource lib="KD_Capacitor" part="C_0603_100n_X7R_50V" description="CAP CER 0.1UF 50V X7R 0603"/>
-      <property name="Value" value="C_0603_100n_X7R_50V"/>
-      <property name="Code" value="100n"/>
+      <property name="Value" value="100n"/>
       <property name="Manufacturer" value="Samsung"/>
       <property name="MFG_PartNo" value="CL10B104KB8NNWC"/>
       <property name="Supplier" value="Digi-Key"/>
@@ -1971,22 +2255,20 @@
       <tstamps>c8ab9ed6-d747-4e07-b808-98696b5ada18</tstamps>
     </comp>
     <comp ref="C17">
-      <value>C_0603_100n_X7R_50V</value>
+      <value>100n</value>
       <footprint>KD_Capacitor:CAPC1608X90N</footprint>
-      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KB8NNWC.jsp</datasheet>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf</datasheet>
       <fields>
-        <field name="Code">100n</field>
         <field name="DNP">F</field>
         <field name="MFG_PartNo">CL10B104KB8NNWC</field>
         <field name="Manufacturer">Samsung</field>
         <field name="Price">0.01</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-1935-1-ND</field>
-        <field name="Value">C_0603_100n_X7R_50V</field>
+        <field name="Value">100n</field>
       </fields>
       <libsource lib="KD_Capacitor" part="C_0603_100n_X7R_50V" description="CAP CER 0.1UF 50V X7R 0603"/>
-      <property name="Value" value="C_0603_100n_X7R_50V"/>
-      <property name="Code" value="100n"/>
+      <property name="Value" value="100n"/>
       <property name="Manufacturer" value="Samsung"/>
       <property name="MFG_PartNo" value="CL10B104KB8NNWC"/>
       <property name="Supplier" value="Digi-Key"/>
@@ -2001,22 +2283,20 @@
       <tstamps>7e68f180-78b2-456f-9570-2e7bfcb53696</tstamps>
     </comp>
     <comp ref="C18">
-      <value>C_0603_100n_X7R_50V</value>
+      <value>100n</value>
       <footprint>KD_Capacitor:CAPC1608X90N</footprint>
-      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KB8NNWC.jsp</datasheet>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf</datasheet>
       <fields>
-        <field name="Code">100n</field>
         <field name="DNP">F</field>
         <field name="MFG_PartNo">CL10B104KB8NNWC</field>
         <field name="Manufacturer">Samsung</field>
         <field name="Price">0.01</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-1935-1-ND</field>
-        <field name="Value">C_0603_100n_X7R_50V</field>
+        <field name="Value">100n</field>
       </fields>
       <libsource lib="KD_Capacitor" part="C_0603_100n_X7R_50V" description="CAP CER 0.1UF 50V X7R 0603"/>
-      <property name="Value" value="C_0603_100n_X7R_50V"/>
-      <property name="Code" value="100n"/>
+      <property name="Value" value="100n"/>
       <property name="Manufacturer" value="Samsung"/>
       <property name="MFG_PartNo" value="CL10B104KB8NNWC"/>
       <property name="Supplier" value="Digi-Key"/>
@@ -2031,7 +2311,7 @@
       <tstamps>0fe25308-d263-4cd1-85a3-04e029acfc0a</tstamps>
     </comp>
     <comp ref="R15">
-      <value>R_0603_1k_1%</value>
+      <value>1k</value>
       <footprint>KD_Resistor:RESC1608X55N</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
       <fields>
@@ -2059,7 +2339,7 @@
       <tstamps>c2a985af-8e36-4fa2-8cf6-febe1ffde0b6</tstamps>
     </comp>
     <comp ref="R16">
-      <value>R_0603_1k_1%</value>
+      <value>1k</value>
       <footprint>KD_Resistor:RESC1608X55N</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
       <fields>
@@ -2087,7 +2367,7 @@
       <tstamps>fa158aaf-d35c-46dc-a0e4-245a7e4833cb</tstamps>
     </comp>
     <comp ref="R17">
-      <value>R_0603_1k_1%</value>
+      <value>1k</value>
       <footprint>KD_Resistor:RESC1608X55N</footprint>
       <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
       <fields>
@@ -2564,6 +2844,34 @@
       <sheetpath names="/Main/Connectors/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/4ce60c68-8f85-4df7-a465-152e58489d9e/"/>
       <tstamps>515f0dfe-549c-407b-affc-a6052257b8e7</tstamps>
     </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <footprint>KD_Capacitor:CAPC1608X90N</footprint>
+      <datasheet>datasheet</datasheet>
+      <fields>
+        <field name="Code">10n</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">C1608X7R2A103K080AA</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">445-1304-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0603_10n_X7R_100V" description="CAP CER 10000PF 100V X7R 0603"/>
+      <property name="Code" value="10n"/>
+      <property name="Manufacturer" value="TDK Corporation"/>
+      <property name="MFG_PartNo" value="C1608X7R2A103K080AA"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="445-1304-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="Microcontroller"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_description" value="CAP CER 10000PF 100V X7R 0603"/>
+      <property name="ki_keywords" value="Capacitor Cap"/>
+      <sheetpath names="/Main/Microcontroller/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b/"/>
+      <tstamps>89c7b816-b014-4bac-a80c-4183d7a02efe</tstamps>
+    </comp>
     <comp ref="C23">
       <value>1u</value>
       <footprint>KD_Capacitor:CAPC2012X135N</footprint>
@@ -2953,29 +3261,29 @@
       <tstamps>d872a9d0-e3b6-4cd9-9518-b669a9f46407</tstamps>
     </comp>
     <comp ref="FB2">
-      <value>Ferrite_300mA_Abracon_ACML-0805-102-T</value>
+      <value>Ferrite_500mA_TDK_MMZ2012Y152BT000</value>
       <footprint>KD_Inductor:INDC2016X100N</footprint>
-      <datasheet>https://abracon.com/Magnetics/new/ACML-0805.pdf</datasheet>
+      <datasheet>https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/beads/catalog/beads_commercial_signal_mmz2012_en.pdf</datasheet>
       <fields>
-        <field name="Code">ACML-0805-102-T</field>
+        <field name="Code">MMZ2012Y152BT000</field>
         <field name="DNP">F</field>
-        <field name="MFG_PartNo">ACML-0805-102-T</field>
+        <field name="MFG_PartNo">MMZ2012Y152BT000</field>
         <field name="Manufacturer">Abracon LLC</field>
         <field name="Price">0.10</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">535-ACML-0805-102-TCT-ND</field>
+        <field name="Supplier_PartNo">445-MMZ2012Y152BT000CT-ND</field>
       </fields>
-      <libsource lib="KD_Inductor" part="Ferrite_300mA_Abracon_ACML-0805-102-T" description="FERRITE BEAD 1 KOHM 0805 1LN"/>
-      <property name="Code" value="ACML-0805-102-T"/>
+      <libsource lib="KD_Inductor" part="Ferrite_500mA_TDK_MMZ2012Y152BT000" description="FERRITE BEAD 1.5 KOHM 0805 1LN"/>
+      <property name="Code" value="MMZ2012Y152BT000"/>
       <property name="Manufacturer" value="Abracon LLC"/>
-      <property name="MFG_PartNo" value="ACML-0805-102-T"/>
+      <property name="MFG_PartNo" value="MMZ2012Y152BT000"/>
       <property name="Supplier" value="Digi-Key"/>
-      <property name="Supplier_PartNo" value="535-ACML-0805-102-TCT-ND"/>
+      <property name="Supplier_PartNo" value="445-MMZ2012Y152BT000CT-ND"/>
       <property name="DNP" value="F"/>
       <property name="Price" value="0.10"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="FERRITE BEAD 1 KOHM 0805 1LN"/>
+      <property name="ki_description" value="FERRITE BEAD 1.5 KOHM 0805 1LN"/>
       <property name="ki_keywords" value="ferrite 0805"/>
       <sheetpath names="/Main/Microcontroller/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b/"/>
       <tstamps>af343936-1c07-4d6b-a76e-a72838139677</tstamps>
@@ -3009,9 +3317,8 @@
       <tstamps>a5d72408-8f70-4519-a0eb-187030f80f05</tstamps>
     </comp>
     <comp ref="R24">
-      <value>R_0603_22k_1%</value>
+      <value>R_0603_DNP</value>
       <footprint>KD_Resistor:RESC1608X55N_DNP</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
       <fields>
         <field name="Code">DNP</field>
         <field name="DNP">T</field>
@@ -3065,57 +3372,57 @@
       <tstamps>ff3f4492-129d-4478-8e9e-daef3286cb70</tstamps>
     </comp>
     <comp ref="R26">
-      <value>4k7</value>
-      <footprint>KD_Resistor:RESC1005X40N</footprint>
-      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <value>R_0603_5100_1%</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
       <fields>
-        <field name="Code">4k7</field>
+        <field name="Code">5k1</field>
         <field name="DNP">F</field>
-        <field name="MFG_PartNo">CR0402-FX-4701GLF</field>
-        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="MFG_PartNo">RMCF0603JT5K10</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
         <field name="Price">0.01</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">CR0402-FX-4701GLFCT-ND</field>
+        <field name="Supplier_PartNo">RMCF0603JT5K10CT-ND</field>
       </fields>
-      <libsource lib="KD_Resistor" part="R_0402_4700_1%" description="RES SMD 4.7K OHM 1% 1/16W 0402"/>
-      <property name="Code" value="4k7"/>
-      <property name="Manufacturer" value="Bourns Inc."/>
-      <property name="MFG_PartNo" value="CR0402-FX-4701GLF"/>
+      <libsource lib="KD_Resistor" part="R_0603_5100_1%" description="RES 5.1K OHM 5% 1/10W 0603"/>
+      <property name="Code" value="5k1"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603JT5K10"/>
       <property name="Supplier" value="Digi-Key"/>
-      <property name="Supplier_PartNo" value="CR0402-FX-4701GLFCT-ND"/>
+      <property name="Supplier_PartNo" value="RMCF0603JT5K10CT-ND"/>
       <property name="DNP" value="F"/>
       <property name="Price" value="0.01"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="RES SMD 4.7K OHM 1% 1/16W 0402"/>
+      <property name="ki_description" value="RES 5.1K OHM 5% 1/10W 0603"/>
       <property name="ki_keywords" value="Resistor res"/>
       <sheetpath names="/Main/Microcontroller/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b/"/>
       <tstamps>3714beeb-b2a1-4ada-b1cb-f7a3cd3c23de</tstamps>
     </comp>
     <comp ref="R27">
-      <value>4k7</value>
-      <footprint>KD_Resistor:RESC1005X40N</footprint>
-      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <value>R_0603_5100_1%</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
       <fields>
-        <field name="Code">4k7</field>
+        <field name="Code">5k1</field>
         <field name="DNP">F</field>
-        <field name="MFG_PartNo">CR0402-FX-4701GLF</field>
-        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="MFG_PartNo">RMCF0603JT5K10</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
         <field name="Price">0.01</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">CR0402-FX-4701GLFCT-ND</field>
+        <field name="Supplier_PartNo">RMCF0603JT5K10CT-ND</field>
       </fields>
-      <libsource lib="KD_Resistor" part="R_0402_4700_1%" description="RES SMD 4.7K OHM 1% 1/16W 0402"/>
-      <property name="Code" value="4k7"/>
-      <property name="Manufacturer" value="Bourns Inc."/>
-      <property name="MFG_PartNo" value="CR0402-FX-4701GLF"/>
+      <libsource lib="KD_Resistor" part="R_0603_5100_1%" description="RES 5.1K OHM 5% 1/10W 0603"/>
+      <property name="Code" value="5k1"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0603JT5K10"/>
       <property name="Supplier" value="Digi-Key"/>
-      <property name="Supplier_PartNo" value="CR0402-FX-4701GLFCT-ND"/>
+      <property name="Supplier_PartNo" value="RMCF0603JT5K10CT-ND"/>
       <property name="DNP" value="F"/>
       <property name="Price" value="0.01"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="RES SMD 4.7K OHM 1% 1/16W 0402"/>
+      <property name="ki_description" value="RES 5.1K OHM 5% 1/10W 0603"/>
       <property name="ki_keywords" value="Resistor res"/>
       <sheetpath names="/Main/Microcontroller/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/a467c90b-3665-441c-9913-5c8fd91b3b4b/"/>
       <tstamps>8f23a706-a5ec-4a71-9287-965ced02b197</tstamps>
@@ -3149,11 +3456,10 @@
       <tstamps>f14c6c74-aac2-44b2-94f6-9491b8e039da</tstamps>
     </comp>
     <comp ref="S12">
-      <value>Button_tactile_45x38_430181038816</value>
+      <value>430181038816</value>
       <footprint>KD_Switch:SW_Push_1P1T_NO_Wurth_430181038816</footprint>
       <datasheet>https://www.mouser.fi/datasheet/2/445/430181038816-1717160.pdf</datasheet>
       <fields>
-        <field name="Code">430181038816</field>
         <field name="DNP">F</field>
         <field name="MFG_PartNo">430181038816</field>
         <field name="Manufacturer">Wurth Elektronik</field>
@@ -3162,7 +3468,6 @@
         <field name="Supplier_PartNo">710-430181038816</field>
       </fields>
       <libsource lib="KD_Switch" part="Button_tactile_45x38_430181038816" description="Tactile Switches Tact Switch SMT 3.8mm Blk Act."/>
-      <property name="Code" value="430181038816"/>
       <property name="Manufacturer" value="Wurth Elektronik"/>
       <property name="MFG_PartNo" value="430181038816"/>
       <property name="Supplier" value="Mouser"/>
@@ -3177,11 +3482,10 @@
       <tstamps>4b99544e-f19a-4368-a2f0-7a06b78b430c</tstamps>
     </comp>
     <comp ref="S13">
-      <value>Button_tactile_45x38_430181038816</value>
+      <value>430181038816</value>
       <footprint>KD_Switch:SW_Push_1P1T_NO_Wurth_430181038816</footprint>
       <datasheet>https://www.mouser.fi/datasheet/2/445/430181038816-1717160.pdf</datasheet>
       <fields>
-        <field name="Code">430181038816</field>
         <field name="DNP">F</field>
         <field name="MFG_PartNo">430181038816</field>
         <field name="Manufacturer">Wurth Elektronik</field>
@@ -3190,7 +3494,6 @@
         <field name="Supplier_PartNo">710-430181038816</field>
       </fields>
       <libsource lib="KD_Switch" part="Button_tactile_45x38_430181038816" description="Tactile Switches Tact Switch SMT 3.8mm Blk Act."/>
-      <property name="Code" value="430181038816"/>
       <property name="Manufacturer" value="Wurth Elektronik"/>
       <property name="MFG_PartNo" value="430181038816"/>
       <property name="Supplier" value="Mouser"/>
@@ -3717,168 +4020,6 @@
       <sheetpath names="/Main/Power Supply/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/91422aee-53cf-4c28-8efa-7ede5a87a80b/"/>
       <tstamps>f9cb82fc-858f-4cab-8839-ff274652db4d</tstamps>
     </comp>
-    <comp ref="FD1">
-      <value>Fiducial_0.5mm</value>
-      <footprint>KD_Mechanical:Fiducial_0.5mm_Mask1mm</footprint>
-      <fields>
-        <field name="Code">DNP</field>
-        <field name="DNP">T</field>
-        <field name="MFG_PartNo">DNP</field>
-        <field name="Manufacturer">DNP</field>
-        <field name="Price">0.00</field>
-        <field name="Supplier">DNP</field>
-        <field name="Supplier_PartNo">DNP</field>
-      </fields>
-      <libsource lib="KD_Mechanical" part="Fiducial_0.5mm" description="Fiducial"/>
-      <property name="Code" value="DNP"/>
-      <property name="Manufacturer" value="DNP"/>
-      <property name="MFG_PartNo" value="DNP"/>
-      <property name="Supplier" value="DNP"/>
-      <property name="Supplier_PartNo" value="DNP"/>
-      <property name="DNP" value="T"/>
-      <property name="Price" value="0.00"/>
-      <property name="Sheetname" value="Mechanical"/>
-      <property name="Sheetfile" value="mechanical.kicad_sch"/>
-      <property name="ki_description" value="Fiducial"/>
-      <property name="ki_keywords" value="fiducial aim"/>
-      <sheetpath names="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/"/>
-      <tstamps>fa036ac9-0e2a-4987-b929-d6ff4d7f8bf5</tstamps>
-    </comp>
-    <comp ref="FD2">
-      <value>Fiducial_0.5mm</value>
-      <footprint>KD_Mechanical:Fiducial_0.5mm_Mask1mm</footprint>
-      <fields>
-        <field name="Code">DNP</field>
-        <field name="DNP">T</field>
-        <field name="MFG_PartNo">DNP</field>
-        <field name="Manufacturer">DNP</field>
-        <field name="Price">0.00</field>
-        <field name="Supplier">DNP</field>
-        <field name="Supplier_PartNo">DNP</field>
-      </fields>
-      <libsource lib="KD_Mechanical" part="Fiducial_0.5mm" description="Fiducial"/>
-      <property name="Code" value="DNP"/>
-      <property name="Manufacturer" value="DNP"/>
-      <property name="MFG_PartNo" value="DNP"/>
-      <property name="Supplier" value="DNP"/>
-      <property name="Supplier_PartNo" value="DNP"/>
-      <property name="DNP" value="T"/>
-      <property name="Price" value="0.00"/>
-      <property name="Sheetname" value="Mechanical"/>
-      <property name="Sheetfile" value="mechanical.kicad_sch"/>
-      <property name="ki_description" value="Fiducial"/>
-      <property name="ki_keywords" value="fiducial aim"/>
-      <sheetpath names="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/"/>
-      <tstamps>3dbc8e0c-5edc-4f28-8b9b-5756d6ef896d</tstamps>
-    </comp>
-    <comp ref="FD3">
-      <value>Fiducial_0.5mm</value>
-      <footprint>KD_Mechanical:Fiducial_0.5mm_Mask1mm</footprint>
-      <fields>
-        <field name="Code">DNP</field>
-        <field name="DNP">T</field>
-        <field name="MFG_PartNo">DNP</field>
-        <field name="Manufacturer">DNP</field>
-        <field name="Price">0.00</field>
-        <field name="Supplier">DNP</field>
-        <field name="Supplier_PartNo">DNP</field>
-      </fields>
-      <libsource lib="KD_Mechanical" part="Fiducial_0.5mm" description="Fiducial"/>
-      <property name="Code" value="DNP"/>
-      <property name="Manufacturer" value="DNP"/>
-      <property name="MFG_PartNo" value="DNP"/>
-      <property name="Supplier" value="DNP"/>
-      <property name="Supplier_PartNo" value="DNP"/>
-      <property name="DNP" value="T"/>
-      <property name="Price" value="0.00"/>
-      <property name="Sheetname" value="Mechanical"/>
-      <property name="Sheetfile" value="mechanical.kicad_sch"/>
-      <property name="ki_description" value="Fiducial"/>
-      <property name="ki_keywords" value="fiducial aim"/>
-      <sheetpath names="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/"/>
-      <tstamps>89f8ba5d-6b8e-4c8e-966f-3957a66e2eb0</tstamps>
-    </comp>
-    <comp ref="FD4">
-      <value>Fiducial_0.5mm</value>
-      <footprint>KD_Mechanical:Fiducial_0.5mm_Mask1mm</footprint>
-      <fields>
-        <field name="Code">DNP</field>
-        <field name="DNP">T</field>
-        <field name="MFG_PartNo">DNP</field>
-        <field name="Manufacturer">DNP</field>
-        <field name="Price">0.00</field>
-        <field name="Supplier">DNP</field>
-        <field name="Supplier_PartNo">DNP</field>
-      </fields>
-      <libsource lib="KD_Mechanical" part="Fiducial_0.5mm" description="Fiducial"/>
-      <property name="Code" value="DNP"/>
-      <property name="Manufacturer" value="DNP"/>
-      <property name="MFG_PartNo" value="DNP"/>
-      <property name="Supplier" value="DNP"/>
-      <property name="Supplier_PartNo" value="DNP"/>
-      <property name="DNP" value="T"/>
-      <property name="Price" value="0.00"/>
-      <property name="Sheetname" value="Mechanical"/>
-      <property name="Sheetfile" value="mechanical.kicad_sch"/>
-      <property name="ki_description" value="Fiducial"/>
-      <property name="ki_keywords" value="fiducial aim"/>
-      <sheetpath names="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/"/>
-      <tstamps>5d0bfb87-2966-4511-a2f2-200a11366799</tstamps>
-    </comp>
-    <comp ref="FD5">
-      <value>Fiducial_0.5mm</value>
-      <footprint>KD_Mechanical:Fiducial_0.5mm_Mask1mm</footprint>
-      <fields>
-        <field name="Code">DNP</field>
-        <field name="DNP">T</field>
-        <field name="MFG_PartNo">DNP</field>
-        <field name="Manufacturer">DNP</field>
-        <field name="Price">0.00</field>
-        <field name="Supplier">DNP</field>
-        <field name="Supplier_PartNo">DNP</field>
-      </fields>
-      <libsource lib="KD_Mechanical" part="Fiducial_0.5mm" description="Fiducial"/>
-      <property name="Code" value="DNP"/>
-      <property name="Manufacturer" value="DNP"/>
-      <property name="MFG_PartNo" value="DNP"/>
-      <property name="Supplier" value="DNP"/>
-      <property name="Supplier_PartNo" value="DNP"/>
-      <property name="DNP" value="T"/>
-      <property name="Price" value="0.00"/>
-      <property name="Sheetname" value="Mechanical"/>
-      <property name="Sheetfile" value="mechanical.kicad_sch"/>
-      <property name="ki_description" value="Fiducial"/>
-      <property name="ki_keywords" value="fiducial aim"/>
-      <sheetpath names="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/"/>
-      <tstamps>fa9b705b-ee67-48db-bccc-16cf93999e08</tstamps>
-    </comp>
-    <comp ref="FD6">
-      <value>Fiducial_0.5mm</value>
-      <footprint>KD_Mechanical:Fiducial_0.5mm_Mask1mm</footprint>
-      <fields>
-        <field name="Code">DNP</field>
-        <field name="DNP">T</field>
-        <field name="MFG_PartNo">DNP</field>
-        <field name="Manufacturer">DNP</field>
-        <field name="Price">0.00</field>
-        <field name="Supplier">DNP</field>
-        <field name="Supplier_PartNo">DNP</field>
-      </fields>
-      <libsource lib="KD_Mechanical" part="Fiducial_0.5mm" description="Fiducial"/>
-      <property name="Code" value="DNP"/>
-      <property name="Manufacturer" value="DNP"/>
-      <property name="MFG_PartNo" value="DNP"/>
-      <property name="Supplier" value="DNP"/>
-      <property name="Supplier_PartNo" value="DNP"/>
-      <property name="DNP" value="T"/>
-      <property name="Price" value="0.00"/>
-      <property name="Sheetname" value="Mechanical"/>
-      <property name="Sheetfile" value="mechanical.kicad_sch"/>
-      <property name="ki_description" value="Fiducial"/>
-      <property name="ki_keywords" value="fiducial aim"/>
-      <sheetpath names="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/"/>
-      <tstamps>ec9169fb-52ff-4747-b435-a0951aa7fba0</tstamps>
-    </comp>
     <comp ref="H1">
       <value>NPTH 3.2 M3 Clearance</value>
       <footprint>KD_Mechanical_Mounting_Hole:NPTH_3.2mm_M3_clearance</footprint>
@@ -3930,9 +4071,10 @@
       <tstamps>23beff02-a180-4b96-b1b9-96f6ceb074fb</tstamps>
     </comp>
     <comp ref="H3">
-      <value>NPTH 3.2 M3 Clearance</value>
-      <footprint>KD_Mechanical_Mounting_Hole:NPTH_3.2mm_M3_clearance</footprint>
+      <value>NPTH_3.2</value>
+      <footprint>KD_Mechanical_Mounting_Hole:NPTH_3.2mm</footprint>
       <fields>
+        <field name="Code">3.2 mm hole</field>
         <field name="DNP">T</field>
         <field name="MFG_PartNo">DNP</field>
         <field name="Manufacturer">DNP</field>
@@ -3940,13 +4082,14 @@
         <field name="Supplier">DNP</field>
         <field name="Supplier_PartNo">DNP</field>
       </fields>
-      <libsource lib="KD_Mechanical_Mounting_Hole" part="NPTH_3.2_M3_Clearance" description="Hole"/>
+      <libsource lib="KD_Mechanical_Mounting_Hole" part="NPTH_3.2" description="Hole"/>
       <property name="Manufacturer" value="DNP"/>
       <property name="MFG_PartNo" value="DNP"/>
       <property name="Supplier" value="DNP"/>
       <property name="Supplier_PartNo" value="DNP"/>
       <property name="DNP" value="T"/>
       <property name="Price" value="0.00"/>
+      <property name="Code" value="3.2 mm hole"/>
       <property name="Sheetname" value="Mechanical"/>
       <property name="Sheetfile" value="mechanical.kicad_sch"/>
       <property name="ki_description" value="Hole"/>
@@ -4531,8 +4674,8 @@
       <pins>
         <pin num="1" name="GND" type="bidirectional"/>
         <pin num="2" name="RST" type="bidirectional"/>
-        <pin num="3" name="~{MR}" type="bidirectional"/>
-        <pin num="4" name="VCC" type="bidirectional"/>
+        <pin num="3" name="~{MR}" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="KD_IC_Regulator_DC_Converter" part="Regulator_3v3_500mA_0.5%_MCP1825T-3302E/DC">
@@ -4561,31 +4704,6 @@
         <pin num="4" name="VO" type="power_out"/>
         <pin num="5" name="PG" type="output"/>
         <pin num="6" name="GND" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="KD_Inductor" part="Ferrite_300mA_Abracon_ACML-0805-102-T">
-      <description>FERRITE BEAD 1 KOHM 0805 1LN</description>
-      <docs>https://abracon.com/Magnetics/new/ACML-0805.pdf</docs>
-      <footprints>
-        <fp>2012</fp>
-        <fp>0805</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">FB</field>
-        <field name="Value">Ferrite_300mA_Abracon_ACML-0805-102-T</field>
-        <field name="Footprint">KD_Inductor:INDC2016X100N</field>
-        <field name="Datasheet">https://abracon.com/Magnetics/new/ACML-0805.pdf</field>
-        <field name="Code">ACML-0805-102-T</field>
-        <field name="Manufacturer">Abracon LLC</field>
-        <field name="MFG_PartNo">ACML-0805-102-T</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">535-ACML-0805-102-TCT-ND</field>
-        <field name="DNP">F</field>
-        <field name="Price">0.10</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="KD_Inductor" part="Ferrite_500mA_TDK_MMZ2012Y152BT000">
@@ -4675,7 +4793,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1528-4960-ND</field>
         <field name="DNP">F</field>
-        <field name="Price">2.8</field>
+        <field name="Price">0.28</field>
       </fields>
       <pins>
         <pin num="1" name="VDD" type="power_in"/>
@@ -4684,6 +4802,36 @@
         <pin num="4" name="DIN" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="KD_Mechanical" part="Artwork_4-Layer_marking">
+      <description>Artwork</description>
+      <fields>
+        <field name="Reference">ART</field>
+        <field name="Value">4-Layer Marking</field>
+        <field name="Footprint">KD_Mechanical:ART_4-LAYER</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+    </libpart>
+    <libpart lib="KD_Mechanical" part="Artwork_Logo_Silk_2.5mm">
+      <description>Artwork</description>
+      <fields>
+        <field name="Reference">ART</field>
+        <field name="Value">Logo 2.5 mm Silk</field>
+        <field name="Footprint">KD_Mechanical:ART_LOGO_TEXT_2.5MM_SILK</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+    </libpart>
     <libpart lib="KD_Mechanical" part="Fiducial_0.5mm">
       <description>Fiducial</description>
       <footprints>
@@ -4691,9 +4839,23 @@
       </footprints>
       <fields>
         <field name="Reference">FD</field>
-        <field name="Value">Fiducial_0.5mm</field>
+        <field name="Value">Fiducial 0.5 mm</field>
         <field name="Footprint">KD_Mechanical:Fiducial_0.5mm_Mask1mm</field>
-        <field name="Code">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+      </fields>
+    </libpart>
+    <libpart lib="KD_Mechanical_Mounting_Hole" part="NPTH_3.2">
+      <description>Hole</description>
+      <fields>
+        <field name="Reference">H?</field>
+        <field name="Value">NPTH_3.2</field>
+        <field name="Footprint">KD_Mechanical_Mounting_Hole:NPTH_3.2mm</field>
+        <field name="Code">3.2 mm hole</field>
         <field name="Manufacturer">DNP</field>
         <field name="MFG_PartNo">DNP</field>
         <field name="Supplier">DNP</field>
@@ -4757,24 +4919,22 @@
         <pin num="4" name="GND" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KD_Resistor" part="R_0402_4700_1%">
-      <description>RES SMD 4.7K OHM 1% 1/16W 0402</description>
-      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</docs>
+    <libpart lib="KD_Resistor" part="R_0603_100k_1%">
+      <description>RES 100K OHM 1% 1/10W 0603</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
       <footprints>
-        <fp>*0402*</fp>
-        <fp>*1005*</fp>
-        <fp>RESC1005*</fp>
+        <fp>0603</fp>
+        <fp>RESC1608*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">4k7</field>
-        <field name="Footprint">KD_Resistor:RESC1005X40N</field>
-        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</field>
-        <field name="Code">4k7</field>
-        <field name="Manufacturer">Bourns Inc.</field>
-        <field name="MFG_PartNo">CR0402-FX-4701GLF</field>
+        <field name="Value">100k</field>
+        <field name="Footprint">KD_Resistor:RESC1608X55N</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="MFG_PartNo">RMCF0603FT100K</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">CR0402-FX-4701GLFCT-ND</field>
+        <field name="Supplier_PartNo">RMCF0603FT100KCT-ND</field>
         <field name="DNP">F</field>
         <field name="Price">0.01</field>
       </fields>
@@ -4962,10 +5122,9 @@
       <docs>https://www.mouser.fi/datasheet/2/445/430181038816-1717160.pdf</docs>
       <fields>
         <field name="Reference">S</field>
-        <field name="Value">Button_tactile_45x38_430181038816</field>
+        <field name="Value">430181038816</field>
         <field name="Footprint">KD_Switch:SW_Push_1P1T_NO_Wurth_430181038816</field>
         <field name="Datasheet">https://www.mouser.fi/datasheet/2/445/430181038816-1717160.pdf</field>
-        <field name="Code">430181038816</field>
         <field name="Manufacturer">Wurth Elektronik</field>
         <field name="MFG_PartNo">430181038816</field>
         <field name="Supplier">Mouser</field>
@@ -5058,12 +5217,25 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+3.3V">
+    <net code="1" name="+3V3">
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="FB2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
       <node ref="S1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="S10" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="S11" pin="1" pinfunction="1" pintype="passive"/>
@@ -5075,106 +5247,99 @@
       <node ref="S7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="S8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="S9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
       <node ref="U2" pin="16" pinfunction="VCC" pintype="power_in"/>
       <node ref="U3" pin="16" pinfunction="VCC" pintype="power_in"/>
-    </net>
-    <net code="2" name="+3V3">
-      <node ref="C19" pin="1" pintype="passive"/>
-      <node ref="C20" pin="1" pintype="passive"/>
-      <node ref="C21" pin="1" pintype="passive"/>
-      <node ref="C22" pin="1" pintype="passive"/>
-      <node ref="C37" pin="1" pintype="passive"/>
-      <node ref="C38" pin="1" pintype="passive"/>
-      <node ref="FB2" pin="1" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R22" pin="1" pintype="passive"/>
-      <node ref="R24" pin="2" pintype="passive"/>
-      <node ref="R26" pin="1" pintype="passive"/>
-      <node ref="R27" pin="1" pintype="passive"/>
-      <node ref="R32" pin="2" pintype="passive"/>
-      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="U6" pin="4" pinfunction="VO" pintype="power_out"/>
-      <node ref="U7" pin="3" pinfunction="~{MR}" pintype="bidirectional"/>
-      <node ref="U7" pin="4" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="U7" pin="3" pinfunction="~{MR}" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="3" name="/Main/Buttons/Button1">
+    <net code="2" name="/Main/Buttons/Button1">
       <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="O1" pintype="tri_state"/>
       <node ref="U5" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
     </net>
-    <net code="4" name="/Main/Buttons/Button2">
+    <net code="3" name="/Main/Buttons/Button2">
       <node ref="U2" pin="5" pinfunction="O2" pintype="tri_state"/>
       <node ref="U5" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
     </net>
-    <net code="5" name="/Main/Buttons/Button3">
+    <net code="4" name="/Main/Buttons/Button3">
       <node ref="U2" pin="7" pinfunction="O3" pintype="tri_state"/>
       <node ref="U5" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
     </net>
-    <net code="6" name="/Main/Buttons/Button4">
+    <net code="5" name="/Main/Buttons/Button4">
       <node ref="U2" pin="9" pinfunction="O4" pintype="tri_state"/>
       <node ref="U5" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
     </net>
-    <net code="7" name="/Main/Buttons/Button5">
+    <net code="6" name="/Main/Buttons/Button5">
       <node ref="U1" pin="9" pinfunction="O4" pintype="tri_state"/>
       <node ref="U5" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
     </net>
-    <net code="8" name="/Main/Buttons/Button6">
+    <net code="7" name="/Main/Buttons/Button6">
       <node ref="U1" pin="11" pinfunction="O5" pintype="tri_state"/>
       <node ref="U5" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
     </net>
-    <net code="9" name="/Main/Buttons/Button7">
+    <net code="8" name="/Main/Buttons/Button7">
       <node ref="U2" pin="11" pinfunction="O5" pintype="tri_state"/>
       <node ref="U5" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
     </net>
-    <net code="10" name="/Main/Buttons/Button8">
+    <net code="9" name="/Main/Buttons/Button8">
       <node ref="U2" pin="13" pinfunction="O6" pintype="tri_state"/>
       <node ref="U5" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
     </net>
-    <net code="11" name="/Main/Buttons/Button9">
+    <net code="10" name="/Main/Buttons/Button9">
       <node ref="U1" pin="3" pinfunction="O1" pintype="tri_state"/>
       <node ref="U5" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
     </net>
-    <net code="12" name="/Main/Buttons/Button10">
+    <net code="11" name="/Main/Buttons/Button10">
       <node ref="U1" pin="5" pinfunction="O2" pintype="tri_state"/>
+      <node ref="U5" pin="39" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
     </net>
-    <net code="13" name="/Main/Buttons/Button11">
+    <net code="12" name="/Main/Buttons/Button11">
       <node ref="U1" pin="7" pinfunction="O3" pintype="tri_state"/>
+      <node ref="U5" pin="40" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
     </net>
-    <net code="14" name="/Main/Connectors/SCL">
+    <net code="13" name="/Main/Connectors/I2C1_SCL">
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
     </net>
-    <net code="15" name="/Main/Connectors/SDA">
+    <net code="14" name="/Main/Connectors/I2C1_SDA">
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
     </net>
-    <net code="17" name="/Main/Memory/CLK">
+    <net code="16" name="/Main/Memory/CLK">
       <node ref="U4" pin="6" pinfunction="CLK" pintype="input"/>
       <node ref="U5" pin="52" pinfunction="QSPI_SCLK" pintype="output"/>
     </net>
-    <net code="18" name="/Main/Memory/DATA0">
+    <net code="17" name="/Main/Memory/DATA0">
       <node ref="U4" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
       <node ref="U5" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
     </net>
-    <net code="19" name="/Main/Memory/DATA1">
+    <net code="18" name="/Main/Memory/DATA1">
       <node ref="U4" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
       <node ref="U5" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
     </net>
-    <net code="20" name="/Main/Memory/DATA2">
+    <net code="19" name="/Main/Memory/DATA2">
       <node ref="U4" pin="3" pinfunction="~{WP}(IO2)" pintype="bidirectional"/>
       <node ref="U5" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
     </net>
-    <net code="21" name="/Main/Memory/DATA3">
+    <net code="20" name="/Main/Memory/DATA3">
       <node ref="U4" pin="7" pinfunction="~{HOLD}(IO3)" pintype="bidirectional"/>
       <node ref="U5" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
     </net>
-    <net code="23" name="/Main/Memory/~{CS}_MEMORY">
+    <net code="22" name="/Main/Memory/~{CS}_MEMORY">
       <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="~{CS}" pintype="input"/>
       <node ref="U5" pin="56" pinfunction="QSPI_SS" pintype="bidirectional"/>
     </net>
-    <net code="24" name="/Main/Microcontroller/1V2">
+    <net code="23" name="/Main/Microcontroller/1V2">
       <node ref="C23" pin="1" pintype="passive"/>
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
@@ -5183,7 +5348,7 @@
       <node ref="U5" pin="45" pinfunction="VREG_VOUT" pintype="power_out"/>
       <node ref="U5" pin="50" pinfunction="DVDD" pintype="passive"/>
     </net>
-    <net code="25" name="/Main/Microcontroller/3V3_MCU">
+    <net code="24" name="/Main/Microcontroller/3V3_MCU">
       <node ref="C25" pin="1" pintype="passive"/>
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="C29" pin="1" pintype="passive"/>
@@ -5203,88 +5368,73 @@
       <node ref="U5" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
       <node ref="U5" pin="49" pinfunction="IOVDD" pintype="passive"/>
     </net>
-    <net code="26" name="/Main/Microcontroller/ENC_A">
+    <net code="25" name="/Main/Microcontroller/ENC_A">
       <node ref="U3" pin="3" pinfunction="O1" pintype="tri_state"/>
       <node ref="U5" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
     </net>
-    <net code="27" name="/Main/Microcontroller/ENC_B">
+    <net code="26" name="/Main/Microcontroller/ENC_B">
       <node ref="U3" pin="7" pinfunction="O3" pintype="tri_state"/>
       <node ref="U5" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
     </net>
-    <net code="28" name="/Main/Microcontroller/GPIO0">
-      <node ref="U5" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
+    <net code="27" name="/Main/Microcontroller/GPIO0">
+      <node ref="U5" pin="2" pinfunction="GPIO0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="29" name="/Main/Microcontroller/GPIO10">
-      <node ref="U5" pin="39" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
-    </net>
-    <net code="30" name="/Main/Microcontroller/GPIO11">
-      <node ref="U5" pin="40" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
-    </net>
-    <net code="31" name="/Main/Microcontroller/GPIO12">
+    <net code="28" name="/Main/Microcontroller/GPIO12">
       <node ref="U3" pin="5" pinfunction="O2" pintype="tri_state"/>
       <node ref="U5" pin="41" pinfunction="GPIO29_ADC3" pintype="bidirectional"/>
     </net>
-    <net code="32" name="/Main/Microcontroller/I2C1_SCL">
-      <node ref="U5" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
-    </net>
-    <net code="33" name="/Main/Microcontroller/I2C1_SDA">
-      <node ref="U5" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
-    </net>
-    <net code="34" name="/Main/Microcontroller/NEOPIX_DRIVE">
+    <net code="29" name="/Main/Microcontroller/NEOPIX_DRIVE">
       <node ref="D1" pin="4" pinfunction="DIN" pintype="input"/>
       <node ref="U5" pin="38" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
     </net>
-    <net code="35" name="/Main/Microcontroller/SCL">
-      <node ref="R27" pin="2" pintype="passive"/>
-      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="30" name="/Main/Microcontroller/SCL">
       <node ref="U5" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
     </net>
-    <net code="36" name="/Main/Microcontroller/SDA">
-      <node ref="R26" pin="2" pintype="passive"/>
-      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="31" name="/Main/Microcontroller/SDA">
       <node ref="U5" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
     </net>
-    <net code="37" name="/Main/Microcontroller/SPI_CLK">
+    <net code="32" name="/Main/Microcontroller/SPI_CLK">
       <node ref="U5" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
     </net>
-    <net code="38" name="/Main/Microcontroller/SPI_MISO">
+    <net code="33" name="/Main/Microcontroller/SPI_MISO">
       <node ref="U5" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
     </net>
-    <net code="39" name="/Main/Microcontroller/SPI_MOSI">
+    <net code="34" name="/Main/Microcontroller/SPI_MOSI">
       <node ref="U5" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
     </net>
-    <net code="40" name="/Main/Microcontroller/TP10">
+    <net code="35" name="/Main/Microcontroller/TP10">
       <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U5" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
     </net>
-    <net code="41" name="/Main/Microcontroller/UART_RX">
+    <net code="36" name="/Main/Microcontroller/UART_RX">
       <node ref="U5" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
     </net>
-    <net code="42" name="/Main/Microcontroller/UART_TX">
+    <net code="37" name="/Main/Microcontroller/UART_TX">
       <node ref="U5" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
     </net>
-    <net code="43" name="/Main/Microcontroller/USBBOOT">
+    <net code="38" name="/Main/Microcontroller/USBBOOT">
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="S12" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U5" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
     </net>
-    <net code="44" name="/Main/Microcontroller/USB_MCU_D_N">
+    <net code="39" name="/Main/Microcontroller/USB_MCU_D_N">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U5" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
     </net>
-    <net code="45" name="/Main/Microcontroller/USB_MCU_D_P">
+    <net code="40" name="/Main/Microcontroller/USB_MCU_D_P">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U5" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
     </net>
-    <net code="48" name="/Main/Microcontroller/~{RESET}">
+    <net code="43" name="/Main/Microcontroller/~{RESET}">
+      <node ref="C3" pin="2" pintype="passive"/>
       <node ref="R24" pin="1" pintype="passive"/>
       <node ref="R29" pin="2" pintype="passive"/>
       <node ref="S13" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U5" pin="26" pinfunction="RUN" pintype="input"/>
     </net>
-    <net code="49" name="/Main/Neopixel LEDs/NEOPIXEL_VDD">
+    <net code="44" name="/Main/Neopixel LEDs/NEOPIXEL_VDD">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C36" pin="1" pintype="passive"/>
@@ -5306,27 +5456,27 @@
       <node ref="U6" pin="1" pinfunction="~{SHDN}" pintype="input"/>
       <node ref="U6" pin="2" pinfunction="VI" pintype="passive"/>
     </net>
-    <net code="50" name="/Main/USB Connector/CC1">
+    <net code="45" name="/Main/USB Connector/CC1">
       <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="51" name="/Main/USB Connector/CC2">
+    <net code="46" name="/Main/USB Connector/CC2">
       <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="52" name="/Main/USB Connector/USB_D_N">
+    <net code="47" name="/Main/USB Connector/USB_D_N">
       <node ref="D11" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="53" name="/Main/USB Connector/USB_D_P">
+    <net code="48" name="/Main/USB Connector/USB_D_P">
       <node ref="D11" pin="6" pinfunction="6" pintype="input"/>
       <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="54" name="GND">
+    <net code="49" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
@@ -5349,6 +5499,7 @@
       <node ref="C27" pin="2" pintype="passive"/>
       <node ref="C28" pin="2" pintype="passive"/>
       <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C30" pin="2" pintype="passive"/>
       <node ref="C31" pin="2" pintype="passive"/>
       <node ref="C32" pin="2" pintype="passive"/>
@@ -5391,6 +5542,17 @@
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
       <node ref="S12" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="S13" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="S20" pin="C" pinfunction="C" pintype="passive"/>
@@ -5402,6 +5564,9 @@
       <node ref="U2" pin="1" pinfunction="E1" pintype="input"/>
       <node ref="U2" pin="15" pinfunction="E2" pintype="input"/>
       <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="I4" pintype="input"/>
+      <node ref="U3" pin="12" pinfunction="I5" pintype="input"/>
+      <node ref="U3" pin="14" pinfunction="I6" pintype="input"/>
       <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
       <node ref="U4" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U5" pin="19" pinfunction="TESTEN" pintype="input"/>
@@ -5412,53 +5577,53 @@
       <node ref="Y1" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="Y1" pin="4" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(C30-Pad1)">
+    <net code="50" name="Net-(C30-Pad1)">
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
       <node ref="Y1" pin="3" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(D1-DOUT)">
+    <net code="51" name="Net-(D1-DOUT)">
       <node ref="D1" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="D2" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="57" name="Net-(D2-DOUT)">
+    <net code="52" name="Net-(D2-DOUT)">
       <node ref="D2" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="D3" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="58" name="Net-(D3-DOUT)">
+    <net code="53" name="Net-(D3-DOUT)">
       <node ref="D3" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="D4" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="59" name="Net-(D4-DOUT)">
+    <net code="54" name="Net-(D4-DOUT)">
       <node ref="D4" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="D5" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="60" name="Net-(D5-DOUT)">
+    <net code="55" name="Net-(D5-DOUT)">
       <node ref="D5" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="D6" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="61" name="Net-(D6-DOUT)">
+    <net code="56" name="Net-(D6-DOUT)">
       <node ref="D6" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="D7" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="62" name="Net-(D7-DOUT)">
+    <net code="57" name="Net-(D7-DOUT)">
       <node ref="D7" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="D8" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="63" name="Net-(D8-DOUT)">
+    <net code="58" name="Net-(D8-DOUT)">
       <node ref="D8" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="D9" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="64" name="Net-(D10-DIN)">
+    <net code="59" name="Net-(D10-DIN)">
       <node ref="D10" pin="4" pinfunction="DIN" pintype="input"/>
       <node ref="D9" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="65" name="Net-(D10-DOUT)">
+    <net code="60" name="Net-(D10-DOUT)">
       <node ref="D10" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="D14" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="66" name="Net-(D11-V+)">
+    <net code="61" name="Net-(D11-V+)">
       <node ref="D11" pin="5" pinfunction="V+" pintype="input"/>
       <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
@@ -5466,240 +5631,242 @@
       <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="67" name="Net-(D12-K)">
+    <net code="62" name="Net-(D12-K)">
       <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="FB1" pin="1" pintype="passive"/>
     </net>
-    <net code="68" name="Net-(D13-K)">
+    <net code="63" name="Net-(D13-K)">
       <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
     </net>
-    <net code="69" name="Net-(D15-A)">
+    <net code="64" name="Net-(D15-A)">
       <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R32" pin="1" pintype="passive"/>
     </net>
-    <net code="70" name="Net-(D15-K)">
+    <net code="65" name="Net-(D15-K)">
       <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U6" pin="5" pinfunction="PG" pintype="output"/>
     </net>
-    <net code="71" name="Net-(D16-A)">
+    <net code="66" name="Net-(D16-A)">
       <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R33" pin="1" pintype="passive"/>
     </net>
-    <net code="72" name="Net-(R5-Pad1)">
+    <net code="67" name="Net-(R5-Pad1)">
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="S1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="73" name="Net-(R6-Pad1)">
+    <net code="68" name="Net-(R6-Pad1)">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="S2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="74" name="Net-(R7-Pad1)">
+    <net code="69" name="Net-(R7-Pad1)">
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="S3" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="75" name="Net-(R8-Pad1)">
+    <net code="70" name="Net-(R8-Pad1)">
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="S4" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(R9-Pad1)">
+    <net code="71" name="Net-(R9-Pad1)">
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="S5" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="77" name="Net-(R10-Pad1)">
+    <net code="72" name="Net-(R10-Pad1)">
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="S6" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="78" name="Net-(R11-Pad1)">
+    <net code="73" name="Net-(R11-Pad1)">
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="S7" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="79" name="Net-(R12-Pad1)">
+    <net code="74" name="Net-(R12-Pad1)">
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="S8" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="80" name="Net-(R13-Pad1)">
+    <net code="75" name="Net-(R13-Pad1)">
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="S9" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="81" name="Net-(R14-Pad1)">
+    <net code="76" name="Net-(R14-Pad1)">
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="S10" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="82" name="Net-(R15-Pad2)">
+    <net code="77" name="Net-(R15-Pad2)">
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="S20" pin="A" pinfunction="A" pintype="passive"/>
       <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="83" name="Net-(R16-Pad2)">
+    <net code="78" name="Net-(R16-Pad2)">
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="S20" pin="S1" pinfunction="S1" pintype="passive"/>
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="84" name="Net-(R17-Pad2)">
+    <net code="79" name="Net-(R17-Pad2)">
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="S20" pin="B" pinfunction="B" pintype="passive"/>
       <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="85" name="Net-(R28-Pad1)">
+    <net code="80" name="Net-(R28-Pad1)">
       <node ref="R28" pin="1" pintype="passive"/>
       <node ref="S11" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="86" name="Net-(U1-I1)">
+    <net code="81" name="Net-(U1-I1)">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="I1" pintype="input"/>
     </net>
-    <net code="87" name="Net-(U1-I2)">
+    <net code="82" name="Net-(U1-I2)">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="I2" pintype="input"/>
     </net>
-    <net code="88" name="Net-(U1-I3)">
+    <net code="83" name="Net-(U1-I3)">
       <node ref="C41" pin="1" pintype="passive"/>
       <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="I3" pintype="input"/>
     </net>
-    <net code="89" name="Net-(U1-I4)">
+    <net code="84" name="Net-(U1-I4)">
       <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="I4" pintype="input"/>
     </net>
-    <net code="90" name="Net-(U1-I5)">
+    <net code="85" name="Net-(U1-I5)">
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="I5" pintype="input"/>
     </net>
-    <net code="91" name="Net-(U2-I1)">
+    <net code="86" name="Net-(U2-I1)">
       <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="I1" pintype="input"/>
     </net>
-    <net code="92" name="Net-(U2-I2)">
+    <net code="87" name="Net-(U2-I2)">
       <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="I2" pintype="input"/>
     </net>
-    <net code="93" name="Net-(U2-I3)">
+    <net code="88" name="Net-(U2-I3)">
       <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="I3" pintype="input"/>
     </net>
-    <net code="94" name="Net-(U2-I4)">
+    <net code="89" name="Net-(U2-I4)">
       <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U2" pin="10" pinfunction="I4" pintype="input"/>
     </net>
-    <net code="95" name="Net-(U2-I5)">
+    <net code="90" name="Net-(U2-I5)">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
       <node ref="U2" pin="12" pinfunction="I5" pintype="input"/>
     </net>
-    <net code="96" name="Net-(U2-I6)">
+    <net code="91" name="Net-(U2-I6)">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
       <node ref="U2" pin="14" pinfunction="I6" pintype="input"/>
     </net>
-    <net code="97" name="Net-(U3-E1)">
+    <net code="92" name="Net-(U3-E1)">
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="E1" pintype="input"/>
       <node ref="U3" pin="15" pinfunction="E2" pintype="input"/>
     </net>
-    <net code="98" name="Net-(U3-I1)">
+    <net code="93" name="Net-(U3-I1)">
       <node ref="C18" pin="2" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="I1" pintype="input"/>
     </net>
-    <net code="99" name="Net-(U3-I2)">
+    <net code="94" name="Net-(U3-I2)">
       <node ref="C16" pin="2" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="I2" pintype="input"/>
     </net>
-    <net code="100" name="Net-(U3-I3)">
+    <net code="95" name="Net-(U3-I3)">
       <node ref="C17" pin="2" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="I3" pintype="input"/>
     </net>
-    <net code="101" name="Net-(U5-XIN)">
+    <net code="96" name="Net-(U5-XIN)">
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="U5" pin="20" pinfunction="XIN" pintype="input"/>
       <node ref="Y1" pin="1" pintype="passive"/>
     </net>
-    <net code="102" name="Net-(U5-XOUT)">
+    <net code="97" name="Net-(U5-XOUT)">
       <node ref="R25" pin="2" pintype="passive"/>
       <node ref="U5" pin="21" pinfunction="XOUT" pintype="passive"/>
     </net>
-    <net code="103" name="PERIP_~{RESET}">
+    <net code="98" name="PERIP_~{RESET}">
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="R33" pin="2" pintype="passive"/>
       <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U7" pin="2" pinfunction="RST" pintype="bidirectional"/>
     </net>
-    <net code="104" name="unconnected-(D11-Pad3)">
+    <net code="99" name="unconnected-(D11-Pad3)">
       <node ref="D11" pin="3" pinfunction="3" pintype="input+no_connect"/>
     </net>
-    <net code="105" name="unconnected-(D11-Pad4)">
+    <net code="100" name="unconnected-(D11-Pad4)">
       <node ref="D11" pin="4" pinfunction="4" pintype="input+no_connect"/>
     </net>
-    <net code="106" name="unconnected-(D14-DOUT-Pad2)">
+    <net code="101" name="unconnected-(D14-DOUT-Pad2)">
       <node ref="D14" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
     </net>
-    <net code="107" name="unconnected-(J1-SBU1-PadA8)">
+    <net code="102" name="unconnected-(J1-SBU1-PadA8)">
       <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="108" name="unconnected-(J1-SBU2-PadB8)">
+    <net code="103" name="unconnected-(J1-SBU2-PadB8)">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="109" name="unconnected-(S12-Pad1)">
+    <net code="104" name="unconnected-(S12-Pad1)">
       <node ref="S12" pin="1" pinfunction="1" pintype="passive+no_connect"/>
     </net>
-    <net code="110" name="unconnected-(S12-Pad4)">
+    <net code="105" name="unconnected-(S12-Pad4)">
       <node ref="S12" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="111" name="unconnected-(S13-Pad1)">
+    <net code="106" name="unconnected-(S13-Pad1)">
       <node ref="S13" pin="1" pinfunction="1" pintype="passive+no_connect"/>
     </net>
-    <net code="112" name="unconnected-(S13-Pad4)">
+    <net code="107" name="unconnected-(S13-Pad4)">
       <node ref="S13" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="113" name="unconnected-(U1-O6-Pad13)">
+    <net code="108" name="unconnected-(U1-O6-Pad13)">
       <node ref="U1" pin="13" pinfunction="O6" pintype="tri_state+no_connect"/>
     </net>
-    <net code="114" name="unconnected-(U3-I4-Pad10)">
-      <node ref="U3" pin="10" pinfunction="I4" pintype="input"/>
+    <net code="109" name="unconnected-(U3-O4-Pad9)">
+      <node ref="U3" pin="9" pinfunction="O4" pintype="tri_state+no_connect"/>
     </net>
-    <net code="115" name="unconnected-(U3-I5-Pad12)">
-      <node ref="U3" pin="12" pinfunction="I5" pintype="input"/>
+    <net code="110" name="unconnected-(U3-O5-Pad11)">
+      <node ref="U3" pin="11" pinfunction="O5" pintype="tri_state+no_connect"/>
     </net>
-    <net code="116" name="unconnected-(U3-I6-Pad14)">
-      <node ref="U3" pin="14" pinfunction="I6" pintype="input"/>
+    <net code="111" name="unconnected-(U3-O6-Pad13)">
+      <node ref="U3" pin="13" pinfunction="O6" pintype="tri_state+no_connect"/>
     </net>
-    <net code="117" name="unconnected-(U3-O4-Pad9)">
-      <node ref="U3" pin="9" pinfunction="O4" pintype="tri_state"/>
-    </net>
-    <net code="118" name="unconnected-(U3-O5-Pad11)">
-      <node ref="U3" pin="11" pinfunction="O5" pintype="tri_state"/>
-    </net>
-    <net code="119" name="unconnected-(U3-O6-Pad13)">
-      <node ref="U3" pin="13" pinfunction="O6" pintype="tri_state"/>
-    </net>
-    <net code="120" name="unconnected-(U5-GPIO10-Pad13)">
+    <net code="112" name="unconnected-(U5-GPIO10-Pad13)">
       <node ref="U5" pin="13" pinfunction="GPIO10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="121" name="unconnected-(U5-GPIO11-Pad14)">
+    <net code="113" name="unconnected-(U5-GPIO11-Pad14)">
       <node ref="U5" pin="14" pinfunction="GPIO11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="122" name="unconnected-(U5-GPIO12-Pad15)">
+    <net code="114" name="unconnected-(U5-GPIO12-Pad15)">
       <node ref="U5" pin="15" pinfunction="GPIO12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="123" name="unconnected-(U5-SWCLK-Pad24)">
+    <net code="115" name="unconnected-(U5-SWCLK-Pad24)">
       <node ref="U5" pin="24" pinfunction="SWCLK" pintype="input+no_connect"/>
     </net>
-    <net code="124" name="unconnected-(U5-SWD-Pad25)">
+    <net code="116" name="unconnected-(U5-SWD-Pad25)">
       <node ref="U5" pin="25" pinfunction="SWD" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
