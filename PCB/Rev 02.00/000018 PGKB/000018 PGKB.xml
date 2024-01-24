@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>C:\GitHubProjects\PGKB\PCB\Rev 02.00\000018 PGKB\000018 PGKB.kicad_sch</source>
-    <date>27/10/2023 22.45.19</date>
+    <date>24/01/2024 22.51.38</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-19</date>
+        <date>2024-01-24</date>
         <source>000018 PGKB.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value="ASSEMBLY_PN"/>
@@ -27,7 +27,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-19</date>
+        <date>2024-01-24</date>
         <source>main.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value="ASSEMBLY_PN"/>
@@ -45,7 +45,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-19</date>
+        <date>2024-01-24</date>
         <source>USBcon.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
@@ -63,7 +63,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-19</date>
+        <date>2024-01-24</date>
         <source>buttons.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
@@ -81,7 +81,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-19</date>
+        <date>2024-01-24</date>
         <source>LEDS_Neopixel.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
@@ -99,7 +99,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-19</date>
+        <date>2024-01-24</date>
         <source>controls.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
@@ -117,7 +117,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-19</date>
+        <date>2024-01-24</date>
         <source>Memory.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
@@ -135,7 +135,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-19</date>
+        <date>2024-01-24</date>
         <source>connectors.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
@@ -153,7 +153,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-19</date>
+        <date>2024-01-24</date>
         <source>mcu.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value=""/>
@@ -171,7 +171,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-19</date>
+        <date>2024-01-24</date>
         <source>psu.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value="ASSEMBLY_PN"/>
@@ -189,7 +189,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-19</date>
+        <date>2024-01-24</date>
         <source>mechanical.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value="ASSEMBLY_PN"/>
@@ -207,7 +207,7 @@
         <title>Programmable Keyboard</title>
         <company>Kallio Designs Oy</company>
         <rev>1.0</rev>
-        <date>2023-10-19</date>
+        <date>2024-01-24</date>
         <source>rev_history.kicad_sch</source>
         <comment number="1" value="TL, NH"/>
         <comment number="2" value="ASSEMBLY_PN"/>
@@ -361,28 +361,28 @@
       <tstamps>72b79300-3651-41c4-9b33-cdec9bbd26d3</tstamps>
     </comp>
     <comp ref="J1">
-      <value>USB Mini B</value>
+      <value>USB C</value>
       <footprint>KD_Connector_USB_HDMI_Etc:USB_C_Receptacle_GCT_USB4085</footprint>
-      <datasheet>https://app.adam-tech.com/products/download/data_sheet/195855/usb-b-s-vt-data-sheet.pdf</datasheet>
+      <datasheet>https://gct.co/files/drawings/usb4085.pdf</datasheet>
       <fields>
         <field name="DNP">F</field>
-        <field name="MFG_PartNo">USB-B-S-VT</field>
-        <field name="Manufacturer">Adam Tech</field>
-        <field name="Price">1</field>
+        <field name="MFG_PartNo">USB4085-GF-A</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="Price">0.85</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">2057-USB-B-S-VT-ND</field>
+        <field name="Supplier_PartNo">2073-USB4085-GF-ACT-ND</field>
       </fields>
-      <libsource lib="KD_Connector_USB_HDMI_Etc" part="USB_C_V_GCT_USB4085-GF-A" description="USB Mini Vertical Connector"/>
-      <property name="Manufacturer" value="Adam Tech"/>
-      <property name="MFG_PartNo" value="USB-B-S-VT"/>
+      <libsource lib="KD_Connector_USB_HDMI_Etc" part="USB_C_V_GCT_USB4085-GF-A" description="CONN RCPT USB2.0 TYPE C 16+8POS"/>
+      <property name="Manufacturer" value="GCT"/>
+      <property name="MFG_PartNo" value="USB4085-GF-A"/>
       <property name="Supplier" value="Digi-Key"/>
-      <property name="Supplier_PartNo" value="2057-USB-B-S-VT-ND"/>
+      <property name="Supplier_PartNo" value="2073-USB4085-GF-ACT-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="1"/>
+      <property name="Price" value="0.85"/>
       <property name="Sheetname" value="USB Connector"/>
       <property name="Sheetfile" value="USBcon.kicad_sch"/>
-      <property name="ki_description" value="USB Mini Vertical Connector"/>
-      <property name="ki_keywords" value="USB Mini Vertical Connector"/>
+      <property name="ki_description" value="CONN RCPT USB2.0 TYPE C 16+8POS"/>
+      <property name="ki_keywords" value="CONN RCPT USB2.0 TYPE C 16+8POS"/>
       <sheetpath names="/Main/USB Connector/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f81d4f7-3bdd-46dd-b342-c371ad5913dc/"/>
       <tstamps>dd4cba5b-027b-4b47-b0bb-32c54feff1cc</tstamps>
     </comp>
@@ -1738,6 +1738,32 @@
       <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
       <tstamps>304b16ed-26c1-4b16-a0a2-7ef0a81fa5e5</tstamps>
     </comp>
+    <comp ref="S99">
+      <value>4954</value>
+      <footprint>KD_Switch:SWITCH_BUTTON_Kailh_mx_socket</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf</datasheet>
+      <fields>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">4954</field>
+        <field name="Manufacturer">Adafruit</field>
+        <field name="Price">0.5</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1528-4954-ND</field>
+      </fields>
+      <libsource lib="KD_Switch" part="Button_keyboard_no_footprint_Adafruit_4958" description="Kailh Mechanical Key Switches - Tactile Brown - 10 pack - Cherry MX Brown Compatible"/>
+      <property name="Manufacturer" value="Adafruit"/>
+      <property name="MFG_PartNo" value="4954"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1528-4954-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.5"/>
+      <property name="Sheetname" value="Buttons"/>
+      <property name="Sheetfile" value="buttons.kicad_sch"/>
+      <property name="ki_description" value="Kailh Mechanical Key Switches - Tactile Brown - 10 pack - Cherry MX Brown Compatible"/>
+      <property name="ki_keywords" value="Button tactile Kailh CPG151101S03"/>
+      <sheetpath names="/Main/Buttons/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/86c42f5f-8308-4480-a779-2edf7f31bcc2/"/>
+      <tstamps>a23ed2a0-0cb7-4103-bae8-a69f7dd3ae23</tstamps>
+    </comp>
     <comp ref="TP1">
       <value>TP D2.5 mm H0.9mm</value>
       <footprint>KD_Connector_Pads:TestPoint_Pad_D2.5mm_H0.9mm</footprint>
@@ -2507,11 +2533,10 @@
       <tstamps>deff6ae6-2dc1-4bba-9ac1-3da48607e958</tstamps>
     </comp>
     <comp ref="S20">
-      <value>symbol_template</value>
+      <value>PEC11R-4215K-S0012</value>
       <footprint>KD_Switch:RotaryEncoder_Bourns_Vertical_PEC11R-4x15f-Sxxxx</footprint>
       <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf</datasheet>
       <fields>
-        <field name="Code">PEC11R-4215K-S0012</field>
         <field name="DNP">F</field>
         <field name="MFG_PartNo">PEC11R-4215K-S0012</field>
         <field name="Manufacturer">Bourns Inc.</field>
@@ -2520,7 +2545,6 @@
         <field name="Supplier_PartNo">PEC11R-4215K-S0012-ND</field>
       </fields>
       <libsource lib="KD_Switch" part="Encoder_Incremental_Bourns_PEC11R-4215K-S0012" description="ROTARY ENCODER MECHANICAL 12PPR"/>
-      <property name="Code" value="PEC11R-4215K-S0012"/>
       <property name="Manufacturer" value="Bourns Inc."/>
       <property name="MFG_PartNo" value="PEC11R-4215K-S0012"/>
       <property name="Supplier" value="Digi-Key"/>
@@ -4391,22 +4415,22 @@
       </pins>
     </libpart>
     <libpart lib="KD_Connector_USB_HDMI_Etc" part="USB_C_V_GCT_USB4085-GF-A">
-      <description>USB Mini Vertical Connector</description>
-      <docs>https://app.adam-tech.com/products/download/data_sheet/195855/usb-b-s-vt-data-sheet.pdf</docs>
+      <description>CONN RCPT USB2.0 TYPE C 16+8POS</description>
+      <docs>https://gct.co/files/drawings/usb4085.pdf</docs>
       <footprints>
-        <fp>*USB*</fp>
+        <fp>*USB*C*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">USB Mini B</field>
+        <field name="Value">USB C</field>
         <field name="Footprint">KD_Connector_USB_HDMI_Etc:USB_C_Receptacle_GCT_USB4085</field>
-        <field name="Datasheet">https://app.adam-tech.com/products/download/data_sheet/195855/usb-b-s-vt-data-sheet.pdf</field>
-        <field name="Manufacturer">Adam Tech</field>
-        <field name="MFG_PartNo">USB-B-S-VT</field>
+        <field name="Datasheet">https://gct.co/files/drawings/usb4085.pdf</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="MFG_PartNo">USB4085-GF-A</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">2057-USB-B-S-VT-ND</field>
+        <field name="Supplier_PartNo">2073-USB4085-GF-ACT-ND</field>
         <field name="DNP">F</field>
-        <field name="Price">1</field>
+        <field name="Price">0.85</field>
       </fields>
       <pins>
         <pin num="A1" name="GND" type="passive"/>
@@ -5091,6 +5115,27 @@
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="KD_Switch" part="Button_keyboard_no_footprint_Adafruit_4958">
+      <description>Kailh Mechanical Key Switches - Tactile Brown - 10 pack - Cherry MX Brown Compatible</description>
+      <docs>https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf</docs>
+      <footprints>
+        <fp>*kailh*</fp>
+        <fp>*cherry*mx*</fp>
+        <fp>*4958*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">4954</field>
+        <field name="Footprint">KD_Switch:SWITCH_BUTTON_Kailh_mx_socket</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf</field>
+        <field name="Manufacturer">Adafruit</field>
+        <field name="MFG_PartNo">4954</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1528-4954-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.5</field>
+      </fields>
     </libpart>
     <libpart lib="KD_Switch" part="Button_keyboard_socket_Adafruit_4958">
       <description>Kailh Mechanical Key Switches - Tactile Brown - 10 pack - Cherry MX Brown Compatible</description>

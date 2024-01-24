@@ -1,2 +1,7 @@
-- Switch footprint incorrect**************************************************
+BOM Changes to Rev 2.00:
+- Switch socket order code incorrect******************************************(OK, TL 24.1.2024)
+- Rotary encoder value incorrect**********************************************(OK, TL 24.1.2024)
+- Key switch connectors are incorrect*****************************************(OK, TL 24.1.2024)
+- USB Connector has the wrong type********************************************(OK, TL 24.1.2024)
+
 - Why two types of diodes?****************************************************
