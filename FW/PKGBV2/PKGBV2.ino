@@ -1,3 +1,7 @@
+
+// Board Manger setup:
+// https://github.com/earlephilhower/arduino-pico/releases/
+
 #include "Keyboard.h"
 #include <OneButton.h>
 
@@ -10,8 +14,6 @@ String incomingString = "S";
 String functionM1 = "";
 
 void setup() {
-
-
   button1.attachClick(Button_M1);
   button1.attachLongPressStop(Button_M1);
 
@@ -38,7 +40,7 @@ void loop() {
     Serial.print("I received: ");
     Serial.println(incomingString);
   }
-  }
+}
 
 void Button_M1()
 {
