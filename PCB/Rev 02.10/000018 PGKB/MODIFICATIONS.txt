@@ -1,0 +1,8 @@
+BOM Changes to Rev 2.00:
+- Switch socket order code incorrect******************************************(OK, TL 24.1.2024)
+- Rotary encoder value incorrect**********************************************(OK, TL 24.1.2024)
+- Key switch connectors are incorrect*****************************************(OK, TL 24.1.2024)
+- USB Connector has the wrong type********************************************(OK, TL 24.1.2024)
+- USB D+ and D- are mixed up at the connector*********************************
+- Why two types of diodes?****************************************************
+- 1u cap should be close to pin 44 according to guideline*********************

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Adafruit MacroPad 2040")(type "Eagle")(uri "C:/GitHubProjects/Adafruit-MacroPad-RP2040-PCB/libraryexport/Adafruit MacroPad 2040.lbr")(options "")(descr ""))
+)
