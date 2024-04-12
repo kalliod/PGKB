@@ -6,8 +6,8 @@
 
   (title_block
     (title "Programmable Keyboard")
-    (date "2024-01-24")
-    (rev "2.0")
+    (date "2024-04-09")
+    (rev "2.1")
     (company "Kallio Designs Oy")
     (comment 1 "TL, NH")
     (comment 3 "PCB_PN")
@@ -2269,17 +2269,21 @@
     (uuid ff1f3788-e9e5-4a40-af42-223260eb64bb)
   )
 
-  (text_box "Notes:\nRP2040"
-    (at 207.01 156.21 0) (size 77.47 21.59)
+  (text_box "Notes:\nRP2040 Hardware design guide:\nhttps://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf\n"
+    (at 187.96 156.21 0) (size 96.52 21.59)
     (stroke (width 0) (type default))
     (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
+    (effects (font (size 1.27 1.27)) (justify left top) (href "https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf"))
     (uuid 45a22210-7ba8-472f-8445-a6a76fc5a2a5)
   )
 
-  (text "Place close to pin 44" (at 158.75 52.705 0)
+  (text "Place C25 close to pin 44" (at 158.75 52.705 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 890cb782-ab88-4840-8523-93026fef3070)
+  )
+  (text "Place C23 close to pin 45" (at 67.945 48.26 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d20defb9-4fc4-481f-89a5-d79a2bcd3855)
   )
 
   (label "USBBOOT" (at 163.83 120.65 0) (fields_autoplaced)
