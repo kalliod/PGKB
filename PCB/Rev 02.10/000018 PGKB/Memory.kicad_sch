@@ -1,951 +1,2512 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 8ba62994-ab00-4a4c-a9e8-2e08a28bd525)
-
-  (paper "A4")
-
-  (title_block
-    (title "Programmable Keyboard")
-    (date "2024-04-09")
-    (rev "2.1")
-    (company "Kallio Designs Oy")
-    (comment 1 "TL, NH")
-    (comment 3 "PCB_PN")
-  )
-
-  (lib_symbols
-    (symbol "KD_Capacitor:C_0603_100n_X7R_50V" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "100n" (at 2.54 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "KD_Capacitor:CAPC1608X90N" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer" "Samsung" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "CL10B104KB8NNWC" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "1276-1935-1-ND" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.01" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Capacitor Cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "CAP CER 0.1UF 50V X7R 0603" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "0603 CAPC1608*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0603_100n_X7R_50V_0_1"
-        (polyline
-          (pts
-            (xy -2.286 -0.508)
-            (xy 2.286 -0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 0.508)
-            (xy 2.286 0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.508)
-            (xy 0 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.508)
-            (xy 0 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_0603_100n_X7R_50V_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_Capacitor:C_0805_1u_X7R_25V" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "1u" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Capacitor:CAPC2012X135N" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "1u" (at 2.54 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Manufacturer" "Samsung Electro-Mechanics" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "CL21B105KAFNNNE" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "1276-1066-1-ND" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.03" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Capacitor Cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "CAP CER 1UF 25V X7R 0805" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "0805 CAPC2012*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0805_1u_X7R_25V_0_1"
-        (polyline
-          (pts
-            (xy -2.286 -0.508)
-            (xy 2.286 -0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 0.508)
-            (xy 2.286 0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.508)
-            (xy 0 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.508)
-            (xy 0 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_0805_1u_X7R_25V_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_IC_Memory:FLASH_8MBit_104MHz_W25Q80DVSSIG" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 12.7 6.858 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "W25Q80DVSSIG" (at 12.7 4.318 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "KD_Package_SO:SOIC127P790X195-8N" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://www.winbond.com/resource-files/w25q80dv%20dl_revh_10022015.pdf" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer" "Winbond Electronics" (at -12.7 41.91 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "W25Q80DVSSIG" (at -12.7 39.37 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 36.83 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "W25Q80DVSSIG-ND" (at -12.7 34.29 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.5" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "SO-8 SOIC-8" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "IC FLASH 8MBIT SPI/QUAD 8SOIC" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "so-8 SOIC-8 SO*127P600*-8*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "FLASH_8MBit_104MHz_W25Q80DVSSIG_0_1"
-        (rectangle (start 2.54 2.54) (end 17.78 -20.32)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "FLASH_8MBit_104MHz_W25Q80DVSSIG_1_1"
-        (pin input line (at 0 0 0) (length 2.54)
-          (name "~{CS}" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 0 -7.62 0) (length 2.54)
-          (name "DO(IO1)" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 0 -10.16 0) (length 2.54)
-          (name "~{WP}(IO2)" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 10.16 -22.86 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 0 -5.08 0) (length 2.54)
-          (name "DI(IO0)" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -2.54 0) (length 2.54)
-          (name "CLK" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 0 -12.7 0) (length 2.54)
-          (name "~{HOLD}(IO3)" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 10.16 5.08 270) (length 2.54)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_Resistor:R_0603_10k_1%" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 1.905 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "10k" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Resistor:RESC1608X55N" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "10k" (at 1.905 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Manufacturer" "Stackpole Electronics Inc" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "RMCF0603FT10K0" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "RMCF0603FT10K0CT-ND" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.01" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Resistor res" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "RES 10K OHM 1% 1/10W 0603" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "0603 RESC1608*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0603_10k_1%_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_0603_10k_1%_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3V3" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3V3_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3V3_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 154.94 68.58) (diameter 0) (color 0 0 0 0)
-    (uuid 04dc1add-c904-4cb4-bc9a-083003c48f37)
-  )
-  (junction (at 132.08 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid 5c94a620-645a-46c8-a730-3b740d1d27a5)
-  )
-  (junction (at 143.51 68.58) (diameter 0) (color 0 0 0 0)
-    (uuid bde30fed-9dd5-4065-a72a-72a23697d612)
-  )
-
-  (bus_entry (at 124.46 99.06) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 02e4f917-ecf7-4245-86e2-eedcf431b208)
-  )
-  (bus_entry (at 124.46 111.76) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 171ea8be-a4ed-44f2-9f1d-e5996b92fabd)
-  )
-  (bus_entry (at 124.46 101.6) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 25d742d4-6a13-476f-a735-e7248708674f)
-  )
-  (bus_entry (at 124.46 109.22) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 32adbce7-f990-4977-bc20-beef00d9340b)
-  )
-  (bus_entry (at 124.46 106.68) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 6eb1de4a-2896-41af-8158-4af70eb5213c)
-  )
-  (bus_entry (at 124.46 104.14) (size 2.54 -2.54)
-    (stroke (width 0) (type default))
-    (uuid 899c6118-d41b-4fc9-a6e4-74a472cd7c44)
-  )
-
-  (wire (pts (xy 127 104.14) (xy 158.75 104.14))
-    (stroke (width 0) (type default))
-    (uuid 144e8324-2039-43ea-9bea-fda857cc4221)
-  )
-  (wire (pts (xy 132.08 83.82) (xy 132.08 85.09))
-    (stroke (width 0) (type default))
-    (uuid 1e06059f-9b6b-4781-bf9e-f7748e6a9ae2)
-  )
-  (wire (pts (xy 132.08 92.71) (xy 132.08 96.52))
-    (stroke (width 0) (type default))
-    (uuid 1fa6d2c0-268d-416a-983a-ee851c4b15fe)
-  )
-  (wire (pts (xy 154.94 68.58) (xy 168.91 68.58))
-    (stroke (width 0) (type default))
-    (uuid 354c6874-6c14-443e-9bdb-99b1f81f7c33)
-  )
-  (wire (pts (xy 143.51 77.47) (xy 143.51 78.74))
-    (stroke (width 0) (type default))
-    (uuid 3580508b-2968-43d2-91c1-7d0d0425816a)
-  )
-  (wire (pts (xy 154.94 77.47) (xy 154.94 78.74))
-    (stroke (width 0) (type default))
-    (uuid 3f9d9647-e17c-4fb4-8c1e-0efb4e4d7197)
-  )
-  (wire (pts (xy 168.91 121.92) (xy 168.91 119.38))
-    (stroke (width 0) (type default))
-    (uuid 40afbe72-09ec-4a12-8bcb-b60983df01cc)
-  )
-  (bus (pts (xy 124.46 104.14) (xy 124.46 106.68))
-    (stroke (width 0) (type default))
-    (uuid 4ca89998-281f-485b-8c0f-35a68784ec0a)
-  )
-
-  (wire (pts (xy 127 106.68) (xy 158.75 106.68))
-    (stroke (width 0) (type default))
-    (uuid 51dd17b6-afc0-4189-9eb2-aa1e5d6911ef)
-  )
-  (bus (pts (xy 124.46 101.6) (xy 124.46 104.14))
-    (stroke (width 0) (type default))
-    (uuid 586c6492-483e-4095-82da-0311d5d4b264)
-  )
-
-  (wire (pts (xy 168.91 68.58) (xy 168.91 91.44))
-    (stroke (width 0) (type default))
-    (uuid 5a05cb81-00b5-4b98-9367-aae23f06c977)
-  )
-  (bus (pts (xy 124.46 96.52) (xy 124.46 99.06))
-    (stroke (width 0) (type default))
-    (uuid 5c281b40-c27b-4774-be8d-4375da83404e)
-  )
-
-  (wire (pts (xy 158.75 101.6) (xy 127 101.6))
-    (stroke (width 0) (type default))
-    (uuid 65fe94fd-bddc-43ff-8789-a232346cf694)
-  )
-  (wire (pts (xy 154.94 69.85) (xy 154.94 68.58))
-    (stroke (width 0) (type default))
-    (uuid 6bdf7340-76f6-4e99-b842-2dfa616f477f)
-  )
-  (bus (pts (xy 124.46 106.68) (xy 124.46 109.22))
-    (stroke (width 0) (type default))
-    (uuid 7a0636b2-7eba-434a-b033-ff0e80dcb036)
-  )
-  (bus (pts (xy 124.46 109.22) (xy 124.46 111.76))
-    (stroke (width 0) (type default))
-    (uuid 830ef62e-4af4-471a-8060-33b17ed67ae5)
-  )
-  (bus (pts (xy 124.46 111.76) (xy 124.46 118.11))
-    (stroke (width 0) (type default))
-    (uuid 8d61ded9-70bd-45c0-94cc-0a1dd8b1bd7b)
-  )
-
-  (wire (pts (xy 143.51 67.31) (xy 143.51 68.58))
-    (stroke (width 0) (type default))
-    (uuid 917ce167-a4d6-431a-bcd4-a6954b168225)
-  )
-  (wire (pts (xy 143.51 69.85) (xy 143.51 68.58))
-    (stroke (width 0) (type default))
-    (uuid 961d24cc-f92c-4b57-b166-15be2af3f84e)
-  )
-  (wire (pts (xy 127 99.06) (xy 158.75 99.06))
-    (stroke (width 0) (type default))
-    (uuid 9c485da2-9457-46a8-b8b4-f78d1b23d52f)
-  )
-  (bus (pts (xy 124.46 99.06) (xy 124.46 101.6))
-    (stroke (width 0) (type default))
-    (uuid a9567fed-8088-4c05-8b86-bceed8d4d857)
-  )
-
-  (wire (pts (xy 143.51 68.58) (xy 154.94 68.58))
-    (stroke (width 0) (type default))
-    (uuid bc067e60-12b4-4ace-828e-56ff1748dbe0)
-  )
-  (bus (pts (xy 124.46 118.11) (xy 120.65 118.11))
-    (stroke (width 0) (type default))
-    (uuid cb5d8190-f7f6-4903-a483-3e54333df9ac)
-  )
-
-  (wire (pts (xy 158.75 109.22) (xy 127 109.22))
-    (stroke (width 0) (type default))
-    (uuid d2bee797-5701-480d-920e-caba2ace3bb8)
-  )
-  (wire (pts (xy 158.75 96.52) (xy 132.08 96.52))
-    (stroke (width 0) (type default))
-    (uuid e2769178-c07e-49b6-818f-c06469aaf681)
-  )
-  (wire (pts (xy 132.08 96.52) (xy 127 96.52))
-    (stroke (width 0) (type default))
-    (uuid fb048cfb-c637-47f8-8ca1-ca29721aa668)
-  )
-
-  (label "DATA0" (at 146.05 101.6 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 47c0de6f-396e-49ca-a151-925e7b26b751)
-  )
-  (label "~{CS}_MEMORY" (at 146.05 96.52 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 4abd10b7-754a-40f6-8b89-20b580518d72)
-  )
-  (label "DATA2" (at 146.05 106.68 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 6b69c28c-76b5-499c-9e5e-3753cb7ed8c9)
-  )
-  (label "DATA1" (at 146.05 104.14 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 924c0924-4d21-421d-a319-e9e2e30a590f)
-  )
-  (label "DATA3" (at 146.05 109.22 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid d2bafd0c-47d8-427c-883d-7f4e45530012)
-  )
-  (label "CLK" (at 146.05 99.06 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid e0c70e48-09df-4db7-84ae-e053d22e291e)
-  )
-
-  (hierarchical_label "{QSPI}" (shape bidirectional) (at 120.65 118.11 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6dd54c02-305b-4c8f-bff7-43e8fc9d93ef)
-  )
-
-  (symbol (lib_id "power:GND") (at 143.51 78.74 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0594fd50-5eb5-4510-8ee3-07371e27e0ca)
-    (property "Reference" "#GND02" (at 143.51 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 143.51 82.55 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 143.51 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 143.51 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2dca5277-3429-4ee6-9e9e-c3e2bf3a55ef))
-    (instances
-      (project "000052 RCCON"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
-          (reference "#GND02") (unit 1)
-        )
-      )
-      (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "#GND08") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Capacitor:C_0805_1u_X7R_25V") (at 154.94 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2c8c82e3-066d-4e14-8190-c4144ad5d817)
-    (property "Reference" "C4" (at 157.48 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1u" (at 142.24 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Capacitor:CAPC2012X135N" (at 142.24 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf" (at 142.24 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "1u" (at 157.48 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 142.24 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "CL21B105KAFNNNE" (at 142.24 46.99 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 142.24 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "1276-1066-1-ND" (at 142.24 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 142.24 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.03" (at 142.24 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid ecdd392f-4a18-40c9-94ae-2916bf6dd725))
-    (pin "2" (uuid d2c19963-c47d-4ea6-91ff-02d1e9bbfda9))
-    (instances
-      (project "000052 RCCON"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
-          (reference "C4") (unit 1)
-        )
-      )
-      (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "C20") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 154.94 78.74 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a2638790-e7bb-4cb0-88b2-9568c8ca26da)
-    (property "Reference" "#GND04" (at 154.94 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 154.94 82.55 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 154.94 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 154.94 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 978bc1be-ef77-4b62-9940-b8487f8d1729))
-    (instances
-      (project "000052 RCCON"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
-          (reference "#GND04") (unit 1)
-        )
-      )
-      (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "#GND09") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 168.91 121.92 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b3d00438-03bc-49db-ac54-10f2ca84c35f)
-    (property "Reference" "#GND04" (at 168.91 128.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 168.91 125.73 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 168.91 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 168.91 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f82be964-c310-4d70-baf3-c05c3b94f9d5))
-    (instances
-      (project "000052 RCCON"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
-          (reference "#GND04") (unit 1)
-        )
-      )
-      (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "#GND010") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Resistor:R_0603_10k_1%") (at 132.08 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d09c0e5e-fb67-4c4c-bc00-a339053edd72)
-    (property "Reference" "R22" (at 134.62 87.63 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10k" (at 119.38 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Resistor:RESC1608X55N" (at 119.38 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 119.38 77.47 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "10k" (at 134.62 90.17 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Manufacturer" "Stackpole Electronics Inc" (at 119.38 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "RMCF0603FT10K0" (at 119.38 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 119.38 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "RMCF0603FT10K0CT-ND" (at 119.38 67.31 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 119.38 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.01" (at 119.38 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 9893f924-8185-4c95-8f3c-a489b2de7fce))
-    (pin "2" (uuid b664abfe-6d6e-428c-bcb6-af40e62b7b2b))
-    (instances
-      (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "R22") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 132.08 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e4d99d11-5d45-4ad0-8610-ad6c43d205bf)
-    (property "Reference" "#+3V02" (at 132.08 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 132.08 80.264 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d482bdbc-9df1-4730-9f58-ed99ca3e12ef))
-    (instances
-      (project "000052 RCCON"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
-          (reference "#+3V02") (unit 1)
-        )
-      )
-      (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "#+3V01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Capacitor:C_0603_100n_X7R_50V") (at 143.51 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e62ec141-f385-4592-8ebd-fed87d36f99b)
-    (property "Reference" "C2" (at 146.05 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 146.05 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "KD_Capacitor:CAPC1608X90N" (at 130.81 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" (at 130.81 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Value" "100n" (at 146.05 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Manufacturer" "Samsung" (at 130.81 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "CL10B104KB8NNWC" (at 130.81 46.99 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 130.81 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "1276-1935-1-ND" (at 130.81 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 130.81 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.01" (at 130.81 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 708af75d-ac3c-4f05-a99d-62081ae930d7))
-    (pin "2" (uuid 850e21b2-e1e9-435f-9673-93ce3eb5e2e2))
-    (instances
-      (project "000052 RCCON"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
-          (reference "C2") (unit 1)
-        )
-      )
-      (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "C19") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_IC_Memory:FLASH_8MBit_104MHz_W25Q80DVSSIG") (at 158.75 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f180477d-e98b-4afd-9bf6-732c66ae380b)
-    (property "Reference" "U4" (at 171.45 89.662 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "W25Q80DVSSIG" (at 171.45 92.202 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "KD_Package_SO:SOIC127P790X195-8N" (at 146.05 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.winbond.com/resource-files/w25q80dv%20dl_revh_10022015.pdf" (at 146.05 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer" "Winbond Electronics" (at 146.05 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "W25Q80DVSSIG" (at 146.05 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 146.05 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "W25Q80DVSSIG-ND" (at 146.05 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 146.05 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.5" (at 146.05 67.31 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 45aef230-e68a-4615-ac9c-fff680ec4a31))
-    (pin "2" (uuid 30ab0c4e-b0c7-4b87-b520-10f93d300d77))
-    (pin "3" (uuid ed883d87-874e-4cde-a97b-6a62e0cddba7))
-    (pin "4" (uuid 785c449b-cac1-487f-af43-ac09bda5feaa))
-    (pin "5" (uuid e76a4598-711b-436b-9032-fa39b2ccccc9))
-    (pin "6" (uuid 3a1606f2-ff37-4b75-ae6b-3b0548add352))
-    (pin "7" (uuid 469d59e3-0a33-474e-aab2-53712fdb4b9c))
-    (pin "8" (uuid 8ae8302a-7898-4bb3-9569-5767ea4fd3f9))
-    (instances
-      (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "U4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 143.51 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fc384a26-a7d6-4508-88d0-4ab76e74530a)
-    (property "Reference" "#+3V02" (at 143.51 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 143.51 63.754 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 143.51 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 143.51 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a38da70b-2370-4334-b2a9-6992fca7aefd))
-    (instances
-      (project "000052 RCCON"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
-          (reference "#+3V02") (unit 1)
-        )
-      )
-      (project "000018 PGKB"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
-          (reference "#+3V02") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8ba62994-ab00-4a4c-a9e8-2e08a28bd525")
+	(paper "A4")
+	(title_block
+		(title "Programmable Keyboard")
+		(date "2024-04-09")
+		(rev "2.1")
+		(company "Kallio Designs Oy")
+		(comment 1 "TL, NH")
+		(comment 3 "PCB_PN")
+	)
+	(lib_symbols
+		(symbol "KD_Capacitor:C_0603_100n_X7R_50V"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100n"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "KD_Capacitor:CAPC1608X90N"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "CL10B104KB8NNWC"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "1276-1935-1-ND"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.01"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Capacitor Cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "0603 CAPC1608*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0603_100n_X7R_50V_0_1"
+				(polyline
+					(pts
+						(xy -2.286 -0.508) (xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0.508) (xy 2.286 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0603_100n_X7R_50V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_Capacitor:C_0805_1u_X7R_25V"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1u"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Capacitor:CAPC2012X135N"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 1UF 25V X7R 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "1u"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "CL21B105KAFNNNE"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "1276-1066-1-ND"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.03"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Capacitor Cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "0805 CAPC2012*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0805_1u_X7R_25V_0_1"
+				(polyline
+					(pts
+						(xy -2.286 -0.508) (xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0.508) (xy 2.286 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0805_1u_X7R_25V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_IC_Memory:FLASH_8MBit_104MHz_W25Q80DVSSIG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 12.7 6.858 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "W25Q80DVSSIG"
+				(at 12.7 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "KD_Package_SO:SOIC127P790X195-8N"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q80dv%20dl_revh_10022015.pdf"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC FLASH 8MBIT SPI/QUAD 8SOIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Winbond Electronics"
+				(at -12.7 41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "W25Q80DVSSIG"
+				(at -12.7 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "W25Q80DVSSIG-ND"
+				(at -12.7 34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.5"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SO-8 SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "so-8 SOIC-8 SO*127P600*-8*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FLASH_8MBit_104MHz_W25Q80DVSSIG_0_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 17.78 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "FLASH_8MBit_104MHz_W25Q80DVSSIG_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "DO(IO1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "~{WP}(IO2)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -22.86 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "DI(IO0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "~{HOLD}(IO3)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 5.08 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_Resistor:R_0603_10k_1%"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10k"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Resistor:RESC1608X55N"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 10K OHM 1% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "10k"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Stackpole Electronics Inc"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "RMCF0603FT10K0"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "RMCF0603FT10K0CT-ND"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.01"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor res"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "0603 RESC1608*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_10k_1%_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603_10k_1%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 154.94 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04dc1add-c904-4cb4-bc9a-083003c48f37")
+	)
+	(junction
+		(at 132.08 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c94a620-645a-46c8-a730-3b740d1d27a5")
+	)
+	(junction
+		(at 143.51 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bde30fed-9dd5-4065-a72a-72a23697d612")
+	)
+	(bus_entry
+		(at 124.46 99.06)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e4f917-ecf7-4245-86e2-eedcf431b208")
+	)
+	(bus_entry
+		(at 124.46 111.76)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "171ea8be-a4ed-44f2-9f1d-e5996b92fabd")
+	)
+	(bus_entry
+		(at 124.46 101.6)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d742d4-6a13-476f-a735-e7248708674f")
+	)
+	(bus_entry
+		(at 124.46 109.22)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32adbce7-f990-4977-bc20-beef00d9340b")
+	)
+	(bus_entry
+		(at 124.46 106.68)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb1de4a-2896-41af-8158-4af70eb5213c")
+	)
+	(bus_entry
+		(at 124.46 104.14)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899c6118-d41b-4fc9-a6e4-74a472cd7c44")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 158.75 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "144e8324-2039-43ea-9bea-fda857cc4221")
+	)
+	(wire
+		(pts
+			(xy 132.08 83.82) (xy 132.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e06059f-9b6b-4781-bf9e-f7748e6a9ae2")
+	)
+	(wire
+		(pts
+			(xy 132.08 92.71) (xy 132.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa6d2c0-268d-416a-983a-ee851c4b15fe")
+	)
+	(wire
+		(pts
+			(xy 154.94 68.58) (xy 168.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354c6874-6c14-443e-9bdb-99b1f81f7c33")
+	)
+	(wire
+		(pts
+			(xy 143.51 77.47) (xy 143.51 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3580508b-2968-43d2-91c1-7d0d0425816a")
+	)
+	(wire
+		(pts
+			(xy 154.94 77.47) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9d9647-e17c-4fb4-8c1e-0efb4e4d7197")
+	)
+	(wire
+		(pts
+			(xy 168.91 121.92) (xy 168.91 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40afbe72-09ec-4a12-8bcb-b60983df01cc")
+	)
+	(bus
+		(pts
+			(xy 124.46 104.14) (xy 124.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca89998-281f-485b-8c0f-35a68784ec0a")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 158.75 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51dd17b6-afc0-4189-9eb2-aa1e5d6911ef")
+	)
+	(bus
+		(pts
+			(xy 124.46 101.6) (xy 124.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586c6492-483e-4095-82da-0311d5d4b264")
+	)
+	(wire
+		(pts
+			(xy 168.91 68.58) (xy 168.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a05cb81-00b5-4b98-9367-aae23f06c977")
+	)
+	(bus
+		(pts
+			(xy 124.46 96.52) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c281b40-c27b-4774-be8d-4375da83404e")
+	)
+	(wire
+		(pts
+			(xy 158.75 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65fe94fd-bddc-43ff-8789-a232346cf694")
+	)
+	(wire
+		(pts
+			(xy 154.94 69.85) (xy 154.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bdf7340-76f6-4e99-b842-2dfa616f477f")
+	)
+	(bus
+		(pts
+			(xy 124.46 106.68) (xy 124.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0636b2-7eba-434a-b033-ff0e80dcb036")
+	)
+	(bus
+		(pts
+			(xy 124.46 109.22) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830ef62e-4af4-471a-8060-33b17ed67ae5")
+	)
+	(bus
+		(pts
+			(xy 124.46 111.76) (xy 124.46 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d61ded9-70bd-45c0-94cc-0a1dd8b1bd7b")
+	)
+	(wire
+		(pts
+			(xy 143.51 67.31) (xy 143.51 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917ce167-a4d6-431a-bcd4-a6954b168225")
+	)
+	(wire
+		(pts
+			(xy 143.51 69.85) (xy 143.51 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961d24cc-f92c-4b57-b166-15be2af3f84e")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 158.75 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c485da2-9457-46a8-b8b4-f78d1b23d52f")
+	)
+	(bus
+		(pts
+			(xy 124.46 99.06) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9567fed-8088-4c05-8b86-bceed8d4d857")
+	)
+	(wire
+		(pts
+			(xy 143.51 68.58) (xy 154.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc067e60-12b4-4ace-828e-56ff1748dbe0")
+	)
+	(bus
+		(pts
+			(xy 124.46 118.11) (xy 120.65 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5d8190-f7f6-4903-a483-3e54333df9ac")
+	)
+	(wire
+		(pts
+			(xy 158.75 109.22) (xy 127 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bee797-5701-480d-920e-caba2ace3bb8")
+	)
+	(wire
+		(pts
+			(xy 158.75 96.52) (xy 132.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2769178-c07e-49b6-818f-c06469aaf681")
+	)
+	(wire
+		(pts
+			(xy 132.08 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb048cfb-c637-47f8-8ca1-ca29721aa668")
+	)
+	(label "DATA0"
+		(at 146.05 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47c0de6f-396e-49ca-a151-925e7b26b751")
+	)
+	(label "~{CS}_MEMORY"
+		(at 146.05 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4abd10b7-754a-40f6-8b89-20b580518d72")
+	)
+	(label "DATA2"
+		(at 146.05 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b69c28c-76b5-499c-9e5e-3753cb7ed8c9")
+	)
+	(label "DATA1"
+		(at 146.05 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "924c0924-4d21-421d-a319-e9e2e30a590f")
+	)
+	(label "DATA3"
+		(at 146.05 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2bafd0c-47d8-427c-883d-7f4e45530012")
+	)
+	(label "CLK"
+		(at 146.05 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0c70e48-09df-4db7-84ae-e053d22e291e")
+	)
+	(hierarchical_label "{QSPI}"
+		(shape bidirectional)
+		(at 120.65 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dd54c02-305b-4c8f-bff7-43e8fc9d93ef")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0594fd50-5eb5-4510-8ee3-07371e27e0ca")
+		(property "Reference" "#GND02"
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dca5277-3429-4ee6-9e9e-c3e2bf3a55ef")
+		)
+		(instances
+			(project "000052 RCCON"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+			(project "000018 PGKB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
+					(reference "#GND08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Capacitor:C_0805_1u_X7R_25V")
+		(at 154.94 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c8c82e3-066d-4e14-8190-c4144ad5d817")
+		(property "Reference" "C4"
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 142.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Capacitor:CAPC2012X135N"
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf"
+			(at 142.24 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "1u"
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 142.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "CL21B105KAFNNNE"
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "1276-1066-1-ND"
+			(at 142.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 142.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.03"
+			(at 142.24 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecdd392f-4a18-40c9-94ae-2916bf6dd725")
+		)
+		(pin "2"
+			(uuid "d2c19963-c47d-4ea6-91ff-02d1e9bbfda9")
+		)
+		(instances
+			(project "000052 RCCON"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "000018 PGKB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2638790-e7bb-4cb0-88b2-9568c8ca26da")
+		(property "Reference" "#GND04"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "978bc1be-ef77-4b62-9940-b8487f8d1729")
+		)
+		(instances
+			(project "000052 RCCON"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
+					(reference "#GND04")
+					(unit 1)
+				)
+			)
+			(project "000018 PGKB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
+					(reference "#GND09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3d00438-03bc-49db-ac54-10f2ca84c35f")
+		(property "Reference" "#GND04"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f82be964-c310-4d70-baf3-c05c3b94f9d5")
+		)
+		(instances
+			(project "000052 RCCON"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
+					(reference "#GND04")
+					(unit 1)
+				)
+			)
+			(project "000018 PGKB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
+					(reference "#GND010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Resistor:R_0603_10k_1%")
+		(at 132.08 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d09c0e5e-fb67-4c4c-bc00-a339053edd72")
+		(property "Reference" "R22"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 119.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Resistor:RESC1608X55N"
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "10k"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "RMCF0603FT10K0"
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "RMCF0603FT10K0CT-ND"
+			(at 119.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 119.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.01"
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9893f924-8185-4c95-8f3c-a489b2de7fce")
+		)
+		(pin "2"
+			(uuid "b664abfe-6d6e-428c-bcb6-af40e62b7b2b")
+		)
+		(instances
+			(project "000018 PGKB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 132.08 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4d99d11-5d45-4ad0-8610-ad6c43d205bf")
+		(property "Reference" "#+3V02"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 132.08 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d482bdbc-9df1-4730-9f58-ed99ca3e12ef")
+		)
+		(instances
+			(project "000052 RCCON"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
+					(reference "#+3V02")
+					(unit 1)
+				)
+			)
+			(project "000018 PGKB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
+					(reference "#+3V01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Capacitor:C_0603_100n_X7R_50V")
+		(at 143.51 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e62ec141-f385-4592-8ebd-fed87d36f99b")
+		(property "Reference" "C2"
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 146.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
+			(at 130.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
+			(at 130.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 130.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "CL10B104KB8NNWC"
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 130.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "1276-1935-1-ND"
+			(at 130.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 130.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.01"
+			(at 130.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "708af75d-ac3c-4f05-a99d-62081ae930d7")
+		)
+		(pin "2"
+			(uuid "850e21b2-e1e9-435f-9673-93ce3eb5e2e2")
+		)
+		(instances
+			(project "000052 RCCON"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "000018 PGKB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_IC_Memory:FLASH_8MBit_104MHz_W25Q80DVSSIG")
+		(at 158.75 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f180477d-e98b-4afd-9bf6-732c66ae380b")
+		(property "Reference" "U4"
+			(at 171.45 89.662 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q80DVSSIG"
+			(at 171.45 92.202 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KD_Package_SO:SOIC127P790X195-8N"
+			(at 146.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q80dv%20dl_revh_10022015.pdf"
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Winbond Electronics"
+			(at 146.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "W25Q80DVSSIG"
+			(at 146.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "W25Q80DVSSIG-ND"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 146.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.5"
+			(at 146.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45aef230-e68a-4615-ac9c-fff680ec4a31")
+		)
+		(pin "2"
+			(uuid "30ab0c4e-b0c7-4b87-b520-10f93d300d77")
+		)
+		(pin "3"
+			(uuid "ed883d87-874e-4cde-a97b-6a62e0cddba7")
+		)
+		(pin "4"
+			(uuid "785c449b-cac1-487f-af43-ac09bda5feaa")
+		)
+		(pin "5"
+			(uuid "e76a4598-711b-436b-9032-fa39b2ccccc9")
+		)
+		(pin "6"
+			(uuid "3a1606f2-ff37-4b75-ae6b-3b0548add352")
+		)
+		(pin "7"
+			(uuid "469d59e3-0a33-474e-aab2-53712fdb4b9c")
+		)
+		(pin "8"
+			(uuid "8ae8302a-7898-4bb3-9569-5767ea4fd3f9")
+		)
+		(instances
+			(project "000018 PGKB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 143.51 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc384a26-a7d6-4508-88d0-4ab76e74530a")
+		(property "Reference" "#+3V02"
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 143.51 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a38da70b-2370-4334-b2a9-6992fca7aefd")
+		)
+		(instances
+			(project "000052 RCCON"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/f27a0928-8d32-4567-8ddf-132ea930c54d"
+					(reference "#+3V02")
+					(unit 1)
+				)
+			)
+			(project "000018 PGKB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/f1cedbc3-70dc-430a-811a-a6c314e1ab30"
+					(reference "#+3V02")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
