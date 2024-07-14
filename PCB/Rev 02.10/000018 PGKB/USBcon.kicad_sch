@@ -3039,14 +3039,14 @@
 				)
 			)
 		)
-		(symbol "KD_Resistor:R_0603_10_5%"
+		(symbol "KD_Resistor:R_0402_27_1%"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 1.905 1.27 0)
+				(at 2.032 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3054,17 +3054,16 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_0603_10_5%"
-				(at -12.7 31.75 0)
+			(property "Value" "27"
+				(at 2.032 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "KD_Resistor:RESC1608X55N"
+			(property "Footprint" "KD_Resistor:RESC1005X40N"
 				(at -12.7 13.97 0)
 				(effects
 					(font
@@ -3074,7 +3073,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 				(at -12.7 11.43 0)
 				(effects
 					(font
@@ -3084,25 +3083,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES 10 OHM 5% 1/10W 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Code" "10"
-				(at 1.905 -1.27 0)
+			(property "Description" "RES SMD 27 OHM 1% 1/16W 0402"
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Walsin Technology Corporation"
+			(property "Manufacturer" "Bourns Inc."
 				(at -12.7 29.21 0)
 				(effects
 					(font
@@ -3112,7 +3103,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG_PartNo" "WR06X100 JTL"
+			(property "MFG_PartNo" "CR0402-FX-27R0GLF"
 				(at -12.7 26.67 0)
 				(effects
 					(font
@@ -3132,7 +3123,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier_PartNo" "1292-WR06X100JTLCT-ND"
+			(property "Supplier_PartNo" "CR0402-FX-27R0GLFCT-ND"
 				(at -12.7 21.59 0)
 				(effects
 					(font
@@ -3171,7 +3162,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "RESC1608* *0603*"
+			(property "ki_fp_filters" "*0402* *1005* RESC1005*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3180,20 +3171,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0603_10_5%_0_1"
+			(symbol "R_0402_27_1%_1_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "R_0603_10_5%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4105,6 +4094,17 @@
 		)
 		(uuid "1ab84bc4-7af4-428e-8619-0ee0fe1b5306")
 	)
+	(text "Place R3, R4 near to MCU"
+		(exclude_from_sim no)
+		(at 166.37 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d2ed95f-070f-42cd-9bc8-95fa95177801")
+	)
 	(label "CC2"
 		(at 104.14 53.34 0)
 		(fields_autoplaced yes)
@@ -4117,17 +4117,6 @@
 		(uuid "6e6979d4-23cd-4bee-83e2-51894929835b")
 	)
 	(label "USB_D_P"
-		(at 149.86 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "97e81452-d42d-4d28-80c7-9a784a6b2300")
-	)
-	(label "USB_D_N"
 		(at 149.86 92.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4136,7 +4125,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "dd256db4-8b21-462b-a1f2-a9e050fb07b2")
+		(uuid "84d32244-a56a-4ac0-8119-8b0f02649a76")
+	)
+	(label "USB_D_N"
+		(at 149.86 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfa0e145-de4e-4be2-a7ee-c11b05b2423e")
 	)
 	(label "CC1"
 		(at 104.14 50.8 0)
@@ -4149,6 +4149,30 @@
 		)
 		(uuid "eadb441d-efc7-49d4-bcfc-6f7fda9a9920")
 	)
+	(hierarchical_label "USB_CON_D_N"
+		(shape bidirectional)
+		(at 196.85 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01e44cd9-4594-4de2-a841-1e7e5a7a45c5")
+	)
+	(hierarchical_label "USB_CON_D_P"
+		(shape bidirectional)
+		(at 196.85 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d68d7f5-e332-4d70-bb72-ecf4df227500")
+	)
 	(hierarchical_label "V_BUS_USB"
 		(shape input)
 		(at 238.76 50.8 0)
@@ -4160,30 +4184,6 @@
 			(justify left)
 		)
 		(uuid "cc257a82-75cf-4cd7-8c74-33cced62bf78")
-	)
-	(hierarchical_label "USB_CON_D_N"
-		(shape bidirectional)
-		(at 196.85 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db872418-4623-4e4e-8b11-a4ca1c56ad10")
-	)
-	(hierarchical_label "USB_CON_D_P"
-		(shape bidirectional)
-		(at 196.85 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea91292f-89e2-4254-ad9d-9b6157e3af16")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -4255,7 +4255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Resistor:R_0603_10_5%")
+		(lib_id "KD_Resistor:R_0402_27_1%")
 		(at 179.07 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4272,17 +4272,15 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_10_5%"
-			(at 147.32 109.22 0)
+		(property "Value" "27"
+			(at 179.07 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "KD_Resistor:RESC1608X55N"
+		(property "Footprint" "KD_Resistor:RESC1005X40N"
 			(at 165.1 109.22 0)
 			(effects
 				(font
@@ -4292,7 +4290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 167.64 109.22 0)
 			(effects
 				(font
@@ -4302,24 +4300,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 179.07 96.52 0)
+		(property "Description" "RES SMD 27 OHM 1% 1/16W 0402"
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Code" "10"
-			(at 179.07 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Walsin Technology Corporation"
+		(property "Manufacturer" "Bourns Inc."
 			(at 149.86 109.22 0)
 			(effects
 				(font
@@ -4329,7 +4320,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "WR06X100 JTL"
+		(property "MFG_PartNo" "CR0402-FX-27R0GLF"
 			(at 152.4 109.22 0)
 			(effects
 				(font
@@ -4349,7 +4340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1292-WR06X100JTLCT-ND"
+		(property "Supplier_PartNo" "CR0402-FX-27R0GLFCT-ND"
 			(at 157.48 109.22 0)
 			(effects
 				(font
@@ -5775,7 +5766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Resistor:R_0603_10_5%")
+		(lib_id "KD_Resistor:R_0402_27_1%")
 		(at 179.07 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5792,17 +5783,15 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_10_5%"
-			(at 147.32 99.06 0)
+		(property "Value" "27"
+			(at 179.07 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "KD_Resistor:RESC1608X55N"
+		(property "Footprint" "KD_Resistor:RESC1005X40N"
 			(at 165.1 99.06 0)
 			(effects
 				(font
@@ -5812,7 +5801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 167.64 99.06 0)
 			(effects
 				(font
@@ -5822,24 +5811,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 179.07 86.36 0)
+		(property "Description" "RES SMD 27 OHM 1% 1/16W 0402"
+			(at 147.32 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Code" "10"
-			(at 179.07 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Walsin Technology Corporation"
+		(property "Manufacturer" "Bourns Inc."
 			(at 149.86 99.06 0)
 			(effects
 				(font
@@ -5849,7 +5831,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "WR06X100 JTL"
+		(property "MFG_PartNo" "CR0402-FX-27R0GLF"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -5869,7 +5851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1292-WR06X100JTLCT-ND"
+		(property "Supplier_PartNo" "CR0402-FX-27R0GLFCT-ND"
 			(at 157.48 99.06 0)
 			(effects
 				(font

@@ -190,6 +190,28 @@
 		)
 		(uuid "f19adedd-7f02-4279-baf0-350299edf23d")
 	)
+	(text "Teemu Latonen"
+		(exclude_from_sim no)
+		(at 208.28 64.77 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "01571bef-038b-4e03-96d5-273508328103")
+	)
+	(text "14.07.2024"
+		(exclude_from_sim no)
+		(at 69.85 64.77 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "17a8cec5-520b-4cfb-b37f-9511510daebe")
+	)
 	(text "19.10.2023"
 		(exclude_from_sim no)
 		(at 69.85 58.42 0)
@@ -240,6 +262,17 @@
 		)
 		(uuid "47f85bfb-0077-4714-a665-9ef9622304b6")
 	)
+	(text "2.0"
+		(exclude_from_sim no)
+		(at 58.42 64.77 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cf90b0d-5cc7-48cb-88db-749409ab910a")
+	)
 	(text "DESIGNER"
 		(exclude_from_sim no)
 		(at 208.28 53.34 0)
@@ -288,6 +321,17 @@
 		)
 		(uuid "a752f49e-fffe-4d23-abe7-ce3161e4fd71")
 	)
+	(text "USB series resistor value changed from 10 ohm to 27 ohm"
+		(exclude_from_sim no)
+		(at 90.17 74.93 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc299ea2-0c80-43df-b720-76ad289e37f3")
+	)
 	(text "Teemu Latonen"
 		(exclude_from_sim no)
 		(at 208.026 56.515 0)
@@ -298,6 +342,28 @@
 			(justify left bottom)
 		)
 		(uuid "bddb689b-f545-4d49-9c68-ecb9e543125b")
+	)
+	(text "USB Signals reversed"
+		(exclude_from_sim no)
+		(at 90.17 64.77 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb0a8186-0700-4726-96ea-8de4c77ccf9e")
+	)
+	(text "Oscillator Y1 changed"
+		(exclude_from_sim no)
+		(at 90.17 69.85 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "e74fc300-3d13-4d58-91cf-ac07b491b4f9")
 	)
 	(text "Niko Hämäläinen"
 		(exclude_from_sim no)

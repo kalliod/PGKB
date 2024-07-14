@@ -1398,7 +1398,7 @@
 			(symbol "Schottky_30V_200mA_DCo_BAT54WS_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy -1.778 0.762) (xy -1.778 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.762 -1.27) (xy -0.762 -0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -2820,7 +2820,7 @@
 				)
 			)
 		)
-		(symbol "KD_Oscillator:Crystal_12M_RH100-12.000-18-2020-EXT-TR"
+		(symbol "KD_Oscillator:Crystal_12M_ABM8-272-T3"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2853,7 +2853,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.raltron.com/webproducts/specs/CRYSTAL/RH100-12.000-18-2020-EXT-TR.pdf"
+			(property "Datasheet" "https://www.mouser.fi/datasheet/2/3/ABM8_272_T3-3392615.pdf"
 				(at -12.7 11.43 0)
 				(effects
 					(font
@@ -2863,16 +2863,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "12 MHz ±30ppm Crystal 10pF 50 Ohms 4-SMD, No Lead"
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Raltron Electronics"
+			(property "Manufacturer" "Abracon LLC"
 				(at -12.7 29.21 0)
 				(effects
 					(font
@@ -2882,7 +2883,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG_PartNo" "RH100-12.000-18-2020-EXT-TR"
+			(property "MFG_PartNo" "ABM8-272-T3"
 				(at -12.7 26.67 0)
 				(effects
 					(font
@@ -2902,7 +2903,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier_PartNo" "2151-RH100-12.000-18-2020-EXT-TRCT-ND"
+			(property "Supplier_PartNo" "535-ABM8-272-T3CT-ND"
 				(at -12.7 21.59 0)
 				(effects
 					(font
@@ -2950,7 +2951,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_12M_RH100-12.000-18-2020-EXT-TR_0_1"
+			(symbol "Crystal_12M_ABM8-272-T3_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -3.81 0)
@@ -3012,7 +3013,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_12M_RH100-12.000-18-2020-EXT-TR_1_0"
+			(symbol "Crystal_12M_ABM8-272-T3_1_0"
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.905)
@@ -3050,7 +3051,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_12M_RH100-12.000-18-2020-EXT-TR_1_1"
+			(symbol "Crystal_12M_ABM8-272-T3_1_1"
 				(rectangle
 					(start -1.143 1.778)
 					(end 1.143 -1.778)
@@ -3059,7 +3060,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
@@ -4468,7 +4469,7 @@
 		(uuid "924bd008-f2ec-4321-85b9-f7eaf0b8f508")
 	)
 	(junction
-		(at 57.15 182.88)
+		(at 73.66 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "955b41b6-479a-4889-b5c2-840b98f82fd4")
@@ -4540,7 +4541,7 @@
 		(uuid "ebf5a78c-f8a4-40ba-952c-3d88bb138651")
 	)
 	(junction
-		(at 64.77 182.88)
+		(at 81.28 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecc20029-503e-461b-be13-63449ab8f627")
@@ -4564,8 +4565,12 @@
 		(uuid "fb5deb71-c364-4760-abc1-f1524cbaf776")
 	)
 	(no_connect
+		(at 111.76 135.89)
+		(uuid "14a94bb3-fc58-4bf3-945f-9a7287e59604")
+	)
+	(no_connect
 		(at 111.76 133.35)
-		(uuid "362d4549-4c7d-4329-a749-22052257b94a")
+		(uuid "22d3f855-2ffd-4151-b9d9-0cb0ed80b866")
 	)
 	(no_connect
 		(at 39.37 147.32)
@@ -4574,10 +4579,6 @@
 	(no_connect
 		(at 162.56 92.71)
 		(uuid "4ce25f1e-73d0-4da3-bbe4-ce334dda1611")
-	)
-	(no_connect
-		(at 111.76 135.89)
-		(uuid "5bf415fe-fdd3-4f5d-ba99-6af4b65823d5")
 	)
 	(no_connect
 		(at 49.53 147.32)
@@ -5258,16 +5259,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 182.88) (xy 57.15 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51594624-0ef3-44cf-89fb-08db907176ea")
-	)
-	(wire
-		(pts
 			(xy 121.92 43.18) (xy 132.08 43.18)
 		)
 		(stroke
@@ -5305,6 +5296,16 @@
 			(type default)
 		)
 		(uuid "5bef9847-c1e8-469e-8fea-293baf1d4bac")
+	)
+	(wire
+		(pts
+			(xy 46.99 182.88) (xy 73.66 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0f0388-5192-48c9-8aa1-9f8746e73664")
 	)
 	(wire
 		(pts
@@ -5448,7 +5449,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 182.88) (xy 64.77 182.88)
+			(xy 73.66 182.88) (xy 81.28 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5538,7 +5539,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 180.34) (xy 57.15 182.88)
+			(xy 73.66 180.34) (xy 73.66 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5668,7 +5669,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 170.18) (xy 54.61 170.18)
+			(xy 72.39 170.18) (xy 62.23 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5878,7 +5879,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 170.18) (xy 64.77 182.88)
+			(xy 81.28 170.18) (xy 81.28 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5918,7 +5919,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 170.18) (xy 46.99 170.18)
+			(xy 34.29 170.18) (xy 54.61 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6028,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 170.18) (xy 64.77 170.18)
+			(xy 80.01 170.18) (xy 81.28 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6358,7 +6359,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 182.88) (xy 74.93 182.88)
+			(xy 81.28 182.88) (xy 91.44 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6386,7 +6387,7 @@
 		)
 		(uuid "45a22210-7ba8-472f-8445-a6a76fc5a2a5")
 	)
-	(text "Place C25 close to pin 44"
+	(text "Place C25 near to pin 44"
 		(exclude_from_sim no)
 		(at 158.75 52.705 0)
 		(effects
@@ -6397,7 +6398,7 @@
 		)
 		(uuid "890cb782-ab88-4840-8523-93026fef3070")
 	)
-	(text "Place C23 close to pin 45"
+	(text "Place C23 near to pin 45"
 		(exclude_from_sim no)
 		(at 67.945 48.26 0)
 		(effects
@@ -6464,7 +6465,7 @@
 		(uuid "3eb53496-ff1d-4dbf-a7ba-2af4d67ecfc1")
 	)
 	(label "USBBOOT"
-		(at 74.93 182.88 180)
+		(at 91.44 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7141,7 +7142,7 @@
 	)
 	(symbol
 		(lib_id "KD_Connector_Pads:TestPoint_2.5mm_H0.9")
-		(at 57.15 180.34 0)
+		(at 73.66 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7149,7 +7150,7 @@
 		(dnp no)
 		(uuid "0ea1addc-9d1e-44a2-822b-e14357656f87")
 		(property "Reference" "TP7"
-			(at 57.15 175.26 0)
+			(at 73.66 175.26 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7158,7 +7159,7 @@
 			)
 		)
 		(property "Value" "TP D2.5 mm H0.9mm"
-			(at 44.45 148.59 0)
+			(at 60.96 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7168,7 +7169,7 @@
 			)
 		)
 		(property "Footprint" "KD_Connector_Pads:TestPoint_Pad_D2.5mm_H0.9mm"
-			(at 44.45 166.37 0)
+			(at 60.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7179,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 44.45 168.91 0)
+			(at 60.96 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 180.34 0)
+			(at 73.66 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7198,7 @@
 			)
 		)
 		(property "Code" "DNP"
-			(at 44.45 171.45 0)
+			(at 60.96 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +7208,7 @@
 			)
 		)
 		(property "Manufacturer" "DNP"
-			(at 44.45 151.13 0)
+			(at 60.96 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7218,7 @@
 			)
 		)
 		(property "MFG_PartNo" "DNP"
-			(at 44.45 153.67 0)
+			(at 60.96 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,7 +7228,7 @@
 			)
 		)
 		(property "Supplier" "DNP"
-			(at 44.45 156.21 0)
+			(at 60.96 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7237,7 +7238,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "DNP"
-			(at 44.45 158.75 0)
+			(at 60.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7247,7 +7248,7 @@
 			)
 		)
 		(property "DNP" "T"
-			(at 44.45 161.29 0)
+			(at 60.96 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7258,7 @@
 			)
 		)
 		(property "Price" "0.00"
-			(at 44.45 163.83 0)
+			(at 60.96 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +9919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Oscillator:Crystal_12M_RH100-12.000-18-2020-EXT-TR")
+		(lib_id "KD_Oscillator:Crystal_12M_ABM8-272-T3")
 		(at 74.93 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9955,7 +9956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.raltron.com/webproducts/specs/CRYSTAL/RH100-12.000-18-2020-EXT-TR.pdf"
+		(property "Datasheet" "https://www.mouser.fi/datasheet/2/3/ABM8_272_T3-3392615.pdf"
 			(at 62.23 111.76 0)
 			(effects
 				(font
@@ -9965,16 +9966,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 74.93 123.19 0)
+		(property "Description" "12 MHz ±30ppm Crystal 10pF 50 Ohms 4-SMD, No Lead"
+			(at 62.23 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Raltron Electronics"
+		(property "Manufacturer" "Abracon LLC"
 			(at 62.23 93.98 0)
 			(effects
 				(font
@@ -9984,7 +9986,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "RH100-12.000-18-2020-EXT-TR"
+		(property "MFG_PartNo" "ABM8-272-T3"
 			(at 62.23 96.52 0)
 			(effects
 				(font
@@ -10004,7 +10006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "2151-RH100-12.000-18-2020-EXT-TRCT-ND"
+		(property "Supplier_PartNo" "535-ABM8-272-T3CT-ND"
 			(at 62.23 101.6 0)
 			(effects
 				(font
@@ -10612,7 +10614,7 @@
 	)
 	(symbol
 		(lib_id "KD_Resistor:R_0603_1k_1%")
-		(at 59.69 170.18 90)
+		(at 76.2 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10621,7 +10623,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5d72408-8f70-4519-a0eb-187030f80f05")
 		(property "Reference" "R23"
-			(at 59.69 163.83 90)
+			(at 76.2 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,7 +10631,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 27.94 182.88 0)
+			(at 44.45 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10639,7 +10641,7 @@
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
-			(at 45.72 182.88 0)
+			(at 62.23 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10649,7 +10651,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
-			(at 48.26 182.88 0)
+			(at 64.77 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10659,7 +10661,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 170.18 0)
+			(at 76.2 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10668,7 +10670,7 @@
 			)
 		)
 		(property "Code" "1k"
-			(at 59.69 166.37 90)
+			(at 76.2 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,7 +10678,7 @@
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 30.48 182.88 0)
+			(at 46.99 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10686,7 +10688,7 @@
 			)
 		)
 		(property "MFG_PartNo" "RMCF0603JT1K00"
-			(at 33.02 182.88 0)
+			(at 49.53 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10696,7 +10698,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 35.56 182.88 0)
+			(at 52.07 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10706,7 +10708,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "RMCF0603JT1K00CT-ND"
-			(at 38.1 182.88 0)
+			(at 54.61 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,7 +10718,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 40.64 182.88 0)
+			(at 57.15 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,7 +10728,7 @@
 			)
 		)
 		(property "Price" "0.01"
-			(at 43.18 182.88 0)
+			(at 59.69 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12222,7 +12224,7 @@
 	)
 	(symbol
 		(lib_id "KD_Diode:Schottky_30V_200mA_DCo_BAT54WS")
-		(at 50.8 170.18 180)
+		(at 58.42 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12231,7 +12233,7 @@
 		(fields_autoplaced yes)
 		(uuid "d872a9d0-e3b6-4cd9-9518-b669a9f46407")
 		(property "Reference" "D13"
-			(at 51.1175 163.83 0)
+			(at 58.674 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12239,7 +12241,7 @@
 			)
 		)
 		(property "Value" "Schottky_30V_200mA_DCo_BAT54WS"
-			(at 63.5 201.93 0)
+			(at 71.12 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12249,7 +12251,7 @@
 			)
 		)
 		(property "Footprint" "KD_Diode:D_SOD-323"
-			(at 63.5 184.15 0)
+			(at 71.12 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12259,7 +12261,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bat54ws.pdf"
-			(at 63.5 181.61 0)
+			(at 71.12 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12268,8 +12270,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 50.8 170.18 0)
+		(property "Description" "Diode Schottky 30 V 200mA Surface Mount SOD-323"
+			(at 58.42 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12278,7 +12280,7 @@
 			)
 		)
 		(property "Code" "BAT54WS"
-			(at 51.1175 166.37 0)
+			(at 58.674 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +12288,7 @@
 			)
 		)
 		(property "Manufacturer" "DComponents"
-			(at 63.5 199.39 0)
+			(at 71.12 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12296,7 +12298,7 @@
 			)
 		)
 		(property "MFG_PartNo" "BAT54WS"
-			(at 63.5 196.85 0)
+			(at 71.12 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12306,7 +12308,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 63.5 194.31 0)
+			(at 71.12 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12316,7 +12318,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "2721-BAT54WSTR-ND"
-			(at 63.5 191.77 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,7 +12328,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 63.5 189.23 0)
+			(at 71.12 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12336,7 +12338,7 @@
 			)
 		)
 		(property "Price" "0.05"
-			(at 63.5 186.69 0)
+			(at 71.12 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

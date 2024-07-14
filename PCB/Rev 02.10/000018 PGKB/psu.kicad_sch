@@ -1574,205 +1574,6 @@
 				)
 			)
 		)
-		(symbol "KD_Power_Supply:DC_DC_3V3_OKI-78SR-3.3/1.5-W36H-C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DC_DC_3V3_OKI-78SR-3.3{slash}1.5-W36H-C"
-				(at -12.7 31.75 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "KD_Power_Supply:Converter_DCDC_Murata_OKI-78SR_Horizontal"
-				(at -12.7 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdata/8807037992990/oki-78sr.pdf?1583754815000"
-				(at -12.7 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC DC CONVERTER 3.3V 5W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Code" "OKI-78SR-3.3/1.5-W36H-C"
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "Murata Power Solutions Inc."
-				(at -12.7 29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MFG_PartNo" "OKI-78SR-3.3/1.5-W36H-C"
-				(at -12.7 26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Digi-Key"
-				(at -12.7 24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier_PartNo" "811-3014-ND"
-				(at -12.7 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DNP" "F"
-				(at -12.7 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Price" "3.5"
-				(at -12.7 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC Power Supply 3V3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DC_DC_3V3_OKI-78SR-3.3/1.5-W36H-C_0_1"
-				(rectangle
-					(start -5.08 3.175)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "DC_DC_3V3_OKI-78SR-3.3/1.5-W36H-C_1_1"
-				(pin power_in line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "KD_Resistor:R_0603_360_1%"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -2184,74 +1985,68 @@
 		)
 	)
 	(junction
-		(at 139.7 121.92)
+		(at 148.59 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "044bf17e-c09a-4e15-94da-038305a1d171")
 	)
 	(junction
-		(at 135.89 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07fb9504-5407-4f66-8a8e-75e950b29333")
-	)
-	(junction
-		(at 71.12 110.49)
+		(at 81.28 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c2b598a-e028-4dfb-a120-3f4e226d3c94")
 	)
 	(junction
-		(at 107.95 120.65)
+		(at 129.54 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1a74e0ce-6cf5-40a6-8e6d-aa75a8948a43")
+		(uuid "14dd4d59-dd41-4dd0-bee6-8bffeb0e7822")
 	)
 	(junction
-		(at 139.7 111.76)
+		(at 148.59 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ff24ef0-fb6b-4224-bf93-e77cb77ef343")
 	)
 	(junction
-		(at 219.71 111.76)
+		(at 229.87 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f080cbe-98ab-4d38-9a63-2fb705e6249c")
 	)
 	(junction
-		(at 132.08 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b2a8588-fa65-49a3-b681-26f659098cd9")
-	)
-	(junction
-		(at 125.73 111.76)
+		(at 134.62 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77088bfd-dcd5-4334-b25a-71121ed71754")
 	)
 	(junction
-		(at 214.63 111.76)
+		(at 224.79 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82260791-aa44-4d8e-b417-18738f87df16")
 	)
 	(junction
-		(at 81.28 128.27)
+		(at 91.44 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ec90e3a-2472-46c6-a979-c8068fb80596")
 	)
 	(junction
-		(at 180.34 111.76)
+		(at 116.84 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a30b5933-e6db-416f-9843-83fd9d956146")
+	)
+	(junction
+		(at 190.5 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b70c7d15-ebdf-49ba-a9e8-2ce64a78b00e")
 	)
 	(wire
 		(pts
-			(xy 107.95 128.27) (xy 101.6 128.27)
+			(xy 116.84 109.22) (xy 111.76 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2261,17 +2056,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 120.65) (xy 109.22 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ce687f7-3dad-4080-a822-93d41503f379")
-	)
-	(wire
-		(pts
-			(xy 127 133.35) (xy 130.81 133.35)
+			(xy 135.89 114.3) (xy 139.7 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2281,7 +2066,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 116.84) (xy 180.34 116.84)
+			(xy 194.31 97.79) (xy 190.5 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2291,17 +2076,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 63.5) (xy 71.12 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29306841-03ea-45fc-80f6-08a7e396d59c")
-	)
-	(wire
-		(pts
-			(xy 180.34 111.76) (xy 180.34 109.22)
+			(xy 190.5 92.71) (xy 190.5 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2311,7 +2086,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 135.89) (xy 85.09 139.7)
+			(xy 95.25 116.84) (xy 95.25 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2321,7 +2096,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 110.49) (xy 132.08 111.76)
+			(xy 116.84 87.63) (xy 116.84 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2331,7 +2106,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 120.65) (xy 71.12 119.38)
+			(xy 81.28 101.6) (xy 81.28 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2341,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 111.76) (xy 219.71 111.76)
+			(xy 236.22 92.71) (xy 229.87 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2351,7 +2126,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 120.65) (xy 107.95 128.27)
+			(xy 116.84 92.71) (xy 116.84 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2361,7 +2136,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 99.06) (xy 135.89 111.76)
+			(xy 129.54 91.44) (xy 129.54 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2371,7 +2146,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 110.49) (xy 81.28 128.27)
+			(xy 91.44 91.44) (xy 91.44 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2381,7 +2156,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 121.92) (xy 139.7 121.92)
+			(xy 134.62 102.87) (xy 148.59 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2391,7 +2166,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 110.49) (xy 71.12 111.76)
+			(xy 81.28 91.44) (xy 81.28 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2401,7 +2176,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 121.92) (xy 219.71 124.46)
+			(xy 229.87 102.87) (xy 229.87 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2411,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 111.76) (xy 219.71 114.3)
+			(xy 229.87 92.71) (xy 229.87 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2421,7 +2196,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 121.92) (xy 139.7 123.19)
+			(xy 148.59 102.87) (xy 148.59 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2431,7 +2206,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 120.65) (xy 139.7 121.92)
+			(xy 148.59 101.6) (xy 148.59 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2441,7 +2216,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 63.5) (xy 71.12 63.5)
+			(xy 59.69 91.44) (xy 81.28 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2451,7 +2226,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 133.35) (xy 130.81 130.81)
+			(xy 139.7 114.3) (xy 139.7 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2461,7 +2236,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 110.49) (xy 81.28 110.49)
+			(xy 134.62 92.71) (xy 148.59 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f407f82-fc53-49b1-a796-745e590bb39b")
+	)
+	(wire
+		(pts
+			(xy 81.28 91.44) (xy 91.44 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2471,7 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 130.81) (xy 81.28 128.27)
+			(xy 91.44 111.76) (xy 91.44 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2481,7 +2266,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 128.27) (xy 86.36 128.27)
+			(xy 91.44 109.22) (xy 96.52 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2491,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 111.76) (xy 180.34 111.76)
+			(xy 194.31 92.71) (xy 190.5 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2501,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 111.76) (xy 214.63 111.76)
+			(xy 217.17 92.71) (xy 224.79 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2511,17 +2296,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 111.76) (xy 139.7 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95dfbefa-51d8-4824-9366-df5a1a70dda4")
-	)
-	(wire
-		(pts
-			(xy 81.28 130.81) (xy 86.36 130.81)
+			(xy 91.44 111.76) (xy 96.52 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2531,17 +2306,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 111.76) (xy 107.95 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af3d1581-0fa4-4794-b08e-90236d48060f")
-	)
-	(wire
-		(pts
-			(xy 209.55 116.84) (xy 209.55 119.38)
+			(xy 219.71 97.79) (xy 219.71 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2551,7 +2316,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 133.35) (xy 118.11 133.35)
+			(xy 129.54 92.71) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdedb81-55ec-4feb-8ad0-af41e0128208")
+	)
+	(wire
+		(pts
+			(xy 128.27 114.3) (xy 127 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2561,7 +2336,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 116.84) (xy 180.34 111.76)
+			(xy 190.5 97.79) (xy 190.5 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2571,7 +2346,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 107.95) (xy 214.63 111.76)
+			(xy 224.79 88.9) (xy 224.79 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2581,17 +2356,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 111.76) (xy 132.08 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc872050-4486-4ab2-b4cc-cffc59487a1b")
-	)
-	(wire
-		(pts
-			(xy 139.7 110.49) (xy 139.7 111.76)
+			(xy 148.59 91.44) (xy 148.59 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2601,7 +2366,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 133.35) (xy 110.49 133.35)
+			(xy 111.76 114.3) (xy 119.38 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2611,7 +2376,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 120.65) (xy 125.73 121.92)
+			(xy 134.62 101.6) (xy 134.62 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2621,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 111.76) (xy 214.63 111.76)
+			(xy 229.87 92.71) (xy 224.79 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2631,7 +2396,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 116.84) (xy 209.55 116.84)
+			(xy 217.17 97.79) (xy 219.71 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2641,7 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 135.89) (xy 86.36 135.89)
+			(xy 95.25 116.84) (xy 96.52 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2651,7 +2416,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 133.35) (xy 219.71 132.08)
+			(xy 229.87 114.3) (xy 229.87 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2661,27 +2426,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 111.76) (xy 125.73 111.76)
+			(xy 116.84 92.71) (xy 129.54 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea50b964-7de2-4d90-b9cc-2d9fe0642b13")
+		(uuid "e5003f11-097f-4ae9-8253-461430a034d5")
 	)
 	(wire
 		(pts
-			(xy 132.08 111.76) (xy 135.89 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee69beb7-92fe-41a2-8703-91c7cd07904b")
-	)
-	(wire
-		(pts
-			(xy 125.73 113.03) (xy 125.73 111.76)
+			(xy 134.62 93.98) (xy 134.62 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2691,7 +2446,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 139.7 111.76)
+			(xy 148.59 93.98) (xy 148.59 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2699,19 +2454,9 @@
 		)
 		(uuid "f50efec4-bb2d-4612-b7f9-608bfd79c3f4")
 	)
-	(text "Bigger PSU needed?"
-		(exclude_from_sim no)
-		(at 95.25 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "19f007f2-d310-44bd-97e1-60938ddc49bd")
-	)
 	(global_label "PERIP_~{RESET}"
 		(shape output)
-		(at 226.06 111.76 0)
+		(at 236.22 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2721,7 +2466,7 @@
 		)
 		(uuid "d16b91e6-a526-402b-86e7-b74790d10816")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.4168 111.76 0)
+			(at 251.5768 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2478,7 @@
 	)
 	(hierarchical_label "PWR_IN"
 		(shape input)
-		(at 52.07 63.5 180)
+		(at 59.69 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2746,7 +2491,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 55.88 63.5 0)
+		(at 63.5 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2756,7 +2501,7 @@
 		)
 		(uuid "068d6ce4-708d-4a98-b606-acd387955ae9")
 		(property "Netclass" "150mA_50V"
-			(at 56.769 60.96 0)
+			(at 64.389 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +2514,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 135.89 99.06 0)
+		(at 129.54 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2779,185 +2524,19 @@
 		)
 		(uuid "0fea2b97-b550-4199-95a9-221720f63484")
 		(property "Netclass" "150mA_50V"
-			(at 136.779 96.52 0)
+			(at 130.429 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 109.22 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7777cc76-6135-46b1-adbf-abe1bbd277c4")
-		(property "Netclass" "150mA_50V"
-			(at 110.109 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KD_Power_Supply:DC_DC_3V3_OKI-78SR-3.3/1.5-W36H-C")
-		(at 95.25 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b732958-4518-4ab4-8814-22d3ceed242f")
-		(property "Reference" "U8"
-			(at 95.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DC_DC_3V3_OKI-78SR-3.3/1.5-W36H-C"
-			(at 82.55 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "KD_Power_Supply:Converter_DCDC_Murata_OKI-78SR_Horizontal"
-			(at 82.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdata/8807037992990/oki-78sr.pdf?1583754815000"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC DC CONVERTER 3.3V 5W"
-			(at 95.25 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "OKI-78SR-3.3/1.5-W36H-C"
-			(at 95.25 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Power Solutions Inc."
-			(at 82.55 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MFG_PartNo" "OKI-78SR-3.3/1.5-W36H-C"
-			(at 82.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 82.55 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier_PartNo" "811-3014-ND"
-			(at 82.55 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DNP" "F"
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Price" "3.5"
-			(at 82.55 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "85fc0810-d0df-4e42-94c4-706e788ee0b0")
-		)
-		(pin "3"
-			(uuid "640dea2a-22d0-41cd-8931-e5141dbce42b")
-		)
-		(pin "1"
-			(uuid "ab71f015-bc86-4f96-b5da-95b4c2af3384")
-		)
-		(instances
-			(project "000018 PGKB"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/91422aee-53cf-4c28-8efa-7ede5a87a80b"
-					(reference "U8")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "KD_Resistor:R_0603_360_1%")
-		(at 219.71 118.11 180)
+		(at 229.87 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2966,7 +2545,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ecf97e6-eee6-4891-8eee-ace7cce614ec")
 		(property "Reference" "R33"
-			(at 222.25 116.84 0)
+			(at 232.41 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +2554,7 @@
 			)
 		)
 		(property "Value" "R_0603_360_1%"
-			(at 232.41 149.86 0)
+			(at 242.57 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +2564,7 @@
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
-			(at 232.41 132.08 0)
+			(at 242.57 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +2574,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf"
-			(at 232.41 129.54 0)
+			(at 242.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +2584,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 118.11 0)
+			(at 229.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +2593,7 @@
 			)
 		)
 		(property "Code" "360"
-			(at 222.25 119.38 0)
+			(at 232.41 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +2602,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 232.41 147.32 0)
+			(at 242.57 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +2612,7 @@
 			)
 		)
 		(property "MFG_PartNo" "RT0603FRE07360RL"
-			(at 232.41 144.78 0)
+			(at 242.57 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +2622,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 232.41 142.24 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +2632,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "13-RT0603FRE07360RLCT-ND"
-			(at 232.41 139.7 0)
+			(at 242.57 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,7 +2642,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 232.41 137.16 0)
+			(at 242.57 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,7 +2652,7 @@
 			)
 		)
 		(property "Price" "0.02"
-			(at 232.41 134.62 0)
+			(at 242.57 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +2678,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 133.35 0)
+		(at 229.87 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3108,7 +2687,7 @@
 		(fields_autoplaced yes)
 		(uuid "10c78577-aa95-487b-979d-594343788d74")
 		(property "Reference" "#PWR0101"
-			(at 219.71 139.7 0)
+			(at 229.87 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +2696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 137.16 0)
+			(at 229.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,7 +2704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 133.35 0)
+			(at 229.87 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +2713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 133.35 0)
+			(at 229.87 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +2722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 133.35 0)
+			(at 229.87 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +2750,7 @@
 	)
 	(symbol
 		(lib_id "KD_Resistor:R_0603_360_1%")
-		(at 123.19 133.35 90)
+		(at 132.08 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3180,7 +2759,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c687b42-f4bc-418a-872b-9b18191cedb6")
 		(property "Reference" "R32"
-			(at 123.19 127 90)
+			(at 132.08 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +2767,7 @@
 			)
 		)
 		(property "Value" "R_0603_360_1%"
-			(at 91.44 146.05 0)
+			(at 100.33 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +2777,7 @@
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
-			(at 109.22 146.05 0)
+			(at 118.11 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,7 +2787,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf"
-			(at 111.76 146.05 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +2797,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 133.35 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +2806,7 @@
 			)
 		)
 		(property "Code" "360"
-			(at 123.19 129.54 90)
+			(at 132.08 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,7 +2814,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 93.98 146.05 0)
+			(at 102.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +2824,7 @@
 			)
 		)
 		(property "MFG_PartNo" "RT0603FRE07360RL"
-			(at 96.52 146.05 0)
+			(at 105.41 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +2834,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 99.06 146.05 0)
+			(at 107.95 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,7 +2844,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "13-RT0603FRE07360RLCT-ND"
-			(at 101.6 146.05 0)
+			(at 110.49 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +2854,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 104.14 146.05 0)
+			(at 113.03 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +2864,7 @@
 			)
 		)
 		(property "Price" "0.02"
-			(at 106.68 146.05 0)
+			(at 115.57 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +2890,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 130.81 130.81 0)
+		(at 139.7 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3319,7 +2898,7 @@
 		(dnp no)
 		(uuid "30ab8a83-8a7c-4e42-937d-65c7027a7a54")
 		(property "Reference" "#+3V03"
-			(at 130.81 134.62 0)
+			(at 139.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +2907,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 130.81 127.254 0)
+			(at 139.7 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +2915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 130.81 0)
+			(at 139.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +2924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 130.81 0)
+			(at 139.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +2933,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 130.81 0)
+			(at 139.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +2961,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 123.19 0)
+		(at 148.59 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3391,7 +2970,7 @@
 		(fields_autoplaced yes)
 		(uuid "361bfff0-16db-4e85-8db6-b0b629aebd07")
 		(property "Reference" "#PWR0102"
-			(at 139.7 129.54 0)
+			(at 148.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +2979,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 127 0)
+			(at 148.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +2987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 123.19 0)
+			(at 148.59 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +2996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 123.19 0)
+			(at 148.59 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3005,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 123.19 0)
+			(at 148.59 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3033,7 @@
 	)
 	(symbol
 		(lib_id "KD_Capacitor:C_0603_100n_X7R_50V")
-		(at 71.12 115.57 0)
+		(at 81.28 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3462,7 +3041,7 @@
 		(dnp no)
 		(uuid "3c23f496-328d-4f81-b882-9c88bbc5913f")
 		(property "Reference" "C8"
-			(at 73.66 114.3 0)
+			(at 83.82 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +3050,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 73.66 116.84 0)
+			(at 83.82 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3059,7 @@
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
-			(at 58.42 101.6 0)
+			(at 68.58 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3069,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
-			(at 58.42 104.14 0)
+			(at 68.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3079,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 115.57 0)
+			(at 81.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3088,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 58.42 86.36 0)
+			(at 68.58 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3098,7 @@
 			)
 		)
 		(property "MFG_PartNo" "CL10B104KB8NNWC"
-			(at 58.42 88.9 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3108,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 58.42 91.44 0)
+			(at 68.58 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3118,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "1276-1935-1-ND"
-			(at 58.42 93.98 0)
+			(at 68.58 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3128,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 58.42 96.52 0)
+			(at 68.58 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3138,7 @@
 			)
 		)
 		(property "Price" "0.01"
-			(at 58.42 99.06 0)
+			(at 68.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,7 +3170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 120.65 0)
+		(at 81.28 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3599,7 +3178,7 @@
 		(dnp no)
 		(uuid "43b33837-71c7-4323-a131-a63c476ce54d")
 		(property "Reference" "#PWR0101"
-			(at 71.12 127 0)
+			(at 81.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +3187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 124.46 0)
+			(at 81.28 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +3195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 120.65 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 120.65 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3213,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 120.65 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3241,7 @@
 	)
 	(symbol
 		(lib_id "KD_IC_Regulator_DC_Converter:Regulator_3v3_500mA_0.5%_MCP1825T-3302E/DC")
-		(at 93.98 128.27 0)
+		(at 104.14 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3671,7 +3250,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c1f082f-8279-4b5a-bd72-23caaab86eb8")
 		(property "Reference" "U6"
-			(at 93.98 121.92 0)
+			(at 104.14 102.87 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3680,7 +3259,7 @@
 			)
 		)
 		(property "Value" "MCP1825T-3302E/DC"
-			(at 93.98 124.46 0)
+			(at 104.14 105.41 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3689,7 +3268,7 @@
 			)
 		)
 		(property "Footprint" "KD_Package_TO_SOT_SMD:SOT127P700X180-6N"
-			(at 81.28 114.3 0)
+			(at 91.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +3278,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22056b.pdf"
-			(at 81.28 116.84 0)
+			(at 91.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3709,7 +3288,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 128.27 0)
+			(at 104.14 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +3297,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 81.28 99.06 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,7 +3307,7 @@
 			)
 		)
 		(property "MFG_PartNo" "MCP1825T-3302E/DC"
-			(at 81.28 101.6 0)
+			(at 91.44 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,7 +3317,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 81.28 104.14 0)
+			(at 91.44 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3327,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "MCP1825T-3302E/DCCT-ND"
-			(at 81.28 106.68 0)
+			(at 91.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,7 +3337,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 81.28 109.22 0)
+			(at 91.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +3347,7 @@
 			)
 		)
 		(property "Price" "0.7"
-			(at 81.28 111.76 0)
+			(at 91.44 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,7 +3385,7 @@
 	)
 	(symbol
 		(lib_id "KD_Led:0603_Green_Diff_B1911NG--20D000214U1930")
-		(at 219.71 128.27 90)
+		(at 229.87 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3815,7 +3394,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e67a735-a2ab-4348-a3c2-3869b393091c")
 		(property "Reference" "D16"
-			(at 223.52 128.5875 90)
+			(at 233.68 109.5375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3403,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 223.52 131.1275 90)
+			(at 233.68 112.0775 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +3412,7 @@
 			)
 		)
 		(property "Footprint" "KD_Diode:LEDM1608X70M"
-			(at 205.74 140.97 0)
+			(at 215.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +3422,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3690/B1911NG--20D000214U1930.pdf"
-			(at 208.28 140.97 0)
+			(at 218.44 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +3432,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 128.27 0)
+			(at 229.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +3441,7 @@
 			)
 		)
 		(property "Manufacturer" "Harvatek Corporation"
-			(at 190.5 140.97 0)
+			(at 200.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +3451,7 @@
 			)
 		)
 		(property "MFG_PartNo" "B1911NG--20D000214U1930"
-			(at 193.04 140.97 0)
+			(at 203.2 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3461,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 195.58 140.97 0)
+			(at 205.74 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +3471,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "3147-B1911NG--20D000214U1930CT-ND"
-			(at 198.12 140.97 0)
+			(at 208.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3481,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 200.66 140.97 0)
+			(at 210.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3491,7 @@
 			)
 		)
 		(property "Price" "0.10"
-			(at 203.2 140.97 0)
+			(at 213.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3517,7 @@
 	)
 	(symbol
 		(lib_id "KD_Capacitor:C_1206_10u_X7R_16V")
-		(at 125.73 116.84 0)
+		(at 134.62 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3946,7 +3525,7 @@
 		(dnp no)
 		(uuid "9a5b64e8-8b6a-456c-8808-8167e668d440")
 		(property "Reference" "C6"
-			(at 128.27 115.57 0)
+			(at 137.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +3534,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 113.03 85.09 0)
+			(at 121.92 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +3544,7 @@
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC3216X150N"
-			(at 113.03 102.87 0)
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +3554,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samsungsem.com/kr/support/product-search/mlcc/CL31B106MOHNNNE.jsp"
-			(at 113.03 105.41 0)
+			(at 121.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +3564,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 116.84 0)
+			(at 134.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +3573,7 @@
 			)
 		)
 		(property "Code" "10u"
-			(at 128.27 118.11 0)
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +3582,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 113.03 87.63 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +3592,7 @@
 			)
 		)
 		(property "MFG_PartNo" "CL31B106MOHNNNE"
-			(at 113.03 90.17 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +3602,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 113.03 92.71 0)
+			(at 121.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +3612,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "1276-6641-1-ND"
-			(at 113.03 95.25 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +3622,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 113.03 97.79 0)
+			(at 121.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +3632,7 @@
 			)
 		)
 		(property "Price" "0.10"
-			(at 113.03 100.33 0)
+			(at 121.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +3664,7 @@
 	)
 	(symbol
 		(lib_id "KD_Connector_Pads:TestPoint_2.5mm_H0.9")
-		(at 214.63 107.95 0)
+		(at 224.79 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4093,7 +3672,7 @@
 		(dnp no)
 		(uuid "a4fde244-9e51-48fe-835d-81a77e3bba04")
 		(property "Reference" "TP14"
-			(at 214.63 102.87 0)
+			(at 224.79 83.82 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4102,7 +3681,7 @@
 			)
 		)
 		(property "Value" "TP D2.5 mm H0.9mm"
-			(at 201.93 76.2 0)
+			(at 212.09 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +3691,7 @@
 			)
 		)
 		(property "Footprint" "KD_Connector_Pads:TestPoint_Pad_D2.5mm_H0.9mm"
-			(at 201.93 93.98 0)
+			(at 212.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +3701,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 201.93 96.52 0)
+			(at 212.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +3711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 107.95 0)
+			(at 224.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +3720,7 @@
 			)
 		)
 		(property "Code" "DNP"
-			(at 201.93 99.06 0)
+			(at 212.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +3730,7 @@
 			)
 		)
 		(property "Manufacturer" "DNP"
-			(at 201.93 78.74 0)
+			(at 212.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +3740,7 @@
 			)
 		)
 		(property "MFG_PartNo" "DNP"
-			(at 201.93 81.28 0)
+			(at 212.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +3750,7 @@
 			)
 		)
 		(property "Supplier" "DNP"
-			(at 201.93 83.82 0)
+			(at 212.09 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +3760,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "DNP"
-			(at 201.93 86.36 0)
+			(at 212.09 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +3770,7 @@
 			)
 		)
 		(property "DNP" "T"
-			(at 201.93 88.9 0)
+			(at 212.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +3780,7 @@
 			)
 		)
 		(property "Price" "0.00"
-			(at 201.93 91.44 0)
+			(at 212.09 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +3803,7 @@
 	)
 	(symbol
 		(lib_id "KD_Led:0603_Red_Diff_B1911USD-20D000114U1930")
-		(at 114.3 133.35 0)
+		(at 123.19 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4233,7 +3812,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9c0ba82-786e-483a-a2e2-fdd7733cbb75")
 		(property "Reference" "D15"
-			(at 112.7125 127 0)
+			(at 121.6025 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +3820,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 112.7125 129.54 0)
+			(at 121.6025 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4249,7 +3828,7 @@
 			)
 		)
 		(property "Footprint" "KD_Diode:LEDM1608X70M"
-			(at 101.6 119.38 0)
+			(at 110.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +3838,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3694/B1911USD-20D000114U1930.pdf"
-			(at 101.6 121.92 0)
+			(at 110.49 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +3848,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 133.35 0)
+			(at 123.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +3857,7 @@
 			)
 		)
 		(property "Manufacturer" "Harvatek Corporation"
-			(at 101.6 104.14 0)
+			(at 110.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +3867,7 @@
 			)
 		)
 		(property "MFG_PartNo" "B1911USD-20D000114U1930"
-			(at 101.6 106.68 0)
+			(at 110.49 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +3877,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 101.6 109.22 0)
+			(at 110.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +3887,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "3147-B1911USD-20D000114U1930CT-ND"
-			(at 101.6 111.76 0)
+			(at 110.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +3897,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 101.6 114.3 0)
+			(at 110.49 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +3907,7 @@
 			)
 		)
 		(property "Price" "0.10"
-			(at 101.6 116.84 0)
+			(at 110.49 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +3933,7 @@
 	)
 	(symbol
 		(lib_id "KD_Capacitor:C_0603_100n_X7R_50V")
-		(at 139.7 116.84 0)
+		(at 148.59 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4362,7 +3941,7 @@
 		(dnp no)
 		(uuid "dd2ce96a-4fe5-47a0-a0a8-86ab77776e78")
 		(property "Reference" "C25"
-			(at 143.51 115.57 0)
+			(at 152.4 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +3950,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 142.24 118.11 0)
+			(at 151.13 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +3959,7 @@
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
-			(at 127 102.87 0)
+			(at 135.89 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +3969,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"
-			(at 127 105.41 0)
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +3979,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 116.84 0)
+			(at 148.59 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +3988,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 127 87.63 0)
+			(at 135.89 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +3998,7 @@
 			)
 		)
 		(property "MFG_PartNo" "CL10B104KB8NNWC"
-			(at 127 90.17 0)
+			(at 135.89 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4008,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 127 92.71 0)
+			(at 135.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4018,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "1276-1935-1-ND"
-			(at 127 95.25 0)
+			(at 135.89 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +4028,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 127 97.79 0)
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4038,7 @@
 			)
 		)
 		(property "Price" "0.01"
-			(at 127 100.33 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +4070,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 139.7 110.49 0)
+		(at 148.59 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4499,7 +4078,7 @@
 		(dnp no)
 		(uuid "e50d3e01-7387-438f-9270-8f88687495ef")
 		(property "Reference" "#+3V03"
-			(at 139.7 114.3 0)
+			(at 148.59 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4087,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 139.7 106.934 0)
+			(at 148.59 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 110.49 0)
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 110.49 0)
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 110.49 0)
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4141,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 139.7 0)
+		(at 95.25 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4571,7 +4150,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8872881-99cb-4d12-8026-3e828514e339")
 		(property "Reference" "#PWR0101"
-			(at 85.09 146.05 0)
+			(at 95.25 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4159,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 143.51 0)
+			(at 95.25 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 139.7 0)
+			(at 95.25 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 139.7 0)
+			(at 95.25 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 139.7 0)
+			(at 95.25 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4213,7 @@
 	)
 	(symbol
 		(lib_id "KD_Connector_Pads:TestPoint_2.5mm_H0.9")
-		(at 132.08 110.49 0)
+		(at 116.84 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4642,7 +4221,7 @@
 		(dnp no)
 		(uuid "ea8ea4cc-fa4f-4db0-a845-12b4a61daee6")
 		(property "Reference" "TP13"
-			(at 132.08 105.41 0)
+			(at 116.84 82.55 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4651,7 +4230,7 @@
 			)
 		)
 		(property "Value" "TP D2.5 mm H0.9mm"
-			(at 119.38 78.74 0)
+			(at 104.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4240,7 @@
 			)
 		)
 		(property "Footprint" "KD_Connector_Pads:TestPoint_Pad_D2.5mm_H0.9mm"
-			(at 119.38 96.52 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,7 +4250,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 119.38 99.06 0)
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +4260,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 110.49 0)
+			(at 116.84 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4269,7 @@
 			)
 		)
 		(property "Code" "DNP"
-			(at 119.38 101.6 0)
+			(at 104.14 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4279,7 @@
 			)
 		)
 		(property "Manufacturer" "DNP"
-			(at 119.38 81.28 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +4289,7 @@
 			)
 		)
 		(property "MFG_PartNo" "DNP"
-			(at 119.38 83.82 0)
+			(at 104.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +4299,7 @@
 			)
 		)
 		(property "Supplier" "DNP"
-			(at 119.38 86.36 0)
+			(at 104.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,7 +4309,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "DNP"
-			(at 119.38 88.9 0)
+			(at 104.14 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4319,7 @@
 			)
 		)
 		(property "DNP" "T"
-			(at 119.38 91.44 0)
+			(at 104.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +4329,7 @@
 			)
 		)
 		(property "Price" "0.00"
-			(at 119.38 93.98 0)
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4352,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 119.38 0)
+		(at 219.71 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4782,7 +4361,7 @@
 		(fields_autoplaced yes)
 		(uuid "f48477a7-2e77-47c6-9915-de2ec96ed92c")
 		(property "Reference" "#PWR036"
-			(at 209.55 125.73 0)
+			(at 219.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +4370,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 123.19 0)
+			(at 219.71 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +4378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 119.38 0)
+			(at 219.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +4387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 119.38 0)
+			(at 219.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +4396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 119.38 0)
+			(at 219.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +4418,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 180.34 109.22 0)
+		(at 190.5 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4847,7 +4426,7 @@
 		(dnp no)
 		(uuid "f5fe8fbf-8b67-4ead-9cb4-bdac0cb75caa")
 		(property "Reference" "#+3V03"
-			(at 180.34 113.03 0)
+			(at 190.5 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,7 +4435,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 180.34 105.664 0)
+			(at 190.5 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +4443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 109.22 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +4452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 109.22 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +4461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 109.22 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,7 +4489,7 @@
 	)
 	(symbol
 		(lib_id "KD_IC_Other:Supervisor_CAT811TTBI-GT3")
-		(at 184.15 111.76 0)
+		(at 194.31 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4919,7 +4498,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9cb82fc-858f-4cab-8839-ff274652db4d")
 		(property "Reference" "U7"
-			(at 186.69 105.664 0)
+			(at 196.85 86.614 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4929,7 +4508,7 @@
 			)
 		)
 		(property "Value" "CAT811TTBI-GT3"
-			(at 186.69 107.95 0)
+			(at 196.85 88.9 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4939,7 +4518,7 @@
 			)
 		)
 		(property "Footprint" "KD_Package_TO_SOT_SMD:SOT-143_TO-253_M"
-			(at 171.45 97.79 0)
+			(at 181.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +4528,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/cat811-d.pdf"
-			(at 171.45 100.33 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,7 +4538,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 111.76 0)
+			(at 194.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +4547,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 171.45 82.55 0)
+			(at 181.61 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,7 +4557,7 @@
 			)
 		)
 		(property "MFG_PartNo" "CAT811TTBI-GT3"
-			(at 171.45 85.09 0)
+			(at 181.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +4567,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 171.45 87.63 0)
+			(at 181.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +4577,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "CAT811TTBI-GT3OSCT-ND"
-			(at 171.45 90.17 0)
+			(at 181.61 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +4587,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 171.45 92.71 0)
+			(at 181.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +4597,7 @@
 			)
 		)
 		(property "Price" "0.5"
-			(at 171.45 95.25 0)
+			(at 181.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
