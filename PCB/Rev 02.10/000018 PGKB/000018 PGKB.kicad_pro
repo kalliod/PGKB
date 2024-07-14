@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.875,
+          "width": 0.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -59,20 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|66350000|125875000|cbc57692-a6d8-441e-ae09-112d0531f600|91f8c3ae-fff2-489b-834d-43985a1d15ff",
-        "clearance|66750000|125875000|91f8c3ae-fff2-489b-834d-43985a1d15ff|70d1432b-7ff8-4dfb-94d4-03628b9a9c41",
-        "clearance|67150000|125875000|70d1432b-7ff8-4dfb-94d4-03628b9a9c41|dd4c9d78-c120-4b8e-8332-997f6277c174",
-        "clearance|88530000|108610000|603fa97b-6159-4cc9-a3b7-0a065e04e811|74080c3b-b5c8-4490-9b0f-02203f63ac34",
-        "clearance|88530000|109960000|5b627756-a66c-496e-8e83-41622f9b47a2|d8499f9d-0ea2-44b7-9413-bead7f3d057e",
-        "clearance|89380000|108610000|c603743b-90e1-47c5-ad3e-116fc6391fb3|603fa97b-6159-4cc9-a3b7-0a065e04e811",
-        "clearance|89380000|109960000|d8499f9d-0ea2-44b7-9413-bead7f3d057e|56fca071-a9f7-43e6-85da-c6dfca5dd359",
-        "clearance|90230000|108610000|e8259e9a-ace3-4c34-8b00-62fc7d8e32d1|c603743b-90e1-47c5-ad3e-116fc6391fb3",
-        "clearance|90230000|109960000|56fca071-a9f7-43e6-85da-c6dfca5dd359|3f757d98-1afc-4d51-8983-4adbbc44cb8c",
-        "lib_footprint_mismatch|78510745|172743109|bb5559e3-4509-44ad-b804-fd9367c8ce89|00000000-0000-0000-0000-000000000000",
-        "solder_mask_bridge|132650000|106750000|e6bb1e43-f03d-4e65-ac44-f3a0e1c97ac7|2ff7b89d-0cc7-4a5d-a04e-207edb35df27",
-        "solder_mask_bridge|132650000|106750000|f4bace32-d42a-4ad5-8afa-424b7f39beb6|2ff7b89d-0cc7-4a5d-a04e-207edb35df27"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

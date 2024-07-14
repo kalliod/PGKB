@@ -4573,6 +4573,10 @@
 		(uuid "22d3f855-2ffd-4151-b9d9-0cb0ed80b866")
 	)
 	(no_connect
+		(at 163.83 80.01)
+		(uuid "2e187ecf-6b1a-43a5-b0df-db369918804c")
+	)
+	(no_connect
 		(at 39.37 147.32)
 		(uuid "41a09801-36b0-438c-a610-d2bdaf521521")
 	)
@@ -4587,6 +4591,10 @@
 	(no_connect
 		(at 36.83 180.34)
 		(uuid "654aea1b-9b34-4847-93fa-0c570dfdb839")
+	)
+	(no_connect
+		(at 163.83 115.57)
+		(uuid "7a504d88-29b8-4b06-b900-fae4fe202606")
 	)
 	(no_connect
 		(at 162.56 95.25)
