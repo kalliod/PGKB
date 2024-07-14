@@ -249,13 +249,12 @@
 				)
 			)
 			(property "Value" "10n"
-				(at -12.7 31.75 0)
+				(at 2.54 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -268,7 +267,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "datasheet"
+			(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 				(at -12.7 11.43 0)
 				(effects
 					(font
@@ -279,21 +278,13 @@
 				)
 			)
 			(property "Description" "CAP CER 10000PF 100V X7R 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Code" "10n"
-				(at 2.54 -1.27 0)
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Manufacturer" "TDK Corporation"
@@ -699,13 +690,12 @@
 				)
 			)
 			(property "Value" "1u"
-				(at -12.7 31.75 0)
+				(at 2.54 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Capacitor:CAPC2012X135N"
@@ -729,21 +719,13 @@
 				)
 			)
 			(property "Description" "CAP CER 1UF 25V X7R 0805"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Code" "1u"
-				(at 2.54 -1.27 0)
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Samsung Electro-Mechanics"
@@ -1494,7 +1476,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "datasheet"
+			(property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
 				(at 63.5 -10.16 0)
 				(effects
 					(font
@@ -1504,7 +1486,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "ARM® Cortex®-M0+ - Microcontroller IC 32-Bit Dual-Core 133MHz External Program Memory 56-QFN (7x7)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1570,6 +1552,15 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Microcontroller Raspberry Pi Rpi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -2630,14 +2621,13 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Ferrite_500mA_TDK_MMZ2012Y152BT000"
-				(at -12.7 36.83 0)
+			(property "Value" "MMZ2012Y152BT000"
+				(at 2.54 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Inductor:INDC2016X100N"
@@ -2661,21 +2651,13 @@
 				)
 			)
 			(property "Description" "FERRITE BEAD 1.5 KOHM 0805 1LN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Code" "MMZ2012Y152BT000"
-				(at 2.54 -1.27 0)
+				(at -12.7 36.83 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Abracon LLC"
@@ -2757,17 +2739,6 @@
 				)
 			)
 			(symbol "Ferrite_500mA_TDK_MMZ2012Y152BT000_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 1.27) (xy 0 -1.27)
@@ -2782,6 +2753,17 @@
 				)
 			)
 			(symbol "Ferrite_500mA_TDK_MMZ2012Y152BT000_1_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3132,7 +3114,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 1.905 1.27 0)
+				(at 2.032 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3141,13 +3123,12 @@
 				)
 			)
 			(property "Value" "10k"
-				(at -12.7 31.75 0)
+				(at 2.032 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -3177,15 +3158,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Code" "10k"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 				)
 			)
 			(property "Manufacturer" "Stackpole Electronics Inc"
@@ -3275,7 +3247,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -3325,7 +3297,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 1.905 1.27 0)
+				(at 2.032 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3334,13 +3306,12 @@
 				)
 			)
 			(property "Value" "1k"
-				(at -12.7 31.75 0)
+				(at 2.032 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -3364,21 +3335,13 @@
 				)
 			)
 			(property "Description" "RES 1K OHM 5% 1/10W 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Code" "1k"
-				(at 1.905 -1.27 0)
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Stackpole Electronics Inc"
@@ -3459,20 +3422,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0603_1k_1%_0_1"
+			(symbol "R_0603_1k_1%_1_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "R_0603_1k_1%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3661,7 +3622,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -3854,7 +3815,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -4163,9 +4124,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4263,8 +4224,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4283,9 +4244,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4359,8 +4320,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4415,12 +4376,6 @@
 		(uuid "48045193-c51d-4f94-9647-0084a90d76ad")
 	)
 	(junction
-		(at 147.32 40.005)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cacb840-379b-45cd-88b1-f81adcc41b64")
-	)
-	(junction
 		(at 234.95 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4431,6 +4386,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73179157-6aaa-4031-b238-a18d4b28a1dc")
+	)
+	(junction
+		(at 147.32 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7523156a-fd07-4517-a899-14ed0f77a469")
 	)
 	(junction
 		(at 229.87 123.19)
@@ -4737,7 +4698,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.305 50.8) (xy 154.305 52.07)
+			(xy 154.94 50.8) (xy 154.94 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4914,6 +4875,16 @@
 			(type default)
 		)
 		(uuid "209bb16f-3e6f-4218-8bad-6dee0964a90f")
+	)
+	(wire
+		(pts
+			(xy 147.32 40.64) (xy 147.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2178dc8d-4d2a-4309-9b78-6135b103e759")
 	)
 	(wire
 		(pts
@@ -5317,6 +5288,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 22.86) (xy 147.32 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6d9c70-065c-45ee-8fec-c01cf62cdb8d")
+	)
+	(wire
+		(pts
 			(xy 80.01 123.19) (xy 82.55 123.19)
 		)
 		(stroke
@@ -5557,7 +5538,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.305 43.18) (xy 154.305 40.005)
+			(xy 154.94 43.18) (xy 154.94 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5847,16 +5828,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 22.86) (xy 147.32 40.005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aba96dcd-e99f-433b-83c4-e9330e904919")
-	)
-	(wire
-		(pts
 			(xy 100.33 52.07) (xy 100.33 53.34)
 		)
 		(stroke
@@ -5877,7 +5848,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 40.005) (xy 154.305 40.005)
+			(xy 147.32 40.64) (xy 154.94 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6314,16 +6285,6 @@
 			(type default)
 		)
 		(uuid "f8557a54-2572-4495-a31f-be015cb562b8")
-	)
-	(wire
-		(pts
-			(xy 147.32 40.005) (xy 147.32 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa302d84-efd3-46d9-8083-1a8039b56b78")
 	)
 	(wire
 		(pts
@@ -7058,7 +7019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 127 27.94 0)
 			(effects
 				(font
@@ -7196,7 +7157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 73.66 180.34 0)
 			(effects
 				(font
@@ -7332,7 +7293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 134.62 0)
 			(effects
 				(font
@@ -7404,7 +7365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 71.12 33.02 0)
 			(effects
 				(font
@@ -7471,7 +7432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
 			(at 200.66 113.03 0)
 			(effects
 				(font
@@ -7481,7 +7442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM® Cortex®-M0+ - Microcontroller IC 32-Bit Dual-Core 133MHz External Program Memory 56-QFN (7x7)"
 			(at 137.16 102.87 0)
 			(effects
 				(font
@@ -7775,7 +7736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 33.02 0)
 			(effects
 				(font
@@ -7849,7 +7810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 92.71 27.94 0)
 			(effects
 				(font
@@ -7950,7 +7911,7 @@
 		(fields_autoplaced yes)
 		(uuid "3714beeb-b2a1-4ada-b1cb-f7a3cd3c23de")
 		(property "Reference" "R37"
-			(at 210.82 110.49 0)
+			(at 210.82 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +7949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 5.1K OHM 5% 1/10W 0603"
 			(at 208.28 111.76 0)
 			(effects
 				(font
@@ -7998,7 +7959,7 @@
 			)
 		)
 		(property "Code" "5k1"
-			(at 210.82 113.03 0)
+			(at 210.82 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8132,7 +8093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 115.57 33.02 0)
 			(effects
 				(font
@@ -8180,7 +8141,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 187.96 0)
+			(at 35.56 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 35.56 184.15 0)
 			(effects
 				(font
@@ -8277,7 +8238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 33.02 0)
 			(effects
 				(font
@@ -8306,7 +8267,7 @@
 	)
 	(symbol
 		(lib_id "KD_Capacitor:C_0805_1u_X7R_25V")
-		(at 154.305 46.99 0)
+		(at 154.94 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8314,7 +8275,7 @@
 		(dnp no)
 		(uuid "4ac17387-3786-436c-b456-92a0685105e4")
 		(property "Reference" "C4"
-			(at 156.845 45.72 0)
+			(at 157.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,17 +8284,16 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 141.605 15.24 0)
+			(at 157.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC2012X135N"
-			(at 141.605 33.02 0)
+			(at 142.24 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8343,7 +8303,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf"
-			(at 141.605 35.56 0)
+			(at 142.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,26 +8312,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 154.305 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "1u"
-			(at 156.845 48.26 0)
+		(property "Description" "CAP CER 1UF 25V X7R 0805"
+			(at 142.24 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 141.605 17.78 0)
+			(at 142.24 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,7 +8333,7 @@
 			)
 		)
 		(property "MFG_PartNo" "CL21B105KAFNNNE"
-			(at 141.605 20.32 0)
+			(at 142.24 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8343,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 141.605 22.86 0)
+			(at 142.24 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8401,7 +8353,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "1276-1066-1-ND"
-			(at 141.605 25.4 0)
+			(at 142.24 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +8363,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 141.605 27.94 0)
+			(at 142.24 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8421,7 +8373,7 @@
 			)
 		)
 		(property "Price" "0.03"
-			(at 141.605 30.48 0)
+			(at 142.24 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8497,7 +8449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tactile Switches Tact Switch SMT 3.8mm Blk Act."
 			(at 41.91 180.34 0)
 			(effects
 				(font
@@ -8589,7 +8541,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.305 52.07 0)
+		(at 154.94 53.34 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8598,7 +8550,7 @@
 		(dnp no)
 		(uuid "5096e63f-5984-4d4b-a6e3-89f0d52dea16")
 		(property "Reference" "#GND04"
-			(at 154.305 58.42 0)
+			(at 154.94 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,7 +8559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.305 55.88 0)
+			(at 154.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8615,7 +8567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.305 52.07 0)
+			(at 154.94 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8624,7 +8576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.305 52.07 0)
+			(at 154.94 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8632,8 +8584,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 154.305 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,7 +8656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 109.22 146.05 0)
 			(effects
 				(font
@@ -8778,7 +8730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 121.92 48.26 0)
 			(effects
 				(font
@@ -8913,7 +8865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 138.43 33.02 0)
 			(effects
 				(font
@@ -8988,7 +8940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 140.97 48.26 0)
 			(effects
 				(font
@@ -9127,7 +9079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 234.95 107.95 0)
 			(effects
 				(font
@@ -9267,7 +9219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 168.91 20.32 0)
 			(effects
 				(font
@@ -9405,7 +9357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 104.14 27.94 0)
 			(effects
 				(font
@@ -9539,7 +9491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 208.28 102.87 0)
 			(effects
 				(font
@@ -9585,13 +9537,11 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 41.91 90.17 0)
+			(at 73.66 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -9604,7 +9554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 62.23 90.17 0)
 			(effects
 				(font
@@ -9614,21 +9564,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 73.66 77.47 0)
+		(property "Description" "CAP CER 10000PF 100V X7R 0603"
+			(at 41.91 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "10n"
-			(at 73.66 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -9717,7 +9660,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f23a706-a5ec-4a71-9287-965ced02b197")
 		(property "Reference" "R38"
-			(at 219.71 110.49 0)
+			(at 219.71 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9755,7 +9698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 5.1K OHM 5% 1/10W 0603"
 			(at 217.17 111.76 0)
 			(effects
 				(font
@@ -9765,7 +9708,7 @@
 			)
 		)
 		(property "Code" "5k1"
-			(at 219.71 113.03 0)
+			(at 219.71 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9899,7 +9842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92.71 33.02 0)
 			(effects
 				(font
@@ -10113,7 +10056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 105.41 66.04 0)
 			(effects
 				(font
@@ -10250,7 +10193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tactile Switches Tact Switch SMT 3.8mm Blk Act."
 			(at 44.45 147.32 0)
 			(effects
 				(font
@@ -10384,7 +10327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -10456,7 +10399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 74.93 134.62 0)
 			(effects
 				(font
@@ -10530,7 +10473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 115.57 27.94 0)
 			(effects
 				(font
@@ -10639,13 +10582,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 44.45 182.88 0)
+			(at 76.2 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -10668,21 +10609,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 76.2 170.18 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 44.45 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 76.2 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -10804,7 +10738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 35.56 17.78 0)
 			(effects
 				(font
@@ -10876,7 +10810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 53.34 0)
 			(effects
 				(font
@@ -10921,14 +10855,12 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite_500mA_TDK_MMZ2012Y152BT000"
-			(at 15.24 35.56 0)
+		(property "Value" "MMZ2012Y152BT000"
+			(at 52.07 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Inductor:INDC2016X100N"
@@ -10951,21 +10883,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 52.07 22.86 0)
+		(property "Description" "FERRITE BEAD 1.5 KOHM 0805 1LN"
+			(at 15.24 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "MMZ2012Y152BT000"
-			(at 52.07 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Abracon LLC"
@@ -11090,7 +11015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 110.49 48.26 0)
 			(effects
 				(font
@@ -11227,7 +11152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 138.43 27.94 0)
 			(effects
 				(font
@@ -11328,7 +11253,7 @@
 		(fields_autoplaced yes)
 		(uuid "b94e1565-4fc8-4379-8d6d-6fa20ad4391e")
 		(property "Reference" "R24"
-			(at 91.44 60.96 0)
+			(at 91.44 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,7 +11291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Do not populate"
 			(at 88.9 62.23 0)
 			(effects
 				(font
@@ -11376,7 +11301,7 @@
 			)
 		)
 		(property "Code" "DNP"
-			(at 91.44 63.5 0)
+			(at 91.44 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11478,7 +11403,7 @@
 			)
 		)
 		(property "Value" "27p"
-			(at 60.96 129.54 0)
+			(at 69.85 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11506,7 +11431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "27 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 67.31 128.27 0)
 			(effects
 				(font
@@ -11611,7 +11536,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 154.94 0)
+			(at 38.1 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11636,7 +11561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 151.13 0)
 			(effects
 				(font
@@ -11708,7 +11633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 66.04 78.74 0)
 			(effects
 				(font
@@ -11780,7 +11705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 104.14 33.02 0)
 			(effects
 				(font
@@ -11854,7 +11779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 81.28 27.94 0)
 			(effects
 				(font
@@ -11963,13 +11888,12 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 58.42 -3.81 0)
+			(at 73.66 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC2012X135N"
@@ -11992,22 +11916,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 71.12 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "1u"
-			(at 73.66 29.21 0)
+		(property "Description" "CAP CER 1UF 25V X7R 0805"
+			(at 58.42 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
@@ -12139,7 +12055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 229.87 113.03 0)
 			(effects
 				(font
@@ -12381,7 +12297,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9b5ef02-56b1-48ab-b256-f7ea30e0f3be")
 		(property "Reference" "C30"
-			(at 86.36 127 0)
+			(at 86.36 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12390,7 +12306,7 @@
 			)
 		)
 		(property "Value" "27p"
-			(at 86.36 129.54 0)
+			(at 86.36 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12418,7 +12334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "27 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 82.55 128.27 0)
 			(effects
 				(font
@@ -12521,13 +12437,12 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 87.63 16.51 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC2012X135N"
@@ -12550,22 +12465,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 100.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "1u"
-			(at 102.87 49.53 0)
+		(property "Description" "CAP CER 1UF 25V X7R 0805"
+			(at 87.63 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
@@ -12668,13 +12575,11 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 36.83 73.66 0)
+			(at 68.58 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -12697,21 +12602,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 68.58 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Code" "10k"
-			(at 68.58 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -12834,7 +12731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 110.49 53.34 0)
 			(effects
 				(font
@@ -12906,7 +12803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 137.16 152.4 0)
 			(effects
 				(font
@@ -12978,7 +12875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 121.92 53.34 0)
 			(effects
 				(font
@@ -13050,7 +12947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 67.31 134.62 0)
 			(effects
 				(font
@@ -13096,13 +12993,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 66.04 135.89 0)
+			(at 97.79 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -13125,21 +13020,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 97.79 123.19 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 66.04 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 97.79 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"

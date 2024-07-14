@@ -249,13 +249,12 @@
 				)
 			)
 			(property "Value" "1u"
-				(at -12.7 31.75 0)
+				(at 2.54 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Capacitor:CAPC2012X135N"
@@ -279,21 +278,13 @@
 				)
 			)
 			(property "Description" "CAP CER 1UF 25V X7R 0805"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Code" "1u"
-				(at 2.54 -1.27 0)
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Samsung Electro-Mechanics"
@@ -936,9 +927,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1012,8 +1003,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2030,7 +2021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 172.72 0)
 			(effects
 				(font
@@ -2065,9 +2056,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0bc9b0e3-4ffd-44ce-a245-2903a10e0807")
 		(property "Reference" "C2"
-			(at 95.25 31.75 0)
+			(at 96.52 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2068,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 95.25 34.29 0)
+			(at 96.52 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +2096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 92.71 33.02 0)
 			(effects
 				(font
@@ -2519,7 +2511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 134.62 0)
 			(effects
 				(font
@@ -2554,9 +2546,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1d378075-6b26-4ade-82ee-52262cda24f9")
 		(property "Reference" "C4"
-			(at 85.09 31.75 0)
+			(at 86.36 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,13 +2558,12 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 69.85 1.27 0)
+			(at 86.36 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC2012X135N"
@@ -2594,22 +2586,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 82.55 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "1u"
-			(at 85.09 34.29 0)
+		(property "Description" "CAP CER 1UF 25V X7R 0805"
+			(at 69.85 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
@@ -3161,7 +3145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 107.95 21.59 0)
 			(effects
 				(font
@@ -3577,7 +3561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 58.42 0)
 			(effects
 				(font
@@ -3649,7 +3633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92.71 38.1 0)
 			(effects
 				(font
@@ -3861,7 +3845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 38.1 0)
 			(effects
 				(font
@@ -4073,7 +4057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 96.52 0)
 			(effects
 				(font
@@ -4288,7 +4272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 116.84 139.7 0)
 			(effects
 				(font

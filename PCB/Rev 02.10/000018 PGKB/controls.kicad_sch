@@ -409,7 +409,7 @@
 				)
 			)
 		)
-		(symbol "KD_IC_Buffer_Driver_Interface:Schmitt_6CH_SN74HCS365PWR"
+		(symbol "KD_IC_Buffer_Driver_Interface:Buffer_Schmitt_6CH_SN74HCS365PWR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -550,7 +550,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Schmitt_6CH_SN74HCS365PWR_0_1"
+			(symbol "Buffer_Schmitt_6CH_SN74HCS365PWR_0_1"
 				(polyline
 					(pts
 						(xy 10.16 -22.86) (xy 14.605 -22.86)
@@ -600,7 +600,7 @@
 					)
 				)
 			)
-			(symbol "Schmitt_6CH_SN74HCS365PWR_1_0"
+			(symbol "Buffer_Schmitt_6CH_SN74HCS365PWR_1_0"
 				(pin input inverted
 					(at 0 -5.08 0)
 					(length 5.08)
@@ -890,7 +890,7 @@
 					)
 				)
 			)
-			(symbol "Schmitt_6CH_SN74HCS365PWR_1_1"
+			(symbol "Buffer_Schmitt_6CH_SN74HCS365PWR_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -33.02)
@@ -911,7 +911,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 1.905 1.27 0)
+				(at 2.032 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -920,13 +920,12 @@
 				)
 			)
 			(property "Value" "10k"
-				(at -12.7 31.75 0)
+				(at 2.032 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -956,15 +955,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Code" "10k"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 				)
 			)
 			(property "Manufacturer" "Stackpole Electronics Inc"
@@ -1054,7 +1044,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -1104,7 +1094,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 1.905 1.27 0)
+				(at 2.032 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1113,13 +1103,12 @@
 				)
 			)
 			(property "Value" "1k"
-				(at -12.7 31.75 0)
+				(at 2.032 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -1143,21 +1132,13 @@
 				)
 			)
 			(property "Description" "RES 1K OHM 5% 1/10W 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Code" "1k"
-				(at 1.905 -1.27 0)
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Stackpole Electronics Inc"
@@ -1238,20 +1219,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0603_1k_1%_0_1"
+			(symbol "R_0603_1k_1%_1_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "R_0603_1k_1%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1697,9 +1676,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1797,8 +1776,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1817,9 +1796,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1893,8 +1872,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2710,7 +2689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 101.6 114.3 0)
 			(effects
 				(font
@@ -2852,7 +2831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 139.7 134.62 0)
 			(effects
 				(font
@@ -2890,7 +2869,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fe25308-d263-4cd1-85a3-04e029acfc0a")
 		(property "Reference" "C35"
-			(at 170.18 127 0)
+			(at 170.18 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,13 +2878,12 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 170.18 130.81 0)
+			(at 170.18 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -2928,7 +2906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 166.37 128.27 0)
 			(effects
 				(font
@@ -3063,7 +3041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 64.77 109.22 0)
 			(effects
 				(font
@@ -3110,7 +3088,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 104.14 68.834 0)
+			(at 104.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +3113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 104.14 72.39 0)
 			(effects
 				(font
@@ -3201,7 +3179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 179.07 72.39 0)
 			(effects
 				(font
@@ -3276,7 +3254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 96.52 87.63 0)
 			(effects
 				(font
@@ -3418,7 +3396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 166.37 134.62 0)
 			(effects
 				(font
@@ -3464,13 +3442,11 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 99.06 102.87 0)
+			(at 130.81 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -3493,21 +3469,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 130.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Code" "10k"
-			(at 130.81 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -3630,7 +3598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92.71 109.22 0)
 			(effects
 				(font
@@ -3702,7 +3670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 191.77 105.41 0)
 			(effects
 				(font
@@ -3748,13 +3716,11 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 99.06 129.54 0)
+			(at 130.81 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -3777,21 +3743,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 130.81 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Code" "10k"
-			(at 130.81 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -3880,7 +3838,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e68f180-78b2-456f-9570-2e7bfcb53696")
 		(property "Reference" "C35"
-			(at 157.48 127 0)
+			(at 157.48 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,13 +3847,12 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 157.48 130.81 0)
+			(at 157.48 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -3918,7 +3875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 153.67 128.27 0)
 			(effects
 				(font
@@ -4019,7 +3976,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cbf962f-c078-4487-9dd1-9b485862fc75")
 		(property "Reference" "R17"
-			(at 124.46 77.47 0)
+			(at 124.46 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,13 +3985,12 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 109.22 46.99 0)
+			(at 124.46 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -4057,22 +4013,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 124.46 80.01 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 109.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -4170,7 +4118,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 200.66 68.834 0)
+			(at 200.66 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 200.66 72.39 0)
 			(effects
 				(font
@@ -4217,7 +4165,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_IC_Buffer_Driver_Interface:Schmitt_6CH_SN74HCS365PWR")
+		(lib_id "KD_IC_Buffer_Driver_Interface:Buffer_Schmitt_6CH_SN74HCS365PWR")
 		(at 203.2 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4266,7 +4214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC BUFFER NON-INVERT 6V 16TSSOP"
 			(at 203.2 77.47 0)
 			(effects
 				(font
@@ -4422,7 +4370,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 121.92 68.834 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,7 +4395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 121.92 72.39 0)
 			(effects
 				(font
@@ -4517,7 +4465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ROTARY ENCODER MECHANICAL 12PPR"
 			(at 81.28 104.14 0)
 			(effects
 				(font
@@ -4621,7 +4569,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2a985af-8e36-4fa2-8cf6-febe1ffde0b6")
 		(property "Reference" "R15"
-			(at 106.68 77.47 0)
+			(at 106.68 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,13 +4578,12 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 91.44 46.99 0)
+			(at 106.68 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -4659,22 +4606,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 104.14 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 106.68 80.01 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 91.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -4763,7 +4702,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8ab9ed6-d747-4e07-b808-98696b5ada18")
 		(property "Reference" "C35"
-			(at 143.51 127 0)
+			(at 143.51 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,13 +4711,12 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 143.51 130.81 0)
+			(at 143.51 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -4801,7 +4739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 139.7 128.27 0)
 			(effects
 				(font
@@ -4911,7 +4849,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 113.03 68.834 0)
+			(at 113.03 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4936,7 +4874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 113.03 72.39 0)
 			(effects
 				(font
@@ -4976,13 +4914,11 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 153.67 82.55 0)
+			(at 185.42 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -5005,21 +4941,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 185.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Code" "10k"
-			(at 185.42 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -5145,7 +5073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 105.41 99.06 0)
 			(effects
 				(font
@@ -5287,7 +5215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 134.62 0)
 			(effects
 				(font
@@ -5359,7 +5287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 200.66 110.49 0)
 			(effects
 				(font
@@ -5405,13 +5333,11 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 99.06 114.3 0)
+			(at 130.81 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -5434,21 +5360,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 130.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Code" "10k"
-			(at 130.81 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -5537,7 +5455,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa158aaf-d35c-46dc-a0e4-245a7e4833cb")
 		(property "Reference" "R16"
-			(at 115.57 77.47 0)
+			(at 115.57 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,13 +5464,12 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 100.33 46.99 0)
+			(at 115.57 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -5575,22 +5492,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 113.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 115.57 80.01 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 100.33 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"

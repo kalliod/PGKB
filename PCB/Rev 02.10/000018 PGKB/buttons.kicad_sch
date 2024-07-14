@@ -249,13 +249,12 @@
 				)
 			)
 			(property "Value" "10n"
-				(at -12.7 31.75 0)
+				(at 2.54 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -268,7 +267,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "datasheet"
+			(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 				(at -12.7 11.43 0)
 				(effects
 					(font
@@ -279,21 +278,13 @@
 				)
 			)
 			(property "Description" "CAP CER 10000PF 100V X7R 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Code" "10n"
-				(at 2.54 -1.27 0)
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Manufacturer" "TDK Corporation"
@@ -639,7 +630,7 @@
 				)
 			)
 		)
-		(symbol "KD_IC_Buffer_Driver_Interface:Schmitt_6CH_SN74HCS365PWR"
+		(symbol "KD_IC_Buffer_Driver_Interface:Buffer_Schmitt_6CH_SN74HCS365PWR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -780,7 +771,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Schmitt_6CH_SN74HCS365PWR_0_1"
+			(symbol "Buffer_Schmitt_6CH_SN74HCS365PWR_0_1"
 				(polyline
 					(pts
 						(xy 10.16 -22.86) (xy 14.605 -22.86)
@@ -830,7 +821,7 @@
 					)
 				)
 			)
-			(symbol "Schmitt_6CH_SN74HCS365PWR_1_0"
+			(symbol "Buffer_Schmitt_6CH_SN74HCS365PWR_1_0"
 				(pin input inverted
 					(at 0 -5.08 0)
 					(length 5.08)
@@ -1120,7 +1111,7 @@
 					)
 				)
 			)
-			(symbol "Schmitt_6CH_SN74HCS365PWR_1_1"
+			(symbol "Buffer_Schmitt_6CH_SN74HCS365PWR_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -33.02)
@@ -1274,7 +1265,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -1324,7 +1315,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 1.905 1.27 0)
+				(at 2.032 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1333,13 +1324,12 @@
 				)
 			)
 			(property "Value" "1k"
-				(at -12.7 31.75 0)
+				(at 2.032 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -1363,21 +1353,13 @@
 				)
 			)
 			(property "Description" "RES 1K OHM 5% 1/10W 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Code" "1k"
-				(at 1.905 -1.27 0)
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Stackpole Electronics Inc"
@@ -1458,20 +1440,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0603_1k_1%_0_1"
+			(symbol "R_0603_1k_1%_1_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "R_0603_1k_1%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1510,7 +1490,7 @@
 				)
 			)
 		)
-		(symbol "KD_Switch:Button_keyboard_socket_Adafruit_4958"
+		(symbol "KD_Switch:Button_keyboard_socket_MX_Adafruit_4958"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1523,7 +1503,7 @@
 					)
 				)
 			)
-			(property "Value" "4954"
+			(property "Value" "4958"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1541,7 +1521,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf"
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 				(at -12.7 11.43 0)
 				(effects
 					(font
@@ -1551,7 +1531,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Kailh Mechanical Key Switches - Tactile Brown - 10 pack - Cherry MX Brown Compatible"
+			(property "Description" "KAILH SW SKTS FOR MX-COMP 1=20PC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1570,7 +1550,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG_PartNo" "4954"
+			(property "MFG_PartNo" "4958"
 				(at -12.7 26.67 0)
 				(effects
 					(font
@@ -1590,7 +1570,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier_PartNo" "1528-4954-ND"
+			(property "Supplier_PartNo" "1528-4958-ND"
 				(at -12.7 21.59 0)
 				(effects
 					(font
@@ -1610,7 +1590,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.5"
+			(property "Price" "0.45"
 				(at -12.7 16.51 0)
 				(effects
 					(font
@@ -1620,7 +1600,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Button tactile Kailh CPG151101S03"
+			(property "ki_keywords" "Button socket Kailh Cherry MX"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1638,7 +1618,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Button_keyboard_socket_Adafruit_4958_0_1"
+			(symbol "Button_keyboard_socket_MX_Adafruit_4958_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy -2.54 0)
@@ -1700,7 +1680,7 @@
 					)
 				)
 			)
-			(symbol "Button_keyboard_socket_Adafruit_4958_1_1"
+			(symbol "Button_keyboard_socket_MX_Adafruit_4958_1_1"
 				(rectangle
 					(start -2.286 2.032)
 					(end -1.524 1.016)
@@ -1785,9 +1765,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1885,8 +1865,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1905,9 +1885,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1981,8 +1961,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4209,7 +4189,7 @@
 		(uuid "bb9b3a7d-df73-42ac-a5b1-ec729ec08ac5")
 	)
 	(symbol
-		(lib_id "KD_Switch:Button_keyboard_socket_Adafruit_4958")
+		(lib_id "KD_Switch:Button_keyboard_socket_MX_Adafruit_4958")
 		(at 139.7 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4226,7 +4206,7 @@
 				)
 			)
 		)
-		(property "Value" "4954"
+		(property "Value" "4958"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -4244,7 +4224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 127 53.34 0)
 			(effects
 				(font
@@ -4254,7 +4234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KAILH SW SKTS FOR MX-COMP 1=20PC"
 			(at 139.7 64.77 0)
 			(effects
 				(font
@@ -4273,7 +4253,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "4954"
+		(property "MFG_PartNo" "4958"
 			(at 127 38.1 0)
 			(effects
 				(font
@@ -4293,7 +4273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1528-4954-ND"
+		(property "Supplier_PartNo" "1528-4958-ND"
 			(at 127 43.18 0)
 			(effects
 				(font
@@ -4313,7 +4293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.45"
 			(at 127 48.26 0)
 			(effects
 				(font
@@ -4349,7 +4329,7 @@
 		(fields_autoplaced yes)
 		(uuid "05448ef2-29b8-4a81-bc2b-b35f32e507df")
 		(property "Reference" "C7"
-			(at 72.39 110.49 0)
+			(at 72.39 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,13 +4338,12 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 55.88 80.01 0)
+			(at 72.39 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -4377,7 +4356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 55.88 100.33 0)
 			(effects
 				(font
@@ -4387,22 +4366,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "10n"
-			(at 72.39 113.03 0)
+		(property "Description" "CAP CER 10000PF 100V X7R 0603"
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -4524,7 +4495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 31.75 22.86 0)
 			(effects
 				(font
@@ -4562,7 +4533,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bd3cbab-85c9-40a2-baeb-3e7c0dae17d6")
 		(property "Reference" "R34"
-			(at 82.55 85.09 0)
+			(at 82.55 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,7 +4542,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 82.55 87.63 0)
+			(at 82.55 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,7 +4570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 80.01 86.36 0)
 			(effects
 				(font
@@ -4702,13 +4673,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 121.92 175.26 0)
+			(at 153.67 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -4731,21 +4700,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 162.56 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 121.92 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 153.67 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -4834,7 +4796,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f2c5af2-fc5b-464f-b09b-d1a9d7a0d67b")
 		(property "Reference" "C15"
-			(at 205.74 25.4 0)
+			(at 205.74 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4805,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 205.74 27.94 0)
+			(at 205.74 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +4833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 201.93 26.67 0)
 			(effects
 				(font
@@ -4966,7 +4928,7 @@
 		(fields_autoplaced yes)
 		(uuid "1677df3b-18f1-4903-ac64-7b397f1c713a")
 		(property "Reference" "C13"
-			(at 163.83 144.78 0)
+			(at 163.83 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,13 +4937,12 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 147.32 114.3 0)
+			(at 163.83 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -4994,7 +4955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 147.32 134.62 0)
 			(effects
 				(font
@@ -5004,22 +4965,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "10n"
-			(at 163.83 147.32 0)
+		(property "Description" "CAP CER 10000PF 100V X7R 0603"
+			(at 147.32 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -5116,13 +5069,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 30.48 118.11 0)
+			(at 62.23 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -5145,21 +5096,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 62.23 105.41 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 30.48 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 62.23 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -5248,7 +5192,7 @@
 		(fields_autoplaced yes)
 		(uuid "18641f17-0609-4f6a-8bb3-9796e78209fd")
 		(property "Reference" "C6"
-			(at 72.39 85.09 0)
+			(at 72.39 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,13 +5201,12 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 55.88 54.61 0)
+			(at 72.39 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -5276,7 +5219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 55.88 74.93 0)
 			(effects
 				(font
@@ -5286,22 +5229,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "10n"
-			(at 72.39 87.63 0)
+		(property "Description" "CAP CER 10000PF 100V X7R 0603"
+			(at 55.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -5399,7 +5334,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 48.26 0)
+			(at 68.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 44.45 0)
 			(effects
 				(font
@@ -5446,7 +5381,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Switch:Button_keyboard_socket_Adafruit_4958")
+		(lib_id "KD_Switch:Button_keyboard_socket_MX_Adafruit_4958")
 		(at 44.45 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5463,7 +5398,7 @@
 				)
 			)
 		)
-		(property "Value" "4954"
+		(property "Value" "4958"
 			(at 44.45 99.06 0)
 			(effects
 				(font
@@ -5481,7 +5416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 31.75 91.44 0)
 			(effects
 				(font
@@ -5491,7 +5426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KAILH SW SKTS FOR MX-COMP 1=20PC"
 			(at 44.45 102.87 0)
 			(effects
 				(font
@@ -5510,7 +5445,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "4954"
+		(property "MFG_PartNo" "4958"
 			(at 31.75 76.2 0)
 			(effects
 				(font
@@ -5530,7 +5465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1528-4954-ND"
+		(property "Supplier_PartNo" "1528-4958-ND"
 			(at 31.75 81.28 0)
 			(effects
 				(font
@@ -5550,7 +5485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.45"
 			(at 31.75 86.36 0)
 			(effects
 				(font
@@ -5586,7 +5521,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a6bca48-90cd-492e-80ae-1d217f4ae4ff")
 		(property "Reference" "C8"
-			(at 72.39 134.62 0)
+			(at 72.39 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,13 +5530,12 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 55.88 104.14 0)
+			(at 72.39 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -5614,7 +5548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 55.88 124.46 0)
 			(effects
 				(font
@@ -5624,22 +5558,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "10n"
-			(at 72.39 137.16 0)
+		(property "Description" "CAP CER 10000PF 100V X7R 0603"
+			(at 55.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -5736,13 +5662,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 30.48 45.72 0)
+			(at 62.23 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -5765,21 +5689,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 62.23 33.02 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 30.48 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 62.23 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -5858,7 +5775,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_IC_Buffer_Driver_Interface:Schmitt_6CH_SN74HCS365PWR")
+		(lib_id "KD_IC_Buffer_Driver_Interface:Buffer_Schmitt_6CH_SN74HCS365PWR")
 		(at 214.63 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5907,7 +5824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC BUFFER NON-INVERT 6V 16TSSOP"
 			(at 214.63 137.16 0)
 			(effects
 				(font
@@ -6063,7 +5980,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 133.35 0)
+			(at 201.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +6005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 201.93 129.54 0)
 			(effects
 				(font
@@ -6110,7 +6027,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Switch:Button_keyboard_socket_Adafruit_4958")
+		(lib_id "KD_Switch:Button_keyboard_socket_MX_Adafruit_4958")
 		(at 44.45 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6127,7 +6044,7 @@
 				)
 			)
 		)
-		(property "Value" "4954"
+		(property "Value" "4958"
 			(at 44.45 73.66 0)
 			(effects
 				(font
@@ -6145,7 +6062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 31.75 66.04 0)
 			(effects
 				(font
@@ -6155,7 +6072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KAILH SW SKTS FOR MX-COMP 1=20PC"
 			(at 44.45 77.47 0)
 			(effects
 				(font
@@ -6174,7 +6091,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "4954"
+		(property "MFG_PartNo" "4958"
 			(at 31.75 50.8 0)
 			(effects
 				(font
@@ -6194,7 +6111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1528-4954-ND"
+		(property "Supplier_PartNo" "1528-4958-ND"
 			(at 31.75 55.88 0)
 			(effects
 				(font
@@ -6214,7 +6131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.45"
 			(at 31.75 60.96 0)
 			(effects
 				(font
@@ -6250,7 +6167,7 @@
 		(fields_autoplaced yes)
 		(uuid "2682c6bd-62bd-4194-a861-86240b48d77b")
 		(property "Reference" "R37"
-			(at 82.55 160.02 0)
+			(at 82.55 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6176,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 82.55 162.56 0)
+			(at 82.55 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 80.01 161.29 0)
 			(effects
 				(font
@@ -6391,7 +6308,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 154.94 0)
+			(at 171.45 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +6333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 171.45 151.13 0)
 			(effects
 				(font
@@ -6438,7 +6355,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Switch:Button_keyboard_socket_Adafruit_4958")
+		(lib_id "KD_Switch:Button_keyboard_socket_MX_Adafruit_4958")
 		(at 44.45 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6455,7 +6372,7 @@
 				)
 			)
 		)
-		(property "Value" "4954"
+		(property "Value" "4958"
 			(at 44.45 148.59 0)
 			(effects
 				(font
@@ -6473,7 +6390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 31.75 140.97 0)
 			(effects
 				(font
@@ -6483,7 +6400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KAILH SW SKTS FOR MX-COMP 1=20PC"
 			(at 44.45 152.4 0)
 			(effects
 				(font
@@ -6502,7 +6419,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "4954"
+		(property "MFG_PartNo" "4958"
 			(at 31.75 125.73 0)
 			(effects
 				(font
@@ -6522,7 +6439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1528-4954-ND"
+		(property "Supplier_PartNo" "1528-4958-ND"
 			(at 31.75 130.81 0)
 			(effects
 				(font
@@ -6542,7 +6459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.45"
 			(at 31.75 135.89 0)
 			(effects
 				(font
@@ -6587,7 +6504,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 154.94 0)
+			(at 160.02 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 160.02 151.13 0)
 			(effects
 				(font
@@ -6634,7 +6551,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Switch:Button_keyboard_socket_Adafruit_4958")
+		(lib_id "KD_Switch:Button_keyboard_socket_MX_Adafruit_4958")
 		(at 139.7 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6651,7 +6568,7 @@
 				)
 			)
 		)
-		(property "Value" "4954"
+		(property "Value" "4958"
 			(at 139.7 156.21 0)
 			(effects
 				(font
@@ -6669,7 +6586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 127 148.59 0)
 			(effects
 				(font
@@ -6679,7 +6596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KAILH SW SKTS FOR MX-COMP 1=20PC"
 			(at 139.7 160.02 0)
 			(effects
 				(font
@@ -6698,7 +6615,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "4954"
+		(property "MFG_PartNo" "4958"
 			(at 127 133.35 0)
 			(effects
 				(font
@@ -6718,7 +6635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1528-4954-ND"
+		(property "Supplier_PartNo" "1528-4958-ND"
 			(at 127 138.43 0)
 			(effects
 				(font
@@ -6738,7 +6655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.45"
 			(at 127 143.51 0)
 			(effects
 				(font
@@ -6771,6 +6688,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "327ba6fc-9f1d-4452-adc4-dc59c4f9e5cc")
 		(property "Reference" "#PWR060"
 			(at 127 60.96 0)
@@ -6782,7 +6700,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 127 53.594 0)
+			(at 127 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6807,7 +6725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 127 57.15 0)
 			(effects
 				(font
@@ -6845,7 +6763,7 @@
 		(fields_autoplaced yes)
 		(uuid "3511b352-cd20-493e-aa64-2c8ee39bc8cf")
 		(property "Reference" "R39"
-			(at 173.99 93.98 0)
+			(at 173.99 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6854,7 +6772,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 173.99 96.52 0)
+			(at 173.99 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +6800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 171.45 95.25 0)
 			(effects
 				(font
@@ -6986,7 +6904,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 69.85 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7011,7 +6929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 66.04 0)
 			(effects
 				(font
@@ -7043,7 +6961,7 @@
 		(fields_autoplaced yes)
 		(uuid "37afd6c9-98dd-4922-b083-2fcbef1f0919")
 		(property "Reference" "C5"
-			(at 72.39 59.69 0)
+			(at 72.39 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,13 +6970,12 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 55.88 29.21 0)
+			(at 72.39 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -7071,7 +6988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 55.88 49.53 0)
 			(effects
 				(font
@@ -7081,22 +6998,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "10n"
-			(at 72.39 62.23 0)
+		(property "Description" "CAP CER 10000PF 100V X7R 0603"
+			(at 55.88 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -7185,7 +7094,7 @@
 		(fields_autoplaced yes)
 		(uuid "3817a7b2-a1ca-4df1-9949-e30fe6015440")
 		(property "Reference" "R40"
-			(at 173.99 119.38 0)
+			(at 173.99 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,7 +7103,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 173.99 121.92 0)
+			(at 173.99 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,7 +7131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 171.45 120.65 0)
 			(effects
 				(font
@@ -7317,7 +7226,7 @@
 		(fields_autoplaced yes)
 		(uuid "39526a99-68e4-4bdd-90a1-3f40f782e267")
 		(property "Reference" "R30"
-			(at 82.55 38.1 0)
+			(at 82.55 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7235,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 82.55 40.64 0)
+			(at 82.55 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,7 +7263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 80.01 39.37 0)
 			(effects
 				(font
@@ -7457,13 +7366,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 30.48 167.64 0)
+			(at 62.23 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -7486,21 +7393,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 62.23 154.94 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 30.48 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 62.23 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -7589,7 +7489,7 @@
 		(fields_autoplaced yes)
 		(uuid "439db5d7-bb69-4403-a162-97cafc9b94e2")
 		(property "Reference" "R42"
-			(at 173.99 167.64 0)
+			(at 173.99 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7598,7 +7498,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 173.99 170.18 0)
+			(at 173.99 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +7526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 171.45 168.91 0)
 			(effects
 				(font
@@ -7730,7 +7630,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 82.55 0)
+			(at 160.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7755,7 +7655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 160.02 78.74 0)
 			(effects
 				(font
@@ -7796,7 +7696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 69.85 0)
+			(at 80.01 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 66.04 0)
 			(effects
 				(font
@@ -7853,7 +7753,7 @@
 		(fields_autoplaced yes)
 		(uuid "4662364e-9f64-42d0-8ce3-62ee949e9bcc")
 		(property "Reference" "C10"
-			(at 163.83 72.39 0)
+			(at 163.83 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,13 +7762,12 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 147.32 41.91 0)
+			(at 163.83 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -7881,7 +7780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 147.32 62.23 0)
 			(effects
 				(font
@@ -7891,22 +7790,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "10n"
-			(at 163.83 74.93 0)
+		(property "Description" "CAP CER 10000PF 100V X7R 0603"
+			(at 147.32 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -7992,6 +7883,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "48cfa8a3-f6e0-43c5-bcea-a88ca7f977f2")
 		(property "Reference" "TP1"
 			(at 87.63 25.4 0)
@@ -8032,7 +7924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 87.63 30.48 0)
 			(effects
 				(font
@@ -8143,7 +8035,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 170.18 0)
+			(at 80.01 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8168,7 +8060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 166.37 0)
 			(effects
 				(font
@@ -8209,7 +8101,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.93 18.034 0)
+			(at 201.93 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8234,7 +8126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 201.93 21.59 0)
 			(effects
 				(font
@@ -8272,7 +8164,7 @@
 		(fields_autoplaced yes)
 		(uuid "51a9ce0b-f51f-480a-9649-cc5a6b5483c2")
 		(property "Reference" "R31"
-			(at 82.55 59.69 0)
+			(at 82.55 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,7 +8173,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 82.55 62.23 0)
+			(at 82.55 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8309,7 +8201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 80.01 60.96 0)
 			(effects
 				(font
@@ -8404,7 +8296,7 @@
 		(fields_autoplaced yes)
 		(uuid "5447a1d0-cd22-45be-939d-fa544452cde8")
 		(property "Reference" "C11"
-			(at 163.83 93.98 0)
+			(at 163.83 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,13 +8305,12 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 147.32 63.5 0)
+			(at 163.83 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -8432,7 +8323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 147.32 83.82 0)
 			(effects
 				(font
@@ -8442,22 +8333,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "10n"
-			(at 163.83 96.52 0)
+		(property "Description" "CAP CER 10000PF 100V X7R 0603"
+			(at 147.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -8546,7 +8429,7 @@
 		(fields_autoplaced yes)
 		(uuid "5958affc-c334-42ca-943e-3658934370aa")
 		(property "Reference" "C12"
-			(at 163.83 119.38 0)
+			(at 163.83 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,13 +8438,12 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 147.32 88.9 0)
+			(at 163.83 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -8574,7 +8456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 147.32 109.22 0)
 			(effects
 				(font
@@ -8584,22 +8466,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "10n"
-			(at 163.83 121.92 0)
+		(property "Description" "CAP CER 10000PF 100V X7R 0603"
+			(at 147.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -8725,7 +8599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 247.65 54.61 0)
 			(effects
 				(font
@@ -8835,13 +8709,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 30.48 142.24 0)
+			(at 62.23 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -8864,21 +8736,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 62.23 129.54 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 62.23 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -8976,7 +8841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 146.05 0)
+			(at 205.74 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9001,7 +8866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 205.74 142.24 0)
 			(effects
 				(font
@@ -9042,7 +8907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 120.65 0)
+			(at 68.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9067,7 +8932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 116.84 0)
 			(effects
 				(font
@@ -9108,7 +8973,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 129.54 0)
+			(at 160.02 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9133,7 +8998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 160.02 125.73 0)
 			(effects
 				(font
@@ -9173,13 +9038,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 30.48 67.31 0)
+			(at 62.23 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -9202,21 +9065,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 62.23 54.61 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 30.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 62.23 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -9295,7 +9151,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Switch:Button_keyboard_socket_Adafruit_4958")
+		(lib_id "KD_Switch:Button_keyboard_socket_MX_Adafruit_4958")
 		(at 44.45 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9312,7 +9168,7 @@
 				)
 			)
 		)
-		(property "Value" "4954"
+		(property "Value" "4958"
 			(at 44.45 26.67 0)
 			(effects
 				(font
@@ -9330,7 +9186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 31.75 19.05 0)
 			(effects
 				(font
@@ -9340,7 +9196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KAILH SW SKTS FOR MX-COMP 1=20PC"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -9359,7 +9215,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "4954"
+		(property "MFG_PartNo" "4958"
 			(at 31.75 3.81 0)
 			(effects
 				(font
@@ -9379,7 +9235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1528-4954-ND"
+		(property "Supplier_PartNo" "1528-4958-ND"
 			(at 31.75 8.89 0)
 			(effects
 				(font
@@ -9399,7 +9255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.45"
 			(at 31.75 13.97 0)
 			(effects
 				(font
@@ -9435,7 +9291,7 @@
 		(fields_autoplaced yes)
 		(uuid "865c9d0d-01b9-426b-8ef1-776b004f3b60")
 		(property "Reference" "R35"
-			(at 82.55 110.49 0)
+			(at 82.55 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9444,7 +9300,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 82.55 113.03 0)
+			(at 82.55 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 80.01 111.76 0)
 			(effects
 				(font
@@ -9567,7 +9423,7 @@
 		(fields_autoplaced yes)
 		(uuid "88e42683-6a94-4138-9341-b3a0087a6792")
 		(property "Reference" "R36"
-			(at 82.55 134.62 0)
+			(at 82.55 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +9432,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 82.55 137.16 0)
+			(at 82.55 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,7 +9460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 80.01 135.89 0)
 			(effects
 				(font
@@ -9708,7 +9564,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.93 114.554 0)
+			(at 201.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9733,7 +9589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 201.93 118.11 0)
 			(effects
 				(font
@@ -9771,7 +9627,7 @@
 		(fields_autoplaced yes)
 		(uuid "92f5e8ee-1946-4c13-8ea9-ec5b959e8242")
 		(property "Reference" "R38"
-			(at 173.99 72.39 0)
+			(at 173.99 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,7 +9636,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 173.99 74.93 0)
+			(at 173.99 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,7 +9664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 171.45 73.66 0)
 			(effects
 				(font
@@ -9912,7 +9768,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 104.14 0)
+			(at 171.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,7 +9793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 171.45 100.33 0)
 			(effects
 				(font
@@ -9978,7 +9834,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 177.8 0)
+			(at 171.45 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10003,7 +9859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 171.45 173.99 0)
 			(effects
 				(font
@@ -10044,7 +9900,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 53.34 0)
+			(at 205.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10069,7 +9925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 205.74 49.53 0)
 			(effects
 				(font
@@ -10109,13 +9965,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 30.48 92.71 0)
+			(at 62.23 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -10138,21 +9992,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 62.23 80.01 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 30.48 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 62.23 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -10250,7 +10097,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 48.26 0)
+			(at 80.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 44.45 0)
 			(effects
 				(font
@@ -10316,7 +10163,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 95.25 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,7 +10188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 91.44 0)
 			(effects
 				(font
@@ -10381,13 +10228,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 121.92 152.4 0)
+			(at 153.67 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -10410,21 +10255,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 139.7 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 121.92 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 153.67 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -10522,7 +10360,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 167.64 0)
+			(at 204.47 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10547,7 +10385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 204.47 163.83 0)
 			(effects
 				(font
@@ -10569,7 +10407,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Switch:Button_keyboard_socket_Adafruit_4958")
+		(lib_id "KD_Switch:Button_keyboard_socket_MX_Adafruit_4958")
 		(at 44.45 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10586,7 +10424,7 @@
 				)
 			)
 		)
-		(property "Value" "4954"
+		(property "Value" "4958"
 			(at 44.45 48.26 0)
 			(effects
 				(font
@@ -10604,7 +10442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 31.75 40.64 0)
 			(effects
 				(font
@@ -10614,7 +10452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KAILH SW SKTS FOR MX-COMP 1=20PC"
 			(at 44.45 52.07 0)
 			(effects
 				(font
@@ -10633,7 +10471,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "4954"
+		(property "MFG_PartNo" "4958"
 			(at 31.75 25.4 0)
 			(effects
 				(font
@@ -10653,7 +10491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1528-4954-ND"
+		(property "Supplier_PartNo" "1528-4958-ND"
 			(at 31.75 30.48 0)
 			(effects
 				(font
@@ -10673,7 +10511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.45"
 			(at 31.75 35.56 0)
 			(effects
 				(font
@@ -10717,13 +10555,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 121.92 101.6 0)
+			(at 153.67 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -10746,21 +10582,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 88.9 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 121.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 153.67 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -10858,7 +10687,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 81.28 0)
+			(at 213.36 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10883,7 +10712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 213.36 77.47 0)
 			(effects
 				(font
@@ -10905,7 +10734,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Switch:Button_keyboard_socket_Adafruit_4958")
+		(lib_id "KD_Switch:Button_keyboard_socket_MX_Adafruit_4958")
 		(at 139.7 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10922,7 +10751,7 @@
 				)
 			)
 		)
-		(property "Value" "4954"
+		(property "Value" "4958"
 			(at 139.7 133.35 0)
 			(effects
 				(font
@@ -10940,7 +10769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 127 125.73 0)
 			(effects
 				(font
@@ -10950,7 +10779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KAILH SW SKTS FOR MX-COMP 1=20PC"
 			(at 139.7 137.16 0)
 			(effects
 				(font
@@ -10969,7 +10798,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "4954"
+		(property "MFG_PartNo" "4958"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -10989,7 +10818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1528-4954-ND"
+		(property "Supplier_PartNo" "1528-4958-ND"
 			(at 127 115.57 0)
 			(effects
 				(font
@@ -11009,7 +10838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.45"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -11045,7 +10874,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9b523ea-66c5-4fcc-a048-31c299bbb729")
 		(property "Reference" "C41"
-			(at 163.83 167.64 0)
+			(at 163.83 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11054,13 +10883,12 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 147.32 137.16 0)
+			(at 163.83 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -11073,7 +10901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 147.32 157.48 0)
 			(effects
 				(font
@@ -11083,22 +10911,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "10n"
-			(at 163.83 170.18 0)
+		(property "Description" "CAP CER 10000PF 100V X7R 0603"
+			(at 147.32 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -11220,7 +11040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 213.36 170.18 0)
 			(effects
 				(font
@@ -11261,7 +11081,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 104.14 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11286,7 +11106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 160.02 100.33 0)
 			(effects
 				(font
@@ -11318,7 +11138,7 @@
 		(fields_autoplaced yes)
 		(uuid "bec3304f-50b4-48f2-8e29-ff59fade8838")
 		(property "Reference" "C4"
-			(at 72.39 38.1 0)
+			(at 72.39 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11327,13 +11147,12 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 55.88 7.62 0)
+			(at 72.39 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -11346,7 +11165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 55.88 27.94 0)
 			(effects
 				(font
@@ -11356,22 +11175,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "10n"
-			(at 72.39 40.64 0)
+		(property "Description" "CAP CER 10000PF 100V X7R 0603"
+			(at 55.88 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -11469,7 +11280,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 144.78 0)
+			(at 80.01 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11494,7 +11305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 140.97 0)
 			(effects
 				(font
@@ -11535,7 +11346,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 120.65 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11560,7 +11371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 116.84 0)
 			(effects
 				(font
@@ -11601,7 +11412,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 95.25 0)
+			(at 80.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11626,7 +11437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 91.44 0)
 			(effects
 				(font
@@ -11648,7 +11459,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Switch:Button_keyboard_socket_Adafruit_4958")
+		(lib_id "KD_Switch:Button_keyboard_socket_MX_Adafruit_4958")
 		(at 44.45 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11665,7 +11476,7 @@
 				)
 			)
 		)
-		(property "Value" "4954"
+		(property "Value" "4958"
 			(at 44.45 123.19 0)
 			(effects
 				(font
@@ -11683,7 +11494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 31.75 115.57 0)
 			(effects
 				(font
@@ -11693,7 +11504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KAILH SW SKTS FOR MX-COMP 1=20PC"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -11712,7 +11523,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "4954"
+		(property "MFG_PartNo" "4958"
 			(at 31.75 100.33 0)
 			(effects
 				(font
@@ -11732,7 +11543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1528-4954-ND"
+		(property "Supplier_PartNo" "1528-4958-ND"
 			(at 31.75 105.41 0)
 			(effects
 				(font
@@ -11752,7 +11563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.45"
 			(at 31.75 110.49 0)
 			(effects
 				(font
@@ -11797,7 +11608,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 82.55 0)
+			(at 171.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11822,7 +11633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 171.45 78.74 0)
 			(effects
 				(font
@@ -11854,7 +11665,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8212d8e-f83a-40a7-b8d0-31a0640a9a65")
 		(property "Reference" "C14"
-			(at 205.74 121.92 0)
+			(at 205.74 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11863,7 +11674,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 205.74 124.46 0)
+			(at 205.74 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11891,7 +11702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 201.93 123.19 0)
 			(effects
 				(font
@@ -11976,7 +11787,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Switch:Button_keyboard_socket_Adafruit_4958")
+		(lib_id "KD_Switch:Button_keyboard_socket_MX_Adafruit_4958")
 		(at 139.7 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11993,7 +11804,7 @@
 				)
 			)
 		)
-		(property "Value" "4954"
+		(property "Value" "4958"
 			(at 139.7 82.55 0)
 			(effects
 				(font
@@ -12011,7 +11822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 127 74.93 0)
 			(effects
 				(font
@@ -12021,7 +11832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KAILH SW SKTS FOR MX-COMP 1=20PC"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -12040,7 +11851,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "4954"
+		(property "MFG_PartNo" "4958"
 			(at 127 59.69 0)
 			(effects
 				(font
@@ -12060,7 +11871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1528-4954-ND"
+		(property "Supplier_PartNo" "1528-4958-ND"
 			(at 127 64.77 0)
 			(effects
 				(font
@@ -12080,7 +11891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.45"
 			(at 127 69.85 0)
 			(effects
 				(font
@@ -12124,13 +11935,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 121.92 80.01 0)
+			(at 153.67 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -12153,21 +11962,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 67.31 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 121.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 153.67 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -12265,7 +12067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 177.8 0)
+			(at 160.02 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12290,7 +12092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 160.02 173.99 0)
 			(effects
 				(font
@@ -12330,13 +12132,11 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 121.92 127 0)
+			(at 153.67 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -12359,21 +12159,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 114.3 0)
+		(property "Description" "RES 1K OHM 5% 1/10W 0603"
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "1k"
-			(at 153.67 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -12471,7 +12264,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 36.83 0)
+			(at 201.93 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12496,7 +12289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 201.93 33.02 0)
 			(effects
 				(font
@@ -12537,7 +12330,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 144.78 0)
+			(at 68.58 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12562,7 +12355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 140.97 0)
 			(effects
 				(font
@@ -12584,7 +12377,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_IC_Buffer_Driver_Interface:Schmitt_6CH_SN74HCS365PWR")
+		(lib_id "KD_IC_Buffer_Driver_Interface:Buffer_Schmitt_6CH_SN74HCS365PWR")
 		(at 214.63 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12633,7 +12426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC BUFFER NON-INVERT 6V 16TSSOP"
 			(at 214.63 44.45 0)
 			(effects
 				(font
@@ -12780,7 +12573,7 @@
 		(fields_autoplaced yes)
 		(uuid "f53803dc-9358-4150-8f4a-6e633262c330")
 		(property "Reference" "R41"
-			(at 173.99 144.78 0)
+			(at 173.99 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12789,7 +12582,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 173.99 147.32 0)
+			(at 173.99 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12817,7 +12610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/10W 0603"
 			(at 171.45 146.05 0)
 			(effects
 				(font
@@ -12902,7 +12695,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Switch:Button_keyboard_socket_Adafruit_4958")
+		(lib_id "KD_Switch:Button_keyboard_socket_MX_Adafruit_4958")
 		(at 139.7 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12919,7 +12712,7 @@
 				)
 			)
 		)
-		(property "Value" "4954"
+		(property "Value" "4958"
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -12937,7 +12730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4954/4954_CPG1511F01S03-BOX_Brown.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 127 100.33 0)
 			(effects
 				(font
@@ -12947,7 +12740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KAILH SW SKTS FOR MX-COMP 1=20PC"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -12966,7 +12759,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "4954"
+		(property "MFG_PartNo" "4958"
 			(at 127 85.09 0)
 			(effects
 				(font
@@ -12986,7 +12779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "1528-4954-ND"
+		(property "Supplier_PartNo" "1528-4958-ND"
 			(at 127 90.17 0)
 			(effects
 				(font
@@ -13006,7 +12799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.45"
 			(at 127 95.25 0)
 			(effects
 				(font
@@ -13051,7 +12844,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 170.18 0)
+			(at 68.58 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13076,7 +12869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 166.37 0)
 			(effects
 				(font
@@ -13108,7 +12901,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdeef620-18be-436e-b455-388da6fcb365")
 		(property "Reference" "C9"
-			(at 72.39 160.02 0)
+			(at 72.39 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13117,13 +12910,12 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 55.88 129.54 0)
+			(at 72.39 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -13136,7 +12928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "datasheet"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 55.88 149.86 0)
 			(effects
 				(font
@@ -13146,22 +12938,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "10n"
-			(at 72.39 162.56 0)
+		(property "Description" "CAP CER 10000PF 100V X7R 0603"
+			(at 55.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TDK Corporation"
@@ -13259,7 +13043,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 129.54 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13284,7 +13068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 171.45 125.73 0)
 			(effects
 				(font

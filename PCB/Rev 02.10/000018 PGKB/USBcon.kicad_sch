@@ -233,7 +233,7 @@
 				)
 			)
 		)
-		(symbol "KD_Capacitor:C_1206_10u_X5R_50V_automotive"
+		(symbol "KD_Capacitor:C_1206_10u_X7R_16V"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -268,7 +268,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf"
+			(property "Datasheet" "https://www.samsungsem.com/kr/support/product-search/mlcc/CL31B106MOHNNNE.jsp"
 				(at -12.7 11.43 0)
 				(effects
 					(font
@@ -278,7 +278,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP CER 10UF 50V X5R 1206"
+			(property "Description" "Capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -296,7 +296,7 @@
 					(justify left)
 				)
 			)
-			(property "Manufacturer" "Murata Electronics"
+			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at -12.7 29.21 0)
 				(effects
 					(font
@@ -306,7 +306,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG_PartNo" "GRT31CR61H106ME01L"
+			(property "MFG_PartNo" "CL31B106MOHNNNE"
 				(at -12.7 26.67 0)
 				(effects
 					(font
@@ -326,7 +326,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier_PartNo" "490-12457-1-ND"
+			(property "Supplier_PartNo" "1276-6641-1-ND"
 				(at -12.7 21.59 0)
 				(effects
 					(font
@@ -346,7 +346,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.30"
+			(property "Price" "0.10"
 				(at -12.7 16.51 0)
 				(effects
 					(font
@@ -374,7 +374,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_1206_10u_X5R_50V_automotive_0_1"
+			(symbol "C_1206_10u_X7R_16V_0_1"
 				(polyline
 					(pts
 						(xy -2.286 -0.508) (xy 2.286 -0.508)
@@ -424,7 +424,7 @@
 					)
 				)
 			)
-			(symbol "C_1206_10u_X5R_50V_automotive_1_1"
+			(symbol "C_1206_10u_X7R_16V_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1246,7 +1246,7 @@
 			(symbol "Schottky_30V_1A_PMEG3010ER_115_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy -1.778 0.762) (xy -1.778 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.762 -1.27) (xy -0.762 -0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -2849,14 +2849,13 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Ferrite_500mA_TDK_MMZ2012Y152BT000"
-				(at -12.7 36.83 0)
+			(property "Value" "MMZ2012Y152BT000"
+				(at 2.54 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Inductor:INDC2016X100N"
@@ -2880,21 +2879,13 @@
 				)
 			)
 			(property "Description" "FERRITE BEAD 1.5 KOHM 0805 1LN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Code" "MMZ2012Y152BT000"
-				(at 2.54 -1.27 0)
+				(at -12.7 36.83 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Abracon LLC"
@@ -2976,17 +2967,6 @@
 				)
 			)
 			(symbol "Ferrite_500mA_TDK_MMZ2012Y152BT000_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 1.27) (xy 0 -1.27)
@@ -3001,6 +2981,17 @@
 				)
 			)
 			(symbol "Ferrite_500mA_TDK_MMZ2012Y152BT000_1_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3373,7 +3364,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -3418,9 +3409,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3494,8 +3485,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4398,7 +4389,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cd4028a-f23a-4b75-a57d-03d05e8aab1a")
 		(property "Reference" "R1"
-			(at 115.57 57.15 0)
+			(at 115.57 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 5.1K OHM 5% 1/10W 0603"
 			(at 113.03 58.42 0)
 			(effects
 				(font
@@ -4446,7 +4437,7 @@
 			)
 		)
 		(property "Code" "5k1"
-			(at 115.57 59.69 0)
+			(at 115.57 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Capacitor:C_1206_10u_X5R_50V_automotive")
+		(lib_id "KD_Capacitor:C_1206_10u_X7R_16V")
 		(at 201.93 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4540,7 +4531,7 @@
 		(fields_autoplaced yes)
 		(uuid "13b1783a-b93c-43ac-abaf-4e602c81cb5b")
 		(property "Reference" "C1"
-			(at 205.74 54.61 0)
+			(at 205.74 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +4559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf"
+		(property "Datasheet" "https://www.samsungsem.com/kr/support/product-search/mlcc/CL31B106MOHNNNE.jsp"
 			(at 189.23 44.45 0)
 			(effects
 				(font
@@ -4578,7 +4569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor"
 			(at 201.93 55.88 0)
 			(effects
 				(font
@@ -4587,16 +4578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Code" "10u"
-			(at 205.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 189.23 26.67 0)
 			(effects
 				(font
@@ -4606,7 +4588,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "GRT31CR61H106ME01L"
+		(property "MFG_PartNo" "CL31B106MOHNNNE"
 			(at 189.23 29.21 0)
 			(effects
 				(font
@@ -4626,7 +4608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "490-12457-1-ND"
+		(property "Supplier_PartNo" "1276-6641-1-ND"
 			(at 189.23 34.29 0)
 			(effects
 				(font
@@ -4646,7 +4628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.30"
+		(property "Price" "0.10"
 			(at 189.23 39.37 0)
 			(effects
 				(font
@@ -4654,6 +4636,15 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+		(property "Code" "10u"
+			(at 205.74 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -4715,7 +4706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 113.03 64.77 0)
 			(effects
 				(font
@@ -4784,7 +4775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS DIODE 5.5VWM SOT363"
 			(at 144.78 110.49 0)
 			(effects
 				(font
@@ -4932,7 +4923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 83.82 143.51 0)
 			(effects
 				(font
@@ -4997,7 +4988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 76.2 143.51 0)
 			(effects
 				(font
@@ -5062,7 +5053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 154.94 111.76 0)
 			(effects
 				(font
@@ -5101,14 +5092,12 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite_500mA_TDK_MMZ2012Y152BT000"
-			(at 157.48 63.5 0)
+		(property "Value" "MMZ2012Y152BT000"
+			(at 194.31 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Inductor:INDC2016X100N"
@@ -5131,21 +5120,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 194.31 50.8 0)
+		(property "Description" "FERRITE BEAD 1.5 KOHM 0805 1LN"
+			(at 157.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "MMZ2012Y152BT000"
-			(at 194.31 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Abracon LLC"
@@ -5234,7 +5216,7 @@
 		(fields_autoplaced yes)
 		(uuid "81f0cc7e-f668-4f31-8ee8-ae2b4e40be73")
 		(property "Reference" "D12"
-			(at 146.3675 44.45 0)
+			(at 146.304 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE SCHOTTKY 30V 1A SOD123W"
 			(at 146.05 50.8 0)
 			(effects
 				(font
@@ -5281,7 +5263,7 @@
 			)
 		)
 		(property "Code" "PMEG3010ER,115"
-			(at 146.3675 46.99 0)
+			(at 146.304 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5356,7 @@
 		(fields_autoplaced yes)
 		(uuid "90808387-2348-4c7d-b71b-a3d9c9839e4a")
 		(property "Reference" "C2"
-			(at 218.44 54.61 0)
+			(at 218.44 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5365,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 218.44 57.15 0)
+			(at 218.44 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 214.63 55.88 0)
 			(effects
 				(font
@@ -5539,7 +5521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 214.63 60.96 0)
 			(effects
 				(font
@@ -5571,7 +5553,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc95490f-8ce4-4615-8b7b-bdd9895c0acb")
 		(property "Reference" "R2"
-			(at 124.46 57.15 0)
+			(at 124.46 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 5.1K OHM 5% 1/10W 0603"
 			(at 121.92 58.42 0)
 			(effects
 				(font
@@ -5619,7 +5601,7 @@
 			)
 		)
 		(property "Code" "5k1"
-			(at 124.46 59.69 0)
+			(at 124.46 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +5728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 201.93 60.96 0)
 			(effects
 				(font
@@ -5948,7 +5930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN RCPT USB2.0 TYPE C 16+8POS"
 			(at 99.06 74.93 0)
 			(effects
 				(font

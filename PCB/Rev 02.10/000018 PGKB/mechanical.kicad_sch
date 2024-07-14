@@ -59,11 +59,12 @@
 				)
 			)
 			(property "Description" "Artwork"
-				(at 0 0 0)
+				(at -12.446 31.496 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
@@ -1114,9 +1115,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1190,8 +1191,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1303,12 +1304,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 154.94 64.77 0)
+		(property "Description" "Artwork"
+			(at 142.494 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1372,6 +1374,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 143.002 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "000018 PGKB"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8f5ee264-ab78-438d-b8d5-1e547e5afc7c"
@@ -1392,7 +1403,7 @@
 		(fields_autoplaced yes)
 		(uuid "23beff02-a180-4b96-b1b9-96f6ceb074fb")
 		(property "Reference" "H2"
-			(at 166.37 80.01 0)
+			(at 166.37 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +1412,7 @@
 			)
 		)
 		(property "Value" "NPTH 3.2 M3 Clearance"
-			(at 166.37 82.55 0)
+			(at 166.37 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hole"
 			(at 162.56 81.28 0)
 			(effects
 				(font
@@ -1518,7 +1529,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dbc8e0c-5edc-4f28-8b9b-5756d6ef896d")
 		(property "Reference" "FD2"
-			(at 128.27 80.01 0)
+			(at 128.27 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,7 +1538,7 @@
 			)
 		)
 		(property "Value" "Fiducial 0.5 mm"
-			(at 128.27 82.55 0)
+			(at 128.27 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial"
 			(at 125.73 81.28 0)
 			(effects
 				(font
@@ -1644,7 +1655,7 @@
 		(fields_autoplaced yes)
 		(uuid "499ed6c7-ed14-479f-ad05-b6916fd11f3a")
 		(property "Reference" "H6"
-			(at 166.37 105.41 0)
+			(at 166.37 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +1664,7 @@
 			)
 		)
 		(property "Value" "PTH 3.2 M3 Clearance"
-			(at 166.37 107.95 0)
+			(at 166.37 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hole"
 			(at 162.56 106.68 0)
 			(effects
 				(font
@@ -1773,7 +1784,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d0bfb87-2966-4511-a2f2-200a11366799")
 		(property "Reference" "FD4"
-			(at 128.27 92.71 0)
+			(at 128.27 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +1793,7 @@
 			)
 		)
 		(property "Value" "Fiducial 0.5 mm"
-			(at 128.27 95.25 0)
+			(at 128.27 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial"
 			(at 125.73 93.98 0)
 			(effects
 				(font
@@ -1899,7 +1910,7 @@
 		(fields_autoplaced yes)
 		(uuid "70fe24e3-5765-4e3c-a3e2-7ca8ca000847")
 		(property "Reference" "H5"
-			(at 166.37 99.06 0)
+			(at 166.37 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1919,7 @@
 			)
 		)
 		(property "Value" "PTH 3.2 M3 Clearance"
-			(at 166.37 101.6 0)
+			(at 166.37 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hole"
 			(at 162.56 100.33 0)
 			(effects
 				(font
@@ -2028,7 +2039,7 @@
 		(fields_autoplaced yes)
 		(uuid "89f8ba5d-6b8e-4c8e-966f-3957a66e2eb0")
 		(property "Reference" "FD3"
-			(at 128.27 86.36 0)
+			(at 128.27 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,7 +2048,7 @@
 			)
 		)
 		(property "Value" "Fiducial 0.5 mm"
-			(at 128.27 88.9 0)
+			(at 128.27 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial"
 			(at 125.73 87.63 0)
 			(effects
 				(font
@@ -2154,7 +2165,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aef460b-cd1f-4baf-9779-a685c62aa95d")
 		(property "Reference" "H4"
-			(at 166.37 92.71 0)
+			(at 166.37 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2174,7 @@
 			)
 		)
 		(property "Value" "NPTH 3.2 M3 Clearance"
-			(at 166.37 95.25 0)
+			(at 166.37 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hole"
 			(at 162.56 93.98 0)
 			(effects
 				(font
@@ -2315,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Artwork"
 			(at 154.94 120.65 0)
 			(effects
 				(font
@@ -2384,6 +2395,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 143.002 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "000018 PGKB"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8f5ee264-ab78-438d-b8d5-1e547e5afc7c"
@@ -2404,7 +2424,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b65b006-f0d5-4709-8d26-b4075bbc9700")
 		(property "Reference" "H3"
-			(at 166.37 86.36 0)
+			(at 166.37 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,7 +2462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hole"
 			(at 162.56 87.63 0)
 			(effects
 				(font
@@ -2512,7 +2532,7 @@
 			)
 		)
 		(property "Code" "3.2 mm hole"
-			(at 166.37 88.9 0)
+			(at 166.37 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,7 +2594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 156.21 107.95 0)
 			(effects
 				(font
@@ -2612,7 +2632,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca4aac04-446e-41d5-9b7d-1060d84d42ec")
 		(property "Reference" "H1"
-			(at 166.37 73.66 0)
+			(at 166.37 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +2641,7 @@
 			)
 		)
 		(property "Value" "NPTH 3.2 M3 Clearance"
-			(at 166.37 76.2 0)
+			(at 166.37 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hole"
 			(at 162.56 74.93 0)
 			(effects
 				(font
@@ -2738,7 +2758,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec9169fb-52ff-4747-b435-a0951aa7fba0")
 		(property "Reference" "FD6"
-			(at 128.27 105.41 0)
+			(at 128.27 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2767,7 @@
 			)
 		)
 		(property "Value" "Fiducial 0.5 mm"
-			(at 128.27 107.95 0)
+			(at 128.27 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +2795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial"
 			(at 125.73 106.68 0)
 			(effects
 				(font
@@ -2864,7 +2884,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa036ac9-0e2a-4987-b929-d6ff4d7f8bf5")
 		(property "Reference" "FD1"
-			(at 128.27 73.66 0)
+			(at 128.27 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +2893,7 @@
 			)
 		)
 		(property "Value" "Fiducial 0.5 mm"
-			(at 128.27 76.2 0)
+			(at 128.27 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +2921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial"
 			(at 125.73 74.93 0)
 			(effects
 				(font
@@ -2990,7 +3010,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa9b705b-ee67-48db-bccc-16cf93999e08")
 		(property "Reference" "FD5"
-			(at 128.27 99.06 0)
+			(at 128.27 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +3019,7 @@
 			)
 		)
 		(property "Value" "Fiducial 0.5 mm"
-			(at 128.27 101.6 0)
+			(at 128.27 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial"
 			(at 125.73 100.33 0)
 			(effects
 				(font

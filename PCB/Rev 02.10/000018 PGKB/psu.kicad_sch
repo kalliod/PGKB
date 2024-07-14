@@ -860,13 +860,12 @@
 				)
 			)
 		)
-		(symbol "KD_IC_Regulator_DC_Converter:Regulator_3v3_500mA_0.5%_MCP1825T-3302E/DC"
+		(symbol "KD_IC_Power_Supply:Regulator_3v3_500mA_0.5%_MCP1825T-3302E/DC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U6"
 				(at 0 6.35 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -875,7 +874,6 @@
 			)
 			(property "Value" "MCP1825T-3302E/DC"
 				(at 0 3.81 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -902,12 +900,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "IC REG LIN 3.3V 500MA SOT223-5"
-				(at 0 0 0)
+			(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 500mA SOT-223-5"
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
@@ -1258,30 +1257,6 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
@@ -1306,6 +1281,19 @@
 				)
 			)
 			(symbol "0603_Green_Diff_B1911NG--20D000214U1930_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 194 0 1)
+					)
+				)
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1488,30 +1476,6 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
@@ -1536,6 +1500,19 @@
 				)
 			)
 			(symbol "0603_Red_Diff_B1911USD-20D000114U1930_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 194 0 0 1)
+					)
+				)
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1581,7 +1558,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 1.905 1.27 0)
+				(at 2.032 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1589,14 +1566,13 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_0603_360_1%"
-				(at -12.7 31.75 0)
+			(property "Value" "360"
+				(at 2.032 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -1619,22 +1595,14 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 12.4K OHM 1% 1/10W 0603"
-				(at 0 0 0)
+			(property "Description" "RES SMD 360 OHM 1% 1/10W 0603"
+				(at -12.7 34.798 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
-				)
-			)
-			(property "Code" "360"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 				)
 			)
 			(property "Manufacturer" "YAGEO"
@@ -1717,14 +1685,14 @@
 			)
 			(symbol "R_0603_360_1%_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -1769,9 +1737,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1869,8 +1837,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1889,9 +1857,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1965,8 +1933,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2545,7 +2513,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ecf97e6-eee6-4891-8eee-ace7cce614ec")
 		(property "Reference" "R33"
-			(at 232.41 97.79 0)
+			(at 232.41 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,14 +2521,13 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_0603_360_1%"
-			(at 242.57 130.81 0)
+		(property "Value" "360"
+			(at 232.41 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -2583,22 +2550,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 229.87 99.06 0)
+		(property "Description" "RES SMD 360 OHM 1% 1/10W 0603"
+			(at 242.57 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
-			)
-		)
-		(property "Code" "360"
-			(at 232.41 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
@@ -2696,7 +2655,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 118.11 0)
+			(at 229.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +2680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 229.87 114.3 0)
 			(effects
 				(font
@@ -2766,14 +2725,12 @@
 				)
 			)
 		)
-		(property "Value" "R_0603_360_1%"
-			(at 100.33 127 0)
+		(property "Value" "360"
+			(at 132.08 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -2796,21 +2753,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 132.08 114.3 0)
+		(property "Description" "RES SMD 360 OHM 1% 1/10W 0603"
+			(at 97.282 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
-			)
-		)
-		(property "Code" "360"
-			(at 132.08 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
@@ -2932,7 +2882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -2979,7 +2929,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 107.95 0)
+			(at 148.59 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +2954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 148.59 104.14 0)
 			(effects
 				(font
@@ -3078,7 +3028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 81.28 96.52 0)
 			(effects
 				(font
@@ -3212,7 +3162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 101.6 0)
 			(effects
 				(font
@@ -3240,7 +3190,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_IC_Regulator_DC_Converter:Regulator_3v3_500mA_0.5%_MCP1825T-3302E/DC")
+		(lib_id "KD_IC_Power_Supply:Regulator_3v3_500mA_0.5%_MCP1825T-3302E/DC")
 		(at 104.14 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3259,8 +3209,7 @@
 			)
 		)
 		(property "Value" "MCP1825T-3302E/DC"
-			(at 104.14 105.41 0)
-			(do_not_autoplace yes)
+			(at 105.4656 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,12 +3236,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 104.14 109.22 0)
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 500mA SOT-223-5"
+			(at 91.44 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3394,7 +3344,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e67a735-a2ab-4348-a3c2-3869b393091c")
 		(property "Reference" "D16"
-			(at 233.68 109.5375 90)
+			(at 233.68 109.5374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +3353,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 233.68 112.0775 90)
+			(at 233.68 112.0774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Green 525nm LED Indication - Discrete 3.3V 0603 (1608 Metric)"
 			(at 229.87 109.22 0)
 			(effects
 				(font
@@ -3563,7 +3513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor"
 			(at 134.62 97.79 0)
 			(effects
 				(font
@@ -3710,7 +3660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 224.79 88.9 0)
 			(effects
 				(font
@@ -3847,7 +3797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Red 624nm LED Indication - Discrete 2V 0603 (1608 Metric)"
 			(at 123.19 114.3 0)
 			(effects
 				(font
@@ -3978,7 +3928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 148.59 97.79 0)
 			(effects
 				(font
@@ -4112,7 +4062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -4159,7 +4109,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 124.46 0)
+			(at 95.25 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 95.25 120.65 0)
 			(effects
 				(font
@@ -4259,7 +4209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test point"
 			(at 116.84 87.63 0)
 			(effects
 				(font
@@ -4370,7 +4320,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 104.14 0)
+			(at 219.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 219.71 100.33 0)
 			(effects
 				(font
@@ -4460,7 +4410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 190.5 90.17 0)
 			(effects
 				(font
@@ -4537,7 +4487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC SUPERVISOR 1 CHANNEL SOT143 3.08V"
 			(at 194.31 92.71 0)
 			(effects
 				(font
