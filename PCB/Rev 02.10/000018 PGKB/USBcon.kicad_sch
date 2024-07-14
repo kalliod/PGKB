@@ -3039,7 +3039,7 @@
 				)
 			)
 		)
-		(symbol "KD_Resistor:R_0402_27_1%"
+		(symbol "KD_Resistor:R_0603_27_1%"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3063,7 +3063,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "KD_Resistor:RESC1005X40N"
+			(property "Footprint" "KD_Resistor:RESC1608X55N"
 				(at -12.7 13.97 0)
 				(effects
 					(font
@@ -3083,7 +3083,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 27 OHM 1% 1/16W 0402"
+			(property "Description" "RES SMD 27 OHM 1% 1/10W 0603"
 				(at -12.7 31.75 0)
 				(effects
 					(font
@@ -3103,7 +3103,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG_PartNo" "CR0402-FX-27R0GLF"
+			(property "MFG_PartNo" "CR0603-FX-27R0ELF"
 				(at -12.7 26.67 0)
 				(effects
 					(font
@@ -3123,7 +3123,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier_PartNo" "CR0402-FX-27R0GLFCT-ND"
+			(property "Supplier_PartNo" "CR0603-FX-27R0ELFCT-ND"
 				(at -12.7 21.59 0)
 				(effects
 					(font
@@ -3143,7 +3143,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.01"
+			(property "Price" "0.02"
 				(at -12.7 16.51 0)
 				(effects
 					(font
@@ -3162,7 +3162,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*0402* *1005* RESC1005*"
+			(property "ki_fp_filters" "*0603* RESC1608*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3171,10 +3171,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0402_27_1%_1_1"
+			(symbol "R_0603_27_1%_0_1"
 				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3183,6 +3183,8 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "R_0603_27_1%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4255,7 +4257,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Resistor:R_0402_27_1%")
+		(lib_id "KD_Resistor:R_0603_27_1%")
 		(at 179.07 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4280,7 +4282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KD_Resistor:RESC1005X40N"
+		(property "Footprint" "KD_Resistor:RESC1608X55N"
 			(at 165.1 109.22 0)
 			(effects
 				(font
@@ -4300,7 +4302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 27 OHM 1% 1/16W 0402"
+		(property "Description" "RES SMD 27 OHM 1% 1/10W 0603"
 			(at 147.32 109.22 0)
 			(effects
 				(font
@@ -4320,7 +4322,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "CR0402-FX-27R0GLF"
+		(property "MFG_PartNo" "CR0603-FX-27R0ELF"
 			(at 152.4 109.22 0)
 			(effects
 				(font
@@ -4340,7 +4342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "CR0402-FX-27R0GLFCT-ND"
+		(property "Supplier_PartNo" "CR0603-FX-27R0ELFCT-ND"
 			(at 157.48 109.22 0)
 			(effects
 				(font
@@ -4360,7 +4362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.01"
+		(property "Price" "0.02"
 			(at 162.56 109.22 0)
 			(effects
 				(font
@@ -5766,7 +5768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Resistor:R_0402_27_1%")
+		(lib_id "KD_Resistor:R_0603_27_1%")
 		(at 179.07 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5791,7 +5793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KD_Resistor:RESC1005X40N"
+		(property "Footprint" "KD_Resistor:RESC1608X55N"
 			(at 165.1 99.06 0)
 			(effects
 				(font
@@ -5811,7 +5813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 27 OHM 1% 1/16W 0402"
+		(property "Description" "RES SMD 27 OHM 1% 1/10W 0603"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -5831,7 +5833,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "CR0402-FX-27R0GLF"
+		(property "MFG_PartNo" "CR0603-FX-27R0ELF"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -5851,7 +5853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "CR0402-FX-27R0GLFCT-ND"
+		(property "Supplier_PartNo" "CR0603-FX-27R0ELFCT-ND"
 			(at 157.48 99.06 0)
 			(effects
 				(font
@@ -5871,7 +5873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.01"
+		(property "Price" "0.02"
 			(at 162.56 99.06 0)
 			(effects
 				(font
