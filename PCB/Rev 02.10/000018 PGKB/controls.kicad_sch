@@ -1904,6 +1904,12 @@
 		(uuid "15c4692e-a3d8-4fcc-ad36-ad517bf84531")
 	)
 	(junction
+		(at 236.22 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22ba20f2-63b8-4f32-be17-36cdf625f91a")
+	)
+	(junction
 		(at 96.52 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1932,6 +1938,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97491344-a748-475f-a8b3-6000d2c06253")
+	)
+	(junction
+		(at 243.84 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9782ba50-5f76-405c-9073-55fc4b1d79b8")
 	)
 	(junction
 		(at 105.41 101.6)
@@ -2047,13 +2059,33 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 95.25) (xy 228.6 95.25)
+			(xy 243.84 87.63) (xy 243.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f893fd9-44bd-4be3-a849-defa7d3f74fb")
+	)
+	(wire
+		(pts
+			(xy 250.19 95.25) (xy 243.84 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "26d62293-9d38-4386-a77c-1d8f5b351570")
+	)
+	(wire
+		(pts
+			(xy 243.84 95.25) (xy 228.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c40dd04-b101-4a65-b49c-689a76aad74b")
 	)
 	(wire
 		(pts
@@ -2067,7 +2099,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 90.17) (xy 228.6 90.17)
+			(xy 250.19 90.17) (xy 236.22 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 92.71) (xy 228.6 92.71)
+			(xy 250.19 92.71) (xy 228.6 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2377,6 +2409,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 90.17) (xy 228.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a062c8ca-cccc-4c1b-ab2c-0a694eb916cc")
+	)
+	(wire
+		(pts
 			(xy 69.85 116.84) (xy 101.6 116.84)
 		)
 		(stroke
@@ -2464,6 +2506,16 @@
 			(type default)
 		)
 		(uuid "cd8c861c-4a02-4764-8279-0a8983cae71d")
+	)
+	(wire
+		(pts
+			(xy 236.22 87.63) (xy 236.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0dd08a5-f34f-4089-9cad-afb8186b42cf")
 	)
 	(wire
 		(pts
@@ -2607,7 +2659,7 @@
 	)
 	(hierarchical_label "SWITCH"
 		(shape output)
-		(at 237.49 92.71 0)
+		(at 250.19 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2619,7 +2671,7 @@
 	)
 	(hierarchical_label "ENC_A"
 		(shape output)
-		(at 237.49 90.17 0)
+		(at 250.19 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2631,7 +2683,7 @@
 	)
 	(hierarchical_label "ENC_B"
 		(shape output)
-		(at 237.49 95.25 0)
+		(at 250.19 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2640,6 +2692,145 @@
 			(justify left)
 		)
 		(uuid "f574b550-1e58-4a64-8673-9000540751c5")
+	)
+	(symbol
+		(lib_id "KD_Connector_Pads:TestPoint_2.5mm_H0.9")
+		(at 236.22 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05e7a5dc-5c74-41d9-9402-1371d134e2fc")
+		(property "Reference" "TP10"
+			(at 236.22 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP D2.5 mm H0.9mm"
+			(at 223.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Connector_Pads:TestPoint_Pad_D2.5mm_H0.9mm"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "DNP"
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point"
+			(at 236.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "DNP"
+			(at 223.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DNP"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "DNP"
+			(at 223.52 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DNP"
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "DNP"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "T"
+			(at 223.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.00"
+			(at 223.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e01319b2-1e2e-44f8-bba4-f30078fa3aaa")
+		)
+		(instances
+			(project "000018 PGKB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "KD_Connector_Pads:TestPoint_2.5mm_H0.9")
@@ -4686,6 +4877,145 @@
 			(project "000018 PGKB"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Connector_Pads:TestPoint_2.5mm_H0.9")
+		(at 243.84 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3f7a135-33d0-4329-8175-36c5b3de398b")
+		(property "Reference" "TP17"
+			(at 243.84 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP D2.5 mm H0.9mm"
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Connector_Pads:TestPoint_Pad_D2.5mm_H0.9mm"
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "DNP"
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point"
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "DNP"
+			(at 231.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DNP"
+			(at 231.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "DNP"
+			(at 231.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DNP"
+			(at 231.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "DNP"
+			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "T"
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.00"
+			(at 231.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4a2ddd4-a585-420a-8672-8accecac5db3")
+		)
+		(instances
+			(project "000018 PGKB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/995d81b1-81b6-4111-907a-bbbe6e1f3b4b"
+					(reference "TP17")
 					(unit 1)
 				)
 			)

@@ -1374,15 +1374,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 143.002 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "000018 PGKB"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8f5ee264-ab78-438d-b8d5-1e547e5afc7c"
@@ -2392,15 +2383,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 143.002 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
