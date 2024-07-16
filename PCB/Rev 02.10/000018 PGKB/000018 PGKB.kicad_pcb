@@ -190,7 +190,7 @@
 	(net 38 "unconnected-(J1-SBU1-PadA8)")
 	(net 39 "unconnected-(J1-SBU2-PadB8)")
 	(net 40 "/Main/Microcontroller/NEOPIX_DRIVE")
-	(net 41 "/Main/Microcontroller/GPIO12")
+	(net 41 "/Main/Microcontroller/GPIO29")
 	(net 42 "/Main/Buttons/Button6")
 	(net 43 "/Main/Buttons/Button7")
 	(net 44 "/Main/Buttons/Button8")
@@ -19784,7 +19784,7 @@
 		)
 		(fp_arc
 			(start 1.31605 -0.683114)
-			(mid 1.907695 -0.405492)
+			(mid 1.907699 -0.405492)
 			(end 2.078018 0.225468)
 			(stroke
 				(width 0.2)
@@ -19817,7 +19817,7 @@
 		)
 		(fp_arc
 			(start 1.372869 0.972724)
-			(mid 0.966366 0.781547)
+			(mid 0.966362 0.781547)
 			(end 0.82295 0.35584)
 			(stroke
 				(width 0.2)
@@ -19905,7 +19905,7 @@
 		)
 		(fp_arc
 			(start 3.12764 1.232463)
-			(mid 2.61934 1.092397)
+			(mid 2.619347 1.092399)
 			(end 2.369218 0.628268)
 			(stroke
 				(width 0.2)
@@ -19916,7 +19916,7 @@
 		)
 		(fp_arc
 			(start 5.03409 0.259459)
-			(mid 5.191951 -0.372877)
+			(mid 5.19195 -0.37288)
 			(end 5.765118 -0.683118)
 			(stroke
 				(width 0.2)
@@ -19982,7 +19982,7 @@
 		)
 		(fp_arc
 			(start 6.280538 1.013814)
-			(mid 6.045436 1.181019)
+			(mid 6.045436 1.181008)
 			(end 5.761568 1.232468)
 			(stroke
 				(width 0.2)
@@ -20037,7 +20037,7 @@
 		)
 		(fp_arc
 			(start 7.407765 -0.124568)
-			(mid 7.589655 -0.340729)
+			(mid 7.589656 -0.340694)
 			(end 7.859781 -0.423381)
 			(stroke
 				(width 0.2)
@@ -20059,7 +20059,7 @@
 		)
 		(fp_arc
 			(start 7.955657 -0.683113)
-			(mid 8.404805 -0.489301)
+			(mid 8.404847 -0.489303)
 			(end 8.54819 -0.02159)
 			(stroke
 				(width 0.2)
@@ -20103,7 +20103,7 @@
 		)
 		(fp_arc
 			(start 9.708398 -0.423378)
-			(mid 9.968762 -0.344292)
+			(mid 9.96879 -0.344297)
 			(end 10.097 -0.104281)
 			(stroke
 				(width 0.2)
@@ -20125,7 +20125,7 @@
 		)
 		(fp_arc
 			(start 9.71855 1.232464)
-			(mid 9.210242 1.092402)
+			(mid 9.21027 1.092398)
 			(end 8.960131 0.628268)
 			(stroke
 				(width 0.2)
@@ -58104,7 +58104,7 @@
 			(size 0.4 1.5)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 41 "/Main/Microcontroller/GPIO12")
+			(net 41 "/Main/Microcontroller/GPIO29")
 			(pinfunction "O2")
 			(pintype "tri_state")
 			(thermal_bridge_angle 45)
@@ -59754,7 +59754,7 @@
 			(size 0.875 0.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 41 "/Main/Microcontroller/GPIO12")
+			(net 41 "/Main/Microcontroller/GPIO29")
 			(pinfunction "GPIO29_ADC3")
 			(pintype "bidirectional")
 			(uuid "3f9ddfc6-0dd5-4796-86ae-159ef7ed24a7")

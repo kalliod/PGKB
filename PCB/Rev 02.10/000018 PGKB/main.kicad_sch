@@ -827,16 +827,6 @@
 			)
 			(uuid "03951092-f755-4d17-a80d-b6b74b508dca")
 		)
-		(pin "GPIO12" bidirectional
-			(at 189.23 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "35cc65f5-d330-4306-8167-0c16d8611fc6")
-		)
 		(pin "NEOPIX_DRIVE" output
 			(at 151.13 78.74 180)
 			(effects
@@ -846,66 +836,6 @@
 				(justify left)
 			)
 			(uuid "65e198ec-1a05-4d5e-a859-fb980d88c690")
-		)
-		(pin "GPIO5" bidirectional
-			(at 189.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9081788a-f3ef-4076-8460-434d36ce2f8e")
-		)
-		(pin "GPIO4" bidirectional
-			(at 189.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c72a9184-dc81-4c47-9e16-50ccdbfde018")
-		)
-		(pin "GPIO3" bidirectional
-			(at 189.23 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "21589520-0e4d-42da-94b0-0e246855b00f")
-		)
-		(pin "GPIO6" bidirectional
-			(at 189.23 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7ff4cc2f-1055-4170-8025-3f2fe3d90809")
-		)
-		(pin "GPIO8" bidirectional
-			(at 189.23 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f7a330c2-9974-4bbe-b434-d704b3badc97")
-		)
-		(pin "GPIO7" bidirectional
-			(at 189.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "529b1667-8c6c-4905-b6d2-715458266eae")
 		)
 		(pin "ENC_A" input
 			(at 189.23 105.41 0)
@@ -937,27 +867,47 @@
 			)
 			(uuid "5dab1cd2-2651-4fe0-9603-03ea05c980a8")
 		)
+		(pin "GPIO8" bidirectional
+			(at 189.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9341e32-e9f1-4202-ac50-259006c87eb9")
+		)
+		(pin "GPIO7" bidirectional
+			(at 189.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cdc769e1-e95d-45d3-8af0-1b403392cd6b")
+		)
 		(pin "GPIO9" bidirectional
-			(at 189.23 90.17 0)
+			(at 189.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b5b7d0f5-6a8f-40df-8d48-dfa73793c9b8")
+			(uuid "9d872ae2-ec6e-4d34-b6ce-207e5112a26e")
 		)
-		(pin "GPIO11" bidirectional
-			(at 189.23 95.25 0)
+		(pin "GPIO29" bidirectional
+			(at 189.23 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d5ce172d-f547-46ba-a608-4e5adf1cd0a7")
+			(uuid "341c1b2c-9a30-427d-86e7-97b8f1d457f6")
 		)
-		(pin "GPIO10" bidirectional
+		(pin "GPIO27" bidirectional
 			(at 189.23 92.71 0)
 			(effects
 				(font
@@ -965,7 +915,57 @@
 				)
 				(justify right)
 			)
-			(uuid "9634faf2-a09a-4c96-8323-2ec428b06347")
+			(uuid "ffba32cd-c1b0-4da5-ac0e-79260c0dd644")
+		)
+		(pin "GPIO28" bidirectional
+			(at 189.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f24e3aff-c516-4094-8800-d4a2fd393efe")
+		)
+		(pin "GPIO15" bidirectional
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "899b707b-de43-43f6-a959-09296513666f")
+		)
+		(pin "GPIO14" bidirectional
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c5fb690-86c6-4570-a45d-b97e76fca09e")
+		)
+		(pin "GPIO13" bidirectional
+			(at 189.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c72c9249-9ea7-43aa-aa19-30f69d8e65f4")
+		)
+		(pin "GPIO16" bidirectional
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98c15e43-abe2-4741-9a6c-75bc0a5168c3")
 		)
 		(instances
 			(project "000018 PGKB"
