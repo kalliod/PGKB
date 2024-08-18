@@ -1,0 +1,37 @@
+Reference,Value,Datasheet,Qty,DNP,DNP,MFG_PartNo,Manufacturer,Supplier,Supplier_PartNo
+"C1,C37",10u,https://www.samsungsem.com/kr/support/product-search/mlcc/CL31B106MOHNNNE.jsp,2,F,F,CL31B106MOHNNNE,Samsung Electro-Mechanics,Digi-Key,1276-6641-1-ND
+"C2,C14,C15,C16,C17,C18,C19,C22,C24,C26,C29,C31,C32,C33,C34,C35,C36,C38,C40",100n,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf,19,F,F,CL10B104KB8NNWC,Samsung,Digi-Key,1276-1935-1-ND
+"C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C41",10n,https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf,12,F,F,C1608X7R2A103K080AA,TDK Corporation,Digi-Key,445-1304-1-ND
+"C20,C21,C23,C25,C28,C39",1u,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf,6,F,F,CL21B105KAFNNNE,Samsung Electro-Mechanics,Digi-Key,1276-1066-1-ND
+"C27,C30",27p,http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf,2,F,F,0603N270J500CT,Walsin Technology Corporation,Digi-Key,1292-1511-1-ND
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D14",Neopixel Reverse,https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf,11,F,F,4960,Adafruit Industries LLC,Digi-Key,1528-4960-ND
+D11,TVS_5V5_DRTR5V0U4S-7-M,https://www.diodes.com/assets/Datasheets/DRTR5V0U4S.pdf,1,F,F,DRTR5V0U4S-7,Diodes Incorporated,Digi-Key,DRTR5V0U4S-7DICT-ND
+D12,Schottky_30V_1A_PMEG3010ER_115,https://assets.nexperia.com/documents/data-sheet/PMEG3010ER.pdf,1,F,F,"PMEG3010ER,115",Nexperia USA Inc.,Digi-Key,1727-5201-1-ND
+D13,Schottky_30V_200mA_DCo_BAT54WS,https://diotec.com/tl_files/diotec/files/pdf/datasheets/bat54ws.pdf,1,F,F,BAT54WS,DComponents,Digi-Key,2721-BAT54WSTR-ND
+D15,Red,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3694/B1911USD-20D000114U1930.pdf,1,F,F,B1911USD-20D000114U1930,Harvatek Corporation,Digi-Key,3147-B1911USD-20D000114U1930CT-ND
+D16,Green,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3690/B1911NG--20D000214U1930.pdf,1,F,F,B1911NG--20D000214U1930,Harvatek Corporation,Digi-Key,3147-B1911NG--20D000214U1930CT-ND
+"FB1,FB2",MMZ2012Y152BT000,https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/beads/catalog/beads_commercial_signal_mmz2012_en.pdf,2,F,F,MMZ2012Y152BT000,Abracon LLC,Digi-Key,445-MMZ2012Y152BT000CT-ND
+"H1,H2,H4",NPTH 3.2 M3 Clearance,,3,T,T,DNP,DNP,DNP,DNP
+H3,NPTH_3.2,,1,T,T,DNP,DNP,DNP,DNP
+"H5,H6",PTH 3.2 M3 Clearance,,2,T,T,DNP,DNP,DNP,DNP
+J1,USB C,https://gct.co/files/drawings/usb4085.pdf,1,F,F,USB4085-GF-A,GCT,Digi-Key,2073-USB4085-GF-ACT-ND
+J2,S4B-PH-SM4-TB,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,1,F,F,S4B-PH-SM4-TB,JST Sales America Inc.,Digi-Key,455-S4B-PH-SM4-TBCT-ND
+J3,GND Hook,,1,T,T,DNP,DNP,DNP,DNP
+"R1,R2,R26,R27",R_0603_5100_1%,https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf,4,F,F,RMCF0603JT5K10,Stackpole Electronics Inc,Digi-Key,RMCF0603JT5K10CT-ND
+"R3,R4",27,https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14,2,F,F,CR0603-FX-27R0ELF,Bourns Inc.,Digi-Key,CR0603-FX-27R0ELFCT-ND
+"R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R23,R25,R28",1k,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,16,F,F,RMCF0603JT1K00,Stackpole Electronics Inc,Digi-Key,RMCF0603JT1K00CT-ND
+"R18,R19,R20,R21,R22,R29",10k,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,6,F,F,RMCF0603FT10K0,Stackpole Electronics Inc,Digi-Key,RMCF0603FT10K0CT-ND
+R24,R_0603_DNP,,1,T,T,DNP,DNP,DNP,DNP
+"R30,R31,R34,R35,R36,R37,R38,R39,R40,R41,R42",100k,https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf,11,F,F,RMCF0603FT100K,Stackpole Electronics Inc,Digi-Key,RMCF0603FT100KCT-ND
+"R32,R33",360,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf,2,F,F,RT0603FRE07360RL,YAGEO,Digi-Key,13-RT0603FRE07360RLCT-ND
+"S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11",4958,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf,11,F,F,4958,Adafruit,Digi-Key,1528-4958-ND
+"S12,S13",4.30181E+11,https://www.mouser.fi/datasheet/2/445/430181038816-1717160.pdf,2,F,F,4.30181E+11,Wurth Elektronik,Mouser,710-430181038816
+S20,PEC11R-4215K-S0012,https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf,1,F,F,PEC11R-4215K-S0012,Bourns Inc.,Digi-Key,PEC11R-4215K-S0012-ND
+"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP10,TP11,TP12,TP13,TP14,TP15,TP16,TP17",TP D2.5 mm H0.9mm,DNP,16,T,T,DNP,DNP,DNP,DNP
+TP9,TestPoint_1.5mm_Round,DNP,1,T,T,DNP,DNP,DNP,DNP
+"U1,U2,U3",SN74HCS365PWR,https://www.ti.com/lit/ds/symlink/sn74hcs365.pdf,3,F,F,SN74HCS365PWR,Texas Instruments,Digi-Key,296-SN74HCS365PWRCT-ND
+U4,W25Q80DVSSIG,https://www.winbond.com/resource-files/w25q80dv%20dl_revh_10022015.pdf,1,F,F,W25Q80DVSSIG,Winbond Electronics,Digi-Key,W25Q80DVSSIG-ND
+U5,RP2040,https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf,1,F,F,SC0914(13),Raspberry Pi,Digi-Key,2648-SC0914(13)CT-ND
+U6,MCP1825T-3302E/DC,https://ww1.microchip.com/downloads/en/DeviceDoc/22056b.pdf,1,F,F,MCP1825T-3302E/DC,Microchip Technology,Digi-Key,MCP1825T-3302E/DCCT-ND
+U7,CAT811TTBI-GT3,https://www.onsemi.com/pdf/datasheet/cat811-d.pdf,1,F,F,CAT811TTBI-GT3,onsemi,Digi-Key,CAT811TTBI-GT3OSCT-ND
+Y1,12 MHz,https://www.mouser.fi/datasheet/2/3/ABM8_272_T3-3392615.pdf,1,F,F,ABM8-272-T3,Abracon LLC,Digi-Key,535-ABM8-272-T3CT-ND

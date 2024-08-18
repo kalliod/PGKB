@@ -1,0 +1,22 @@
+### Footprint positions - created on 2024-08-18T23:10:16+0300 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                 Package                                                PosX       PosY       Rot  Side
+FD1       Fiducial_0.5_mm     Fiducial_0.5mm_Mask1mm                              44.3472  -165.5900    0.0000  top
+FD3       Fiducial_0.5_mm     Fiducial_0.5mm_Mask1mm                             127.5972  -171.7900    0.0000  top
+FD5       Fiducial_0.5_mm     Fiducial_0.5mm_Mask1mm                              50.6972  -104.6900    0.0000  top
+J3        GND_Hook            GND_HOOK_M                                         133.8500  -159.6500   90.0000  top
+S1        4958                SWITCH_BUTTON_Kailh_mx_socket                       57.9000  -160.5000  -90.0000  top
+S2        4958                SWITCH_BUTTON_Kailh_mx_socket                       78.9000  -160.5000  -90.0000  top
+S3        4958                SWITCH_BUTTON_Kailh_mx_socket                       99.9000  -160.5000  -90.0000  top
+S4        4958                SWITCH_BUTTON_Kailh_mx_socket                      120.9000  -160.5000  -90.0000  top
+S5        4958                SWITCH_BUTTON_Kailh_mx_socket                       57.9000  -139.5000  -90.0000  top
+S6        4958                SWITCH_BUTTON_Kailh_mx_socket                       78.9000  -139.5000  -90.0000  top
+S7        4958                SWITCH_BUTTON_Kailh_mx_socket                       99.9000  -139.5000  -90.0000  top
+S8        4958                SWITCH_BUTTON_Kailh_mx_socket                      120.9000  -139.5000  -90.0000  top
+S9        4958                SWITCH_BUTTON_Kailh_mx_socket                       57.9000  -118.5000  -90.0000  top
+S10       4958                SWITCH_BUTTON_Kailh_mx_socket                       78.9000  -118.5000  -90.0000  top
+S11       4958                SWITCH_BUTTON_Kailh_mx_socket                       99.9000  -118.5000  -90.0000  top
+S20       PEC11R-4215K-S0012  RotaryEncoder_Bourns_Vertical_PEC11R-4x15f-Sxxxx   120.9000  -118.4500    0.0000  top
+## End

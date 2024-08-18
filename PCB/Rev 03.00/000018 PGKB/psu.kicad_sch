@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Programmable Keyboard")
-		(date "2024-04-09")
-		(rev "2.1")
+		(date "2024-08-18")
+		(rev "3.0")
 		(company "Kallio Designs Oy")
 		(comment 1 "TL, NH")
 		(comment 2 "ASSEMBLY_PN")
-		(comment 3 "PCB_PN")
+		(comment 3 "000018")
 	)
 	(lib_symbols
 		(symbol "KD_Capacitor:C_0603_100n_X7R_50V"

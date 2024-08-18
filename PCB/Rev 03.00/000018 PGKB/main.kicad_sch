@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Programmable Keyboard")
-		(date "2024-04-09")
-		(rev "2.1")
+		(date "2024-08-18")
+		(rev "3.0")
 		(company "Kallio Designs Oy")
 		(comment 1 "TL, NH")
 		(comment 2 "ASSEMBLY_PN")
-		(comment 3 "PCB_PN")
+		(comment 3 "000018")
 	)
 	(lib_symbols)
 	(bus_alias "I2C"
@@ -643,7 +643,7 @@
 		(instances
 			(project "000018 PGKB"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9"
-					(page "11")
+					(page "10")
 				)
 			)
 		)

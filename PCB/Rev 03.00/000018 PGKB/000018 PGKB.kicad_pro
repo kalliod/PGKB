@@ -717,8 +717,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "./MFG/gerber",
+      "pos_files": "./MFG/pos",
       "specctra_dsn": "",
       "step": "Mechanical/000018 PGKB.step",
       "svg": "",
@@ -728,7 +728,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "./MFG/BOM",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -739,7 +739,108 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Code",
+            "name": "Code",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "DNP",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "MFG_PartNo",
+            "name": "MFG_PartNo",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer",
+            "name": "Manufacturer",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Price",
+            "name": "Price",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Supplier",
+            "name": "Supplier",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Supplier_PartNo",
+            "name": "Supplier_PartNo",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "name": "Kallio Designs",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
@@ -765,7 +866,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -795,19 +896,19 @@
           "group_by": false,
           "label": "DNP",
           "name": "DNP",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "MFG_PartNo",
           "name": "MFG_PartNo",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -819,13 +920,13 @@
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Supplier_PartNo",
           "name": "Supplier_PartNo",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -881,7 +982,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "C:\\GitHubProjects\\kicad\\schematic_templates\\A4_sheet.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

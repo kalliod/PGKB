@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Programmable Keyboard")
-		(date "2024-04-09")
-		(rev "2.1")
+		(date "2024-08-18")
+		(rev "3.0")
 		(company "Kallio Designs Oy")
 		(comment 1 "TL, NH")
 		(comment 2 "ASSEMBLY_PN")
-		(comment 3 "PCB_PN")
+		(comment 3 "000018")
 	)
 	(lib_symbols)
 	(text "If you receive a non-purchased copy of this schematic, please check with\nsales@kalliodesigns.com if you are entitled for usage.\nKallio Designs is not responsible for any designs based on this document, as it might\nnot fulfill safety and regulatory requirements on it's own."
@@ -120,7 +120,7 @@
 		(instances
 			(project "000018 PGKB"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "13")
+					(page "12")
 				)
 			)
 		)
@@ -158,7 +158,7 @@
 		(instances
 			(project "000018 PGKB"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "12")
+					(page "11")
 				)
 			)
 		)

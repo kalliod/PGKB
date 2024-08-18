@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Programmable Keyboard")
-		(date "2024-04-09")
-		(rev "2.1")
+		(date "2024-08-18")
+		(rev "3.0")
 		(company "Kallio Designs Oy")
 		(comment 1 "TL, NH")
 		(comment 2 "ASSEMBLY_PN")
-		(comment 3 "PCB_PN")
+		(comment 3 "000018")
 	)
 	(lib_symbols)
 	(polyline
@@ -178,6 +178,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "e5201cb1-2372-4d92-b784-2a3154ff0be3")
+	)
+	(polyline
+		(pts
+			(xy 57.15 77.47) (xy 243.84 77.47)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e5a17625-d8d1-4973-8dab-3f38a64124ba")
 	)
 	(polyline
 		(pts
