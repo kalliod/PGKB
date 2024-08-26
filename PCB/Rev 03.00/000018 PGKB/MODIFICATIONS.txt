@@ -1,1 +1,3 @@
 - Why two types of diodes?****************************************************
+- BAT54 obsolete, check MFG/BOM for the replacement**
+- Voltage supervisor pin compatible alternative: Diodes APX811-31UG-7**
