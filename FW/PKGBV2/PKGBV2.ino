@@ -169,17 +169,16 @@ void loop() {
 
   int newPos = encoder.getPosition();
   if (pos < newPos) {
-    Keyboard.press(KEY_LEFT_ALT);
-    Keyboard.press(KEY_RIGHT_SHIFT);
-    Keyboard.write('d');
+    Keyboard.press(KEY_LEFT_CTRL);
+    Keyboard.press(KEY_LEFT_ARROW);
+
 
     Keyboard.releaseAll();
     pos = newPos;
   }
   if (pos > newPos) {
-    Keyboard.press(KEY_LEFT_ALT);
-    Keyboard.press(KEY_RIGHT_SHIFT);
-    Keyboard.write('i');
+    Keyboard.press(KEY_LEFT_CTRL);
+    Keyboard.press(KEY_RIGHT_ARROW);
 
     Keyboard.releaseAll();
     pos = newPos;
