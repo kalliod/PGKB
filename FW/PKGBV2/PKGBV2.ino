@@ -191,9 +191,11 @@ void Button_M1()
   M1_tmp[0] = 0;
   M1_tmp[1] = 0;
   M1_tmp[2] = 0;
-  Keyboard.press(KEY_LEFT_GUI);
-  Keyboard.write('l');
+  
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.write('1');
   Keyboard.releaseAll();
+
   pixels.setPixelColor(0, pixels.Color(M1_tmp[0], M1_tmp[1], M1_tmp[2]));
   pixels.show();
 }
@@ -203,7 +205,11 @@ void Button_M2()
   M2_tmp[0] = 0;
   M2_tmp[1] = 0;
   M2_tmp[2] = 0;
+  
+  Keyboard.press(KEY_LEFT_ALT);
   Keyboard.write('2');
+  Keyboard.releaseAll();
+
   pixels.setPixelColor(1, pixels.Color(M2_tmp[0], M2_tmp[1], M2_tmp[2]));
   pixels.show();
 }
@@ -213,7 +219,11 @@ void Button_M3()
   M3_tmp[0] = 0;
   M3_tmp[1] = 0;
   M3_tmp[2] = 0;
+  
+  Keyboard.press(KEY_LEFT_ALT);
   Keyboard.write('3');
+  Keyboard.releaseAll();
+
   pixels.setPixelColor(2, pixels.Color(M3_tmp[0], M3_tmp[1], M3_tmp[2]));
   pixels.show();
 }
@@ -223,7 +233,11 @@ void Button_M4()
   M4_tmp[0] = 0;
   M4_tmp[1] = 0;
   M4_tmp[2] = 0;
+  
+  Keyboard.press(KEY_LEFT_ALT);
   Keyboard.write('4');
+  Keyboard.releaseAll();
+
   pixels.setPixelColor(3, pixels.Color(M4_tmp[0], M4_tmp[1], M4_tmp[2]));
   pixels.show();
 }
@@ -233,7 +247,11 @@ void Button_M5()
   M5_tmp[0] = 0;
   M5_tmp[1] = 0;
   M5_tmp[2] = 0;
+
+  Keyboard.press(KEY_LEFT_ALT);
   Keyboard.write('5');
+  Keyboard.releaseAll();
+
   pixels.setPixelColor(4, pixels.Color(M5_tmp[0], M5_tmp[1], M5_tmp[2]));
   pixels.show();
 }
@@ -242,7 +260,11 @@ void Button_M6()
   M6_tmp[0] = 0;
   M6_tmp[1] = 0;
   M6_tmp[2] = 0;
+  
+  Keyboard.press(KEY_LEFT_ALT);
   Keyboard.write('6');
+  Keyboard.releaseAll();
+
   pixels.setPixelColor(5, pixels.Color(M6_tmp[0], M6_tmp[1], M6_tmp[2]));
   pixels.show();
 }
@@ -251,7 +273,11 @@ void Button_M7()
   M7_tmp[0] = 0;
   M7_tmp[1] = 0;
   M7_tmp[2] = 0;
+  
+  Keyboard.press(KEY_LEFT_ALT);
   Keyboard.write('7');
+  Keyboard.releaseAll();
+
   pixels.setPixelColor(6, pixels.Color(M7_tmp[0], M7_tmp[1], M7_tmp[2]));
   pixels.show();
 }
@@ -260,7 +286,11 @@ void Button_M8()
   M8_tmp[0] = 0;
   M8_tmp[1] = 0;
   M8_tmp[2] = 0;
+  
+  Keyboard.press(KEY_LEFT_ALT);
   Keyboard.write('8');
+  Keyboard.releaseAll();
+
   pixels.setPixelColor(7, pixels.Color(M8_tmp[0], M8_tmp[1], M8_tmp[2]));
   pixels.show();
 }
@@ -269,7 +299,11 @@ void Button_M9()
   M9_tmp[0] = 0;
   M9_tmp[1] = 0;
   M9_tmp[2] = 0;
+
+  Keyboard.press(KEY_LEFT_ALT);
   Keyboard.write('9');
+  Keyboard.releaseAll();
+
   pixels.setPixelColor(8, pixels.Color(M9_tmp[0], M9_tmp[1], M9_tmp[2]));
   pixels.show();
 }
@@ -278,7 +312,11 @@ void Button_M10()
   M10_tmp[0] = 0;
   M10_tmp[1] = 0;
   M10_tmp[2] = 0;
-  Keyboard.write('A');
+  
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.write('a');
+  Keyboard.releaseAll();
+
   pixels.setPixelColor(9, pixels.Color(M10_tmp[0], M10_tmp[1], M10_tmp[2]));
   pixels.show();
 }
@@ -287,15 +325,19 @@ void Button_M11()
   M11_tmp[0] = 0;
   M11_tmp[1] = 0;
   M11_tmp[2] = 0;
-  Keyboard.write('B');
+  
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.write('b');
+  Keyboard.releaseAll();
+
   pixels.setPixelColor(10, pixels.Color(M11_tmp[0], M11_tmp[1], M11_tmp[2]));
   pixels.show();
 }
 void Button_Encoder()
 {
-  Keyboard.write('E');
-  //pixels.clear();
-  //pixels.show();
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.write('e');
+  Keyboard.releaseAll();
 }
 
 void checkFade() {
