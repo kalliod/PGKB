@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Programmable Keyboard")
-		(date "2024-08-18")
+		(date "2025-01-06")
 		(rev "3.0")
 		(company "Kallio Designs Oy")
 		(comment 1 "TL, NH")
@@ -131,15 +131,6 @@
 				)
 			)
 			(property "ki_keywords" "probe GND hook"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "1x01"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1709,6 +1700,12 @@
 		)
 	)
 	(junction
+		(at 209.55 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16b8e1a7-9e92-4e6f-aa71-7436fabbb2c2")
+	)
+	(junction
 		(at 156.21 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1736,6 +1733,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 97.79) (xy 217.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45953762-a592-4856-a9ea-dda19d97e416")
+	)
+	(wire
+		(pts
+			(xy 209.55 99.06) (xy 217.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509a7e9d-57c8-49d7-b348-918e4de4e833")
+	)
+	(wire
+		(pts
 			(xy 157.48 106.68) (xy 156.21 106.68)
 		)
 		(stroke
@@ -1743,6 +1760,16 @@
 			(type default)
 		)
 		(uuid "537c4dfb-1018-4607-a8a3-d0268fb5d539")
+	)
+	(wire
+		(pts
+			(xy 209.55 99.06) (xy 209.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4115c5b-2254-4cf5-adce-cd698bb4f593")
 	)
 	(wire
 		(pts
@@ -1754,11 +1781,21 @@
 		)
 		(uuid "c8d6e032-73fb-497e-9b9a-d0b39c4045dc")
 	)
+	(wire
+		(pts
+			(xy 209.55 101.6) (xy 209.55 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e311877f-01c9-4b26-9868-e739b0f3fab0")
+	)
 	(symbol
 		(lib_id "KD_Mechanical:Artwork_4-Layer_marking")
 		(at 154.94 64.77 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1869,6 +1906,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 143.002 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2257,6 +2303,72 @@
 			(project "000018 PGKB"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8f5ee264-ab78-438d-b8d5-1e547e5afc7c"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5099a0e5-1340-46ab-8e2a-9fb08a4c5ca1")
+		(property "Reference" "#GND040"
+			(at 209.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a41cb71e-4c79-4fb0-a613-f42237c26df7")
+		)
+		(instances
+			(project "000018 PGKB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8f5ee264-ab78-438d-b8d5-1e547e5afc7c"
+					(reference "#GND040")
 					(unit 1)
 				)
 			)
@@ -2773,7 +2885,7 @@
 		(lib_id "KD_Mechanical:Artwork_Logo_Silk_2.5mm")
 		(at 154.94 120.65 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2881,6 +2993,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 143.002 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

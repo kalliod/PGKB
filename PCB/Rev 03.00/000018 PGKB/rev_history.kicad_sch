@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Programmable Keyboard")
-		(date "2024-08-18")
+		(date "2025-01-06")
 		(rev "3.0")
 		(company "Kallio Designs Oy")
 		(comment 1 "TL, NH")
@@ -192,6 +192,17 @@
 	)
 	(polyline
 		(pts
+			(xy 57.15 95.25) (xy 243.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e8b56436-e2d4-40c5-9219-b863e2f0b321")
+	)
+	(polyline
+		(pts
 			(xy 68.58 148.59) (xy 68.58 48.26)
 		)
 		(stroke
@@ -201,9 +212,9 @@
 		)
 		(uuid "f19adedd-7f02-4279-baf0-350299edf23d")
 	)
-	(text "Teemu Latonen"
+	(text "Teemu Latonen, \nNiko Hämäläinen"
 		(exclude_from_sim no)
-		(at 208.28 64.77 0)
+		(at 208.28 67.31 0)
 		(effects
 			(font
 				(size 2 2)
@@ -212,7 +223,7 @@
 		)
 		(uuid "01571bef-038b-4e03-96d5-273508328103")
 	)
-	(text "14.07.2024"
+	(text "22.10.2023"
 		(exclude_from_sim no)
 		(at 69.85 64.77 0)
 		(effects
@@ -273,6 +284,28 @@
 		)
 		(uuid "47f85bfb-0077-4714-a665-9ef9622304b6")
 	)
+	(text "USB Signals reversed"
+		(exclude_from_sim no)
+		(at 90.17 82.55 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b3a8363-c9c7-4e62-804d-32df1adcc29b")
+	)
+	(text "3.0"
+		(exclude_from_sim no)
+		(at 58.42 82.55 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ba0cd8d-b430-4d93-9e4c-327bddb1d1cc")
+	)
 	(text "2.0"
 		(exclude_from_sim no)
 		(at 58.42 64.77 0)
@@ -296,6 +329,17 @@
 			(justify left bottom)
 		)
 		(uuid "638edc8f-cf47-4444-9a12-ef6dff6cd11a")
+	)
+	(text "USB series resistor value changed from 10 ohm to 27 ohm"
+		(exclude_from_sim no)
+		(at 90.17 92.71 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c9b22ba-35e4-48b8-a0ea-2796b7ae7007")
 	)
 	(text "DATE"
 		(exclude_from_sim no)
@@ -321,6 +365,28 @@
 		)
 		(uuid "96d800c9-c5e6-4ec0-86f6-f41a725493a7")
 	)
+	(text "Teemu Latonen"
+		(exclude_from_sim no)
+		(at 208.28 82.55 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "a466fc6a-26e3-407e-aef5-e659ed23d261")
+	)
+	(text "06.01.2025"
+		(exclude_from_sim no)
+		(at 69.85 82.55 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "a652c885-d76d-4147-a39a-cf485fb87444")
+	)
 	(text "Initial"
 		(exclude_from_sim no)
 		(at 90.17 58.42 0)
@@ -332,7 +398,18 @@
 		)
 		(uuid "a752f49e-fffe-4d23-abe7-ce3161e4fd71")
 	)
-	(text "USB series resistor value changed from 10 ohm to 27 ohm"
+	(text "Oscillator Y1 changed"
+		(exclude_from_sim no)
+		(at 90.17 87.63 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8b2ffa8-4b12-4708-a4f0-8215ce25cd75")
+	)
+	(text "Microcontroller and surrounding circuitry changed"
 		(exclude_from_sim no)
 		(at 90.17 74.93 0)
 		(effects
@@ -354,7 +431,7 @@
 		)
 		(uuid "bddb689b-f545-4d49-9c68-ecb9e543125b")
 	)
-	(text "USB Signals reversed"
+	(text "Form factor changed, connectors changed"
 		(exclude_from_sim no)
 		(at 90.17 64.77 0)
 		(effects
@@ -365,7 +442,7 @@
 		)
 		(uuid "cb0a8186-0700-4726-96ea-8de4c77ccf9e")
 	)
-	(text "Oscillator Y1 changed"
+	(text "LEDs added, changed key types"
 		(exclude_from_sim no)
 		(at 90.17 69.85 0)
 		(effects

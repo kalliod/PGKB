@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Programmable Keyboard")
-		(date "2024-08-18")
+		(date "2025-01-06")
 		(rev "3.0")
 		(company "Kallio Designs Oy")
 		(comment 1 "TL, NH")
+		(comment 2 "ASSEMBLY_PN")
 		(comment 3 "000018")
 	)
 	(lib_symbols
@@ -58,7 +59,7 @@
 				)
 			)
 			(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-				(at 0 0 0)
+				(at -11.43 31.496 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -249,13 +250,12 @@
 				)
 			)
 			(property "Value" "10u"
-				(at -12.7 31.75 0)
+				(at 2.54 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Capacitor:CAPC3216X150N"
@@ -279,21 +279,12 @@
 				)
 			)
 			(property "Description" "Capacitor"
-				(at 0 0 0)
+				(at -11.43 32.512 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Code" "10u"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 				)
 			)
 			(property "Manufacturer" "Samsung Electro-Mechanics"
@@ -1118,17 +1109,15 @@
 					)
 				)
 			)
-			(property "Value" "Schottky_30V_1A_PMEG3010ER_115"
-				(at -12.7 31.75 0)
+			(property "Value" "PMEG3010ER,115"
+				(at 0 -2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "KD_Diode:DIOC360X180X150_SOD123"
+			(property "Footprint" "KD_Diode:DIOC360X180X150N_A"
 				(at -12.7 13.97 0)
 				(effects
 					(font
@@ -1149,20 +1138,12 @@
 				)
 			)
 			(property "Description" "DIODE SCHOTTKY 30V 1A SOD123W"
-				(at 0 0 0)
+				(at -11.43 32.258 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Code" "PMEG3010ER,115"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "Manufacturer" "Nexperia USA Inc."
@@ -1321,14 +1302,12 @@
 					)
 				)
 			)
-			(property "Value" "TVS_5V5_DRTR5V0U4S-7-M"
-				(at -15.24 44.45 0)
+			(property "Value" "DRTR5V0U4S-7"
+				(at 0 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Package_TO_SOT_SMD:SOT-363_SC-70-6"
@@ -1352,20 +1331,12 @@
 				)
 			)
 			(property "Description" "TVS DIODE 5.5VWM SOT363"
-				(at 0 0 0)
+				(at -11.938 46.99 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Code" "DRTR5V0U4S-7"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "Manufacturer" "Diodes Incorporated"
@@ -3221,7 +3192,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 1.905 1.27 0)
+				(at 2.032 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3229,14 +3200,13 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_0603_5100_1%"
-				(at -12.7 31.75 0)
+			(property "Value" "5k1"
+				(at 2.032 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -3260,21 +3230,12 @@
 				)
 			)
 			(property "Description" "RES 5.1K OHM 5% 1/10W 0603"
-				(at 0 0 0)
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Code" "5k1"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 				)
 			)
 			(property "Manufacturer" "Stackpole Electronics Inc"
@@ -4397,14 +4358,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_0603_5100_1%"
-			(at 100.33 26.67 0)
+		(property "Value" "5k1"
+			(at 115.57 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -4428,21 +4388,12 @@
 			)
 		)
 		(property "Description" "RES 5.1K OHM 5% 1/10W 0603"
-			(at 113.03 58.42 0)
+			(at 100.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Code" "5k1"
-			(at 115.57 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -4540,13 +4491,12 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 189.23 24.13 0)
+			(at 205.74 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC3216X150N"
@@ -4570,7 +4520,7 @@
 			)
 		)
 		(property "Description" "Capacitor"
-			(at 201.93 55.88 0)
+			(at 190.5 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,15 +4586,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "10u"
-			(at 205.74 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "1"
@@ -4745,14 +4686,12 @@
 				)
 			)
 		)
-		(property "Value" "TVS_5V5_DRTR5V0U4S-7-M"
-			(at 129.54 66.04 0)
+		(property "Value" "DRTR5V0U4S-7"
+			(at 144.78 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Package_TO_SOT_SMD:SOT-363_SC-70-6"
@@ -4776,20 +4715,12 @@
 			)
 		)
 		(property "Description" "TVS DIODE 5.5VWM SOT363"
-			(at 144.78 110.49 0)
+			(at 132.842 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Code" "DRTR5V0U4S-7"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
@@ -5223,17 +5154,15 @@
 				)
 			)
 		)
-		(property "Value" "Schottky_30V_1A_PMEG3010ER_115"
-			(at 158.75 82.55 0)
+		(property "Value" "PMEG3010ER,115"
+			(at 146.304 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "KD_Diode:DIOC360X180X150_SOD123"
+		(property "Footprint" "KD_Diode:DIOC360X180X150N_A"
 			(at 158.75 64.77 0)
 			(effects
 				(font
@@ -5254,20 +5183,12 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 30V 1A SOD123W"
-			(at 146.05 50.8 0)
+			(at 157.48 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Code" "PMEG3010ER,115"
-			(at 146.304 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Manufacturer" "Nexperia USA Inc."
@@ -5394,7 +5315,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 214.63 55.88 0)
+			(at 203.2 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,14 +5482,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_0603_5100_1%"
-			(at 109.22 26.67 0)
+		(property "Value" "5k1"
+			(at 124.46 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -5592,21 +5512,12 @@
 			)
 		)
 		(property "Description" "RES 5.1K OHM 5% 1/10W 0603"
-			(at 121.92 58.42 0)
+			(at 109.22 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Code" "5k1"
-			(at 124.46 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"

@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Programmable Keyboard")
-		(date "2024-08-18")
+		(date "2025-01-06")
 		(rev "3.0")
 		(company "Kallio Designs Oy")
 		(comment 1 "TL, NH")
+		(comment 2 "ASSEMBLY_PN")
 		(comment 3 "000018")
 	)
 	(lib_symbols
@@ -58,7 +59,7 @@
 				)
 			)
 			(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-				(at 0 0 0)
+				(at -11.43 31.496 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1170,7 +1171,7 @@
 				)
 			)
 			(property "Description" "RES 100K OHM 1% 1/10W 0603"
-				(at 0 0 0)
+				(at -12.192 31.496 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4571,7 +4572,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 80.01 86.36 0)
+			(at 67.818 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,7 +4835,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 201.93 26.67 0)
+			(at 190.5 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6206,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 80.01 161.29 0)
+			(at 67.818 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +6802,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 171.45 95.25 0)
+			(at 159.258 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7132,7 +7133,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 171.45 120.65 0)
+			(at 159.258 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7264,7 +7265,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 80.01 39.37 0)
+			(at 67.818 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +7528,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 171.45 168.91 0)
+			(at 159.258 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,7 +8203,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 80.01 60.96 0)
+			(at 67.818 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,7 +9330,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 80.01 111.76 0)
+			(at 67.818 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9461,7 +9462,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 80.01 135.89 0)
+			(at 67.818 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +9666,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 171.45 73.66 0)
+			(at 159.258 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11703,7 +11704,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 201.93 123.19 0)
+			(at 190.5 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12611,7 +12612,7 @@
 			)
 		)
 		(property "Description" "RES 100K OHM 1% 1/10W 0603"
-			(at 171.45 146.05 0)
+			(at 159.258 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)

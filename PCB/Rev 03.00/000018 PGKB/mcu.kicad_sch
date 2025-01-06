@@ -6,282 +6,14 @@
 	(paper "A4")
 	(title_block
 		(title "Programmable Keyboard")
-		(date "2024-08-18")
+		(date "2025-01-06")
 		(rev "3.0")
 		(company "Kallio Designs Oy")
 		(comment 1 "TL, NH")
+		(comment 2 "ASSEMBLY_PN")
 		(comment 3 "000018")
 	)
 	(lib_symbols
-		(symbol "Button_tactile_45x38_430181038816_1"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 0 5.08 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "430181038816"
-				(at 0 -5.08 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "KD_Switch:SW_Push_1P1T_NO_Wurth_430181038816"
-				(at -12.7 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.fi/datasheet/2/445/430181038816-1717160.pdf"
-				(at -12.7 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tactile Switches Tact Switch SMT 3.8mm Blk Act."
-				(at -12.7 31.75 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at -12.7 29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MFG_PartNo" "430181038816"
-				(at -12.7 26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at -12.7 24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Supplier_PartNo" "710-430181038816"
-				(at -12.7 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DNP" "F"
-				(at -12.7 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Price" "0.5"
-				(at -12.7 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Button tactile"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Button_tactile_45x38_430181038816_1_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Button_tactile_45x38_430181038816_1_1_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-		)
 		(symbol "KD_Capacitor:C_0603_100n_X7R_50V"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -327,7 +59,7 @@
 				)
 			)
 			(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-				(at 0 0 0)
+				(at -11.43 31.496 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -768,7 +500,7 @@
 				)
 			)
 			(property "Description" "27 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-				(at 0 0 0)
+				(at -11.938 32.004 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1514,21 +1246,20 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 0 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Schottky_30V_200mA_DCo_BAT54WS"
-				(at -12.7 31.75 0)
+			(property "Value" "BAT54WS"
+				(at -0.254 -3.048 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Diode:D_SOD-323"
@@ -1552,20 +1283,13 @@
 				)
 			)
 			(property "Description" "Diode Schottky 30 V 200mA Surface Mount SOD-323"
-				(at 0 0 0)
+				(at -12.7 34.29 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
-				)
-			)
-			(property "Code" "BAT54WS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "Manufacturer" "DComponents"
@@ -3421,7 +3145,7 @@
 				)
 			)
 			(property "Description" "RES 10K OHM 1% 1/10W 0603"
-				(at 0 0 0)
+				(at -11.938 32.766 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3748,7 +3472,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 1.905 1.27 0)
+				(at 2.032 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3756,14 +3480,13 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_0603_5100_1%"
-				(at -12.7 31.75 0)
+			(property "Value" "5k1"
+				(at 2.032 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -3787,21 +3510,12 @@
 				)
 			)
 			(property "Description" "RES 5.1K OHM 5% 1/10W 0603"
-				(at 0 0 0)
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Code" "5k1"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 				)
 			)
 			(property "Manufacturer" "Stackpole Electronics Inc"
@@ -3941,7 +3655,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 1.905 1.27 0)
+				(at 2.032 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3949,14 +3663,13 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_0603_DNP"
-				(at -12.7 31.75 0)
+			(property "Value" "DNP"
+				(at 2.032 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "KD_Resistor:RESC1608X55N_DNP"
@@ -3980,21 +3693,13 @@
 				)
 			)
 			(property "Description" "Do not populate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Code" "DNP"
-				(at 1.905 -1.27 0)
+				(at -12.7 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Manufacturer" "DNP"
@@ -4127,7 +3832,7 @@
 				)
 			)
 		)
-		(symbol "KD_Switch:Button_tactile_45x38_430181038816"
+		(symbol "KD_Switch:Button_tactile_PTS647SN38SMTR2LFS"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4141,7 +3846,7 @@
 					)
 				)
 			)
-			(property "Value" "430181038816"
+			(property "Value" "PTS647SN38SMTR2 LFS"
 				(at 0 -5.08 0)
 				(do_not_autoplace)
 				(effects
@@ -4150,7 +3855,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KD_Switch:SW_Push_1P1T_NO_Wurth_430181038816"
+			(property "Footprint" "KD_Switch:SW_Push_1P1T_NO_CK_PTS647SN50SMTR2LFS"
 				(at -12.7 13.97 0)
 				(effects
 					(font
@@ -4160,7 +3865,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.fi/datasheet/2/445/430181038816-1717160.pdf"
+			(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
 				(at -12.7 11.43 0)
 				(effects
 					(font
@@ -4170,7 +3875,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Tactile Switches Tact Switch SMT 3.8mm Blk Act."
+			(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
 				(at -12.7 31.75 0)
 				(effects
 					(font
@@ -4180,7 +3885,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Wurth Elektronik"
+			(property "Manufacturer" "C&K"
 				(at -12.7 29.21 0)
 				(effects
 					(font
@@ -4190,7 +3895,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG_PartNo" "430181038816"
+			(property "MFG_PartNo" "PTS647SN38SMTR2 LFS"
 				(at -12.7 26.67 0)
 				(effects
 					(font
@@ -4200,7 +3905,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier" "Mouser"
+			(property "Supplier" "Digi-Key"
 				(at -12.7 24.13 0)
 				(effects
 					(font
@@ -4210,7 +3915,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier_PartNo" "710-430181038816"
+			(property "Supplier_PartNo" "PTS647SN38SMTR2LFSCT-ND"
 				(at -12.7 21.59 0)
 				(effects
 					(font
@@ -4230,7 +3935,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.5"
+			(property "Price" "0.17"
 				(at -12.7 16.51 0)
 				(effects
 					(font
@@ -4249,7 +3954,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "Button_tactile_45x38_430181038816_0_1"
+			(property "ki_fp_filters" "*PTS647S*50SMTR2LFS*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Button_tactile_PTS647SN38SMTR2LFS_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy -2.54 0)
@@ -4371,7 +4085,7 @@
 					)
 				)
 			)
-			(symbol "Button_tactile_45x38_430181038816_1_1"
+			(symbol "Button_tactile_PTS647SN38SMTR2LFS_1_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -4704,7 +4418,7 @@
 		(uuid "924bd008-f2ec-4321-85b9-f7eaf0b8f508")
 	)
 	(junction
-		(at 73.66 182.88)
+		(at 83.82 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "955b41b6-479a-4889-b5c2-840b98f82fd4")
@@ -4776,7 +4490,7 @@
 		(uuid "ebf5a78c-f8a4-40ba-952c-3d88bb138651")
 	)
 	(junction
-		(at 81.28 182.88)
+		(at 91.44 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecc20029-503e-461b-be13-63449ab8f627")
@@ -4824,7 +4538,7 @@
 		(uuid "602c50c8-4765-4532-be0e-e661ca42a4a8")
 	)
 	(no_connect
-		(at 36.83 180.34)
+		(at 46.99 180.34)
 		(uuid "654aea1b-9b34-4847-93fa-0c570dfdb839")
 	)
 	(no_connect
@@ -4836,7 +4550,7 @@
 		(uuid "d71a700d-5dfd-437d-aaa4-52e3b6ea3896")
 	)
 	(no_connect
-		(at 46.99 180.34)
+		(at 57.15 180.34)
 		(uuid "e203b6a1-20a7-4e8e-beb8-c0b4971fdfd5")
 	)
 	(no_connect
@@ -5362,7 +5076,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 149.86) (xy 38.1 151.13)
+			(xy 30.48 149.86) (xy 30.48 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5512,6 +5226,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 182.88) (xy 34.29 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5083af73-9efa-4542-880f-c98e88ae04e3")
+	)
+	(wire
+		(pts
 			(xy 121.92 43.18) (xy 132.08 43.18)
 		)
 		(stroke
@@ -5552,7 +5276,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 182.88) (xy 73.66 182.88)
+			(xy 57.15 182.88) (xy 83.82 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5712,7 +5436,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 182.88) (xy 81.28 182.88)
+			(xy 83.82 182.88) (xy 91.44 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5739,16 +5463,6 @@
 			(type default)
 		)
 		(uuid "70de4c58-17d6-46d8-afd8-dd65f511a688")
-	)
-	(wire
-		(pts
-			(xy 35.56 182.88) (xy 35.56 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71161266-7aac-4a20-93de-495fba3182b8")
 	)
 	(wire
 		(pts
@@ -5802,7 +5516,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 180.34) (xy 73.66 182.88)
+			(xy 83.82 180.34) (xy 83.82 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5932,7 +5646,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 170.18) (xy 62.23 170.18)
+			(xy 46.99 182.88) (xy 34.29 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "950cd371-68e1-48d8-8bab-ae61c263238f")
+	)
+	(wire
+		(pts
+			(xy 82.55 170.18) (xy 72.39 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6132,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 170.18) (xy 81.28 182.88)
+			(xy 91.44 170.18) (xy 91.44 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6172,7 +5896,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 170.18) (xy 54.61 170.18)
+			(xy 44.45 170.18) (xy 64.77 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6282,7 +6006,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 170.18) (xy 81.28 170.18)
+			(xy 90.17 170.18) (xy 91.44 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6319,16 +6043,6 @@
 			(type default)
 		)
 		(uuid "d3eda7c5-7bdf-46a8-ba4e-630c7cab0171")
-	)
-	(wire
-		(pts
-			(xy 36.83 182.88) (xy 35.56 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d56e1ac1-ab78-40a1-a119-f7aaa2ee3f47")
 	)
 	(wire
 		(pts
@@ -6542,7 +6256,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 149.86) (xy 38.1 149.86)
+			(xy 39.37 149.86) (xy 30.48 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6602,7 +6316,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 182.88) (xy 91.44 182.88)
+			(xy 91.44 182.88) (xy 101.6 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6708,7 +6422,7 @@
 		(uuid "3eb53496-ff1d-4dbf-a7ba-2af4d67ecfc1")
 	)
 	(label "USBBOOT"
-		(at 91.44 182.88 180)
+		(at 101.6 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6752,7 +6466,7 @@
 		(uuid "5223e297-1382-4acc-b771-7d0976ec01f6")
 	)
 	(label "~{CS}_MEMORY"
-		(at 34.29 170.18 0)
+		(at 44.45 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7294,7 +7008,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 127 27.94 0)
+			(at 115.57 -3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7099,7 @@
 	)
 	(symbol
 		(lib_id "KD_Connector_Pads:TestPoint_2.5mm_H0.9")
-		(at 73.66 180.34 0)
+		(at 83.82 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7393,7 +7107,7 @@
 		(dnp no)
 		(uuid "0ea1addc-9d1e-44a2-822b-e14357656f87")
 		(property "Reference" "TP7"
-			(at 73.66 175.26 0)
+			(at 83.82 175.26 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7402,7 +7116,7 @@
 			)
 		)
 		(property "Value" "TP D2.5 mm H0.9mm"
-			(at 60.96 148.59 0)
+			(at 71.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7126,7 @@
 			)
 		)
 		(property "Footprint" "KD_Connector_Pads:TestPoint_Pad_D2.5mm_H0.9mm"
-			(at 60.96 166.37 0)
+			(at 71.12 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7422,7 +7136,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 60.96 168.91 0)
+			(at 71.12 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,7 +7146,7 @@
 			)
 		)
 		(property "Description" "Test point"
-			(at 73.66 180.34 0)
+			(at 83.82 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,7 +7155,7 @@
 			)
 		)
 		(property "Code" "DNP"
-			(at 60.96 171.45 0)
+			(at 71.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +7165,7 @@
 			)
 		)
 		(property "Manufacturer" "DNP"
-			(at 60.96 151.13 0)
+			(at 71.12 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,7 +7175,7 @@
 			)
 		)
 		(property "MFG_PartNo" "DNP"
-			(at 60.96 153.67 0)
+			(at 71.12 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +7185,7 @@
 			)
 		)
 		(property "Supplier" "DNP"
-			(at 60.96 156.21 0)
+			(at 71.12 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,7 +7195,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "DNP"
-			(at 60.96 158.75 0)
+			(at 71.12 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,7 +7205,7 @@
 			)
 		)
 		(property "DNP" "T"
-			(at 60.96 161.29 0)
+			(at 71.12 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7501,7 +7215,7 @@
 			)
 		)
 		(property "Price" "0.00"
-			(at 60.96 163.83 0)
+			(at 71.12 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8085,7 +7799,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 92.71 27.94 0)
+			(at 81.28 -3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,14 +7907,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_0603_5100_1%"
-			(at 195.58 80.01 0)
+		(property "Value" "5k1"
+			(at 210.82 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -8224,21 +7937,12 @@
 			)
 		)
 		(property "Description" "RES 5.1K OHM 5% 1/10W 0603"
-			(at 208.28 111.76 0)
+			(at 195.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Code" "5k1"
-			(at 210.82 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -8396,7 +8100,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 184.15 0)
+		(at 34.29 184.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8406,7 +8110,7 @@
 		(fields_autoplaced yes)
 		(uuid "44403ea4-683c-4600-94b8-05cc85ed606c")
 		(property "Reference" "#GND052"
-			(at 35.56 190.5 0)
+			(at 34.29 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,7 +8119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 189.23 0)
+			(at 34.29 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,7 +8127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 184.15 0)
+			(at 34.29 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,7 +8136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 184.15 0)
+			(at 34.29 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8441,7 +8145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 184.15 0)
+			(at 34.29 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8678,43 +8382,33 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Switch:Button_tactile_45x38_430181038816")
-		(at 41.91 180.34 0)
+		(lib_id "KD_Switch:Button_tactile_PTS647SN38SMTR2LFS")
+		(at 52.07 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b99544e-f19a-4368-a2f0-7a06b78b430c")
 		(property "Reference" "S12"
-			(at 41.91 172.72 0)
+			(at 52.07 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "430181038816"
-			(at 41.91 175.26 0)
+		(property "Value" "PTS647SN38SMTR2 LFS"
+			(at 52.07 185.42 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KD_Switch:SW_Push_1P1T_NO_Wurth_430181038816"
-			(at 29.21 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fi/datasheet/2/445/430181038816-1717160.pdf"
-			(at 29.21 168.91 0)
+		(property "Footprint" "KD_Switch:SW_Push_1P1T_NO_CK_PTS647SN50SMTR2LFS"
+			(at 39.37 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8723,17 +8417,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tactile Switches Tact Switch SMT 3.8mm Blk Act."
-			(at 41.91 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 29.21 151.13 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
+			(at 39.37 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8742,8 +8427,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "430181038816"
-			(at 29.21 153.67 0)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 39.37 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,8 +8437,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 29.21 156.21 0)
+		(property "Manufacturer" "C&K"
+			(at 39.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,8 +8447,28 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "710-430181038816"
-			(at 29.21 158.75 0)
+		(property "MFG_PartNo" "PTS647SN38SMTR2 LFS"
+			(at 39.37 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 39.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "PTS647SN38SMTR2LFSCT-ND"
+			(at 39.37 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +8478,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 29.21 161.29 0)
+			(at 39.37 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,8 +8487,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
-			(at 29.21 163.83 0)
+		(property "Price" "0.17"
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9005,7 +8710,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 121.92 48.26 0)
+			(at 110.49 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +9337,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 104.14 27.94 0)
+			(at 92.71 -3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,14 +9647,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_0603_5100_1%"
-			(at 204.47 80.01 0)
+		(property "Value" "5k1"
+			(at 219.71 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
@@ -9973,21 +9677,12 @@
 			)
 		)
 		(property "Description" "RES 5.1K OHM 5% 1/10W 0603"
-			(at 217.17 111.76 0)
+			(at 204.47 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Code" "5k1"
-			(at 219.71 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
@@ -10422,8 +10117,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Button_tactile_45x38_430181038816_1")
-		(lib_id "KD_Switch:Button_tactile_45x38_430181038816")
+		(lib_id "KD_Switch:Button_tactile_PTS647SN38SMTR2LFS")
 		(at 44.45 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10433,14 +10127,6 @@
 		(fields_autoplaced yes)
 		(uuid "9d4249e4-85bf-450c-acdc-36c2268a7abf")
 		(property "Reference" "S13"
-			(at 44.45 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "430181038816"
 			(at 44.45 142.24 0)
 			(effects
 				(font
@@ -10448,7 +10134,16 @@
 				)
 			)
 		)
-		(property "Footprint" "KD_Switch:SW_Push_1P1T_NO_Wurth_430181038816"
+		(property "Value" "PTS647SN38SMTR2 LFS"
+			(at 44.45 152.4 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KD_Switch:SW_Push_1P1T_NO_CK_PTS647SN50SMTR2LFS"
 			(at 31.75 133.35 0)
 			(effects
 				(font
@@ -10458,7 +10153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fi/datasheet/2/445/430181038816-1717160.pdf"
+		(property "Datasheet" "https://www.ckswitches.com/media/2567/pts647.pdf"
 			(at 31.75 135.89 0)
 			(effects
 				(font
@@ -10468,16 +10163,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tactile Switches Tact Switch SMT 3.8mm Blk Act."
-			(at 44.45 147.32 0)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 31.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Wurth Elektronik"
+		(property "Manufacturer" "C&K"
 			(at 31.75 118.11 0)
 			(effects
 				(font
@@ -10487,7 +10183,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "430181038816"
+		(property "MFG_PartNo" "PTS647SN38SMTR2 LFS"
 			(at 31.75 120.65 0)
 			(effects
 				(font
@@ -10497,7 +10193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
+		(property "Supplier" "Digi-Key"
 			(at 31.75 123.19 0)
 			(effects
 				(font
@@ -10507,7 +10203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "710-430181038816"
+		(property "Supplier_PartNo" "PTS647SN38SMTR2LFSCT-ND"
 			(at 31.75 125.73 0)
 			(effects
 				(font
@@ -10527,7 +10223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.17"
 			(at 31.75 130.81 0)
 			(effects
 				(font
@@ -10749,7 +10445,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 115.57 27.94 0)
+			(at 104.14 -3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10840,7 +10536,7 @@
 	)
 	(symbol
 		(lib_id "KD_Resistor:R_0603_1k_1%")
-		(at 76.2 170.18 90)
+		(at 86.36 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10849,7 +10545,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5d72408-8f70-4519-a0eb-187030f80f05")
 		(property "Reference" "R23"
-			(at 76.2 163.83 90)
+			(at 86.36 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10857,7 +10553,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 76.2 166.37 90)
+			(at 86.36 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10865,7 +10561,7 @@
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N"
-			(at 62.23 182.88 0)
+			(at 72.39 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10875,7 +10571,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
-			(at 64.77 182.88 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,46 +10581,6 @@
 			)
 		)
 		(property "Description" "RES 1K OHM 5% 1/10W 0603"
-			(at 44.45 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 46.99 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MFG_PartNo" "RMCF0603JT1K00"
-			(at 49.53 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 52.07 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Supplier_PartNo" "RMCF0603JT1K00CT-ND"
 			(at 54.61 182.88 0)
 			(effects
 				(font
@@ -10934,7 +10590,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "F"
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 57.15 182.88 0)
 			(effects
 				(font
@@ -10944,8 +10600,48 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.01"
+		(property "MFG_PartNo" "RMCF0603JT1K00"
 			(at 59.69 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 62.23 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "RMCF0603JT1K00CT-ND"
+			(at 64.77 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 67.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.01"
+			(at 69.85 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11291,7 +10987,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 110.49 48.26 0)
+			(at 99.06 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +11124,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 138.43 27.94 0)
+			(at 127 -3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11536,14 +11232,13 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_0603_DNP"
-			(at 101.6 93.98 0)
+		(property "Value" "DNP"
+			(at 91.44 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Footprint" "KD_Resistor:RESC1608X55N_DNP"
@@ -11567,21 +11262,13 @@
 			)
 		)
 		(property "Description" "Do not populate"
-			(at 88.9 62.23 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Code" "DNP"
-			(at 91.44 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(property "Manufacturer" "DNP"
@@ -11667,23 +11354,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ba139665-6613-47c0-90e6-6a2a9efa1d57")
 		(property "Reference" "C27"
-			(at 60.96 127 0)
+			(at 63.5 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "27p"
-			(at 69.85 129.54 0)
+			(at 63.5 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
@@ -11707,7 +11395,7 @@
 			)
 		)
 		(property "Description" "27 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-			(at 67.31 128.27 0)
+			(at 55.372 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11792,7 +11480,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 151.13 0)
+		(at 30.48 151.13 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11802,7 +11490,7 @@
 		(fields_autoplaced yes)
 		(uuid "beb0e34d-b2fc-4074-b602-7b9828ec9309")
 		(property "Reference" "#GND052"
-			(at 38.1 157.48 0)
+			(at 30.48 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11811,7 +11499,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 156.21 0)
+			(at 30.48 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11819,7 +11507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 151.13 0)
+			(at 30.48 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11828,7 +11516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 151.13 0)
+			(at 30.48 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11837,7 +11525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 151.13 0)
+			(at 30.48 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12055,7 +11743,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 81.28 27.94 0)
+			(at 69.85 -3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12423,7 +12111,7 @@
 	)
 	(symbol
 		(lib_id "KD_Diode:Schottky_30V_200mA_DCo_BAT54WS")
-		(at 58.42 170.18 180)
+		(at 68.58 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12432,25 +12120,24 @@
 		(fields_autoplaced yes)
 		(uuid "d872a9d0-e3b6-4cd9-9518-b669a9f46407")
 		(property "Reference" "D13"
-			(at 58.674 163.83 0)
+			(at 68.834 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Schottky_30V_200mA_DCo_BAT54WS"
-			(at 71.12 201.93 0)
+		(property "Value" "BAT54WS"
+			(at 68.58 173.99 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "KD_Diode:D_SOD-323"
-			(at 71.12 184.15 0)
+			(at 81.28 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12460,7 +12147,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bat54ws.pdf"
-			(at 71.12 181.61 0)
+			(at 81.28 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12470,24 +12157,17 @@
 			)
 		)
 		(property "Description" "Diode Schottky 30 V 200mA Surface Mount SOD-323"
-			(at 58.42 170.18 0)
+			(at 81.28 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Code" "BAT54WS"
-			(at 58.674 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "DComponents"
-			(at 71.12 199.39 0)
+			(at 81.28 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12497,7 +12177,7 @@
 			)
 		)
 		(property "MFG_PartNo" "BAT54WS"
-			(at 71.12 196.85 0)
+			(at 81.28 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12507,7 +12187,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 71.12 194.31 0)
+			(at 81.28 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,7 +12197,7 @@
 			)
 		)
 		(property "Supplier_PartNo" "2721-BAT54WSTR-ND"
-			(at 71.12 191.77 0)
+			(at 81.28 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12527,7 +12207,7 @@
 			)
 		)
 		(property "DNP" "F"
-			(at 71.12 189.23 0)
+			(at 81.28 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12537,7 +12217,7 @@
 			)
 		)
 		(property "Price" "0.05"
-			(at 71.12 186.69 0)
+			(at 81.28 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12610,7 +12290,7 @@
 			)
 		)
 		(property "Description" "27 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-			(at 82.55 128.27 0)
+			(at 70.612 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12878,7 +12558,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/10W 0603"
-			(at 68.58 60.96 0)
+			(at 35.814 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Programmable Keyboard")
-		(date "2024-08-18")
+		(date "2025-01-06")
 		(rev "3.0")
 		(company "Kallio Designs Oy")
 		(comment 1 "TL, NH")
+		(comment 2 "ASSEMBLY_PN")
 		(comment 3 "000018")
 	)
 	(lib_symbols
@@ -58,7 +59,7 @@
 				)
 			)
 			(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-				(at 0 0 0)
+				(at -11.43 31.496 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2097,7 +2098,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 92.71 33.02 0)
+			(at 81.28 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)

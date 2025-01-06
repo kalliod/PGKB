@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Programmable Keyboard")
-		(date "2024-08-18")
+		(date "2025-01-06")
 		(rev "3.0")
 		(company "Kallio Designs Oy")
 		(comment 1 "TL, NH")
+		(comment 2 "ASSEMBLY_PN")
 		(comment 3 "000018")
 	)
 	(lib_symbols
@@ -58,7 +59,7 @@
 				)
 			)
 			(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-				(at 0 0 0)
+				(at -11.43 31.496 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -949,7 +950,7 @@
 				)
 			)
 			(property "Description" "RES 10K OHM 1% 1/10W 0603"
-				(at 0 0 0)
+				(at -11.938 32.766 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1315,11 +1316,12 @@
 				)
 			)
 			(property "Description" "ROTARY ENCODER MECHANICAL 12PPR"
-				(at 0 0 0)
+				(at -12.7 44.45 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
@@ -3098,7 +3100,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 166.37 128.27 0)
+			(at 177.8 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3663,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/10W 0603"
-			(at 130.81 90.17 0)
+			(at 98.044 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +3937,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/10W 0603"
-			(at 130.81 116.84 0)
+			(at 98.044 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +4069,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 153.67 128.27 0)
+			(at 165.1 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,11 +4659,12 @@
 			)
 		)
 		(property "Description" "ROTARY ENCODER MECHANICAL 12PPR"
-			(at 81.28 104.14 0)
+			(at 68.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5070,7 +5073,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 139.7 128.27 0)
+			(at 151.13 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5275,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/10W 0603"
-			(at 185.42 69.85 0)
+			(at 152.654 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,7 +5694,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/10W 0603"
-			(at 130.81 101.6 0)
+			(at 98.044 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)

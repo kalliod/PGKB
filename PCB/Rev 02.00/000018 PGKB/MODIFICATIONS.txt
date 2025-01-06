@@ -4,6 +4,7 @@ Fixed in Rev 3:
 - Key switch connectors are incorrect*****************************************(OK, TL 24.1.2024)
 - USB Connector has the wrong type********************************************(OK, TL 24.1.2024)
 - USB signals reversed********************************************************(OK, TL 14.7.2024)
+- Oscillator change seems to fix the device***********************************(OK, TL 14.7.2024)
 
 Unfixed:
 - Why two types of diodes?****************************************************
