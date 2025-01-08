@@ -192,7 +192,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.15 95.25) (xy 243.84 95.25)
+			(xy 57.15 99.06) (xy 243.84 99.06)
 		)
 		(stroke
 			(width 0)
@@ -376,7 +376,7 @@
 		)
 		(uuid "a466fc6a-26e3-407e-aef5-e659ed23d261")
 	)
-	(text "06.01.2025"
+	(text "08.01.2025"
 		(exclude_from_sim no)
 		(at 69.85 82.55 0)
 		(effects
@@ -452,6 +452,17 @@
 			(justify left bottom)
 		)
 		(uuid "e74fc300-3d13-4d58-91cf-ac07b491b4f9")
+	)
+	(text "Diode manufacturer change, voltage supervisor type changed"
+		(exclude_from_sim no)
+		(at 90.17 97.79 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb57d09e-ec85-457b-8e34-e73508b34c88")
 	)
 	(text "Niko Hämäläinen"
 		(exclude_from_sim no)

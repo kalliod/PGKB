@@ -1239,7 +1239,7 @@
 				)
 			)
 		)
-		(symbol "KD_Diode:Schottky_30V_200mA_DCo_BAT54WS"
+		(symbol "KD_Diode:Schottky_30V_100mA_Diodes_BAT54WSQ-7-F"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1253,7 +1253,7 @@
 					)
 				)
 			)
-			(property "Value" "BAT54WS"
+			(property "Value" "BAT54WSQ-7-F"
 				(at -0.254 -3.048 0)
 				(do_not_autoplace)
 				(effects
@@ -1272,7 +1272,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bat54ws.pdf"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BAT54WS.pdf"
 				(at -12.7 11.43 0)
 				(effects
 					(font
@@ -1282,7 +1282,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode Schottky 30 V 200mA Surface Mount SOD-323"
+			(property "Description" "Diode 30 V 100mA Surface Mount SOD-323"
 				(at -12.7 34.29 0)
 				(effects
 					(font
@@ -1292,7 +1292,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "DComponents"
+			(property "Manufacturer" "Diodes Incorporated"
 				(at -12.7 29.21 0)
 				(effects
 					(font
@@ -1302,7 +1302,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG_PartNo" "BAT54WS"
+			(property "MFG_PartNo" "BAT54WSQ-7-F"
 				(at -12.7 26.67 0)
 				(effects
 					(font
@@ -1322,7 +1322,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier_PartNo" "2721-BAT54WSTR-ND"
+			(property "Supplier_PartNo" "BAT54WSQ-7-FDICT-ND"
 				(at -12.7 21.59 0)
 				(effects
 					(font
@@ -1370,7 +1370,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Schottky_30V_200mA_DCo_BAT54WS_0_1"
+			(symbol "Schottky_30V_100mA_Diodes_BAT54WSQ-7-F_0_1"
 				(polyline
 					(pts
 						(xy -1.778 0.762) (xy -1.778 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.762 -1.27) (xy -0.762 -0.762)
@@ -1384,7 +1384,7 @@
 					)
 				)
 			)
-			(symbol "Schottky_30V_200mA_DCo_BAT54WS_1_1"
+			(symbol "Schottky_30V_100mA_Diodes_BAT54WSQ-7-F_1_1"
 				(polyline
 					(pts
 						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
@@ -12110,14 +12110,13 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_Diode:Schottky_30V_200mA_DCo_BAT54WS")
+		(lib_id "KD_Diode:Schottky_30V_100mA_Diodes_BAT54WSQ-7-F")
 		(at 68.58 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d872a9d0-e3b6-4cd9-9518-b669a9f46407")
 		(property "Reference" "D13"
 			(at 68.834 166.37 0)
@@ -12127,7 +12126,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54WS"
+		(property "Value" "BAT54WSQ-7-F"
 			(at 68.58 173.99 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12146,7 +12145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bat54ws.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BAT54WS.pdf"
 			(at 81.28 181.61 0)
 			(effects
 				(font
@@ -12156,7 +12155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Schottky 30 V 200mA Surface Mount SOD-323"
+		(property "Description" "Diode 30 V 100mA Surface Mount SOD-323"
 			(at 81.28 204.47 0)
 			(effects
 				(font
@@ -12166,7 +12165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "DComponents"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 81.28 199.39 0)
 			(effects
 				(font
@@ -12176,7 +12175,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "BAT54WS"
+		(property "MFG_PartNo" "BAT54WSQ-7-F"
 			(at 81.28 196.85 0)
 			(effects
 				(font
@@ -12196,7 +12195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "2721-BAT54WSTR-ND"
+		(property "Supplier_PartNo" "BAT54WSQ-7-FDICT-ND"
 			(at 81.28 191.77 0)
 			(effects
 				(font

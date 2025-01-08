@@ -630,7 +630,7 @@
 				)
 			)
 		)
-		(symbol "KD_IC_Other:Supervisor_CAT811TTBI-GT3"
+		(symbol "KD_IC_Other:Supervisor_APX811-31UG-7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -644,7 +644,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CAT811TTBI-GT3"
+			(property "Value" "APX811-31UG-7"
 				(at 2.54 3.81 0)
 				(do_not_autoplace)
 				(effects
@@ -664,7 +664,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/cat811-d.pdf"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/APX811_812.pdf"
 				(at -12.7 11.43 0)
 				(effects
 					(font
@@ -674,7 +674,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "IC SUPERVISOR 1 CHANNEL SOT143 3.08V"
+			(property "Description" "IC SUPERVISOR 1 CHANNEL SOT143"
 				(at -12.7 31.75 0)
 				(effects
 					(font
@@ -684,7 +684,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "onsemi"
+			(property "Manufacturer" "Diodes Incorporated"
 				(at -12.7 29.21 0)
 				(effects
 					(font
@@ -694,7 +694,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG_PartNo" "CAT811TTBI-GT3"
+			(property "MFG_PartNo" "APX811-31UG-7"
 				(at -12.7 26.67 0)
 				(effects
 					(font
@@ -714,7 +714,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier_PartNo" "CAT811TTBI-GT3OSCT-ND"
+			(property "Supplier_PartNo" "APX811-31UG-7DICT-ND"
 				(at -12.7 21.59 0)
 				(effects
 					(font
@@ -734,13 +734,22 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.5"
+			(property "Price" "0.41"
 				(at -12.7 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage monitor supervisor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -753,7 +762,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Supervisor_CAT811TTBI-GT3_0_1"
+			(symbol "Supervisor_APX811-31UG-7_0_1"
 				(rectangle
 					(start 2.54 2.54)
 					(end 20.32 -7.62)
@@ -766,7 +775,7 @@
 					)
 				)
 			)
-			(symbol "Supervisor_CAT811TTBI-GT3_1_0"
+			(symbol "Supervisor_APX811-31UG-7_1_0"
 				(pin bidirectional line
 					(at 22.86 -5.08 180)
 					(length 2.54)
@@ -840,7 +849,7 @@
 					)
 				)
 			)
-			(symbol "Supervisor_CAT811TTBI-GT3_1_1"
+			(symbol "Supervisor_APX811-31UG-7_1_1"
 				(text "3.08 V"
 					(at 11.684 -2.54 0)
 					(effects
@@ -4419,7 +4428,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KD_IC_Other:Supervisor_CAT811TTBI-GT3")
+		(lib_id "KD_IC_Other:Supervisor_APX811-31UG-7")
 		(at 194.31 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4438,7 +4447,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CAT811TTBI-GT3"
+		(property "Value" "APX811-31UG-7"
 			(at 196.85 88.9 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4458,7 +4467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/cat811-d.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/APX811_812.pdf"
 			(at 181.61 81.28 0)
 			(effects
 				(font
@@ -4468,7 +4477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC SUPERVISOR 1 CHANNEL SOT143 3.08V"
+		(property "Description" "IC SUPERVISOR 1 CHANNEL SOT143"
 			(at 181.61 60.96 0)
 			(effects
 				(font
@@ -4478,7 +4487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 181.61 63.5 0)
 			(effects
 				(font
@@ -4488,7 +4497,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PartNo" "CAT811TTBI-GT3"
+		(property "MFG_PartNo" "APX811-31UG-7"
 			(at 181.61 66.04 0)
 			(effects
 				(font
@@ -4508,7 +4517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_PartNo" "CAT811TTBI-GT3OSCT-ND"
+		(property "Supplier_PartNo" "APX811-31UG-7DICT-ND"
 			(at 181.61 71.12 0)
 			(effects
 				(font
@@ -4528,7 +4537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.5"
+		(property "Price" "0.41"
 			(at 181.61 76.2 0)
 			(effects
 				(font

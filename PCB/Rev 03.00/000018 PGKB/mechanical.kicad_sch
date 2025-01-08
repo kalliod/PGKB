@@ -1795,7 +1795,7 @@
 		(lib_id "KD_Mechanical:Artwork_4-Layer_marking")
 		(at 154.94 64.77 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1906,15 +1906,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 143.002 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -2885,7 +2876,7 @@
 		(lib_id "KD_Mechanical:Artwork_Logo_Silk_2.5mm")
 		(at 154.94 120.65 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2993,15 +2984,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 143.002 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
